@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="420" height="340">
+  <rect width="420" height="340" fill="#ffffff"/>
+  
+  <!-- 重叠填充 -->
+  <rect x="180" y="80" width="90" height="90" fill="#ffe9cc"/>
+  
+  <!-- L形外轮廓：实线 -->
+  <path d="M70,80 L270,80 L270,280 L180,280 L180,170 L70,170 Z" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="miter"/>
+  
+  <!-- 重叠小正方形左边：虚线 -->
+  <line x1="180" y1="80" x2="180" y2="170" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- 重叠小正方形下边：虚线 -->
+  <line x1="180" y1="170" x2="270" y2="170" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- 尺寸：横放9厘米 -->
+  <line x1="70" y1="70" x2="270" y2="70" stroke="#333" stroke-width="1"/>
+  <polygon points="70,70 76,67 76,73" fill="#333"/>
+  <polygon points="270,70 264,67 264,73" fill="#333"/>
+  <text x="170" y="66" text-anchor="middle" font-size="12" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">9厘米</text>
+  
+  <!-- 尺寸：横放4厘米（左侧） -->
+  <line x1="60" y1="80" x2="60" y2="170" stroke="#333" stroke-width="1"/>
+  <polygon points="60,80 57,86 63,86" fill="#333"/>
+  <polygon points="60,170 57,164 63,164" fill="#333"/>
+  <text x="50" y="130" text-anchor="middle" font-size="12" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(-90,50,130)">4厘米</text>
+  
+  <!-- 尺寸：竖放9厘米（右侧） -->
+  <line x1="282" y1="80" x2="282" y2="280" stroke="#333" stroke-width="1"/>
+  <polygon points="282,80 279,86 285,86" fill="#333"/>
+  <polygon points="282,280 279,274 285,274" fill="#333"/>
+  <text x="296" y="185" text-anchor="middle" font-size="12" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(90,296,185)">9厘米</text>
+  
+  <!-- 底部文字 -->
+  <text x="200" y="320" text-anchor="middle" font-size="14" fill="#333" font-family="Microsoft YaHei, SimHei, sans-serif">平移后得到正方形，周长 = 9×4 = 36厘米</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 520" width="580" height="520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- 外框 12m x 10m -->
+  <rect x="50" y="40" width="480" height="400" fill="#e8f5e9" stroke="#1a1a1a" stroke-width="2.5"/>
+  
+  <!-- 平移后的小路：L形（一横靠上 + 一竖靠右） -->
+  <!-- 横段：顶部全宽，高40px=1m -->
+  <rect x="50" y="40" width="480" height="40" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 竖段：右侧，从横段底部到底边，宽40px=1m -->
+  <rect x="490" y="80" width="40" height="360" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  
+  <!-- 草坪标注 -->
+  <text x="270" y="260" text-anchor="middle" font-size="22" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  <text x="270" y="290" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif">11 × 9 = 99㎡</text>
+  
+  <!-- 平移箭头示意（横段移到顶部） -->
+  <text x="290" y="28" text-anchor="middle" font-size="11" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif">← 横段平移到顶部 →</text>
+  
+  <!-- 平移箭头示意（竖段移到右侧） -->
+  <text x="540" y="260" text-anchor="middle" font-size="11" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(90,540,260)">← 竖段平移到右侧 →</text>
+  
+  <!-- 尺寸标注：底边总宽 12米 -->
+  <line x1="50" y1="458" x2="530" y2="458" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="290" y="475" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">12米</text>
+  
+  <!-- 右边总高 10米 -->
+  <line x1="548" y1="40" x2="548" y2="440" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="40" x2="554" y2="40" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="440" x2="554" y2="440" stroke="#555" stroke-width="0.8"/>
+  <text x="562" y="245" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(90,562,245)">10米</text>
+  
+  <!-- 草坪宽11米标注 -->
+  <line x1="70" y1="420" x2="470" y2="420" stroke="#2e7d32" stroke-width="0.6" stroke-dasharray="4,2"/>
+  <text x="270" y="435" text-anchor="middle" font-size="12" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif">11米</text>
+  
+  <!-- 草坪高9米标注 -->
+  <line x1="30" y1="100" x2="30" y2="420" stroke="#2e7d32" stroke-width="0.6" stroke-dasharray="4,2"/>
+  <line x1="25" y1="100" x2="35" y2="100" stroke="#2e7d32" stroke-width="0.6"/>
+  <line x1="25" y1="420" x2="35" y2="420" stroke="#2e7d32" stroke-width="0.6"/>
+  <text x="18" y="265" text-anchor="middle" font-size="12" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(90,18,265)">9米</text>
+</svg>

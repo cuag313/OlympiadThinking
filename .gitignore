@@ -1,0 +1,8 @@
+ch_extracted/
+ch_html/
+*.bak
+*.py
+__pycache__/
+node_modules/
+ch9_image_analysis.html
+ch9_images_preview/

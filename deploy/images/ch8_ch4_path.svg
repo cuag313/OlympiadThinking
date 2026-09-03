@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 520" width="580" height="520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- 外框 12m x 10m -->
+  <rect x="50" y="40" width="480" height="400" fill="#e8f5e9" stroke="#1a1a1a" stroke-width="2.5"/>
+  
+  <!-- 阶梯形小路（宽1米=40px），从左上角到右下角 -->
+  <!-- 路径填充（浅棕色），沿阶梯线的右上侧展开 -->
+  <!-- 横段1：顶部，x=50→210，宽160px=4m -->
+  <rect x="50" y="40" width="160" height="40" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 竖段1：x=170→210，y=80→200，宽40px=1m，高120px=3m -->
+  <rect x="170" y="80" width="40" height="120" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 横段2：y=160→200，x=210→370，宽160px=4m -->
+  <rect x="210" y="160" width="160" height="40" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 竖段2：x=330→370，y=200→320，宽40px=1m，高120px=3m -->
+  <rect x="330" y="200" width="40" height="120" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 横段3：y=280→320，x=370→530，宽160px=4m -->
+  <rect x="370" y="280" width="160" height="40" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  <!-- 竖段3：x=490→530，y=320→440，宽40px=1m，高120px=3m -->
+  <rect x="490" y="320" width="40" height="120" fill="#d4c4a8" stroke="#8b7355" stroke-width="0.8"/>
+  
+  <!-- 阶梯路径中心线（虚线，便于看清走向） -->
+  <polyline points="50,60 190,60 190,180 350,180 350,300 510,300 510,440" 
+    fill="none" stroke="#8b7355" stroke-width="1.5" stroke-dasharray="6,3"/>
+  
+  <!-- 入口箭头 -->
+  <polygon points="42,60 50,48 50,72" fill="#8b7355"/>
+  <text x="25" y="65" text-anchor="middle" font-size="12" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">入口</text>
+  
+  <!-- 出口箭头 -->
+  <polygon points="510,448 498,440 522,440" fill="#8b7355"/>
+  <text x="525" y="465" text-anchor="middle" font-size="12" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">出口</text>
+  
+  <!-- 草坪标注 -->
+  <text x="130" y="135" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  <text x="430" y="135" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  <text x="270" y="250" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  <text x="430" y="380" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  <text x="130" y="380" text-anchor="middle" font-size="16" fill="#2e7d32" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">草坪</text>
+  
+  <!-- 尺寸标注：底边总宽 12米 -->
+  <line x1="50" y1="458" x2="530" y2="458" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="290" y="475" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">12米</text>
+  
+  <!-- 右边总高 10米 -->
+  <line x1="548" y1="40" x2="548" y2="440" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="40" x2="554" y2="40" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="440" x2="554" y2="440" stroke="#555" stroke-width="0.8"/>
+  <text x="562" y="245" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif" transform="rotate(90,562,245)">10米</text>
+  
+  <!-- 小路宽度标注 1米（竖段右侧） -->
+  <line x1="548" y1="320" x2="548" y2="360" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="320" x2="554" y2="320" stroke="#555" stroke-width="0.8"/>
+  <line x1="542" y1="360" x2="554" y2="360" stroke="#555" stroke-width="0.8"/>
+  <text x="562" y="345" text-anchor="middle" font-size="11" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">1米</text>
+</svg>

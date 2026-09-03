@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="150" viewBox="0 0 600 150">
+  <rect width="600" height="150" fill="#f5f5f5"/>
+  
+  <!-- 多米诺骨牌1：上1下2 -->
+  <rect x="20" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="20" y1="75" x2="50" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="35" cy="52" r="4" fill="#333"/>
+  <circle cx="35" cy="98" r="4" fill="#333"/>
+  <circle cx="35" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌2：上1下1 -->
+  <rect x="60" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="75" x2="90" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="75" cy="52" r="4" fill="#333"/>
+  <circle cx="75" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌3：上2下3 -->
+  <rect x="100" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="75" x2="130" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="115" cy="52" r="4" fill="#333"/>
+  <circle cx="115" cy="52" r="4" fill="#333"/>
+  <circle cx="115" cy="98" r="4" fill="#333"/>
+  <circle cx="115" cy="98" r="4" fill="#333"/>
+  <circle cx="115" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌4：上2下2 -->
+  <rect x="140" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="140" y1="75" x2="170" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="155" cy="52" r="4" fill="#333"/>
+  <circle cx="155" cy="52" r="4" fill="#333"/>
+  <circle cx="155" cy="98" r="4" fill="#333"/>
+  <circle cx="155" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌5：上3下4 -->
+  <rect x="180" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="180" y1="75" x2="210" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="195" cy="52" r="4" fill="#333"/>
+  <circle cx="195" cy="52" r="4" fill="#333"/>
+  <circle cx="195" cy="52" r="4" fill="#333"/>
+  <circle cx="195" cy="98" r="4" fill="#333"/>
+  <circle cx="195" cy="98" r="4" fill="#333"/>
+  <circle cx="195" cy="98" r="4" fill="#333"/>
+  <circle cx="195" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌6：上3下3 -->
+  <rect x="220" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="220" y1="75" x2="250" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="235" cy="52" r="4" fill="#333"/>
+  <circle cx="235" cy="52" r="4" fill="#333"/>
+  <circle cx="235" cy="52" r="4" fill="#333"/>
+  <circle cx="235" cy="98" r="4" fill="#333"/>
+  <circle cx="235" cy="98" r="4" fill="#333"/>
+  <circle cx="235" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌7：上4下5 -->
+  <rect x="260" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="75" x2="290" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="275" cy="52" r="4" fill="#333"/>
+  <circle cx="275" cy="52" r="4" fill="#333"/>
+  <circle cx="275" cy="52" r="4" fill="#333"/>
+  <circle cx="275" cy="52" r="4" fill="#333"/>
+  <circle cx="275" cy="98" r="4" fill="#333"/>
+  <circle cx="275" cy="98" r="4" fill="#333"/>
+  <circle cx="275" cy="98" r="4" fill="#333"/>
+  <circle cx="275" cy="98" r="4" fill="#333"/>
+  <circle cx="275" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌8：上4下4 -->
+  <rect x="300" y="30" width="30" height="90" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="75" x2="330" y2="75" stroke="#333" stroke-width="2"/>
+  <circle cx="315" cy="52" r="4" fill="#333"/>
+  <circle cx="315" cy="52" r="4" fill="#333"/>
+  <circle cx="315" cy="52" r="4" fill="#333"/>
+  <circle cx="315" cy="52" r="4" fill="#333"/>
+  <circle cx="315" cy="98" r="4" fill="#333"/>
+  <circle cx="315" cy="98" r="4" fill="#333"/>
+  <circle cx="315" cy="98" r="4" fill="#333"/>
+  <circle cx="315" cy="98" r="4" fill="#333"/>
+  
+  <!-- 多米诺骨牌9：上?下5 -->
+  <rect x="340" y="30" width="30" height="90" fill="#e74c3c" stroke="#333" stroke-width="2"/>
+  <line x1="340" y1="75" x2="370" y2="75" stroke="#333" stroke-width="2"/>
+  <text x="355" y="55" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">?</text>
+  <circle cx="355" cy="98" r="4" fill="#333"/>
+  <circle cx="355" cy="98" r="4" fill="#333"/>
+  <circle cx="355" cy="98" r="4" fill="#333"/>
+  <circle cx="355" cy="98" r="4" fill="#333"/>
+  <circle cx="355" cy="98" r="4" fill="#333"/>
+  
+  <!-- 标注 -->
+  <text x="355" y="25" text-anchor="middle" font-size="12" fill="#e74c3c" font-weight="bold">第9张</text>
+  
+  <!-- 标题 -->
+  <text x="200" y="140" text-anchor="middle" font-size="14" fill="#2c3e50">多米诺骨牌排列（求第9张上半部分点数）</text>
+</svg>

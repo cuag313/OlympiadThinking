@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <rect width="600" height="200" fill="#f5f5f5"/>
+  
+  <!-- 初始状态 -->
+  <circle cx="80" cy="100" r="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+  <text x="80" y="95" text-anchor="middle" font-size="14" fill="#fff">原来</text>
+  <text x="80" y="115" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">?个</text>
+  
+  <!-- 箭头1 -->
+  <line x1="125" y1="100" x2="165" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="145" y="85" text-anchor="middle" font-size="10" fill="#666">第1次操作</text>
+  <text x="145" y="130" text-anchor="middle" font-size="10" fill="#666">拿一半+放回1</text>
+  
+  <!-- 第1次操作后 -->
+  <circle cx="210" cy="100" r="35" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+  <text x="210" y="95" text-anchor="middle" font-size="12" fill="#fff">第1次后</text>
+  <text x="210" y="115" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">14个</text>
+  
+  <!-- 箭头2 -->
+  <line x1="250" y1="100" x2="290" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="85" text-anchor="middle" font-size="10" fill="#666">第2次操作</text>
+  <text x="270" y="130" text-anchor="middle" font-size="10" fill="#666">拿一半+放回1</text>
+  
+  <!-- 第2次操作后 -->
+  <circle cx="340" cy="100" r="35" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+  <text x="340" y="95" text-anchor="middle" font-size="12" fill="#fff">第2次后</text>
+  <text x="340" y="115" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">8个</text>
+  
+  <!-- 箭头3 -->
+  <line x1="380" y1="100" x2="420" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="85" text-anchor="middle" font-size="10" fill="#666">第3次操作</text>
+  <text x="400" y="130" text-anchor="middle" font-size="10" fill="#666">拿一半+放回1</text>
+  
+  <!-- 第3次操作后 -->
+  <circle cx="470" cy="100" r="35" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+  <text x="470" y="95" text-anchor="middle" font-size="12" fill="#fff">第3次后</text>
+  <text x="470" y="115" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">5个</text>
+  
+  <!-- 倒推箭头 -->
+  <path d="M470,150 L80,150" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow2)"/>
+  <text x="275" y="170" text-anchor="middle" font-size="12" fill="#e74c3c" font-weight="bold">倒推：从后往前计算</text>
+  
+  <!-- 答案 -->
+  <text x="300" y="30" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">倒推法：袋子里的球</text>
+  <text x="300" y="50" text-anchor="middle" font-size="14" fill="#27ae60">原来有26个球</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e74c3c"/>
+    </marker>
+  </defs>
+</svg>

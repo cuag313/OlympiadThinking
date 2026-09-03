@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250">
+  <rect width="500" height="250" fill="#f5f5f5"/>
+  
+  <!-- 一班 -->
+  <rect x="50" y="50" width="120" height="80" fill="#fff" stroke="#e74c3c" stroke-width="2"/>
+  <text x="110" y="45" text-anchor="middle" font-size="14" fill="#e74c3c" font-weight="bold">一班</text>
+  <text x="85" y="80" text-anchor="middle" font-size="12" fill="#333">男生</text>
+  <text x="135" y="80" text-anchor="middle" font-size="12" fill="#333">女生</text>
+  <line x1="110" y1="55" x2="110" y2="125" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 二班 -->
+  <rect x="200" y="50" width="120" height="80" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+  <text x="260" y="45" text-anchor="middle" font-size="14" fill="#27ae60" font-weight="bold">二班</text>
+  <text x="235" y="80" text-anchor="middle" font-size="12" fill="#333">男生</text>
+  <text x="285" y="80" text-anchor="middle" font-size="12" fill="#333">女生</text>
+  <line x1="260" y1="55" x2="260" y2="125" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 三班 -->
+  <rect x="350" y="50" width="120" height="80" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="14" fill="#3498db" font-weight="bold">三班</text>
+  <text x="385" y="80" text-anchor="middle" font-size="12" fill="#333">男生</text>
+  <text x="435" y="80" text-anchor="middle" font-size="12" fill="#333">女生</text>
+  <line x1="410" y1="55" x2="410" y2="125" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 关系标注 -->
+  <path d="M135,80 C170,80 170,80 200,80" fill="none" stroke="#e67e22" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="170" y="75" text-anchor="middle" font-size="10" fill="#e67e22">一班男生=二班女生</text>
+  
+  <!-- 三班男生标注 -->
+  <text x="410" y="110" text-anchor="middle" font-size="10" fill="#3498db">全年级男生的2/5</text>
+  
+  <!-- 总人数 -->
+  <text x="250" y="170" text-anchor="middle" font-size="14" fill="#2c3e50" font-weight="bold">每班30人，共90人</text>
+  <text x="250" y="190" text-anchor="middle" font-size="12" fill="#666">男生50人，女生40人</text>
+  <text x="250" y="210" text-anchor="middle" font-size="12" fill="#666">女生占总人数的4/9</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e67e22"/>
+    </marker>
+  </defs>
+</svg>

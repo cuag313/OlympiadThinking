@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第一章 枚举法 - 习题解析</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Microsoft YaHei", sans-serif; background: #f5f7fa; color: #333; line-height: 1.8; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; }
+h1 { text-align: center; color: #2c3e50; margin-bottom: 8px; font-size: 24px; }
+.subtitle { text-align: center; color: #7f8c8d; margin-bottom: 30px; font-size: 14px; }
+.section-title { color: #2980b9; font-size: 18px; margin: 24px 0 12px; padding-left: 12px; border-left: 4px solid #2980b9; }
+.question-card { background: #fff; border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #3498db; }
+.question-card.challenge { border-left-color: #e67e22; }
+.question-header { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }
+.question-num { font-weight: bold; color: #2c3e50; white-space: nowrap; min-width: 30px; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.tag-example { background: #ebf5fb; color: #2980b9; }
+.tag-challenge { background: #fef5e7; color: #e67e22; }
+.question-title { font-size: 15px; color: #2c3e50; }
+.video-btn { display: inline-block; margin-top: 8px; padding: 4px 12px; background: #3498db; color: #fff; border-radius: 4px; text-decoration: none; font-size: 13px; }
+.video-btn:hover { background: #2980b9; }
+.answer-section { margin-top: 12px; }
+.answer-label { font-weight: bold; color: #27ae60; }
+.analysis-label { font-weight: bold; color: #8e44ad; margin-top: 8px; }
+.reveal-btn { display: inline-block; margin-top: 10px; padding: 6px 16px; background: #e67e22; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-family: inherit; }
+.reveal-btn:hover { background: #d35400; }
+.hidden-content { display: none; margin-top: 10px; padding: 12px; background: #fef9f3; border-radius: 6px; border: 1px dashed #e67e22; }
+.footer { text-align: center; margin-top: 40px; padding: 20px; color: #95a5a6; font-size: 12px; border-top: 1px solid #ecf0f1; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>第一章 枚举法</h1>
+<p class="subtitle">小学奥数解题思维方法培训教材 - 习题解析</p>
+
+<!-- 典型示例 -->
+<h2 class="section-title">典型示例</h2>
+
+<div class="question-card">
+  <div class="question-header">
+    <span class="question-num">例1.</span>
+    <span class="tag tag-example">例题</span>
+  </div>
+  <div class="question-title">六（1）班小文有10元、20元和50元的纸币各6张，请问有几种方法可以组成60元？</div>
+  <div class="answer-section">
+    <p><span class="answer-label">答案：</span>一共有5种方法可以组成60元。</p>
+    <p class="analysis-label">解析：</p>
+    <p>第一步：如果只使用一种纸币，可分为2种情形：</p>
+    <p>&nbsp;&nbsp;1. 6张10元纸币（10×6=60）；</p>
+    <p>&nbsp;&nbsp;2. 3张20元纸币（20×3=60）。</p>
+    <p>第二步：如果使用两种纸币，可分为3种情形：</p>
+    <p>&nbsp;&nbsp;1. 1张10元和1张50元（10×1+50×1=60）；</p>
+    <p>&nbsp;&nbsp;2. 2张10元和2张20元（10×2+20×2=60）；</p>
+    <p>&nbsp;&nbsp;3. 4张10元和1张20元（10×4+20×1=60）。</p>
+    <p>第三步：如果使用三种纸币，金额至少为80元（10+20+50=80），无法组成60元。</p>
+    <p>综上所述，一共有5种方法可以组成60元。</p>
+  </div>
+</div>
+
+<div class="question-card">
+  <div class="question-header">
+    <span class="question-num">例2.</span>
+    <span class="tag tag-example">例题</span>
+  </div>
+  <div class="question-title">将一段长为15分米的木棒截成长度为整分米的三段，使它们作为三角形的三边，可以得到几种不同的三角形？</div>
+  <div class="answer-section">
+    <p><span class="answer-label">答案：</span>可以得到7种不同的三角形。</p>
+    <p class="analysis-label">解析：</p>
+    <p>根据三角形的三边关系，任意两边之和大于第三边，又周长为整分米，可知最长边只能是7分米、6分米或5分米。</p>
+    <p>当最长边为7分米时：(7,7,1)(7,6,2)(7,5,3)(7,4,4)共4种。</p>
+    <p>当最长边为6分米时：(6,6,3)(6,5,4)共2种。</p>
+    <p>当最长边为5分米时：(5,5,5)共1种。</p>
+    <p>综上所述，可以得到7种不同的三角形。</p>
+  </div>
+</div>
+
+<div class="question-card">
+  <div class="question-header">
+    <span class="question-num">例3.</span>
+    <span class="tag tag-example">例题</span>
+  </div>
+  <div class="question-title">思思和想想玩掷骰子的游戏，每人各掷一个骰子。如果两个骰子的点数之和是5、6、7、8，那么思思获胜；如果两个骰子的点数之和是其他值时，那么想想获胜。请问谁获胜的可能性大？为什么？</div>
+  <div class="answer-section">
+    <p><span class="answer-label">答案：</span>思思获胜的可能性大。</p>
+    <p class="analysis-label">解析：</p>
+    <p>利用表格枚举出所有点数之和可能的情况，共6×6=36种。</p>
+    <p>点数之和为5的情况有4种，点数之和为6的情况有5种，点数之和为7的情况有6种，点数之和为8的情况有5种。</p>
+    <p>思思获胜的情况共有4+5+6+5=20种。</p>
+    <p>想想获胜的情况共有36-20=16种。</p>
+    <p>因为20&gt;16，所以思思获胜的可能性大。</p>
+  </div>
+</div>
+
+<!-- 思维挑战 -->
+<h2 class="section-title">思维挑战</h2>
+
+<div class="question-card challenge" id="q10183">
+  <div class="question-header">
+    <span class="question-num">挑战1.</span>
+    <span class="tag tag-challenge">挑战题</span>
+  </div>
+  <div class="question-title">用3、5、7这三张数字卡片可以摆出哪几个三位数？</div>
+  <button class="reveal-btn" onclick="reveal('ans10183')">展示</button>
+  <div class="hidden-content" id="ans10183">
+    <p><span class="answer-label">答案：</span>357，375，537，573，735，753</p>
+    <p class="analysis-label">解析：</p>
+    <p>百位上的数可以是3、5、7。</p>
+    <p>借助"树状图"来枚举：</p>
+    <p>&nbsp;&nbsp;百位为3时：357、375</p>
+    <p>&nbsp;&nbsp;百位为5时：537、573</p>
+    <p>&nbsp;&nbsp;百位为7时：735、753</p>
+    <p>共可摆出6个三位数。</p>
+  </div>
+</div>
+
+<div class="question-card challenge" id="q10184">
+  <div class="question-header">
+    <span class="question-num">挑战2.</span>
+    <span class="tag tag-challenge">挑战题</span>
+  </div>
+  <div class="question-title">一只小蚂蚱在尺子上跳动，每次只能向左或者向右跳动1厘米，它一开始停在5厘米的位置，经过5次跳动之后停在8厘米处（可以重复经过某个数字），那么这只小蚂蚱一共有几种跳动的方式？</div>
+  <button class="reveal-btn" onclick="reveal('ans10184')">展示</button>
+  <div class="hidden-content" id="ans10184">
+    <p><span class="answer-label">答案：</span>一共有5种跳动方式。</p>
+    <p class="analysis-label">解析：</p>
+    <p>跳了5次向右移动了3厘米，说明有1次往左跳动，4次往右跳动。</p>
+    <p>枚举：</p>
+    <p>&nbsp;&nbsp;5→6→5→6→7→8</p>
+    <p>&nbsp;&nbsp;5→6→7→6→7→8</p>
+    <p>&nbsp;&nbsp;5→6→7→8→7→8</p>
+    <p>&nbsp;&nbsp;5→6→7→8→9→8</p>
+    <p>&nbsp;&nbsp;5→4→5→6→7→8</p>
+    <p>一共有5种跳动方式。</p>
+  </div>
+</div>
+
+<div class="question-card challenge" id="q10185">
+  <div class="question-header">
+    <span class="question-num">挑战3.</span>
+    <span class="tag tag-challenge">挑战题</span>
+  </div>
+  <div class="question-title">用一根80厘米长的铁丝围成一个长方形，长和宽都是5厘米的整数倍数，哪一种方法围成的长方形的面积最大？</div>
+  <button class="reveal-btn" onclick="reveal('ans10185')">展示</button>
+  <div class="hidden-content" id="ans10185">
+    <p><span class="answer-label">答案：</span>当围成边长为20厘米的正方形时面积最大。</p>
+    <p class="analysis-label">解析：</p>
+    <p>已知长方形的周长为80厘米，所以长与宽的和是40厘米。</p>
+    <p>长(厘米)：35、30、25、20；宽(厘米)：5、10、15、20。</p>
+    <p>计算面积：35×5=175，30×10=300，25×15=375，20×20=400。</p>
+    <p>当围成边长为20厘米的正方形时面积最大，为400平方厘米。</p>
+  </div>
+</div>
+
+<div class="question-card challenge" id="q10186">
+  <div class="question-header">
+    <span class="question-num">挑战4.</span>
+    <span class="tag tag-challenge">挑战题</span>
+  </div>
+  <div class="question-title">某人给4个朋友写了不同的信以及4个相对应的信封，请问4封信都装错的方法有多少种？</div>
+  <button class="reveal-btn" onclick="reveal('ans10186')">展示</button>
+  <div class="hidden-content" id="ans10186">
+    <p><span class="answer-label">答案：</span>共有9种装错信封的方法。</p>
+    <p class="analysis-label">解析：</p>
+    <p>设四个信封为A、B、C、D，对应的四封信分别为a、b、c、d。</p>
+    <p>枚举装错信封的方法：</p>
+    <p>&nbsp;&nbsp;A(b),B(a),C(d),D(c)</p>
+    <p>&nbsp;&nbsp;A(b),B(d),C(a),D(c)</p>
+    <p>&nbsp;&nbsp;A(b),B(c),C(d),D(a)</p>
+    <p>&nbsp;&nbsp;A(c),B(a),C(d),D(b)</p>
+    <p>&nbsp;&nbsp;A(c),B(d),C(a),D(b)</p>
+    <p>&nbsp;&nbsp;A(c),B(d),C(b),D(a)</p>
+    <p>&nbsp;&nbsp;A(d),B(a),C(b),D(c)</p>
+    <p>&nbsp;&nbsp;A(d),B(c),C(b),D(a)</p>
+    <p>&nbsp;&nbsp;A(d),B(c),C(a),D(b)</p>
+    <p>共有9种装错信封的方法。</p>
+  </div>
+</div>
+
+<div class="question-card challenge" id="q10187">
+  <div class="question-header">
+    <span class="question-num">挑战5.</span>
+    <span class="tag tag-challenge">挑战题</span>
+  </div>
+  <div class="question-title">有一辆公共汽车，包括起点和终点在内共要停靠15个车站。如果每一站上车的乘客中，恰好各有一位乘客从这一站坐到以后的每一站（终点站当然没有乘客上车）。为了使每位乘客都有座位，问这辆公共汽车至少要有多少个座位？</div>
+  <button class="reveal-btn" onclick="reveal('ans10187')">展示</button>
+  <div class="hidden-content" id="ans10187">
+    <p><span class="answer-label">答案：</span>至少需要56个座位。</p>
+    <p class="analysis-label">解析：</p>
+    <p>第一站增加14人；第二站上车13人，下车1人，增加12人；</p>
+    <p>第三站上车12人，下车2人，增加10人；</p>
+    <p>第四、五、六、七站分别增加8、6、4、2人；</p>
+    <p>第八站时上车和下车都是7人，此后车上人数开始减少。</p>
+    <p>汽车行驶在第7站至第9站之间，车上人数最多，需要安排14+12+10+8+6+4+2=56个座位。</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>《小学奥数解题思维方法培训教材》第一章 枚举法</p>
+  <p>典型示例3道 + 思维挑战5道</p>
+</div>
+
+</div>
+
+<script>
+function reveal(id) {
+  var el = document.getElementById(id);
+  if (el.style.display === 'block') {
+    el.style.display = 'none';
+  } else {
+    el.style.display = 'block';
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 550" width="700" height="550">
+  <rect width="700" height="550" fill="#ffffff"/>
+  
+  <!-- 底部长方形：宽20=400px，高5=100px -->
+  <rect x="100" y="280" width="400" height="100" fill="#e0e0e0" stroke="none"/>
+  <line x1="100" y1="280" x2="100" y2="380" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="100" y1="380" x2="500" y2="380" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="500" y1="280" x2="500" y2="380" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 顶边：只画三段空隙 -->
+  <line x1="140" y1="280" x2="220" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="260" y1="280" x2="340" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="380" y1="280" x2="460" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 凸1（矮，高4=80px） -->
+  <rect x="100" y="200" width="40" height="80" fill="#e0e0e0" stroke="none"/>
+  <line x1="100" y1="200" x2="100" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="100" y1="200" x2="140" y2="200" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="140" y1="200" x2="140" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 凸2（调高，高9=180px） -->
+  <rect x="220" y="100" width="40" height="180" fill="#e0e0e0" stroke="none"/>
+  <line x1="220" y1="100" x2="220" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="220" y1="100" x2="260" y2="100" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="260" y1="100" x2="260" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 凸3（矮，高4=80px） -->
+  <rect x="340" y="200" width="40" height="80" fill="#e0e0e0" stroke="none"/>
+  <line x1="340" y1="200" x2="340" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="340" y1="200" x2="380" y2="200" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="380" y1="200" x2="380" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 凸4（高，高7=140px） -->
+  <rect x="460" y="140" width="40" height="140" fill="#e0e0e0" stroke="none"/>
+  <line x1="460" y1="140" x2="460" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="460" y1="140" x2="500" y2="140" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="500" y1="140" x2="500" y2="280" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 虚线：矮凸顶部 -->
+  <line x1="100" y1="200" x2="460" y2="200" stroke="#999" stroke-width="1.5" stroke-dasharray="7 4"/>
+  
+  <!-- ===== 尺寸标注 ===== -->
+  
+  <!-- 20：底部总宽 -->
+  <line x1="100" y1="400" x2="500" y2="400" stroke="#333" stroke-width="1"/>
+  <line x1="100" y1="395" x2="100" y2="405" stroke="#333" stroke-width="1"/>
+  <line x1="500" y1="395" x2="500" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="300" y="425" text-anchor="middle" font-size="18" fill="#333" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">20</text>
+  
+  <!-- 10：凸4顶部到底边 -->
+  <line x1="540" y1="140" x2="540" y2="380" stroke="#333" stroke-width="1"/>
+  <line x1="535" y1="140" x2="545" y2="140" stroke="#333" stroke-width="1"/>
+  <line x1="535" y1="380" x2="545" y2="380" stroke="#333" stroke-width="1"/>
+  <text x="560" y="265" text-anchor="start" font-size="18" fill="#333" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">10</text>
+  
+  <!-- 8：凸2高度（虚线到凸2顶部） -->
+  <line x1="280" y1="100" x2="280" y2="200" stroke="#333" stroke-width="1"/>
+  <line x1="275" y1="100" x2="285" y2="100" stroke="#333" stroke-width="1"/>
+  <line x1="275" y1="200" x2="285" y2="200" stroke="#333" stroke-width="1"/>
+  <text x="295" y="155" text-anchor="start" font-size="18" fill="#333" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">8</text>
+  
+  <!-- 3：凸4高度（左侧标注） -->
+  <line x1="445" y1="140" x2="445" y2="200" stroke="#333" stroke-width="1"/>
+  <line x1="440" y1="140" x2="450" y2="140" stroke="#333" stroke-width="1"/>
+  <line x1="440" y1="200" x2="450" y2="200" stroke="#333" stroke-width="1"/>
+  <text x="430" y="175" text-anchor="end" font-size="18" fill="#333" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">3</text>
+  
+  <!-- 3：凸1高度（右侧标注，凸顶到凹处） -->
+  <line x1="155" y1="200" x2="155" y2="280" stroke="#333" stroke-width="1"/>
+  <line x1="150" y1="200" x2="160" y2="200" stroke="#333" stroke-width="1"/>
+  <line x1="150" y1="280" x2="160" y2="280" stroke="#333" stroke-width="1"/>
+  <text x="170" y="245" text-anchor="start" font-size="18" fill="#333" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">3</text>
+  
+  <!-- 底部文字 -->
+  <text x="350" y="470" text-anchor="middle" font-size="20" fill="#333" font-family="Microsoft YaHei, SimHei, sans-serif">该图形的周长 = ？厘米</text>
+</svg>

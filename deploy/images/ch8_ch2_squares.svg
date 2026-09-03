@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+  <rect width="300" height="240" fill="#ffffff"/>
+  
+  <!-- 填充所有正方形 -->
+  <rect x="50" y="120" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="90" y="120" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="130" y="120" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="170" y="120" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="50" y="80" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="130" y="80" width="40" height="40" fill="#e3f2fd"/>
+  <rect x="130" y="40" width="40" height="40" fill="#e3f2fd"/>
+  
+  <!-- 实线：只画非公共边 -->
+  <!-- 底部第1个：左、下 -->
+  <line x1="50" y1="120" x2="50" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="50" y1="160" x2="90" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 底部第2个：下、上 -->
+  <line x1="90" y1="160" x2="130" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="120" x2="130" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 底部第3个：下 -->
+  <line x1="130" y1="160" x2="170" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 底部第4个：下、右、上 -->
+  <line x1="170" y1="160" x2="210" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="210" y1="120" x2="210" y2="160" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="170" y1="120" x2="210" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 第一个上堆：左、右、上 -->
+  <line x1="50" y1="80" x2="50" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="80" x2="90" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="50" y1="80" x2="90" y2="80" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 第三个上堆下面1个：左、右 -->
+  <line x1="130" y1="80" x2="130" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="170" y1="80" x2="170" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 第三个上堆上面1个：左、右、上 -->
+  <line x1="130" y1="40" x2="130" y2="80" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="170" y1="40" x2="170" y2="80" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="130" y1="40" x2="170" y2="40" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- 虚线：只画公共边 -->
+  <line x1="90" y1="120" x2="90" y2="160" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="130" y1="120" x2="130" y2="160" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="170" y1="120" x2="170" y2="160" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="50" y1="120" x2="90" y2="120" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="130" y1="120" x2="170" y2="120" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="130" y1="80" x2="170" y2="80" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  
+  <!-- 说明 -->
+  <text x="130" y="195" text-anchor="middle" font-size="13" fill="#333" font-family="Microsoft YaHei, SimHei, sans-serif">7个边长为1厘米的小正方形</text>
+  <text x="130" y="215" text-anchor="middle" font-size="13" fill="#333" font-family="Microsoft YaHei, SimHei, sans-serif">求此图形的周长</text>
+</svg>

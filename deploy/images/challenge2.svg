@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
+  <rect width="500" height="200" fill="#f5f5f5"/>
+  <rect x="50" y="80" width="400" height="40" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="80" x2="100" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="100" y="120" text-anchor="middle" font-size="12" fill="#333">3</text>
+  <line x1="150" y1="80" x2="150" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="150" y="120" text-anchor="middle" font-size="12" fill="#333">4</text>
+  <line x1="200" y1="80" x2="200" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="200" y="120" text-anchor="middle" font-size="12" fill="#333">5</text>
+  <line x1="250" y1="80" x2="250" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="250" y="120" text-anchor="middle" font-size="12" fill="#333">6</text>
+  <line x1="300" y1="80" x2="300" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="300" y="120" text-anchor="middle" font-size="12" fill="#333">7</text>
+  <line x1="350" y1="80" x2="350" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="350" y="120" text-anchor="middle" font-size="12" fill="#333">8</text>
+  <line x1="400" y1="80" x2="400" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="400" y="120" text-anchor="middle" font-size="12" fill="#333">9</text>
+  <circle cx="200" cy="60" r="15" fill="#27ae60"/>
+  <text x="200" y="65" text-anchor="middle" font-size="14" fill="#fff">蚱</text>
+  <line x1="200" y1="75" x2="200" y2="80" stroke="#e74c3c" stroke-width="3"/>
+  <text x="200" y="150" text-anchor="middle" font-size="14" fill="#e74c3c" font-weight="bold">起点：5厘米</text>
+  <line x1="350" y1="75" x2="350" y2="80" stroke="#3498db" stroke-width="3"/>
+  <text x="350" y="150" text-anchor="middle" font-size="14" fill="#3498db" font-weight="bold">终点：8厘米</text>
+  <path d="M200,50 Q275,20 350,50" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="275" y="30" text-anchor="middle" font-size="12" fill="#e67e22">跳动5次</text>
+  <text x="250" y="180" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">小蚂蚱跳动示意图</text>
+</svg>

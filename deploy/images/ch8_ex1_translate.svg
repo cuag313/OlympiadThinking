@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250">
+  <rect width="500" height="250" fill="#f5f5f5"/>
+  
+  <!-- 标题 -->
+  <text x="250" y="25" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">不规则图形平移求周长</text>
+  
+  <!-- 图1：不规则图形 -->
+  <text x="120" y="50" text-anchor="middle" font-size="14" fill="#333">图1</text>
+  <polyline points="50,70 50,170 100,170 100,130 150,130 150,90 190,90 190,70 50,70" fill="none" stroke="#e74c3c" stroke-width="3"/>
+  <!-- 左边标注：宽度20 -->
+  <text x="35" y="120" text-anchor="middle" font-size="12" fill="#e74c3c" transform="rotate(-90,35,120)">20厘米</text>
+  <!-- 上边标注：长度30 -->
+  <text x="120" y="65" text-anchor="middle" font-size="12" fill="#e74c3c">30厘米</text>
+  
+  <!-- 箭头 -->
+  <line x1="210" y1="120" x2="270" y2="120" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="240" y="110" text-anchor="middle" font-size="12" fill="#333">平移</text>
+  
+  <!-- 图2：平移后的长方形 -->
+  <text x="370" y="50" text-anchor="middle" font-size="14" fill="#333">图2</text>
+  <rect x="300" y="70" width="140" height="100" fill="none" stroke="#27ae60" stroke-width="3"/>
+  <text x="370" y="185" text-anchor="middle" font-size="14" fill="#27ae60" font-weight="bold">长30厘米</text>
+  <text x="450" y="120" text-anchor="middle" font-size="14" fill="#27ae60" font-weight="bold">宽20厘米</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 说明 -->
+  <text x="250" y="230" text-anchor="middle" font-size="14" fill="#666">周长 = (30+20)×2 = 100厘米</text>
+</svg>
