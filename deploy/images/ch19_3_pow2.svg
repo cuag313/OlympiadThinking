@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="260" viewBox="0 0 560 260">
+<rect x="0" y="0" width="560" height="260" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">n=1，2，4，8，… 时，从1开始操作，最后剩下的数是 1</text>
+<text x="140" y="66" text-anchor="middle" font-size="13" fill="#7f8c8d">n=4</text>
+<circle cx="140" cy="150" r="48" fill="none" stroke="#b2babb" stroke-width="1.2" stroke-dasharray="4,3"/>
+<circle cx="140.0" cy="94.0" r="12" fill="#fef5e7" stroke="#e67e22" stroke-width="2.2"/>
+<text x="140.0" y="99.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#e67e22">1</text>
+<text x="196.0" y="155.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">2</text>
+<line x1="188.0" y1="142.0" x2="204.0" y2="158.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="140.0" y="211.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">3</text>
+<line x1="132.0" y1="198.0" x2="148.0" y2="214.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="84.0" y="155.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">4</text>
+<line x1="76.0" y1="142.0" x2="92.0" y2="158.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="420" y="66" text-anchor="middle" font-size="13" fill="#7f8c8d">n=8</text>
+<circle cx="420" cy="150" r="48" fill="none" stroke="#b2babb" stroke-width="1.2" stroke-dasharray="4,3"/>
+<circle cx="420.0" cy="94.0" r="12" fill="#fef5e7" stroke="#e67e22" stroke-width="2.2"/>
+<text x="420.0" y="99.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#e67e22">1</text>
+<text x="459.59797974644664" y="115.40202025355333" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">2</text>
+<line x1="451.59797974644664" y1="102.40202025355333" x2="467.59797974644664" y2="118.40202025355333" stroke="#c0392b" stroke-width="1.6"/>
+<text x="476.0" y="155.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">3</text>
+<line x1="468.0" y1="142.0" x2="484.0" y2="158.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="459.59797974644664" y="194.59797974644667" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">4</text>
+<line x1="451.59797974644664" y1="181.59797974644667" x2="467.59797974644664" y2="197.59797974644667" stroke="#c0392b" stroke-width="1.6"/>
+<text x="420.0" y="211.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">5</text>
+<line x1="412.0" y1="198.0" x2="428.0" y2="214.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="380.40202025355336" y="194.59797974644667" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">6</text>
+<line x1="372.40202025355336" y1="181.59797974644667" x2="388.40202025355336" y2="197.59797974644667" stroke="#c0392b" stroke-width="1.6"/>
+<text x="364.0" y="155.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">7</text>
+<line x1="356.0" y1="142.0" x2="372.0" y2="158.0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="380.40202025355336" y="115.40202025355335" text-anchor="middle" font-size="14" font-weight="bold" fill="#aab7b8">8</text>
+<line x1="372.40202025355336" y1="102.40202025355335" x2="388.40202025355336" y2="118.40202025355335" stroke="#c0392b" stroke-width="1.6"/>
+</svg>

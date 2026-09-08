@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" width="620" height="150">
+<rect width="620" height="150" fill="#ffffff"/>
+<line x1="50.0" y1="75.0" x2="570.0" y2="75.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="60.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="60.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">A</text>
+<circle cx="160.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="160.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">B</text>
+<circle cx="260.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="260.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">C</text>
+<circle cx="360.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="360.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">D</text>
+<circle cx="460.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="460.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">E</text>
+<circle cx="560.0" cy="75.0" r="6" fill="#1a1a1a"/>
+<text x="560.0" y="101.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">F</text>
+<line x1="60.0" y1="45.0" x2="560.0" y2="45.0" stroke="#e74c3c" stroke-width="1.5"/>
+<polygon points="560.0,45.0 548.0,40.0 548.0,50.0" fill="#e74c3c"/>
+<text x="310.0" y="30.0" text-anchor="middle" font-size="14" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">去程 A→F</text>
+<line x1="560.0" y1="110.0" x2="60.0" y2="110.0" stroke="#2980b9" stroke-width="1.5"/>
+<polygon points="60.0,110.0 72.0,105.0 72.0,115.0" fill="#2980b9"/>
+<text x="310.0" y="135.0" text-anchor="middle" font-size="14" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">返程 F→A</text>
+</svg>

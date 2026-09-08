@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340">
+<rect width="560" height="340" fill="#ffffff"/>
+<polygon points="90.0,130.0 90.0,290.0 370.0,290.0 370.0,170.0 250.0,170.0 250.0,130.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="250.0" y1="290.0" x2="250.0" y2="170.0" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="90.0" y1="130.0" x2="210.0" y2="290.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="210.0" y1="290.0" x2="370.0" y2="170.0" stroke="#e74c3c" stroke-width="3.5"/>
+<polygon points="90.0,130.0 90.0,290.0 210.0,290.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="210.0,290.0 370.0,290.0 370.0,170.0" fill="#f5cba7" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="90.0,130.0 250.0,130.0 250.0,10.0" fill="none" stroke="#8a6d3b" stroke-width="1.5" stroke-dasharray="6,4"/>
+<polygon points="250.0,10.0 370.0,170.0 250.0,170.0" fill="none" stroke="#8a6d3b" stroke-width="1.5" stroke-dasharray="6,4"/>
+<polygon points="90.0,130.0 210.0,290.0 370.0,170.0 250.0,10.0" fill="none" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="7,5"/>
+<text x="75.0" y="135.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">A</text>
+<text x="75.0" y="306.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">B</text>
+<text x="210.0" y="309.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">M</text>
+<text x="383.0" y="306.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">E</text>
+<text x="386.0" y="172.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">F</text>
+<text x="250.0" y="0.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">N</text>
+<text x="258.0" y="122.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">D</text>
+<text x="138.0" y="218.0" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<text x="286.0" y="250.0" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<text x="150.0" y="306.0" text-anchor="middle" font-size="13" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">3</text>
+<text x="310.0" y="306.0" text-anchor="middle" font-size="13" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">4</text>
+<text x="280.0" y="328.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">方法2：沿AM、MF剪下①②两个三角形，各旋转90°，拼成正方形AMFN</text>
+</svg>

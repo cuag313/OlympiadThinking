@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="260" viewBox="0 0 620 260">
+<rect x="0" y="0" width="620" height="260" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="310" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：楔形圆柱体（左图）放进圆柱形容器（右图）</text>
+<polygon points="95,110 185,150 185,210 95,210" fill="#d9eef7" stroke="#2980b9" stroke-width="2"/>
+<ellipse cx="140" cy="210" rx="45" ry="14" fill="#bfe0f0" stroke="#2980b9" stroke-width="2"/>
+<line x1="95" y1="110" x2="185" y2="150" stroke="#c0392b" stroke-width="2.2"/>
+<line x1="73" y1="210" x2="73" y2="110" stroke="#555" stroke-width="1"/>
+<text x="67" y="160.0" text-anchor="end" font-size="13" fill="#555">3cm</text>
+<text x="193" y="180.0" font-size="13" fill="#555">2cm</text>
+<line x1="95" y1="236" x2="185" y2="236" stroke="#555" stroke-width="1"/>
+<text x="140" y="252" text-anchor="middle" font-size="13" fill="#555">2cm</text>
+<text x="140" y="270" text-anchor="middle" font-size="13" fill="#7f8c8d">图1</text>
+<path d="M215,170 l40,0 l-8,-7 M255,170 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
+<rect x="390" y="60" width="140" height="150" fill="#f8fbfb" stroke="#2c3e50" stroke-width="2.2"/>
+<rect x="391" y="100" width="138" height="110" fill="#aed9e8"/>
+<ellipse cx="460" cy="210" rx="70" ry="20" fill="#aed9e8" stroke="#2c3e50" stroke-width="2.2"/>
+<ellipse cx="460" cy="100" rx="70" ry="20" fill="#d4ecf5" stroke="#2c3e50" stroke-width="1.6"/>
+<ellipse cx="460" cy="60" rx="70" ry="20" fill="none" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="552" y1="210" x2="552" y2="100" stroke="#555" stroke-width="1"/>
+<text x="558" y="155.0" font-size="13" fill="#555">5cm</text>
+<line x1="390" y1="238" x2="530" y2="238" stroke="#555" stroke-width="1"/>
+<text x="460" y="254" text-anchor="middle" font-size="13" fill="#555">4cm</text>
+<text x="460" y="270" text-anchor="middle" font-size="13" fill="#7f8c8d">图2</text>
+</svg>

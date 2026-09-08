@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="274" viewBox="0 0 640 274">
+<rect x="0" y="0" width="640" height="274" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">铁盒底面 14×7（俯视）：28 + 4 = 32 个工具盒</text>
+<rect x="60" y="78" width="280" height="140" fill="#fbfcfc" stroke="#2c3e50" stroke-width="2.5"/>
+<rect x="60" y="78" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="98" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="118" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="138" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="158" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="178" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="60" y="198" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="78" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="98" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="118" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="138" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="158" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="178" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="120" y="198" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="78" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="98" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="118" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="138" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="158" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="178" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="180" y="198" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="78" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="98" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="118" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="138" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="158" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="178" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<rect x="240" y="198" width="60" height="20" fill="#aed6f1" stroke="#2980b9" stroke-width="1.2"/>
+<text x="180" y="66" text-anchor="middle" font-size="12" fill="#1b4f72">12×7 区域（蓝）：底面 3×1，高 2</text>
+<rect x="300" y="78" width="20" height="60" fill="#f5b7b1" stroke="#c0392b" stroke-width="1.2"/>
+<rect x="300" y="138" width="20" height="60" fill="#f5b7b1" stroke="#c0392b" stroke-width="1.2"/>
+<rect x="320" y="78" width="20" height="60" fill="#f5b7b1" stroke="#c0392b" stroke-width="1.2"/>
+<rect x="320" y="138" width="20" height="60" fill="#f5b7b1" stroke="#c0392b" stroke-width="1.2"/>
+<text x="380" y="66" font-size="12" fill="#922b21">2×7（红）：底面 1×3，高 2</text>
+<line x1="300" y1="78" x2="300" y2="218" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="320" y="238" text-anchor="middle" font-size="12" fill="#7f8c8d">18×11 铁皮四角各剪去 2×2 小正方形，得底面 14×7、盒高 2 分米（工具盒不可高出铁盒，空白处为剩余空隙）</text>
+<text x="320" y="258" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#27ae60">蓝色 4列×7行 = 28 个，红色 2列×2行 = 4 个，共 32 个</text>
+</svg>

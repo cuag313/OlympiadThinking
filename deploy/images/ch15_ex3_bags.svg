@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 150" width="760" height="150">
+<rect width="760" height="150" fill="#ffffff"/>
+<path d="M33,100 C30,75 45,66 47,62 L50,48 L60,48 L63,62 C65,66 80,75 77,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M50,48 L42,38 L68,38 L60,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="55.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<text x="55.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取1个</text>
+<path d="M113,100 C110,75 125,66 127,62 L130,48 L140,48 L143,62 C145,66 160,75 157,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M130,48 L122,38 L148,38 L140,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="135.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<text x="135.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取2个</text>
+<path d="M193,100 C190,75 205,66 207,62 L210,48 L220,48 L223,62 C225,66 240,75 237,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M210,48 L202,38 L228,38 L220,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="215.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">③</text>
+<text x="215.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取3个</text>
+<path d="M273,100 C270,75 285,66 287,62 L290,48 L300,48 L303,62 C305,66 320,75 317,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M290,48 L282,38 L308,38 L300,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="295.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">④</text>
+<text x="295.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取4个</text>
+<path d="M353,100 C350,75 365,66 367,62 L370,48 L380,48 L383,62 C385,66 400,75 397,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M370,48 L362,38 L388,38 L380,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="375.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">⑤</text>
+<text x="375.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取5个</text>
+<path d="M433,100 C430,75 445,66 447,62 L450,48 L460,48 L463,62 C465,66 480,75 477,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M450,48 L442,38 L468,38 L460,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="455.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">⑥</text>
+<text x="455.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取6个</text>
+<path d="M513,100 C510,75 525,66 527,62 L530,48 L540,48 L543,62 C545,66 560,75 557,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M530,48 L522,38 L548,38 L540,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="535.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">⑦</text>
+<text x="535.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取7个</text>
+<path d="M593,100 C590,75 605,66 607,62 L610,48 L620,48 L623,62 C625,66 640,75 637,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M610,48 L602,38 L628,38 L620,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="615.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">⑧</text>
+<text x="615.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取8个</text>
+<path d="M673,100 C670,75 685,66 687,62 L690,48 L700,48 L703,62 C705,66 720,75 717,100 Z" fill="#d5c4a8" stroke="#7a5c3d" stroke-width="2"/>
+<path d="M690,48 L682,38 L708,38 L700,48 Z" fill="#c9b08c" stroke="#7a5c3d" stroke-width="2"/>
+<text x="695.0" y="124.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">⑨</text>
+<text x="695.0" y="30.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">取9个</text>
+<text x="380.0" y="145.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">9个塑料袋（各装9个零件），按编号依次取出1~9个，共45个，一次称重</text>
+</svg>

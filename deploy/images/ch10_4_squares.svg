@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220">
+<rect width="640" height="220" fill="#ffffff"/>
+<rect x="60.0" y="60.0" width="120.0" height="120.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="120.0" y="205.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第1个</text>
+<rect x="240.0" y="120.0" width="60.0" height="60.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="300.0" y="60.0" width="60.0" height="60.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="300.0" y="205.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第2个</text>
+<rect x="440.0" y="180.0" width="40.0" height="40.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="480.0" y="140.0" width="40.0" height="40.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="520.0" y="100.0" width="40.0" height="40.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="520.0" y="205.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第3个</text>
+<text x="620.0" y="120.0" text-anchor="middle" font-size="22" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">…</text>
+</svg>

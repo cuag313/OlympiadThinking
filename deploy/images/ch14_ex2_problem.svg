@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 300" width="340" height="300">
+<rect width="340" height="300" fill="#ffffff"/>
+<line x1="50.0" y1="35.0" x2="50.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<line x1="50.0" y1="35.0" x2="234.0" y2="35.0" stroke="#999" stroke-width="1"/>
+<line x1="96.0" y1="35.0" x2="96.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<line x1="50.0" y1="81.0" x2="234.0" y2="81.0" stroke="#999" stroke-width="1"/>
+<line x1="142.0" y1="35.0" x2="142.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<line x1="50.0" y1="127.0" x2="234.0" y2="127.0" stroke="#999" stroke-width="1"/>
+<line x1="188.0" y1="35.0" x2="188.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<line x1="50.0" y1="173.0" x2="234.0" y2="173.0" stroke="#999" stroke-width="1"/>
+<line x1="234.0" y1="35.0" x2="234.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<line x1="50.0" y1="219.0" x2="234.0" y2="219.0" stroke="#999" stroke-width="1"/>
+<rect x="50.0" y="35.0" width="184.0" height="184.0" rx="0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="96.0,35.0 188.0,219.0 234.0,81.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="96.0" y="23.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">A</text>
+<text x="248.0" y="85.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">C</text>
+<text x="190.0" y="239.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">B</text>
+<text x="170.0" y="285.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">单位方格面积为 1cm²，求△ABC的面积</text>
+</svg>

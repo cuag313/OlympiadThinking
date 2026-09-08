@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="320" viewBox="0 0 460 320">
+<rect x="0" y="0" width="460" height="320" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">等腰直角三角形ABC，腰AB=10cm，BC为直径</text>
+<path d="M 90,60 L 250,60 A 80,80 0 0 1 330,140 L 90,60 Z" fill="#d5dbdb" stroke="#2c3e50" stroke-width="2"/>
+<polygon points="90,60 250,60 250,220" fill="none" stroke="#2c3e50" stroke-width="2.4"/>
+<path d="M 250,60 A 80,80 0 0 1 250,220" fill="none" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="90" y1="60" x2="330" y2="140" stroke="#c0392b" stroke-width="2"/>
+<text x="76" y="64" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">A</text>
+<text x="250" y="48" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">B</text>
+<text x="250" y="242" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">C</text>
+<circle cx="250" cy="140" r="4" fill="#2c3e50"/>
+<text x="236" y="144" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">O</text>
+<text x="346" y="144" text-anchor="middle" font-size="16" fill="#2c3e50" font-weight="bold">D</text>
+<text x="170" y="50" text-anchor="middle" font-size="13" fill="#555">10cm</text>
+</svg>

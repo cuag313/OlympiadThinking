@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+<rect width="660" height="300" fill="#ffffff"/>
+<rect x="100.0" y="70.0" width="140.0" height="120.0" rx="0" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="60.0" y="100.0" width="220.0" height="110.0" rx="0" fill="#f2f3f4" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="60.0" y1="100.0" x2="170.0" y2="155.0" stroke="#888" stroke-width="1.5"/>
+<line x1="280.0" y1="100.0" x2="170.0" y2="155.0" stroke="#888" stroke-width="1.5"/>
+<line x1="290.0" y1="100.0" x2="290.0" y2="70.0" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="304.0" y="64.0" text-anchor="end" font-size="12" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">空余3.9cm</text>
+<text x="170.0" y="236.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">信纸折为4等份（折后长=原长的1/4）</text>
+<text x="170.0" y="260.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">图①</text>
+<rect x="410.0" y="70.0" width="140.0" height="120.0" rx="0" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="370.0" y="100.0" width="220.0" height="110.0" rx="0" fill="#f2f3f4" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="370.0" y1="100.0" x2="480.0" y2="155.0" stroke="#888" stroke-width="1.5"/>
+<line x1="590.0" y1="100.0" x2="480.0" y2="155.0" stroke="#888" stroke-width="1.5"/>
+<line x1="600.0" y1="100.0" x2="600.0" y2="70.0" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="614.0" y="64.0" text-anchor="end" font-size="12" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">空余1.4cm</text>
+<text x="480.0" y="236.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">信纸折为3等份（折后长=原长的1/3）</text>
+<text x="480.0" y="260.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">图②</text>
+</svg>

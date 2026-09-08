@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 250" width="660" height="250">
+<rect width="660" height="250" fill="#ffffff"/>
+<rect x="90.0" y="45.0" width="384.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#2874a6" stroke-width="2"/>
+<rect x="474.0" y="45.0" width="96.0" height="24.0" rx="0" fill="#abebc6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="186.0" y1="45.0" x2="186.0" y2="69.0" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="282.0" y1="45.0" x2="282.0" y2="69.0" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="378.0" y1="45.0" x2="378.0" y2="69.0" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="474.0" y1="45.0" x2="474.0" y2="69.0" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="63.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">原来</text>
+<text x="282.0" y="30.0" text-anchor="middle" font-size="14" fill="#2874a6" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">甲：4/5</text>
+<text x="514.0" y="30.0" text-anchor="middle" font-size="14" fill="#1e8449" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">乙：1/5</text>
+<rect x="90.0" y="140.0" width="280.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#2874a6" stroke-width="2"/>
+<rect x="370.0" y="140.0" width="200.0" height="24.0" rx="0" fill="#abebc6" stroke="#1a1a1a" stroke-width="2"/>
+<text x="78.0" y="158.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">现在</text>
+<text x="230.0" y="132.0" text-anchor="middle" font-size="14" fill="#2874a6" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">甲：7/12</text>
+<text x="466.0" y="132.0" text-anchor="middle" font-size="14" fill="#1e8449" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">乙：5/12</text>
+<line x1="370.0" y1="140.0" x2="370.0" y2="69.0" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4,4"/>
+<line x1="474.0" y1="69.0" x2="474.0" y2="138.0" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4,4"/>
+<line x1="370.0" y1="114.5" x2="474.0" y2="114.5" stroke="#c0392b" stroke-width="2"/>
+<polygon points="370.0,114.5 378.0,110.5 378.0,118.5" fill="#c0392b"/>
+<polygon points="474.0,114.5 466.0,110.5 466.0,118.5" fill="#c0392b"/>
+<text x="538.0" y="118.5" text-anchor="middle" font-size="14" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">130千克</text>
+<text x="330.0" y="235.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">总质量不变（60份），相差的13份 = 130千克，每份 130÷13=10（千克）</text>
+</svg>

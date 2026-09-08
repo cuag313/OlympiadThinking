@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="260" viewBox="0 0 660 260">
+<rect x="0" y="0" width="660" height="260" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="330" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">相向而行：在距中点3千米处相遇</text>
+<line x1="70" y1="150" x2="590" y2="150" stroke="#7f8c8d" stroke-width="2"/>
+<rect x="60" y="140" width="14" height="14" fill="#c0392b"/>
+<rect x="588" y="140" width="14" height="14" fill="#2980b9"/>
+<text x="105" y="186" text-anchor="start" font-size="13" fill="#c0392b" font-weight="bold">甲地（思思出发）</text>
+<text x="450" y="186" text-anchor="start" font-size="13" fill="#2980b9" font-weight="bold">乙地（想想出发）</text>
+<line x1="330" y1="124" x2="330" y2="176" stroke="#7f8c8d" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="330" y="116" text-anchor="middle" font-size="13" fill="#7f8c8d">中点</text>
+<polygon points="356,134 348,148 364,148" fill="#27ae60"/>
+<text x="356" y="124" text-anchor="middle" font-size="13" fill="#27ae60" font-weight="bold">相遇点</text>
+<path d="M100,106 l250,0 l-9,-7 M350,106 l-9,7" stroke="#c0392b" stroke-width="2.4" fill="none"/>
+<text x="205" y="94" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">思思 15千米/时</text>
+<path d="M560,194 l-198,0 l9,-7 M362,194 l9,7" stroke="#2980b9" stroke-width="2.4" fill="none"/>
+<text x="461" y="212" text-anchor="middle" font-size="13" fill="#2980b9" font-weight="bold">想想 13千米/时</text>
+<text x="345" y="172" text-anchor="middle" font-size="12" fill="#e67e22" font-weight="bold">距中点3千米</text>
+</svg>

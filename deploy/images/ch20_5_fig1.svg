@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="490" viewBox="0 0 420 490">
+<rect x="0" y="0" width="420" height="490" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="210" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：再连结AD、CD的中点与B、A</text>
+<polygon points="55.0,55.0 315.0,55.0 315.0,315.0 55.0,315.0" fill="#fbfcfc" stroke="#2c3e50" stroke-width="2.6"/>
+<polygon points="55.0,315.0 185.0,315.0 211.0,263.0 55.0,185.0" fill="#d5dbdb" stroke="#7f8c8d" stroke-width="2"/>
+<line x1="55.0" y1="185.0" x2="315.0" y2="315.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="185.0" y1="315.0" x2="315.0" y2="55.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="315.0" y1="185.0" x2="55.0" y2="55.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="185.0" y1="55.0" x2="55.0" y2="315.0" stroke="#2c3e50" stroke-width="2.2"/>
+<text x="39.0" y="57.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">A</text>
+<text x="331.0" y="57.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">D</text>
+<text x="329.0" y="333.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">C</text>
+<text x="39.0" y="329.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">B</text>
+<text x="39.0" y="191.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">E</text>
+<text x="185.0" y="335.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">F</text>
+<text x="225.0" y="265.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">G</text>
+</svg>

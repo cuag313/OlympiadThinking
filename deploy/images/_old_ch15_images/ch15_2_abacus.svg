@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300">
+<rect width="520" height="300" fill="#ffffff"/>
+<rect x="160.0" y="40.0" width="100.0" height="50.0" rx="0" fill="#eaf2f8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="210.0" y="71.0" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">百位</text>
+<rect x="260.0" y="40.0" width="100.0" height="50.0" rx="0" fill="#eaf2f8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="310.0" y="71.0" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">十位</text>
+<rect x="360.0" y="40.0" width="100.0" height="50.0" rx="0" fill="#eaf2f8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="410.0" y="71.0" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">个位</text>
+<rect x="160.0" y="90.0" width="100.0" height="50.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="175.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="197.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="219.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="241.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<rect x="260.0" y="90.0" width="100.0" height="50.0" rx="0" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="275.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="297.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="319.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<rect x="360.0" y="90.0" width="100.0" height="50.0" rx="0" fill="#abebc6" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="375.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<circle cx="397.0" cy="115.0" r="8" fill="#1a1a1a"/>
+<text x="260.0" y="180.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">用9个圆片摆三位数</text>
+<circle cx="140.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="170.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="200.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="230.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="260.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="290.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="320.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="350.0" cy="205.0" r="10" fill="#e74c3c"/>
+<circle cx="380.0" cy="205.0" r="10" fill="#e74c3c"/>
+<text x="260.0" y="244.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">在8个间隔中插入2块隔板</text>
+<circle cx="140.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="170.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="200.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="230.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="260.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="290.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="320.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="350.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<circle cx="380.0" cy="265.0" r="6" fill="#1a1a1a"/>
+<line x1="185.0" y1="254.0" x2="185.0" y2="276.0" stroke="#e74c3c" stroke-width="3"/>
+<text x="185.0" y="290.0" text-anchor="middle" font-size="14" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">│</text>
+<line x1="275.0" y1="254.0" x2="275.0" y2="276.0" stroke="#e74c3c" stroke-width="3"/>
+<text x="275.0" y="290.0" text-anchor="middle" font-size="14" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">│</text>
+<text x="260.0" y="305.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">C(8,2)=28种 → 28个不同三位数</text>
+</svg>

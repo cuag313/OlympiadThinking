@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" width="680" height="210">
+<rect width="680" height="210" fill="#ffffff"/>
+<rect x="170.0" y="40.0" width="468.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="170.0" y="110.0" width="468.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="170.0" y="40.0" width="104.0" height="24.0" rx="0" fill="#abebc6" stroke="#1a1a1a" stroke-width="2"/>
+<text x="155.0" y="58.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">移动前</text>
+<text x="222.0" y="30.0" text-anchor="middle" font-size="13" fill="#1e8449" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">乙书架 = 2/9</text>
+<rect x="170.0" y="110.0" width="260.0" height="24.0" rx="0" fill="#abebc6" stroke="#1a1a1a" stroke-width="2"/>
+<text x="155.0" y="128.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">移动后</text>
+<text x="300.0" y="104.0" text-anchor="middle" font-size="13" fill="#1e8449" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">乙书架 = 5/9</text>
+<rect x="274.0" y="110.0" width="156.0" height="24.0" rx="0" fill="#f5cba7" stroke="#c0392b" stroke-width="2"/>
+<text x="352.0" y="154.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">移来几本？</text>
+<line x1="274.0" y1="40.0" x2="274.0" y2="134.0" stroke="#888" stroke-width="1.2" stroke-dasharray="4,4"/>
+<line x1="430.0" y1="40.0" x2="430.0" y2="134.0" stroke="#888" stroke-width="1.2" stroke-dasharray="4,4"/>
+<text x="340.0" y="195.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">图书总数 630 本不变，9份中每份 630÷9=70（本）；乙迁移 3 份 = 70×3=210（本）</text>
+</svg>

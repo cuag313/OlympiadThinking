@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="444" height="219" viewBox="0 0 444 219">
+<rect x="0" y="0" width="444" height="219" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="222" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：连结四边形的一条对角线，得到 2 个三角形</text>
+<polygon points="40.0,99.6 176.4,50.0 226.0,149.2 77.2,174.0" fill="#fdf3e7" stroke="#b06010" stroke-width="2.8"/>
+<line x1="40.0" y1="99.6" x2="226.0" y2="149.2" stroke="#e74c3c" stroke-width="2.6" stroke-dasharray="7,6"/>
+</svg>

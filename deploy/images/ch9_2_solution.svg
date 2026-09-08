@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260">
+<rect width="760" height="260" fill="#ffffff"/>
+<polygon points="76.0,72.0 122.0,72.0 122.0,26.0 76.0,26.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="30.0,164.0 76.0,164.0 76.0,118.0 30.0,118.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="30.0,72.0 76.0,72.0 76.0,26.0 30.0,26.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="30.0,118.0 76.0,118.0 76.0,72.0 30.0,72.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="64.5" y="89.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<polygon points="168.0,164.0 214.0,164.0 214.0,118.0 168.0,118.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="122.0,72.0 168.0,72.0 168.0,26.0 122.0,26.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="122.0,118.0 168.0,118.0 168.0,72.0 122.0,72.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="122.0,164.0 168.0,164.0 168.0,118.0 122.0,118.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="156.5" y="112.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<polygon points="76.0,118.0 122.0,118.0 122.0,72.0 76.0,72.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="76.0,164.0 122.0,164.0 122.0,118.0 76.0,118.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="76.0,210.0 122.0,210.0 122.0,164.0 76.0,164.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="30.0,210.0 76.0,210.0 76.0,164.0 30.0,164.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="87.5" y="158.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">③</text>
+<polygon points="122.0,210.0 168.0,210.0 168.0,164.0 122.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="168.0,210.0 214.0,210.0 214.0,164.0 168.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="214.0,164.0 260.0,164.0 260.0,118.0 214.0,118.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="214.0,210.0 260.0,210.0 260.0,164.0 214.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="202.5" y="181.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">④</text>
+<line x1="290.0" y1="110.0" x2="350.0" y2="110.0" stroke="#555" stroke-width="2"/>
+<polygon points="360.0,110.0 350.0,115.0 350.0,105.0" fill="#555"/>
+<polygon points="420.0,118.0 466.0,118.0 466.0,72.0 420.0,72.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="420.0,164.0 466.0,164.0 466.0,118.0 420.0,118.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="466.0,164.0 512.0,164.0 512.0,118.0 466.0,118.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="420.0,72.0 466.0,72.0 466.0,26.0 420.0,26.0" fill="#f5b7b1" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="454.5" y="112.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<polygon points="466.0,72.0 512.0,72.0 512.0,26.0 466.0,26.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="466.0,118.0 512.0,118.0 512.0,72.0 466.0,72.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="512.0,72.0 558.0,72.0 558.0,26.0 512.0,26.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="558.0,72.0 604.0,72.0 604.0,26.0 558.0,26.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="523.5" y="66.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<polygon points="558.0,118.0 604.0,118.0 604.0,72.0 558.0,72.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="558.0,164.0 604.0,164.0 604.0,118.0 558.0,118.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="558.0,210.0 604.0,210.0 604.0,164.0 558.0,164.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="512.0,118.0 558.0,118.0 558.0,72.0 512.0,72.0" fill="#abebc6" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="569.5" y="135.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">③</text>
+<polygon points="512.0,210.0 558.0,210.0 558.0,164.0 512.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="420.0,210.0 466.0,210.0 466.0,164.0 420.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="466.0,210.0 512.0,210.0 512.0,164.0 466.0,164.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="512.0,164.0 558.0,164.0 558.0,118.0 512.0,118.0" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="500.5" y="181.5" text-anchor="middle" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">④</text>
+<text x="140.0" y="248.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">剪成4块相同的L形</text>
+<text x="520.0" y="248.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">拼成4×4的正方形</text>
+</svg>

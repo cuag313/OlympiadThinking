@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="340" viewBox="0 0 620 340">
+<rect x="0" y="0" width="620" height="340" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="310" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">连结AE、DC、BF(虚线)</text>
+<polygon points="253.0,50 61.0,146 313,290" fill="#fbfcfc" stroke="#2c3e50" stroke-width="2.6"/>
+<line x1="253.0" y1="50" x2="181.0" y2="146" stroke="#555555" stroke-width="1.6"/>
+<line x1="61.0" y1="146" x2="241" y2="146" stroke="#555555" stroke-width="1.6"/>
+<line x1="217" y1="98" x2="313" y2="290" stroke="#555555" stroke-width="1.6"/>
+<polygon points="217,98 181.0,146 241,146" fill="#fdedec" stroke="#c0392b" stroke-width="2.2"/>
+<line x1="217" y1="98" x2="61.0" y2="146" stroke="#2980b9" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="253.0" y1="50" x2="241" y2="146" stroke="#2980b9" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="181.0" y1="146" x2="313" y2="290" stroke="#2980b9" stroke-width="2.2" stroke-dasharray="6,4"/>
+<text x="253.0" y="38" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">D</text>
+<text x="45.0" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">E</text>
+<text x="313" y="312" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">F</text>
+<text x="209" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">A</text>
+<text x="167.0" y="156" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">B</text>
+<text x="257" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">C</text>
+</svg>

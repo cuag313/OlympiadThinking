@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" width="760" height="310">
+<rect width="760" height="280" fill="#ffffff"/>
+<rect x="70.0" y="30.0" width="220.0" height="220.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="158.0" y="118.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#666" stroke-width="1.5"/>
+<line x1="70.0" y1="206.0" x2="114.0" y2="206.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="114.0" y1="206.0" x2="114.0" y2="162.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="114.0" y1="162.0" x2="158.0" y2="162.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="158.0" y1="162.0" x2="158.0" y2="118.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="158.0" y1="118.0" x2="246.0" y2="118.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="246.0" y1="118.0" x2="246.0" y2="74.0" stroke="#e74c3c" stroke-width="3.5"/>
+<line x1="246.0" y1="74.0" x2="290.0" y2="74.0" stroke="#e74c3c" stroke-width="3.5"/>
+<text x="94.2" y="100.4" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<text x="228.4" y="192.8" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<line x1="300.0" y1="120.0" x2="350.0" y2="120.0" stroke="#555" stroke-width="2"/>
+<polygon points="360.0,120.0 350.0,125.0 350.0,115.0" fill="#555"/>
+<polygon points="420.0,240.0 456.0,240.0 456.0,204.0 420.0,204.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="456.0,240.0 492.0,240.0 492.0,204.0 456.0,204.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="492.0,240.0 528.0,240.0 528.0,204.0 492.0,204.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="528.0,240.0 564.0,240.0 564.0,204.0 528.0,204.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="564.0,240.0 600.0,240.0 600.0,204.0 564.0,204.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="600.0,240.0 636.0,240.0 636.0,204.0 600.0,204.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="420.0,204.0 456.0,204.0 456.0,168.0 420.0,168.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="456.0,204.0 492.0,204.0 492.0,168.0 456.0,168.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="492.0,204.0 528.0,204.0 528.0,168.0 492.0,168.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="528.0,204.0 564.0,204.0 564.0,168.0 528.0,168.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="564.0,204.0 600.0,204.0 600.0,168.0 564.0,168.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="600.0,204.0 636.0,204.0 636.0,168.0 600.0,168.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="420.0,168.0 456.0,168.0 456.0,132.0 420.0,132.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="456.0,168.0 492.0,168.0 492.0,132.0 456.0,132.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="492.0,168.0 528.0,168.0 528.0,132.0 492.0,132.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="528.0,168.0 564.0,168.0 564.0,132.0 528.0,132.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="564.0,168.0 600.0,168.0 600.0,132.0 564.0,132.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="600.0,168.0 636.0,168.0 636.0,132.0 600.0,132.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="420.0,132.0 456.0,132.0 456.0,96.0 420.0,96.0" fill="#d6eaf8" stroke="#999" stroke-width="1"/>
+<polygon points="456.0,132.0 492.0,132.0 492.0,96.0 456.0,96.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="492.0,132.0 528.0,132.0 528.0,96.0 492.0,96.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="528.0,132.0 564.0,132.0 564.0,96.0 528.0,96.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="564.0,132.0 600.0,132.0 600.0,96.0 564.0,96.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<polygon points="600.0,132.0 636.0,132.0 636.0,96.0 600.0,96.0" fill="#f5cba7" stroke="#999" stroke-width="1"/>
+<rect x="420.0" y="96.0" width="216.0" height="144.0" rx="0" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="510.0" y="227.0" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<text x="582.0" y="155.0" text-anchor="middle" font-size="15" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<text x="528.0" y="262.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">6厘米</text>
+<text x="250.0" y="250.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">沿红色台阶线剪成两块</text>
+<text x="540.0" y="298.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">把②向右1格、向上1格平移，拼成6×4长方形</text>
+</svg>

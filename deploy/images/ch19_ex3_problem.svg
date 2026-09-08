@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300">
+<rect x="0" y="0" width="420" height="300" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">直角三角形ABC中：D、E、F分别在AC、CB、AB上</text>
+<polygon points="70,60 70,200 294,200" fill="#eaf2f8" stroke="#2c3e50" stroke-width="2.4"/>
+<rect x="70" y="110" width="80" height="90" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>
+<text x="58" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">A</text>
+<text x="58" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">C</text>
+<text x="300" y="220" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">B</text>
+<text x="56" y="115" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">D</text>
+<text x="150" y="220" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">E</text>
+<text x="164" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">F</text>
+<text x="36.0" y="89.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">AD=4</text>
+<text x="222.0" y="222.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">EB=7</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" width="360" height="280">
+<rect width="360" height="280" fill="#ffffff"/>
+<polygon points="70.0,112.0 116.0,112.0 116.0,66.0 70.0,66.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="70.0,158.0 116.0,158.0 116.0,112.0 70.0,112.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="70.0,204.0 116.0,204.0 116.0,158.0 70.0,158.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="70.0,250.0 116.0,250.0 116.0,204.0 70.0,204.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="116.0,112.0 162.0,112.0 162.0,66.0 116.0,66.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="116.0,158.0 162.0,158.0 162.0,112.0 116.0,112.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="116.0,204.0 162.0,204.0 162.0,158.0 116.0,158.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="116.0,250.0 162.0,250.0 162.0,204.0 116.0,204.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="162.0,112.0 208.0,112.0 208.0,66.0 162.0,66.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="162.0,158.0 208.0,158.0 208.0,112.0 162.0,112.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="162.0,204.0 208.0,204.0 208.0,158.0 162.0,158.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="162.0,250.0 208.0,250.0 208.0,204.0 162.0,204.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="208.0,204.0 254.0,204.0 254.0,158.0 208.0,158.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="208.0,250.0 254.0,250.0 254.0,204.0 208.0,204.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="254.0,204.0 300.0,204.0 300.0,158.0 254.0,158.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<polygon points="254.0,250.0 300.0,250.0 300.0,204.0 254.0,204.0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="180.0" y="268.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">由16个小正方形组成的图形</text>
+</svg>

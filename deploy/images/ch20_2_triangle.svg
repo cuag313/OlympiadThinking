@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320">
+<rect x="0" y="0" width="440" height="320" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="220" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">D、E、F分别是BC、AC、AD的中点，S△ABC=48</text>
+<polygon points="190,52 60,280 320,280" fill="#eaf2f8" stroke="#2c3e50" stroke-width="2.6"/>
+<line x1="190" y1="52" x2="190" y2="280" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="190" y1="280" x2="255" y2="166" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="190" y1="166" x2="255" y2="166" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<text x="194" y="44" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">A</text>
+<text x="44" y="288" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">B</text>
+<text x="336" y="288" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">C</text>
+<text x="190" y="302" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">D</text>
+<text x="273" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">E</text>
+<text x="172" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b4f72">F</text>
+</svg>

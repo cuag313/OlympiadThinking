@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210">
+  <rect x="0" y="0" width="640" height="210" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+  <text x="320" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">把 1 个大和尚与 3 个小和尚配凑成一组</text>
+
+  <!-- 大和尚 -->
+  <circle cx="150" cy="85" r="22" fill="#f5b7b1" stroke="#c0392b"/>
+  <text x="150" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#922b21">大</text>
+  <rect x="118" y="115" width="64" height="26" rx="6" fill="#fdedec" stroke="#c0392b"/>
+  <text x="150" y="132" text-anchor="middle" font-size="12" fill="#922b21">喝 3 碗</text>
+
+  <text x="200" y="92" font-size="18" fill="#7f8c8d">＋</text>
+
+  <!-- 小和尚 -->
+  <g fill="#aed6f1" stroke="#2980b9">
+    <circle cx="255" cy="85" r="16"/><circle cx="305" cy="85" r="16"/><circle cx="355" cy="85" r="16"/>
+  </g>
+  <text x="255" y="89" text-anchor="middle" font-size="12" fill="#1b4f72">小</text>
+  <text x="305" y="89" text-anchor="middle" font-size="12" fill="#1b4f72">小</text>
+  <text x="355" y="89" text-anchor="middle" font-size="12" fill="#1b4f72">小</text>
+  <rect x="232" y="115" width="146" height="26" rx="6" fill="#ebf5fb" stroke="#2980b9"/>
+  <text x="305" y="132" text-anchor="middle" font-size="12" fill="#1b4f72">3 人共喝 1 碗</text>
+
+  <text x="410" y="92" font-size="18" fill="#7f8c8d">＝</text>
+
+  <rect x="445" y="60" width="160" height="80" rx="10" fill="#d5f5e3" stroke="#27ae60" stroke-width="2"/>
+  <text x="525" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e8449">1 组 = 4 人</text>
+  <text x="525" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e8449">共喝 4 碗粥</text>
+
+  <text x="320" y="178" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#27ae60">100 人 ÷ 4 人/组 = 25 组，100 碗 ÷ 4 碗/组 = 25 组，正好吻合</text>
+</svg>

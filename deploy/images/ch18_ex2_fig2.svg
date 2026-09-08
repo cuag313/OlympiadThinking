@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="308" viewBox="0 0 288 308">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,3 L5,0 L10,3 L7,5 L10,7 L5,10 L0,7 L3,5 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="288" height="308" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="144" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图2：把正方形分成 17 个小正方形</text>
+<rect x="40" y="52" width="52" height="52" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="104" width="52" height="52" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="156" width="52" height="52" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="208" width="52" height="52" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="92" y="52" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="118" y="52" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="144" y="52" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="170" y="52" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="196" y="52" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="222" y="52" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="92" y="78" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="118" y="78" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="144" y="78" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="170" y="78" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="196" y="78" width="26" height="26" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="222" y="78" width="26" height="26" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="92" y="104" width="156" height="156" fill="#eaf2f8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="52" width="208" height="208" fill="none" stroke="#2c3e50" stroke-width="2.5"/>
+<text x="144" y="292" text-anchor="middle" font-size="13" fill="#27ae60" font-weight="bold">共 17 个小正方形</text>
+</svg>

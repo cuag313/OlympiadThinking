@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240">
+<rect width="760" height="240" fill="#ffffff"/>
+<polygon points="105.0,50.0 152.6,132.5 57.4,132.5" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="105.0" cy="50.0" r="5" fill="#1a1a1a"/>
+<circle cx="152.6" cy="132.5" r="5" fill="#1a1a1a"/>
+<circle cx="57.4" cy="132.5" r="5" fill="#1a1a1a"/>
+<text x="105.0" y="215.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第1个</text>
+<polygon points="285.0,63.0 327.0,105.0 285.0,147.0 243.0,105.0" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="285.0" cy="63.0" r="5" fill="#1a1a1a"/>
+<circle cx="306.0" cy="84.0" r="5" fill="#1a1a1a"/>
+<circle cx="327.0" cy="105.0" r="5" fill="#1a1a1a"/>
+<circle cx="306.0" cy="126.0" r="5" fill="#1a1a1a"/>
+<circle cx="285.0" cy="147.0" r="5" fill="#1a1a1a"/>
+<circle cx="264.0" cy="126.0" r="5" fill="#1a1a1a"/>
+<circle cx="243.0" cy="105.0" r="5" fill="#1a1a1a"/>
+<circle cx="264.0" cy="84.0" r="5" fill="#1a1a1a"/>
+<text x="285.0" y="215.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第2个</text>
+<polygon points="465.0,71.0 497.3,94.5 485.0,132.5 445.0,132.5 432.7,94.5" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="465.0" cy="71.0" r="5" fill="#1a1a1a"/>
+<circle cx="475.8" cy="78.8" r="5" fill="#1a1a1a"/>
+<circle cx="486.6" cy="86.7" r="5" fill="#1a1a1a"/>
+<circle cx="497.3" cy="94.5" r="5" fill="#1a1a1a"/>
+<circle cx="493.2" cy="107.2" r="5" fill="#1a1a1a"/>
+<circle cx="489.1" cy="119.8" r="5" fill="#1a1a1a"/>
+<circle cx="485.0" cy="132.5" r="5" fill="#1a1a1a"/>
+<circle cx="471.7" cy="132.5" r="5" fill="#1a1a1a"/>
+<circle cx="458.3" cy="132.5" r="5" fill="#1a1a1a"/>
+<circle cx="445.0" cy="132.5" r="5" fill="#1a1a1a"/>
+<circle cx="440.9" cy="119.8" r="5" fill="#1a1a1a"/>
+<circle cx="436.8" cy="107.2" r="5" fill="#1a1a1a"/>
+<circle cx="432.7" cy="94.5" r="5" fill="#1a1a1a"/>
+<circle cx="443.4" cy="86.7" r="5" fill="#1a1a1a"/>
+<circle cx="454.2" cy="78.8" r="5" fill="#1a1a1a"/>
+<text x="465.0" y="215.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第3个</text>
+<polygon points="655.0,78.0 678.4,91.5 678.4,118.5 655.0,132.0 631.6,118.5 631.6,91.5" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="655.0" cy="78.0" r="5" fill="#1a1a1a"/>
+<circle cx="660.8" cy="81.4" r="5" fill="#1a1a1a"/>
+<circle cx="666.7" cy="84.8" r="5" fill="#1a1a1a"/>
+<circle cx="672.5" cy="88.1" r="5" fill="#1a1a1a"/>
+<circle cx="678.4" cy="91.5" r="5" fill="#1a1a1a"/>
+<circle cx="678.4" cy="98.2" r="5" fill="#1a1a1a"/>
+<circle cx="678.4" cy="105.0" r="5" fill="#1a1a1a"/>
+<circle cx="678.4" cy="111.8" r="5" fill="#1a1a1a"/>
+<circle cx="678.4" cy="118.5" r="5" fill="#1a1a1a"/>
+<circle cx="672.5" cy="121.9" r="5" fill="#1a1a1a"/>
+<circle cx="666.7" cy="125.2" r="5" fill="#1a1a1a"/>
+<circle cx="660.8" cy="128.6" r="5" fill="#1a1a1a"/>
+<circle cx="655.0" cy="132.0" r="5" fill="#1a1a1a"/>
+<circle cx="649.2" cy="128.6" r="5" fill="#1a1a1a"/>
+<circle cx="643.3" cy="125.2" r="5" fill="#1a1a1a"/>
+<circle cx="637.5" cy="121.9" r="5" fill="#1a1a1a"/>
+<circle cx="631.6" cy="118.5" r="5" fill="#1a1a1a"/>
+<circle cx="631.6" cy="111.8" r="5" fill="#1a1a1a"/>
+<circle cx="631.6" cy="105.0" r="5" fill="#1a1a1a"/>
+<circle cx="631.6" cy="98.2" r="5" fill="#1a1a1a"/>
+<circle cx="631.6" cy="91.5" r="5" fill="#1a1a1a"/>
+<circle cx="637.5" cy="88.1" r="5" fill="#1a1a1a"/>
+<circle cx="643.3" cy="84.8" r="5" fill="#1a1a1a"/>
+<circle cx="649.2" cy="81.4" r="5" fill="#1a1a1a"/>
+<text x="655.0" y="215.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">第4个</text>
+<text x="725.0" y="115.0" text-anchor="middle" font-size="22" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">…</text>
+</svg>

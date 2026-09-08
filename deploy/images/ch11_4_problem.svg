@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 320" width="470" height="320">
+<rect width="470" height="320" fill="#ffffff"/>
+<rect x="40.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="92.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="144.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="196.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="248.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="300.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="352.0" y="92.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="40.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="92.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="144.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="196.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="248.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="300.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="352.0" y="144.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="40.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="92.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="144.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="196.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="248.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="300.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="352.0" y="196.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="144.0" y="40.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="196.0" y="40.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="248.0" y="40.0" width="52.0" height="52.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="66.0" y="276.0" text-anchor="middle" font-size="16" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">入口</text>
+<line x1="66.0" y1="308.0" x2="66.0" y2="296.0" stroke="#c0392b" stroke-width="2"/>
+<polygon points="66.0,286.0 71.0,296.0 61.0,296.0" fill="#c0392b"/>
+<text x="378.0" y="276.0" text-anchor="middle" font-size="16" fill="#27ae60" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">出口</text>
+<line x1="378.0" y1="308.0" x2="378.0" y2="296.0" stroke="#27ae60" stroke-width="2"/>
+<polygon points="378.0,286.0 383.0,296.0 373.0,296.0" fill="#27ae60"/>
+<text x="235.0" y="310.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">24间展览室：相邻的房间都有门相通</text>
+</svg>

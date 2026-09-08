@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250">
+<rect x="0" y="0" width="720" height="250" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="360" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">n=5 的操作过程：每轮隔一个擦去一个数</text>
+<circle cx="120" cy="140" r="52" fill="none" stroke="#b2babb" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="120.0" y="89.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">1</text>
+<text x="173.2591649125286" y="127.69504831500295" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">2</text>
+<line x1="164.2591649125286" y1="113.69504831500295" x2="182.2591649125286" y2="131.69504831500296" stroke="#c0392b" stroke-width="1.8"/>
+<text x="152.91597412837848" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">3</text>
+<text x="87.08402587162152" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">4</text>
+<line x1="78.08402587162152" y1="176.30495168499706" x2="96.08402587162152" y2="194.30495168499706" stroke="#c0392b" stroke-width="1.8"/>
+<text x="66.7408350874714" y="127.69504831500294" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">5</text>
+<text x="120" y="232" text-anchor="middle" font-size="12.5" fill="#7f8c8d">第一轮：擦去 2、4</text>
+<path d="M210,140 l40,0 l-8,-7 M250,140 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
+<circle cx="360" cy="140" r="52" fill="none" stroke="#b2babb" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="360.0" y="89.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">1</text>
+<line x1="351.0" y1="93.0" x2="369.0" y2="75.0" stroke="#c0392b" stroke-width="1.8"/>
+<text x="413.2591649125286" y="127.69504831500295" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">2</text>
+<line x1="404.2591649125286" y1="113.69504831500295" x2="422.2591649125286" y2="131.69504831500296" stroke="#c0392b" stroke-width="1.8"/>
+<text x="392.9159741283785" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">3</text>
+<text x="327.0840258716215" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">4</text>
+<line x1="318.0840258716215" y1="176.30495168499706" x2="336.0840258716215" y2="194.30495168499706" stroke="#c0392b" stroke-width="1.8"/>
+<text x="306.7408350874714" y="127.69504831500294" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">5</text>
+<line x1="297.7408350874714" y1="131.69504831500294" x2="315.7408350874714" y2="113.69504831500294" stroke="#c0392b" stroke-width="1.8"/>
+<text x="360" y="232" text-anchor="middle" font-size="12.5" fill="#7f8c8d">第二轮：擦去 5、1</text>
+<path d="M450,140 l40,0 l-8,-7 M490,140 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
+<circle cx="600" cy="140" r="52" fill="none" stroke="#b2babb" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="600.0" y="89.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">1</text>
+<line x1="591.0" y1="93.0" x2="609.0" y2="75.0" stroke="#c0392b" stroke-width="1.8"/>
+<text x="653.2591649125286" y="127.69504831500295" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">2</text>
+<line x1="644.2591649125286" y1="113.69504831500295" x2="662.2591649125286" y2="131.69504831500296" stroke="#c0392b" stroke-width="1.8"/>
+<circle cx="632.9159741283785" cy="185.30495168499706" r="13" fill="#fef5e7" stroke="#e67e22" stroke-width="2.2"/>
+<text x="632.9159741283785" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#e67e22">3</text>
+<text x="567.0840258716215" y="190.30495168499706" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">4</text>
+<line x1="558.0840258716215" y1="176.30495168499706" x2="576.0840258716215" y2="194.30495168499706" stroke="#c0392b" stroke-width="1.8"/>
+<text x="546.7408350874714" y="127.69504831500294" text-anchor="middle" font-size="16" font-weight="bold" fill="#aab7b8">5</text>
+<line x1="537.7408350874714" y1="131.69504831500294" x2="555.7408350874714" y2="113.69504831500294" stroke="#c0392b" stroke-width="1.8"/>
+<text x="600" y="232" text-anchor="middle" font-size="12.5" fill="#7f8c8d">最后剩下 3</text>
+</svg>

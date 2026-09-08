@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <rect width="640" height="320" fill="#ffffff"/>
+
+  <!-- 顶部标题 -->
+  <text x="320" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">一位老师带48名学生（共49人）去公园划船</text>
+
+  <!-- 水面 -->
+  <path d="M0,225 Q40,212 80,225 T160,225 T240,225 T320,225 T400,225 T480,225 T560,225 T640,225 L640,320 L0,320 Z" fill="#aed6f1"/>
+  <path d="M0,240 Q40,228 80,240 T160,240 T240,240 T320,240 T400,240 T480,240 T560,240 T640,240" fill="none" stroke="#85c1e9" stroke-width="3"/>
+
+  <!-- 大船 -->
+  <path d="M55,155 L275,155 L252,218 L78,218 Z" fill="#2980b9" stroke="#1a5276" stroke-width="2.5"/>
+  <line x1="165" y1="155" x2="165" y2="85" stroke="#6e2c00" stroke-width="4"/>
+  <polygon points="165,85 205,97 165,109" fill="#e74c3c"/>
+  <!-- 大船上5人 -->
+  <circle cx="97" cy="138" r="11" fill="#fdfefe" stroke="#1a5276" stroke-width="2"/>
+  <circle cx="131" cy="138" r="11" fill="#fdfefe" stroke="#1a5276" stroke-width="2"/>
+  <circle cx="165" cy="138" r="11" fill="#fdfefe" stroke="#1a5276" stroke-width="2"/>
+  <circle cx="199" cy="138" r="11" fill="#fdfefe" stroke="#1a5276" stroke-width="2"/>
+  <circle cx="233" cy="138" r="11" fill="#fdfefe" stroke="#1a5276" stroke-width="2"/>
+  <!-- 大船标签 -->
+  <rect x="60" y="66" width="210" height="52" rx="8" fill="#eaf2f8" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="165" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5276" font-family="Microsoft YaHei, SimHei, sans-serif">大船：限乘5人</text>
+  <text x="165" y="108" text-anchor="middle" font-size="15" fill="#1a5276" font-family="Microsoft YaHei, SimHei, sans-serif">每条租金 30 元</text>
+
+  <!-- 小船 -->
+  <path d="M395,185 L545,185 L530,229 L410,229 Z" fill="#e67e22" stroke="#a04000" stroke-width="2.5"/>
+  <!-- 小船上3人 -->
+  <circle cx="433" cy="170" r="10" fill="#fdfefe" stroke="#a04000" stroke-width="2"/>
+  <circle cx="470" cy="170" r="10" fill="#fdfefe" stroke="#a04000" stroke-width="2"/>
+  <circle cx="507" cy="170" r="10" fill="#fdfefe" stroke="#a04000" stroke-width="2"/>
+  <!-- 小船标签 -->
+  <rect x="390" y="66" width="200" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="490" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#a04000" font-family="Microsoft YaHei, SimHei, sans-serif">小船：限乘3人</text>
+  <text x="490" y="108" text-anchor="middle" font-size="15" fill="#a04000" font-family="Microsoft YaHei, SimHei, sans-serif">每条租金 21 元</text>
+
+  <!-- 底部问题 -->
+  <text x="320" y="300" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">问题：怎样租船最省钱？</text>
+</svg>

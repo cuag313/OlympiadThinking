@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="580" viewBox="0 0 540 580">
+<rect x="0" y="0" width="540" height="580" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<polygon points="150.0,150.0 380.0,150.0 380.0,380.0 150.0,380.0" fill="#fbfcfc" stroke="#2c3e50" stroke-width="2.6"/>
+<polygon points="196.0,288.0 288.0,334.0 242.0,426.0 150.0,380.0" fill="#aed6f1" stroke="none" stroke-width="2.4"/>
+<line x1="196.0" y1="288.0" x2="288.0" y2="334.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="265.0" y1="380.0" x2="242.0" y2="426.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="288.0" y1="334.0" x2="265.0" y2="380.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="242.0" y1="426.0" x2="150.0" y2="380.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="150.0" y1="380.0" x2="196.0" y2="288.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="288.0" y1="334.0" x2="334.0" y2="242.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="380.0" y1="265.0" x2="426.0" y2="288.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="334.0" y1="242.0" x2="380.0" y2="265.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="426.0" y1="288.0" x2="380.0" y2="380.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="380.0" y1="380.0" x2="288.0" y2="334.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="242.0" y1="196.0" x2="334.0" y2="242.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="334.0" y1="242.0" x2="380.0" y2="150.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="380.0" y1="150.0" x2="288.0" y2="104.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="288.0" y1="104.0" x2="265.0" y2="150.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="265.0" y1="150.0" x2="242.0" y2="196.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="196.0" y1="288.0" x2="242.0" y2="196.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="242.0" y1="196.0" x2="150.0" y2="150.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="150.0" y1="150.0" x2="104.0" y2="242.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="104.0" y1="242.0" x2="150.0" y2="265.0" stroke="#b7950b" stroke-width="1.8"/>
+<line x1="150.0" y1="265.0" x2="196.0" y2="288.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="196.0" y1="288.0" x2="288.0" y2="334.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="288.0" y1="334.0" x2="334.0" y2="242.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="334.0" y1="242.0" x2="242.0" y2="196.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="242.0" y1="196.0" x2="196.0" y2="288.0" stroke="#b7950b" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="150.0" y1="265.0" x2="380.0" y2="380.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="265.0" y1="380.0" x2="380.0" y2="150.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="380.0" y1="265.0" x2="150.0" y2="150.0" stroke="#2c3e50" stroke-width="2.2"/>
+<line x1="265.0" y1="150.0" x2="150.0" y2="380.0" stroke="#2c3e50" stroke-width="2.2"/>
+<text x="134.0" y="152.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">A</text>
+<text x="396.0" y="152.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">D</text>
+<text x="394.0" y="398.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">C</text>
+<text x="134.0" y="394.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">B</text>
+<text x="134.0" y="271.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">E</text>
+<text x="265.0" y="400.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">F</text>
+<text x="302.0" y="336.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">G</text>
+<text x="270" y="520" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图2：大正方形分成5个全等的小正方形</text>
+<text x="270" y="543" text-anchor="middle" font-size="12.5" fill="#7f8c8d">中央小正方形面积=100÷5=20</text>
+<text x="270" y="564" text-anchor="middle" font-size="12.5" fill="#7f8c8d">四角的三角形与梯形两两拼成同样大小</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280">
+<rect width="520" height="280" fill="#ffffff"/>
+<rect x="130.0" y="194.0" width="70.0" height="36.0" rx="6" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="165.0" y="217.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">左1</text>
+<rect x="130.0" y="158.0" width="70.0" height="36.0" rx="6" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="165.0" y="181.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">左2</text>
+<rect x="130.0" y="122.0" width="70.0" height="36.0" rx="6" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="165.0" y="145.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">左3</text>
+<rect x="250.0" y="194.0" width="70.0" height="36.0" rx="6" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<text x="285.0" y="217.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">右1</text>
+<rect x="250.0" y="158.0" width="70.0" height="36.0" rx="6" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<text x="285.0" y="181.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">右2</text>
+<line x1="60.0" y1="232.0" x2="460.0" y2="232.0" stroke="#1a1a1a" stroke-width="2"/>
+<text x="165.0" y="262.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">3个</text>
+<text x="285.0" y="262.0" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">2个</text>
+<text x="260.0" y="26.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">每次只能从其中一堆取最上面一个</text>
+</svg>

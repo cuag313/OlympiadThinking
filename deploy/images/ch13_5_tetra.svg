@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+<rect width="420" height="300" fill="#ffffff"/>
+<line x1="90.0" y1="150.0" x2="330.0" y2="150.0" stroke="#888" stroke-width="2" stroke-dasharray="7,6"/>
+<line x1="210.0" y1="45.0" x2="90.0" y2="150.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="210.0" y1="45.0" x2="330.0" y2="150.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="210.0" y1="45.0" x2="210.0" y2="235.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="90.0" y1="150.0" x2="210.0" y2="235.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="210.0" y1="235.0" x2="330.0" y2="150.0" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="210.0" cy="45.0" r="5" fill="#1a1a1a"/>
+<circle cx="210.0" cy="235.0" r="5" fill="#1a1a1a"/>
+<circle cx="330.0" cy="150.0" r="5" fill="#1a1a1a"/>
+<circle cx="90.0" cy="150.0" r="5" fill="#1a1a1a"/>
+<text x="210.0" y="31.0" text-anchor="middle" font-size="18" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">A</text>
+<text x="210.0" y="259.0" text-anchor="middle" font-size="18" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">B</text>
+<text x="348.0" y="156.0" text-anchor="middle" font-size="18" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">C</text>
+<text x="72.0" y="156.0" text-anchor="middle" font-size="18" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">D</text>
+<text x="210.0" y="285.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">4个点、6根小棒搭成四面体（虚线为被遮挡的棱）</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+<rect x="0" y="0" width="660" height="300" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="330" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">同样一片牧场，两种吃草情形</text>
+<rect x="60" y="60" width="260" height="100" rx="6" fill="#eaf7e4" stroke="#27ae60" stroke-width="2"/>
+<path d="M78.0,150 q2,-14 4,0 M84.0,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M102.88888888888889,150 q2,-14 4,0 M108.88888888888889,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M127.77777777777777,150 q2,-14 4,0 M133.77777777777777,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M152.66666666666669,150 q2,-14 4,0 M158.66666666666669,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M177.55555555555554,150 q2,-14 4,0 M183.55555555555554,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M202.44444444444446,150 q2,-14 4,0 M208.44444444444446,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M227.33333333333334,150 q2,-14 4,0 M233.33333333333334,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M252.22222222222223,150 q2,-14 4,0 M258.22222222222223,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M277.1111111111111,150 q2,-14 4,0 M283.1111111111111,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M302.0,150 q2,-14 4,0 M308.0,150 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<text x="190.0" y="90" text-anchor="middle" font-size="14.5" fill="#2c3e50" font-weight="bold">27头牛 × 6周 = 162份</text>
+<text x="70" y="52" text-anchor="start" font-size="12" fill="#7f8c8d" font-weight="bold">牧场</text>
+<rect x="60" y="180" width="260" height="100" rx="6" fill="#fef9e7" stroke="#b7950b" stroke-width="2"/>
+<path d="M78.0,270 q2,-14 4,0 M84.0,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M102.88888888888889,270 q2,-14 4,0 M108.88888888888889,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M127.77777777777777,270 q2,-14 4,0 M133.77777777777777,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M152.66666666666669,270 q2,-14 4,0 M158.66666666666669,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M177.55555555555554,270 q2,-14 4,0 M183.55555555555554,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M202.44444444444446,270 q2,-14 4,0 M208.44444444444446,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M227.33333333333334,270 q2,-14 4,0 M233.33333333333334,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M252.22222222222223,270 q2,-14 4,0 M258.22222222222223,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M277.1111111111111,270 q2,-14 4,0 M283.1111111111111,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<path d="M302.0,270 q2,-14 4,0 M308.0,270 q0,-16 3,0" stroke="#1e8449" stroke-width="1.4" fill="none"/>
+<text x="190.0" y="210" text-anchor="middle" font-size="14.5" fill="#2c3e50" font-weight="bold">23头牛 × 9周 = 207份</text>
+<path d="M340,120 l30,0 l-8,-7 M370,120 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
+<path d="M340,240 l30,0 l-8,-7 M370,240 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
+<rect x="390" y="80" width="230" height="80" rx="8" fill="#fff" stroke="#e67e22" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="505" y="108" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">相差 207−162 = 45（份）</text>
+<text x="505" y="130" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">时间相差 9−6 = 3（周）</text>
+<text x="505" y="152" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">每周长草 45÷3 = 15（份）</text>
+<rect x="390" y="190" width="230" height="60" rx="8" fill="#fff" stroke="#27ae60" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="505" y="218" text-anchor="middle" font-size="13" fill="#1e8449" font-weight="bold">原有草 6×(27−15) = 72（份）</text>
+<text x="505" y="240" text-anchor="middle" font-size="13" fill="#1e8449" font-weight="bold">21头牛可吃 72÷(21−15) = 12（周）</text>
+</svg>

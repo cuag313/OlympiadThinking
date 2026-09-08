@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="280" viewBox="0 0 420 280">
+<rect x="0" y="0" width="420" height="280" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="210" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">正方形ABCD与正方形DEFG</text>
+<polygon points="130,40 230,40 230,140 130,140" fill="#eaf2f8" stroke="#2980b9" stroke-width="2.2"/>
+<polygon points="60,140 130,140 130,70 60,70" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="2.2"/>
+<polygon points="60,70 130,40 230,140" fill="rgba(231,76,60,0.10)" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="60" y1="70" x2="130" y2="140" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<text x="138" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">A</text>
+<text x="240" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">B</text>
+<text x="242" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">C</text>
+<text x="128" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">D</text>
+<text x="52" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">E</text>
+<text x="46" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">F</text>
+<text x="140" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">G</text>
+</svg>

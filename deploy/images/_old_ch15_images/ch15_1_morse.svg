@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380">
+<rect width="560" height="380" fill="#ffffff"/>
+<text x="280.0" y="24.0" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">摩尔斯电码（Morse Code）对照表（部分）</text>
+<rect x="112.0" y="50.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<rect x="136.0" y="50.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<circle cx="168.0" cy="55.0" r="4" fill="#e74c3c"/>
+<text x="80.0" y="58.0" text-anchor="middle" font-size="16" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">G</text>
+<rect x="112.0" y="80.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<rect x="136.0" y="80.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<rect x="160.0" y="80.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<text x="80.0" y="88.0" text-anchor="middle" font-size="16" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">O</text>
+<rect x="112.0" y="110.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<circle cx="144.0" cy="115.0" r="4" fill="#e74c3c"/>
+<circle cx="158.0" cy="115.0" r="4" fill="#e74c3c"/>
+<text x="80.0" y="118.0" text-anchor="middle" font-size="16" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">D</text>
+<circle cx="120.0" cy="145.0" r="4" fill="#e74c3c"/>
+<rect x="126.0" y="140.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<rect x="150.0" y="140.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<rect x="174.0" y="140.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<text x="80.0" y="148.0" text-anchor="middle" font-size="16" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">J</text>
+<rect x="112.0" y="170.0" width="16.0" height="5.0" rx="2" fill="#e74c3c" stroke="None" stroke-width="2.0"/>
+<circle cx="144.0" cy="175.0" r="4" fill="#e74c3c"/>
+<circle cx="158.0" cy="175.0" r="4" fill="#e74c3c"/>
+<circle cx="172.0" cy="175.0" r="4" fill="#e74c3c"/>
+<text x="80.0" y="178.0" text-anchor="middle" font-size="16" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">B</text>
+<circle cx="120.0" cy="205.0" r="4" fill="#1a1a1a"/>
+<rect x="126.0" y="200.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<text x="80.0" y="208.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">A</text>
+<rect x="112.0" y="230.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="144.0" cy="235.0" r="4" fill="#1a1a1a"/>
+<rect x="150.0" y="230.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="182.0" cy="235.0" r="4" fill="#1a1a1a"/>
+<text x="80.0" y="238.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">C</text>
+<circle cx="120.0" cy="265.0" r="4" fill="#1a1a1a"/>
+<text x="80.0" y="268.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">E</text>
+<circle cx="380.0" cy="55.0" r="4" fill="#1a1a1a"/>
+<circle cx="394.0" cy="55.0" r="4" fill="#1a1a1a"/>
+<rect x="400.0" y="50.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="432.0" cy="55.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="58.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">F</text>
+<circle cx="380.0" cy="85.0" r="4" fill="#1a1a1a"/>
+<circle cx="394.0" cy="85.0" r="4" fill="#1a1a1a"/>
+<circle cx="408.0" cy="85.0" r="4" fill="#1a1a1a"/>
+<circle cx="422.0" cy="85.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="88.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">H</text>
+<circle cx="380.0" cy="115.0" r="4" fill="#1a1a1a"/>
+<circle cx="394.0" cy="115.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="118.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">I</text>
+<rect x="372.0" y="140.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="404.0" cy="145.0" r="4" fill="#1a1a1a"/>
+<rect x="410.0" y="140.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<text x="340.0" y="148.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">K</text>
+<circle cx="380.0" cy="175.0" r="4" fill="#1a1a1a"/>
+<rect x="386.0" y="170.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="418.0" cy="175.0" r="4" fill="#1a1a1a"/>
+<circle cx="432.0" cy="175.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="178.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">L</text>
+<rect x="372.0" y="200.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<rect x="396.0" y="200.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<text x="340.0" y="208.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">M</text>
+<rect x="372.0" y="230.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="404.0" cy="235.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="238.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">N</text>
+<circle cx="380.0" cy="265.0" r="4" fill="#1a1a1a"/>
+<rect x="386.0" y="260.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<rect x="410.0" y="260.0" width="16.0" height="5.0" rx="2" fill="#1a1a1a" stroke="None" stroke-width="2.0"/>
+<circle cx="442.0" cy="265.0" r="4" fill="#1a1a1a"/>
+<text x="340.0" y="268.0" text-anchor="middle" font-size="16" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif">P</text>
+<line x1="280.0" y1="48.0" x2="280.0" y2="284.0" stroke="#ccc" stroke-width="1"/>
+<text x="280.0" y="308.0" text-anchor="middle" font-size="15" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">题目密码：--. --- -..  .--- --- -...</text>
+<text x="280.0" y="334.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">→ G O D   J O B → "GOOD JOB"（干得漂亮）</text>
+</svg>

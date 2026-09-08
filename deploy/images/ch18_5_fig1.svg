@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="290" viewBox="0 0 580 290">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,3 L5,0 L10,3 L7,5 L10,7 L5,10 L0,7 L3,5 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="580" height="290" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="290" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：分割成 6 个相同的三角形</text>
+<polygon points="74.80000000000001,98.39999999999999 130,172 176,80" fill="#eaf2f8" stroke="#5499c7" stroke-width="1.6"/>
+<polygon points="130,172 222,172 176,80" fill="#fef5e7" stroke="#5499c7" stroke-width="1.6"/>
+<polygon points="176,80 268,80 222,172" fill="#eaf2f8" stroke="#5499c7" stroke-width="1.6"/>
+<polygon points="268,80 222,172 314,172" fill="#fef5e7" stroke="#5499c7" stroke-width="1.6"/>
+<polygon points="268,80 360,80 314,172" fill="#eaf2f8" stroke="#5499c7" stroke-width="1.6"/>
+<polygon points="314,172 415.2,153.60000000000002 360,80" fill="#fef5e7" stroke="#5499c7" stroke-width="1.6"/>
+<line x1="74.80000000000001" y1="98.39999999999999" x2="130" y2="172" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="74.80000000000001" y1="98.39999999999999" x2="176" y2="80" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="176" y1="80" x2="360" y2="80" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="360" y1="80" x2="415.2" y2="153.60000000000002" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="415.2" y1="153.60000000000002" x2="314" y2="172" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="314" y1="172" x2="130" y2="172" stroke="#2c3e50" stroke-width="2.4"/>
+<text x="56.80000000000001" y="103.39999999999999" font-size="16" font-weight="bold" fill="#2c3e50">A</text>
+<text x="120" y="196" font-size="16" font-weight="bold" fill="#2c3e50">B</text>
+<text x="312" y="196" font-size="16" font-weight="bold" fill="#2c3e50">C</text>
+<text x="427.2" y="163.60000000000002" font-size="16" font-weight="bold" fill="#2c3e50">D</text>
+<text x="368" y="68" font-size="16" font-weight="bold" fill="#2c3e50">E</text>
+<text x="164" y="68" font-size="16" font-weight="bold" fill="#2c3e50">F</text>
+</svg>

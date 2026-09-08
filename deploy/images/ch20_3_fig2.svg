@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="300" viewBox="0 0 460 300">
+<rect x="0" y="0" width="460" height="300" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图2：连结CE(虚线)，把△BFE等积变形成△FCE</text>
+<polygon points="145,62 240,62 145,252" fill="#d5dbdb" stroke="none" stroke-width="2.4"/>
+<polygon points="50,62 240,62 240,252 50,252" fill="none" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="145" y1="62" x2="145" y2="252" stroke="#c0392b" stroke-width="2.2"/>
+<line x1="50" y1="252" x2="145" y2="157" stroke="#c0392b" stroke-width="2.2"/>
+<line x1="145" y1="252" x2="240" y2="62" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<text x="36" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">A</text>
+<text x="145" y="50" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">F</text>
+<text x="254" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">E</text>
+<text x="36" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">B</text>
+<text x="145" y="272" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">C</text>
+<text x="254" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">D</text>
+<text x="161" y="163" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">G</text>
+</svg>

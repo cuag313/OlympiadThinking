@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+<rect width="420" height="300" fill="#ffffff"/>
+<rect x="30.0" y="42.0" width="325.0" height="208.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="95.0" y1="42.0" x2="95.0" y2="94.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="95.0" y1="94.0" x2="160.0" y2="94.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="160.0" y1="94.0" x2="160.0" y2="146.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="160.0" y1="146.0" x2="225.0" y2="146.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="225.0" y1="146.0" x2="225.0" y2="198.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="225.0" y1="198.0" x2="290.0" y2="198.0" stroke="#e74c3c" stroke-width="3"/>
+<line x1="290.0" y1="198.0" x2="290.0" y2="250.0" stroke="#e74c3c" stroke-width="3"/>
+<text x="127.5" y="81.0" text-anchor="middle" font-size="13" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">10</text>
+<text x="140.5" y="113.5" text-anchor="middle" font-size="13" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">8</text>
+<text x="192.5" y="260.4" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">50厘米</text>
+<text x="382.7" y="146.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">32厘米</text>
+<text x="147.0" y="211.0" text-anchor="middle" font-size="16" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">①</text>
+<text x="257.5" y="81.0" text-anchor="middle" font-size="16" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">②</text>
+<text x="210.0" y="290.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">按台阶线剪开（每步水平10、竖直8），得到两块</text>
+</svg>

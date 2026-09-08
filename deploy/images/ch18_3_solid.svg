@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="320" viewBox="0 0 330 320">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,3 L5,0 L10,3 L7,5 L10,7 L5,10 L0,7 L3,5 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="330" height="320" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="165" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">圆柱 + 圆锥（单位：厘米，π 取 3.14）</text>
+<polygon points="86,60 150,6 214,60" fill="#fdedec" stroke="#c0392b" stroke-width="2"/>
+<ellipse cx="150" cy="60" rx="64" ry="23.04" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,4"/>
+<rect x="86" y="60" width="128" height="180" fill="#eaf2f8" stroke="#2980b9" stroke-width="2"/>
+<ellipse cx="150" cy="240" rx="64" ry="23.04" fill="#d6eaf8" stroke="#2980b9" stroke-width="2"/>
+<line x1="248" y1="6" x2="248" y2="60" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="256" y="37.0" text-anchor="start" font-size="14" fill="#555">6</text>
+<line x1="248" y1="60" x2="248" y2="240" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="256" y="154.0" text-anchor="start" font-size="14" fill="#555">20</text>
+<line x1="86" y1="270" x2="214" y2="270" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="150.0" y="292" text-anchor="middle" font-size="14" fill="#555">8</text>
+</svg>

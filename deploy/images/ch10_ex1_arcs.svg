@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 200" width="660" height="200">
+<rect width="660" height="200" fill="#ffffff"/>
+<text x="60.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.15</text>
+<text x="172.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.10</text>
+<text x="284.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.06</text>
+<text x="396.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.03</text>
+<text x="508.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.01</text>
+<text x="620.0" y="120.0" text-anchor="middle" font-size="17" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">1.00</text>
+<path d="M82,134 Q116.0,154 150,134" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="116.0" y="167.0" text-anchor="middle" font-size="13" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.05</text>
+<path d="M194,134 Q228.0,154 262,134" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="228.0" y="167.0" text-anchor="middle" font-size="13" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.04</text>
+<path d="M306,134 Q340.0,154 374,134" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="340.0" y="167.0" text-anchor="middle" font-size="13" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.03</text>
+<path d="M418,134 Q452.0,154 486,134" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="452.0" y="167.0" text-anchor="middle" font-size="13" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.02</text>
+<path d="M530,134 Q564.0,154 598,134" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="564.0" y="167.0" text-anchor="middle" font-size="13" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.01</text>
+<path d="M116.0,88 Q172.0,68 228.0,88" fill="none" stroke="#2980b9" stroke-width="1.5"/>
+<text x="172.0" y="56.0" text-anchor="middle" font-size="12" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.01</text>
+<path d="M228.0,88 Q284.0,68 340.0,88" fill="none" stroke="#2980b9" stroke-width="1.5"/>
+<text x="284.0" y="56.0" text-anchor="middle" font-size="12" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.01</text>
+<path d="M340.0,88 Q396.0,68 452.0,88" fill="none" stroke="#2980b9" stroke-width="1.5"/>
+<text x="396.0" y="56.0" text-anchor="middle" font-size="12" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.01</text>
+<path d="M452.0,88 Q508.0,68 564.0,88" fill="none" stroke="#2980b9" stroke-width="1.5"/>
+<text x="508.0" y="56.0" text-anchor="middle" font-size="12" fill="#2980b9" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">−0.01</text>
+<text x="330.0" y="195.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">相邻两数之差依次少 0.01（二级规律）</text>
+</svg>

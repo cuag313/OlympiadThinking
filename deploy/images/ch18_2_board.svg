@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,3 L5,0 L10,3 L7,5 L10,7 L5,10 L0,7 L3,5 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="420" height="320" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="210" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">一块挖去圆孔的长方形木板</text>
+<rect x="60" y="50" width="300" height="210" fill="#f4e8d0" stroke="#8d6e4c" stroke-width="2.5"/>
+<circle cx="180" cy="190" r="26" fill="#fdfefe" stroke="#8d6e4c" stroke-width="1.8"/>
+<circle cx="180" cy="190" r="2.5" fill="#333"/>
+</svg>

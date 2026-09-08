@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="260" viewBox="0 0 460 260">
+<rect x="0" y="0" width="460" height="260" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">梯形ABCD：AB∥DC，对角线交于E</text>
+<polygon points="170,60 290,60 360,220 100,220" fill="#fdf6ec" stroke="#b06010" stroke-width="2.6"/>
+<line x1="170" y1="60" x2="360" y2="220" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="290" y1="60" x2="100" y2="220" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
+<text x="154" y="64" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">A</text>
+<text x="306" y="64" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">B</text>
+<text x="374" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">C</text>
+<text x="86" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">D</text>
+<text x="226" y="135" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">E</text>
+<circle cx="230" cy="113" r="4" fill="#c0392b"/>
+</svg>

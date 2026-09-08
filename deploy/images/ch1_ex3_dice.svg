@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300">
+  <rect width="640" height="300" fill="#ffffff"/>
+
+  <!-- 思思的骰子（蓝色，点数3） -->
+  <rect x="40" y="40" width="100" height="100" rx="16" fill="#3498db" stroke="#2471a3" stroke-width="3"/>
+  <circle cx="68" cy="68" r="10" fill="#ffffff"/>
+  <circle cx="90" cy="90" r="10" fill="#ffffff"/>
+  <circle cx="110" cy="110" r="10" fill="#ffffff"/>
+  <text x="90" y="172" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">思思的骰子</text>
+  <text x="90" y="194" text-anchor="middle" font-size="14" fill="#888" font-family="Microsoft YaHei, SimHei, sans-serif">点数 3</text>
+
+  <!-- 加号 -->
+  <text x="172" y="102" text-anchor="middle" font-size="30" font-weight="bold" fill="#333">+</text>
+
+  <!-- 想想的骰子（橙色，点数4） -->
+  <rect x="205" y="40" width="100" height="100" rx="16" fill="#f39c12" stroke="#d68910" stroke-width="3"/>
+  <circle cx="233" cy="68" r="10" fill="#ffffff"/>
+  <circle cx="277" cy="68" r="10" fill="#ffffff"/>
+  <circle cx="233" cy="112" r="10" fill="#ffffff"/>
+  <circle cx="277" cy="112" r="10" fill="#ffffff"/>
+  <text x="255" y="172" text-anchor="middle" font-size="16" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">想想的骰子</text>
+  <text x="255" y="194" text-anchor="middle" font-size="14" fill="#888" font-family="Microsoft YaHei, SimHei, sans-serif">点数 4</text>
+
+  <!-- ＝7 示意 -->
+  <text x="338" y="102" text-anchor="middle" font-size="30" font-weight="bold" fill="#333">=</text>
+  <circle cx="398" cy="90" r="26" fill="#d5f5e3" stroke="#27ae60" stroke-width="2"/>
+  <text x="398" y="98" text-anchor="middle" font-size="22" font-weight="bold" fill="#27ae60">7</text>
+  <text x="398" y="150" text-anchor="middle" font-size="14" fill="#27ae60" font-family="Microsoft YaHei, SimHei, sans-serif">和为7，思思获胜</text>
+
+  <!-- 规则说明框 -->
+  <rect x="455" y="35" width="170" height="150" rx="10" fill="#f8f9f9" stroke="#ddd" stroke-width="1.5"/>
+  <text x="540" y="65" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">游戏规则</text>
+  <text x="540" y="100" text-anchor="middle" font-size="14" fill="#27ae60" font-family="Microsoft YaHei, SimHei, sans-serif">和为 5、6、7、8</text>
+  <text x="540" y="124" text-anchor="middle" font-size="14" fill="#27ae60" font-family="Microsoft YaHei, SimHei, sans-serif">→ 思思获胜</text>
+  <text x="540" y="152" text-anchor="middle" font-size="14" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif">和为其他值</text>
+  <text x="540" y="175" text-anchor="middle" font-size="14" fill="#e74c3c" font-family="Microsoft YaHei, SimHei, sans-serif">→ 想想获胜</text>
+
+  <!-- 底部说明 -->
+  <text x="320" y="250" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">每人各掷一个骰子，每个骰子的点数可能是 1～6</text>
+  <text x="320" y="275" text-anchor="middle" font-size="15" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">两个骰子的点数之和可能是 2～12，共 36 种等可能的结果</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="240" viewBox="0 0 660 240">
+<rect x="0" y="0" width="660" height="240" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="330" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">同一段路程：思思40分钟，想想30分钟</text>
+<rect x="66" y="94" width="12" height="12" fill="#c0392b"/>
+<text x="60" y="130" text-anchor="middle" font-size="13" fill="#7f8c8d">起点</text>
+<text x="560" y="130" text-anchor="middle" font-size="13" fill="#7f8c8d">全程</text>
+<line x1="80" y1="100" x2="580" y2="100" stroke="#7f8c8d" stroke-width="2"/>
+<line x1="80" y1="76" x2="580" y2="76" stroke="#c0392b" stroke-width="3"/>
+<text x="330" y="62" text-anchor="middle" font-size="13.5" fill="#c0392b" font-weight="bold">思思走全程用40分钟</text>
+<line x1="80" y1="136" x2="580" y2="136" stroke="#2980b9" stroke-width="3"/>
+<text x="330" y="160" text-anchor="middle" font-size="13.5" fill="#2980b9" font-weight="bold">想想走全程用30分钟</text>
+<text x="330" y="190" text-anchor="middle" font-size="12.5" fill="#e67e22" font-weight="bold">思思先走5分钟（先走了全程的1/8），想想再出发追思思</text>
+</svg>

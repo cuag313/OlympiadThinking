@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="232" viewBox="0 0 212 232">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,3 L5,0 L10,3 L7,5 L10,7 L5,10 L0,7 L3,5 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="212" height="232" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="106" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：把正方形分成 6 个小正方形</text>
+<rect x="40" y="52" width="44" height="44" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="84" y="52" width="44" height="44" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="128" y="52" width="44" height="44" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="96" width="44" height="44" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="140" width="44" height="44" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="84" y="96" width="88" height="88" fill="#fdedec" stroke="#2980b9" stroke-width="1.6"/>
+<rect x="40" y="52" width="132" height="132" fill="none" stroke="#2c3e50" stroke-width="2.5"/>
+<text x="106" y="216" text-anchor="middle" font-size="13" fill="#27ae60" font-weight="bold">共 6 个小正方形</text>
+</svg>

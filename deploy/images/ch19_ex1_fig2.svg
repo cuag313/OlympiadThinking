@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="269" viewBox="0 0 300 269">
+<rect x="0" y="0" width="300" height="269" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="150" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图2：五边形分成 3 个三角形</text>
+<polygon points="127.0,50.0 214.0,131.2 173.4,224.0 80.6,224.0 40.0,131.2" fill="#fdf3e7" stroke="#b06010" stroke-width="2.8"/>
+<line x1="40.0" y1="131.2" x2="214.0" y2="131.2" stroke="#e74c3c" stroke-width="2.6" stroke-dasharray="7,6"/>
+<line x1="40.0" y1="131.2" x2="173.4" y2="224.0" stroke="#e74c3c" stroke-width="2.6" stroke-dasharray="7,6"/>
+</svg>

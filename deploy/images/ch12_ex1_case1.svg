@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 190" width="600" height="190">
+<rect width="600" height="190" fill="#ffffff"/>
+<rect x="80.0" y="40.0" width="400.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="360.0" y="40.0" width="120.0" height="24.0" rx="0" fill="#f5cba7" stroke="#1a1a1a" stroke-width="2"/>
+<text x="280.0" y="32.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">原有10架</text>
+<text x="420.0" y="84.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">移走3架</text>
+<text x="68.0" y="58.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">思思</text>
+<rect x="80.0" y="110.0" width="80.0" height="24.0" rx="0" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="160.0" y="110.0" width="120.0" height="24.0" rx="0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5,4"/>
+<rect x="280.0" y="110.0" width="80.0" height="24.0" rx="0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="68.0" y="128.0" text-anchor="end" font-size="15" fill="#1a1a1a" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">想想</text>
+<text x="120.0" y="102.0" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">原有多少架？</text>
+<text x="220.0" y="154.0" text-anchor="middle" font-size="13" fill="#c0392b" font-family="Microsoft YaHei, SimHei, sans-serif" font-weight="bold">移来3架</text>
+<text x="320.0" y="174.0" text-anchor="middle" font-size="13" fill="#888" font-family="Microsoft YaHei, SimHei, sans-serif">还少2架</text>
+<line x1="360.0" y1="40.0" x2="360.0" y2="134.0" stroke="#888" stroke-width="1.2" stroke-dasharray="4,4"/>
+<text x="300.0" y="186.0" text-anchor="middle" font-size="14" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">（1）如果想想少2架：□+3+2 = 10−3  →  □=2</text>
+</svg>
