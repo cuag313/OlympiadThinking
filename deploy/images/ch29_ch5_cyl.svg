@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" width="560" height="240">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
+  </style>
+  <rect x="0" y="0" width="560" height="240" fill="#fafafa" stroke="#ddd"/>
+  <!-- 桌面 -->
+  <line x1="30" y1="200" x2="530" y2="200" stroke="#666" stroke-width="2"/>
+  <!-- 甲：半径小 -->
+  <ellipse cx="100" cy="50" rx="28" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="72" y1="50" x2="72" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="128" y1="50" x2="128" y2="200" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="100" cy="200" rx="28" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="100" y="40" text-anchor="middle" font-weight="bold">甲</text>
+  <!-- 乙：半径大(2倍) -->
+  <ellipse cx="280" cy="40" rx="50" ry="12" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="230" y1="40" x2="230" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="330" y1="40" x2="330" y2="200" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="280" cy="200" rx="50" ry="12" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="280" y="30" text-anchor="middle" font-weight="bold">乙</text>
+  <!-- 丙：半径与甲相同 -->
+  <ellipse cx="460" cy="50" rx="28" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="432" y1="50" x2="432" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="488" y1="50" x2="488" y2="200" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="460" cy="200" rx="28" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="40" text-anchor="middle" font-weight="bold">丙</text>
+  <!-- 连通管高度5cm -->
+  <line x1="128" y1="160" x2="230" y2="160" stroke="#e03a3a" stroke-width="2.5"/>
+  <line x1="330" y1="160" x2="432" y2="160" stroke="#e03a3a" stroke-width="2.5"/>
+  <text x="180" y="152" text-anchor="middle" fill="#e03a3a" font-size="12">连通管</text>
+  <text x="400" y="152" text-anchor="middle" fill="#e03a3a" font-size="12">连通管</text>
+  <!-- 5厘米标注 -->
+  <line x1="60" y1="160" x2="60" y2="200" stroke="#333" stroke-width="1"/>
+  <text x="55" y="185" text-anchor="end" font-size="12">5cm</text>
+  <!-- 甲初始水位1cm -->
+  <ellipse cx="100" cy="192" rx="28" ry="8" fill="#a8d4f0" opacity="0.7"/>
+  <text x="100" y="220" text-anchor="middle" font-size="12">甲水位1cm</text>
+  <text x="280" y="230" text-anchor="middle" fill="#666">底面半径比 甲:乙:丙 = 1:2:1</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 15px; fill: #333; }
+  </style>
+
+  <!-- 左：直角三角形塑料片（灰底） -->
+  <polygon points="110,150 230,55 345,150" fill="#c8c3bc" stroke="#555" stroke-width="1.5"/>
+  <text x="157" y="104" text-anchor="middle" font-style="italic">4</text>
+  <text x="298" y="104" text-anchor="middle" font-style="italic">3</text>
+  <text x="227" y="176" text-anchor="middle" font-style="italic">5</text>
+
+  <!-- 右：带空心圆孔的长方形塑料片 -->
+  <rect x="410" y="40" width="130" height="130" fill="#c8c3bc" stroke="#555" stroke-width="1.5"/>
+  <circle cx="475" cy="105" r="42" fill="white" stroke="#555" stroke-width="1.5"/>
+
+  <!-- 直径标注：圆两侧切点向下虚线 + 双向箭头 -->
+  <line x1="433" y1="112" x2="433" y2="196" stroke="#555" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="517" y1="112" x2="517" y2="196" stroke="#555" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="433" y1="192" x2="517" y2="192" stroke="#333" stroke-width="1.2" marker-start="url(#la)" marker-end="url(#ra)"/>
+  <defs>
+    <marker id="la" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto-start-reverse">
+      <path d="M7,1 L1,4 L7,7" fill="none" stroke="#333" stroke-width="1.2"/>
+    </marker>
+    <marker id="ra" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7" fill="none" stroke="#333" stroke-width="1.2"/>
+    </marker>
+  </defs>
+  <text x="475" y="214" text-anchor="middle" font-style="italic" font-size="14">d = 2.8</text>
+</svg>

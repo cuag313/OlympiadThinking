@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+  </style>
+  <!-- 两容器A、B + 连通管 -->
+  <rect x="40" y="40" width="100" height="140" fill="none" stroke="#333" stroke-width="2.5"/>
+  <rect x="280" y="40" width="100" height="140" fill="none" stroke="#333" stroke-width="2.5"/>
+  <text x="90" y="30" text-anchor="middle" font-weight="bold">A</text>
+  <text x="330" y="30" text-anchor="middle" font-weight="bold">B</text>
+  <!-- 连通管距底6cm -->
+  <line x1="140" y1="150" x2="280" y2="150" stroke="#e03a3a" stroke-width="4"/>
+  <text x="210" y="142" text-anchor="middle" fill="#e03a3a">连通管（距底6cm）</text>
+  <!-- A中水高4cm -->
+  <rect x="40" y="150" width="100" height="30" fill="#a8d8ea" opacity="0.7"/>
+  <text x="90" y="170" text-anchor="middle">水高4</text>
+  <!-- B空 -->
+  <text x="330" y="175" text-anchor="middle" fill="#888">空</text>
+  <!-- 底部 -->
+  <line x1="40" y1="180" x2="140" y2="180" stroke="#333" stroke-width="2.5"/>
+  <line x1="280" y1="180" x2="380" y2="180" stroke="#333" stroke-width="2.5"/>
+  <text x="210" y="210" text-anchor="middle">每分钟向B注入1cm高的水</text>
+</svg>

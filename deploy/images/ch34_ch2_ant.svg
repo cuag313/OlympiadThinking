@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+  </style>
+  <rect x="0" y="0" width="480" height="220" fill="#fafafa" stroke="#ddd"/>
+  <!-- 四列点 A B C D -->
+  <text x="60" y="30" text-anchor="middle" font-weight="bold">A</text>
+  <text x="180" y="30" text-anchor="middle" font-weight="bold">B</text>
+  <text x="300" y="30" text-anchor="middle" font-weight="bold">C</text>
+  <text x="420" y="30" text-anchor="middle" font-weight="bold">D</text>
+  <!-- A 一个点 -->
+  <circle cx="60" cy="110" r="8" fill="#e03a3a"/>
+  <!-- B 三个点 -->
+  <circle cx="180" cy="60" r="7" fill="#3030a0"/>
+  <circle cx="180" cy="110" r="7" fill="#3030a0"/>
+  <circle cx="180" cy="160" r="7" fill="#3030a0"/>
+  <!-- C 三个点 -->
+  <circle cx="300" cy="60" r="7" fill="#1a7a3a"/>
+  <circle cx="300" cy="110" r="7" fill="#1a7a3a"/>
+  <circle cx="300" cy="160" r="7" fill="#1a7a3a"/>
+  <!-- D 一个点 -->
+  <circle cx="420" cy="110" r="8" fill="#e03a3a"/>
+  <!-- A→B 三条线 -->
+  <line x1="60" y1="110" x2="180" y2="60" stroke="#999" stroke-width="1.2"/>
+  <line x1="60" y1="110" x2="180" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="60" y1="110" x2="180" y2="160" stroke="#999" stroke-width="1.2"/>
+  <!-- B→C 三条 -->
+  <line x1="180" y1="60" x2="300" y2="60" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="60" x2="300" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="60" x2="300" y2="160" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="110" x2="300" y2="60" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="110" x2="300" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="110" x2="300" y2="160" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="160" x2="300" y2="60" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="160" x2="300" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="180" y1="160" x2="300" y2="160" stroke="#999" stroke-width="1.2"/>
+  <!-- C→D 三条 -->
+  <line x1="300" y1="60" x2="420" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="300" y1="110" x2="420" y2="110" stroke="#999" stroke-width="1.2"/>
+  <line x1="300" y1="160" x2="420" y2="110" stroke="#999" stroke-width="1.2"/>
+  <text x="240" y="200" text-anchor="middle" fill="#666">A→B：3条　B→C：3条　C→D：3条　共3×3×3=27种</text>
+</svg>

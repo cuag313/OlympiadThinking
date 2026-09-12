@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 170" width="520" height="170">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .name { font-weight: bold; fill: #333; }
+    .cap { font-size: 12px; fill: #555; }
+  </style>
+
+  <!-- 灰底（仿原书） -->
+  <rect x="0" y="0" width="520" height="170" fill="#d6d2cc"/>
+
+  <!-- 上层：5份（实线4份 + 移走的1份红虚线） -->
+  <text x="55" y="60" text-anchor="end" class="name">上层</text>
+  <!-- 实线主条 4份：90..362 -->
+  <line x1="93" y1="54" x2="362" y2="54" stroke="#444" stroke-width="3.2"/>
+  <line x1="90" y1="48" x2="90" y2="60" stroke="#444" stroke-width="1.6"/>
+  <line x1="158" y1="48" x2="158" y2="60" stroke="#444" stroke-width="1.6"/>
+  <line x1="226" y1="48" x2="226" y2="60" stroke="#444" stroke-width="1.6"/>
+  <line x1="294" y1="48" x2="294" y2="60" stroke="#444" stroke-width="1.6"/>
+  <!-- 第5份（移走部分）红色虚线 -->
+  <line x1="362" y1="54" x2="427" y2="54" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="430" y1="48" x2="430" y2="60" stroke="#444" stroke-width="1.6"/>
+  <text x="396" y="38" text-anchor="middle" fill="#e74c3c" class="cap" font-weight="bold">移走的 1/5</text>
+  <text x="228" y="85" text-anchor="middle" class="cap">上层原来 5份</text>
+
+  <!-- 下层：3份实线 + 移入的1份红虚线 -->
+  <text x="55" y="130" text-anchor="end" class="name">下层</text>
+  <line x1="93" y1="124" x2="294" y2="124" stroke="#444" stroke-width="3.2"/>
+  <line x1="90" y1="118" x2="90" y2="130" stroke="#444" stroke-width="1.6"/>
+  <line x1="158" y1="118" x2="158" y2="130" stroke="#444" stroke-width="1.6"/>
+  <line x1="226" y1="118" x2="226" y2="130" stroke="#444" stroke-width="1.6"/>
+  <!-- 移入的1份 -->
+  <line x1="294" y1="124" x2="362" y2="124" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="328" y="148" text-anchor="middle" fill="#e74c3c" class="cap" font-weight="bold">移入 1份</text>
+  <text x="192" y="148" text-anchor="middle" class="cap">下层原来 3份</text>
+
+  <!-- 竖直对齐虚线：上层移走后末端 = 下层移入后末端 -->
+  <line x1="362" y1="54" x2="362" y2="124" stroke="#e74c3c" stroke-width="1.4" stroke-dasharray="4,3"/>
+  <text x="376" y="95" class="cap" fill="#e74c3c">相等</text>
+
+  <!-- 总数 -->
+  <text x="470" y="95" text-anchor="middle" class="name" fill="#555">共160本</text>
+</svg>

@@ -78,12 +78,25 @@ th{background:#eaf2f8;font-weight:bold}
 <li><a href="#ch21">二十一、等量思想</a></li>
 <li><a href="#ch22">二十二、符号化</a></li>
 <li><a href="#ch23">二十三、数字化</a></li>
+<li><a href="#ch24">二十四、不变量</a></li>
+<li><a href="#ch25">二十五、面积法</a></li>
+<li><a href="#ch26">二十六、各取一半</a></li>
+<li><a href="#ch27">二十七、裂项相消</a></li>
+<li><a href="#ch28">二十八、数形结合</a></li>
+<li><a href="#ch29">二十九、分类讨论</a></li>
+<li><a href="#ch30">三十、单位化</a></li>
+<li><a href="#ch31">三十一、倒数法</a></li>
+<li><a href="#ch32">三十二、比例思想</a></li>
+<li><a href="#ch33">三十三、加法原理</a></li>
+<li><a href="#ch34">三十四、乘法原理</a></li>
+<li><a href="#ch35">三十五、容斥原理</a></li>
+<li><a href="#ch36">三十六、抽屉原理</a></li>
 </ul>
 </div>
 
 
 <!-- ========== 第1章：枚举法 ========== -->
-<h2 class="chapter-title" id="ch1">1、枚举法</h2>
+<h2 class="chapter-title" id="ch1">一、枚举法</h2>
 
 <div class="method-intro">
 <h3>方法介绍</h3>
@@ -114,7 +127,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>将一段长为15分米的木棒截成长度为整分米的三段，使它们作为三角形的三边，可以得到几种不同的三角形？</p>
 <p><b>解题步骤：</b></p>
-<p><i>想一想：可以根据线段长度或各角进行枚举。</i></p>
+<p><i>想一想：可以根据三边的长度进行枚举。</i></p>
 <p>第一步：可根据三角形的三边关系，任意两边之和大于第三边，又周长为整分米，可知最长边只能是7分米、6分米或者5分米。</p>
 <p>第二步：当最长边为7分米时，另外两边还可以为：7分米和1分米（7、7、1）；6分米和2分米（7、6、2）；5分米和3分米（7、5、3）；4分米和4分米（7、4、4）；</p>
 <p>第三步：当最长边为6分米时，另外两边还可以为：6分米和3分米（6、6、3）；5分米和4分米（6、5、4）；</p>
@@ -203,12 +216,12 @@ th{background:#eaf2f8;font-weight:bold}
 <tr><td style="border:1px solid #999;padding:5px 10px">宽（厘米）</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">10</td><td style="border:1px solid #999;padding:5px 10px">15</td><td style="border:1px solid #999;padding:5px 10px">20</td></tr>
 </table>
 <p>第二步：（计算过程）</p>
-<p>第一种: 35×5 = 175(平方米)</p>
-<p>第二种: 30×10 = 300(平方米)</p>
-<p>第三种: 25×15 = 375(平方米)</p>
-<p>第四种: 20×20 = 400(平方米)</p>
+<p>第一种: 35×5 = 175(平方厘米)</p>
+<p>第二种: 30×10 = 300(平方厘米)</p>
+<p>第三种: 25×15 = 375(平方厘米)</p>
+<p>第四种: 20×20 = 400(平方厘米)</p>
 <p>第三步：计算出每种方法围成的长方形的面积并进行比较</p>
-<p>20×20 = 400(平方米)</p>
+<p>20×20 = 400(平方厘米)</p>
 <p><b>答案：当围成边长为20厘米的正方形时面积最大。</b></p>
 </div>
 </div>
@@ -254,7 +267,7 @@ th{background:#eaf2f8;font-weight:bold}
 </p>
 
 <!-- ========== 第2章：假设法 ========== -->
-<h2 class="chapter-title" id="ch2">2、假设法</h2>
+<h2 class="chapter-title" id="ch2">二、假设法</h2>
 
 <div class="method-intro">
 <h3>方法介绍</h3>
@@ -389,7 +402,7 @@ th{background:#eaf2f8;font-weight:bold}
 </p>
 
 <!-- ========== 第3章：观察法 ========== -->
-<h2 class="chapter-title" id="ch3">3、观察法</h2>
+<h2 class="chapter-title" id="ch3">三、观察法</h2>
 
 <div class="method-intro">
 <h3>方法介绍</h3>
@@ -557,7 +570,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="example-card">
 <div class="example-header"><span class="example-num">例2.</span><span class="example-tag">列表法</span></div>
 <div class="question-title">
-<p>一位老师带48名学生去公园划船，大船限乘5人，每条船租金是30元；小船限乘3人，每条船租金是21元。请问怎样租船最省钱？（如图所示）</p>
+<p>一位老师带48名学生去公园划船（师生共49人），大船限乘5人，每条船租金是30元；小船限乘3人，每条船租金是21元。请问怎样租船最省钱？（如图所示）</p>
 <img src="images/ch4_ex2_boats.svg" alt="租船问题示意图：大船限乘5人每条30元，小船限乘3人每条21元" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p><b>解题步骤：</b></p>
 <p><i>想一想：租船问题既要兼顾"单人价格便宜"，又要兼顾"多余空位尽可能少"。借助列表法可以无遗漏地找到最省钱的租船方案。</i></p>
@@ -567,11 +580,11 @@ th{background:#eaf2f8;font-weight:bold}
 <tr><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">方案</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">1</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">2</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">3</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">4</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">5</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">6</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">7</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">8</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">9</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">10</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">11</th></tr>
 <tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">大船5人（30元）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">10</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">9</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">8</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">7</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">6</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">5</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">4</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">3</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">2</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">1</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">0</td></tr>
 <tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">小船3人（21元）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">0</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">1</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">3</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">5</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">7</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">8</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">10</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">12</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">13</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">15</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">17</td></tr>
-<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总座位数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">48</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td></tr>
-<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总钱数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">300</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">292</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">303</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">315</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">327</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">318</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">330</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">342</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">333</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">345</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">357</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总座位数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">48（不够）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总钱数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">300</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">291（座位不够）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">303</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">315</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">327</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">318</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">330</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">342</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">333</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">345</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">357</td></tr>
 </table>
 </div>
-<p>第二步：比较表中信息可得：租9条大船1条小船最省钱。</p>
+<p>第二步：师生共49人，方案2只有48个座位，不够坐，应排除。比较其余可行方案可得：租10条大船最省钱，共300元。</p>
 </div>
 </div>
 
@@ -742,11 +755,11 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="example-card">
 <div class="example-header"><span class="example-num">例3.</span><span class="example-tag">估算法</span></div>
 <div class="question-title">
-<p>记S=18/60+28/61+38/62+...+158/74，请问S的整数部分是多少？</p>
+<p>记S=(1+8/60)+(2+8/61)+(3+8/62)+…+(15+8/74)，请问S的整数部分是多少？</p>
 <p><b>解题步骤：</b></p>
 <p><i>想一想：求一个数的整数部分，需要确定它在哪两个整数之间，如何借助估算来实现呢？</i></p>
 <p>第一步：由已知可得，各个加数的整数部分之和为1+2+3+…+15=（1+15）/2×15=120。</p>
-<p>第二步：在60，61，62、74这15个分数中，最小的是8/74，最大的是8/60，</p>
+<p>第二步：在8/60，8/61，8/62，…，8/74这15个真分数中，最小的是8/74，最大的是8/60，</p>
 <p>所以，15×8/74&lt;8/60+8/61+8/62+⋯+8/74&lt;15×8/60，</p>
 <p>故1&lt;8/60+8/61+8/62+8/62+...+8/74&lt;2。</p>
 <p><b>答：所以S的整数部分是120+1=121。</b></p>
@@ -783,7 +796,7 @@ th{background:#eaf2f8;font-weight:bold}
 
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">估算法</span></div>
-<div class="question-title">在某次校园合唱比赛中，11个班级的平均分四舍五入到十位是87.9分，且每班的得分都是整数，请问这11个班级的总分是多少？</div>
+<div class="question-title">在某次校园合唱比赛中，11个班级的平均分四舍五入到十分位（保留一位小数）是87.9分，且每班的得分都是整数，请问这11个班级的总分是多少？</div>
 <div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_3')">查看解析</button></div>
 <div class="hidden-content" id="ans5_3">
 <p><span class="answer-label">解析：</span></p>
@@ -974,8 +987,8 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p><i>想一想：1□2×□9的计算结果是几位数？个位上应该是几？</i></p>
 <p>第一步：1□2×□9的个位上应该是8，排除B选项。</p>
-<p>第二步：12×9&lt;200×100=20000，排除D选项。</p>
-<p>第三步：12×9≥102×19=1938，排除A选项。</p>
+<p>第二步：1□2≤192，□9≤99，所以1□2×□9≤192×99=19008&lt;20000，排除D选项。</p>
+<p>第三步：1□2≥102，□9≥19，所以1□2×□9≥102×19=1938，排除A选项。</p>
 <p>第四步：所以选C。</p>
 </div>
 </div>
@@ -1178,7 +1191,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：分别按箭头方向向上、向左、向右平移，得到长是20厘米，宽是15厘米的长方形，以及8条长度为3厘米的边。如图所示：</p>
 <img src="images/ch8_ch3_transform.svg" alt="平移转化示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<p>第二步：计算长方形的周长，再计算没有移动的8条长度为3厘米的边，得到原图形的周长为（20+10+8－3）×2+3×8=94（厘米）。</p>
+<p>第二步：计算长方形的周长，再计算没有移动的8条长度为3厘米的边，得到原图形的周长为（20+15）×2+3×8=70+24=94（厘米）。</p>
 <p><b>答案：94厘米。</b></p>
 </div>
 </div>
@@ -1381,7 +1394,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：相邻的"差"之间又依次小 0.01，计算过程如图：</p>
 <img src="images/ch10_ex1_arcs.svg" alt="填数规律弧线图：差依次少0.01" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第三步：所以填 1.01，1。</p>
-<p><b>答：两个空依次填 <b>1.01</b>、<b>1</b>。</b></p>
+<p><b>答：两个空依次填 1.01、1。</b></p>
 </div>
 </div>
 
@@ -1396,7 +1409,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：每连续停车8次加油一次，即加油发生在第8k次停车。2025÷8=253……1，所以第2025次停车之前的最近一次加油发生在第 8×253=2024 次停车。</p>
 <p>第三步：停车周期为10，2024÷10 余 4，即第2024次停车与"第4次"停车相同，对应 <b>E站</b>。</p>
 <p>验证：第8次停车（8 mod 10 = 8）对应C站；第16次停车（16 mod 10 = 6）对应E站；第2025次停车（2025 mod 10 = 5）对应F站。</p>
-<p><b>答：第2025次停车前的上一次加油在 <b>E站</b>。</b></p>
+<p><b>答：第2025次停车前的上一次加油在 E站。</b></p>
 </div>
 </div>
 
@@ -1447,7 +1460,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第三步：第8个数与第9个数之和是20−9=11。</p>
 <p>第四步：第7个数是20−11=9。依次类推，第5个数与第6个数之和是11，第4个数是9，第2个数与第3个数之和是11。</p>
 <p>第五步：由于第2个数是1，因此第3个数是10，进一步可得第9个数是10。</p>
-<p><b>答：第9个数是 <b>10</b>。</b></p>
+<p><b>答：第9个数是 10。</b></p>
 </div>
 </div>
 
@@ -1461,7 +1474,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：摆1条"小鱼"需要火柴棒8（根）；摆2条需要8+6×1=14（根）；摆3条需要8+6×2=20（根）；摆4条需要8+6×3=26（根）。</p>
 <p>第二步：摆n条"小鱼"需要火柴棒8+6(n−1)=6n+2（根）。</p>
 <p>第三步：令6n+2=122，可得n=20。</p>
-<p><b>答：摆4条需要 <b>26</b> 根；122根火柴棒可以摆 <b>20</b> 条"小鱼"。</b></p>
+<p><b>答：摆4条需要 26 根；122根火柴棒可以摆 20 条"小鱼"。</b></p>
 </div>
 </div>
 
@@ -1476,7 +1489,7 @@ th{background:#eaf2f8;font-weight:bold}
 <img src="images/ch10_4_solution.svg" alt="补上蓝色小正方形得到边长1的大正方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：通过观察发现：第2个图形中白色小正方形的面积为1/2平方厘米，第3个图形中白色小正方形的面积为1/3平方厘米。因此，第4个图形中白色小正方形的面积为1/4平方厘米。</p>
 <p>第三步：归纳发现，第n个图形中白色小正方形的面积为1/n平方厘米。</p>
-<p><b>答：第4个图形的面积是 <b>1/4</b> 平方厘米；第n个为 <b>1/n</b> 平方厘米。</b></p>
+<p><b>答：第4个图形的面积是 1/4 平方厘米；第n个为 1/n 平方厘米。</b></p>
 </div>
 </div>
 
@@ -1491,7 +1504,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：第1幅图，直角三角形的个数为2×1²=2，边数为3×1²+2×1=5；第2幅图，个数为2×2²=8，边数为3×2²+2×2=16；第3幅图，个数为2×3²=18，边数为3×3²+2×3=33。</p>
 <p>第二步：归纳发现，第n幅图中，直角三角形的个数为2×n²=2n²，边数为3n²+2n。</p>
 <p>第三步：第10幅图中，直角三角形的个数为2×10²=200，边数为3×10²+2×10=320。</p>
-<p><b>答：n=10时分为 <b>200</b> 个直角三角形，共有 <b>320</b> 条边。</b></p>
+<p><b>答：n=10时分为 200 个直角三角形，共有 320 条边。</b></p>
 </div>
 </div>
 
@@ -1588,7 +1601,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：思思每拿棋子一次，甲盒中的棋子就减少一颗，甲盒中共有361颗棋子，所以要拿360次后，甲盒中才剩下最后一颗棋子。</p>
 <p>第二步：思思每次从甲盒中拿出的黑棋子数是0或2，都是偶数，而甲盒中黑棋子总数是奇数，所以甲盒中黑棋子数始终为奇数。</p>
 <p>第三步：当甲盒中只剩下一颗棋子时，是奇数，这颗棋子一定是黑色的。</p>
-<p><b>答：要拿 <b>360</b> 次；剩下的这颗棋子是 <b>黑色</b> 的。</b></p>
+<p><b>答：要拿 360 次；剩下的这颗棋子是 黑色 的。</b></p>
 </div>
 </div>
 
@@ -1669,7 +1682,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>方法2：</p>
 <p>第一步：乙书架移动前后相差的分率：5/9 − 2/9 = 3/9。</p>
 <p>第二步：乙书架得到的本数即甲书架移给乙书架的本数：630×3/9 = 210（本），也就是630×(5/9−2/9)=210（本）。</p>
-<p><b>答：应从甲书架取出 <b>210</b> 本放到乙书架。</b></p>
+<p><b>答：应从甲书架取出 210 本放到乙书架。</b></p>
 </div>
 </div>
 
@@ -1695,7 +1708,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：移动前后，甲包占总质量的分率差：4/5 − 7/12 = 13/60。</p>
 <p>第二步：甲、乙两包糖的总质量：130 ÷ 13/60 = 600（千克）。</p>
 <p>第三步：甲包原来的质量：600×4/5=480（千克）。</p>
-<p><b>答：原来甲包有 <b>480</b> 千克。</b></p>
+<p><b>答：原来甲包有 480 千克。</b></p>
 </div>
 </div>
 
@@ -1708,7 +1721,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="hidden-content" id="ans12_1">
 <p><span class="answer-label">解析：</span></p>
 <p>前三门学科的平均分(92+94+87)÷3=91（分），四门学科平均分为91+1=92（分）。所以，小强英语成绩为92+1×3=95（分）。</p>
-<p><b>答：小强英语得了 <b>95</b> 分。</b></p>
+<p><b>答：小强英语得了 95 分。</b></p>
 </div>
 </div>
 
@@ -1719,7 +1732,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="hidden-content" id="ans12_2">
 <p><span class="answer-label">解析：</span></p>
 <p>现在已煎好的和未煎好饺子相差25×2=50（个）。</p>
-<p><b>答：现在相差 <b>50</b> 个。</b></p>
+<p><b>答：现在相差 50 个。</b></p>
 </div>
 </div>
 
@@ -1737,7 +1750,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：2个红气球换成蓝气球后，红气球还剩15−2=13（个）。</p>
 <p>第二步：蓝气球现在有13+7=20（个）。</p>
 <p>第三步：蓝气球原来有20−2=18（个），也就是15−2×2+7=18（个）。</p>
-<p><b>答：蓝气球原来有 <b>4</b> 个或 <b>18</b> 个。</b></p>
+<p><b>答：蓝气球原来有 4 个或 18 个。</b></p>
 </div>
 </div>
 
@@ -1754,7 +1767,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>方法2：</p>
 <p>第一步：变换前后，柳树占总棵数的分率差：3/7 − 2/5 = 1/35。</p>
 <p>第二步：杨树换成柳树的棵数：1400×1/35 = 40（棵），也就是1400×(3/7−2/5)=40（棵）。</p>
-<p><b>答：实际将 <b>40</b> 棵杨树换成了柳树。</b></p>
+<p><b>答：实际将 40 棵杨树换成了柳树。</b></p>
 </div>
 </div>
 
@@ -1772,7 +1785,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>方法2：</p>
 <p>第一步：移动前后，甲书架的本数占总本数的分率差：5/8 − 4/9 = 13/72。</p>
 <p>第二步：两个书架存放图书总本数：52 ÷ 13/72 = 288（本）。</p>
-<p><b>答：两个书架共存放图书 <b>288</b> 本。</b></p>
+<p><b>答：两个书架共存放图书 288 本。</b></p>
 </div>
 </div>
 
@@ -1827,7 +1840,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第三步：计算可组成的币值种数：148−29=119（种）。</p>
 <p><b>解析二（正面验证）：</b></p>
 <p>各类纸币选取情况：1元、2元、5元各2种，10元5种，50元3种。包含0元的全部组合数2×2×2×5×3=120；全部不取即为0元，不属于有效币值：120−1=119。校验：1元、2元、5元只可以组合出0，1，2，3，5，6，7，8共8种，无重复币值；再与10元、50元的金额叠加，不会产生重复币值。</p>
-<p><b>答：可以组成 <b>119</b> 种不同的币值。</b></p>
+<p><b>答：可以组成 119 种不同的币值。</b></p>
 </div>
 </div>
 
@@ -1841,7 +1854,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：减去的部分1/10+1/100+1/1000+…+1/10000000000 = 0.1111111111。</p>
 <p>第二步：原式 = 1 − 0.1111111111 = 0.8888888889。</p>
-<p><b>答：结果是 <b>0.8888888889</b>。</b></p>
+<p><b>答：结果是 0.8888888889。</b></p>
 </div>
 </div>
 
@@ -1853,7 +1866,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：计算1000个小正方体中每个面都没有涂色的小正方体有8×8×8=512（个）。</p>
 <p>第二步：至少有一面涂色的小正方体有1000−512=488（个）。</p>
-<p><b>答：至少有一面涂色的小正方体有 <b>488</b> 个。</b></p>
+<p><b>答：至少有一面涂色的小正方体有 488 个。</b></p>
 </div>
 </div>
 
@@ -1880,7 +1893,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：从小到大依次排列的第28个和，即从大到小排列的第31−28+1=4个和。全部数总和为1+3+9+27+81=121。</p>
 <p>第三步：和从大到小排，可转化为121的减数从小到大排：0，1，3，(1+3)，…。即：第1个121（全部取）、第2个120=121−1、第3个118=121−3、第4个117=121−(1+3)。</p>
 <p>第四步：所以从小到大排列第28个和为117。</p>
-<p><b>答：第28个和是 <b>117</b>。</b></p>
+<p><b>答：第28个和是 117。</b></p>
 </div>
 </div>
 
@@ -1963,7 +1976,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：小狗沿平行于AC方向走的路程之和为AC，沿平行于BC方向走的路程之和为BC，从B点到A点的路程为BA。</p>
 <p>第二步：所以小狗走过的路程等于三角形ABC的周长，一共走了64米。</p>
-<p><b>答：小狗一共走了 <b>64</b> 米。</b></p>
+<p><b>答：小狗一共走了 64 米。</b></p>
 </div>
 </div>
 
@@ -1988,7 +2001,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>设乘积的总和为S，则</p>
 <p>S=(3/4+0.15)×(4+2/3)×(3/5+1.2)=0.9×14/3×1.8=189/25。</p>
-<p><b>答：所有乘积的总和是 <b>189/25</b>。</b></p>
+<p><b>答：所有乘积的总和是 189/25。</b></p>
 </div>
 </div>
 
@@ -2001,7 +2014,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：连接AP，BP，CP，由此可得S△ABC=S△ABP+S△ACP+S△BCP。</p>
 <p>第二步：即S△ABC=½×AB×2+½×BC×2+½×AC×2=½×2×(AB+BC+AC)=30（cm²）。</p>
-<p><b>答：三角形ABC的面积是 <b>30</b> cm²。</b></p>
+<p><b>答：三角形ABC的面积是 30 cm²。</b></p>
 </div>
 </div>
 
@@ -2022,7 +2035,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：第二行6个空格中的数都是8与第一行各数的乘积，所以第二行6个空格中数的和为8×(9+11+7+15+3+19)。</p>
 <p>第二步：同样地，第三行6个空格中数的和为12×(9+11+7+15+3+19)，第四行、第五行、第六行也是类似的计算。</p>
 <p>第三步：这30个数的和为(8+12+14+10+20)×(9+11+7+15+3+19)=64×64=4096。</p>
-<p><b>答：表中所有乘积的和是 <b>4096</b>。</b></p>
+<p><b>答：表中所有乘积的和是 4096。</b></p>
 </div>
 </div>
 
@@ -2124,7 +2137,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p style="letter-spacing:4px;color:#555">●1●2●3●4●5●6●7●8●</p>
 <p>第二步：两块隔板可插在第1，2位，第1，3位，…，第1，8位，共7种方法；两块隔板可插在第2，3位，第2，4位，…，第2，8位，共6种方法；两块隔板可插在第3，4位，第3，5位，…，第3，8位，共5种方法；……</p>
 <p>第三步：共有7+6+5+4+3+2+1=28（种）不同的方法，即能摆出28个不同的三位数。</p>
-<p><b>答：可以摆出 <b>28</b> 个不同的三位数。</b></p>
+<p><b>答：可以摆出 28 个不同的三位数。</b></p>
 </div>
 </div>
 
@@ -2138,7 +2151,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：看图①，把一张纸折为四等份，那么折后的长度是原长度的1/4；看图②，把一张纸折为三等份，那么折后的长度是原长度的1/3。</p>
 <p>第二步：图①把信纸塞入信封后，上方空余的距离比图②大，且大了3.9−1.4=2.5cm，即信纸的1/3的长度比信纸的1/4高了2.5cm，而1/3比1/4多了1/12，多的1/12正好对应2.5cm，即2.5cm和信纸的1/12构成量率对应关系。</p>
 <p>第三步：根据对应的量÷对应的分率=总量（单位1），得到 (3.9−1.4)÷(1/3−1/4)=2.5×12=30(cm)，即信纸的长度是30cm。</p>
-<p><b>答：信纸原来的长度是 <b>30</b> cm。</b></p>
+<p><b>答：信纸原来的长度是 30 cm。</b></p>
 </div>
 </div>
 
@@ -2152,7 +2165,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：要使球回到甲手上，则m和n的差是3的倍数，所以m=5，n=2或者m=2，n=5。</p>
 <p>第三步：当m=5，n=2时，传球方法对应为"顺、顺、顺、顺、顺、逆、逆"这7个文字的排列。将这7个文字所放的7个位置标记为1，2，3，4，5，6，7。两个"逆"的位置可以是第1，2位，第1，3位，…，第6，7位，共有6+5+4+3+2+1=21（种）不同的方法。同理，当m=2，n=5时也有21种不同方法。</p>
 <p>第四步：所以有21+21=42（种）不同的传球方法。</p>
-<p><b>答：有 <b>42</b> 种不同的传球方法。</b></p>
+<p><b>答：有 42 种不同的传球方法。</b></p>
 </div>
 </div>
 
@@ -2167,7 +2180,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：用天平称出142个零件的实际重量，实际重量必定比1420克少。</p>
 <p>第三步：用标准重量减实际重量，求出克数差。</p>
 <p>第四步：把这个克数差拆分成数列中的两个数，就知道哪两袋零件是次品了。例如，称得实际重量是1402克，则克数差为18，把18拆分成数列中的5和13，就可知第四袋和第六袋零件是次品。</p>
-<p><b>答：最少称 <b>1次</b> 就能弄清楚哪两袋是次品。</b></p>
+<p><b>答：最少称 1次 就能弄清楚哪两袋是次品。</b></p>
 </div>
 </div>
 
@@ -2238,7 +2251,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：将"99"配凑成"100−1"。</p>
 <p>第二步：237×99=237×(100−1)=237×100−237=23700−237=23463。</p>
-<p><b>答：237×99 = <b>23463</b>。</b></p>
+<p><b>答：237×99 = 23463。</b></p>
 </div>
 </div>
 
@@ -2252,7 +2265,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：将1个大和尚与3个小和尚配凑成一组，每组共4人，喝3+1=4（碗）粥。</p>
 <p>第二步：100÷(3+1)=25（组），100碗粥正好可以分成这样的25组。</p>
 <p>第三步：所以大和尚有25×1=25（人），小和尚有25×3=75（人）。</p>
-<p><b>答：大和尚有 <b>25</b> 人，小和尚有 <b>75</b> 人。</b></p>
+<p><b>答：大和尚有 25 人，小和尚有 75 人。</b></p>
 </div>
 </div>
 
@@ -2266,7 +2279,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：师徒合作的效率为1÷6=1/6，合作3天完成3×1/6=1/2。</p>
 <p>第三步：师傅单独2天完成7/10−1/2=1/5，师傅的效率为1/5÷2=1/10。</p>
 <p>第四步：徒弟的效率为1/6−1/10=1/15，所以徒弟单独完成需1÷1/15=15（天）。</p>
-<p><b>答：这批零件单独由徒弟做需 <b>15</b> 天。</b></p>
+<p><b>答：这批零件单独由徒弟做需 15 天。</b></p>
 </div>
 </div>
 
@@ -2279,7 +2292,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：设 B=2/3×4/5×6/7×8/9×10/11×12/13×14/15。</p>
 <p>第二步：将A与B逐项配凑相乘，相邻项约分后只剩首尾：A×B=(1/2×2/3)×(3/4×4/5)×…×(13/14×14/15)×15/16=1/3×3/5×…×13/15×15/16=1/16=(1/4)²。</p>
 <p>第三步：因为对于任意正整数k，都有 (2k−1)/(2k) &lt; 2k/(2k+1)，所以A&lt;B，从而 A²&lt;A×B=(1/4)²，所以 A&lt;1/4。</p>
-<p><b>答：A <b>&lt;</b> 1/4。</b></p>
+<p><b>答：A &lt; 1/4。</b></p>
 </div>
 </div>
 
@@ -2293,7 +2306,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：将括号内的分数进行通分，其公分母为1×2×3×…×10，即 m/n = 11×q/(1×2×3×…×10)（q为正整数）。</p>
 <p>第三步：由m/n是最简分数可得 m×(1×2×3×…×10) = 11×q×n，所以 m×(1×2×3×…×10) 是11的倍数。</p>
 <p>第四步：又因为11是质数，且不整除2，3，4，…，10中的任何一个，即11不整除1×2×3×…×10，所以m是11的倍数。</p>
-<p><b>答：分子 <b>m</b> 是11的倍数。</b></p>
+<p><b>答：分子 m 是11的倍数。</b></p>
 </div>
 </div>
 
@@ -2366,7 +2379,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：把574拆分成容易除以7的两部分：574=560+14。</p>
 <p>第二步：所以574÷7=560÷7+14÷7=80+2=82。</p>
-<p><b>答：574=7×82，574 <b>能</b> 被7整除。</b></p>
+<p><b>答：574=7×82，574 能 被7整除。</b></p>
 </div>
 </div>
 
@@ -2382,7 +2395,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>（2）由数字9，8，7可以组成987，978，897，879，798，789，共6个三位数；</p>
 <p>（3）由数字8，8，8可以组成888，共1个三位数。</p>
 <p>第三步：所以各位数字之和是24的三位数共有3+6+1=10（个）。</p>
-<p><b>答：这样的三位数共有 <b>10</b> 个。</b></p>
+<p><b>答：这样的三位数共有 10 个。</b></p>
 </div>
 </div>
 
@@ -2397,7 +2410,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：同样的道理，原来的盒子中还应该各有一个盒子装有2个、3个、…个玻璃球。也就是说原来的盒子依次装有0，1，2，3，…个玻璃球，恰好是连续的自然数拆分。</p>
 <p>第三步：0+1+2+3+4+5+6+7+8+9+10=55，正好是"五十多个"，符合题目要求。</p>
 <p>第四步：所以共有11个盒子。</p>
-<p><b>答：共有 <b>11</b> 个盒子。</b></p>
+<p><b>答：共有 11 个盒子。</b></p>
 </div>
 </div>
 
@@ -2414,7 +2427,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>（3）当a∶b=1∶3时，1/24+1/8=1/6；</p>
 <p>（4）当a∶b=1∶6时，1/42+1/7=1/6；</p>
 <p>（5）当a∶b=2∶3时，1/15+1/10=1/6。</p>
-<p><b>答：1/6 = 1/12+1/12 = 1/18+1/9 = 1/24+1/8 = 1/42+1/7 = 1/15+1/10，共 <b>5</b> 种写法。</b></p>
+<p><b>答：1/6 = 1/12+1/12 = 1/18+1/9 = 1/24+1/8 = 1/42+1/7 = 1/15+1/10，共 5 种写法。</b></p>
 </div>
 </div>
 
@@ -2428,7 +2441,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：把长方形铁皮四个角各剪去一个边长为2分米的小正方形，做成高为2分米的长方体无盖铁盒，底面为(18−2×2)×(11−2×2)=14×7。工具盒不可高出铁盒，所以它的底面只能是3×1或3×2（高分别为2或1），不能是2×1（此时高为3，超出盒高）。</p>
 <p>第二步：将底面14×7拆分成12×7与2×7两部分。</p>
 <p>第三步：在12×7部分，工具盒以3×1为底面，可放(12÷3)×(7÷1)=28（个）；在2×7部分，以1×3为底面，可放(2÷1)×(7÷3取整)=2×2=4（个）。所以能放下28+4=32（个）工具盒。</p>
-<p><b>答：<b>能</b>放下32个工具盒（摆放方式不唯一，上图就是一种摆法）。</b></p>
+<p><b>答：能放下32个工具盒（摆放方式不唯一，上图就是一种摆法）。</b></p>
 </div>
 </div>
 
@@ -2463,7 +2476,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：添加辅助线，分割成一个长方形和一个梯形（如图2）。该图形面积=长方形面积+梯形面积，长方形面积=长×宽，梯形面积=（上底+下底）×高÷2。</p>
 <img src="images/ch18_ex0_fig2.svg" alt="图2：竖向虚线分割为长方形和梯形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：该图形的面积为6×8+(6+12)×(10−8)÷2=48+18=66（平方厘米）。</p>
-<p><b>答：该平面图形的面积是 <b>66</b> 平方厘米。</b></p>
+<p><b>答：该平面图形的面积是 66 平方厘米。</b></p>
 </div>
 </div>
 
@@ -2504,7 +2517,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：将菜地分割成2个长方形（沿L形拐角处横着或竖着作分割均可），菜地的面积=两个长方形的面积之和。</p>
 <p>第二步：所以菜地的面积为21×9+19×8=341（平方米）。</p>
-<p><b>答：这块菜地的面积是 <b>341</b> 平方米。</b></p>
+<p><b>答：这块菜地的面积是 341 平方米。</b></p>
 </div>
 </div>
 
@@ -2531,7 +2544,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：该立体图形的体积=圆柱体积+圆锥体积，圆柱体积=底面积×高=πr²h，圆锥体积=(1/3)×底面积×高=(1/3)πr²h。</p>
 <p>第二步：该立体图形的体积为3.14×(8÷2)²×20+(1/3)×3.14×(8÷2)²×6=1004.8+100.48=1105.28（立方厘米）。</p>
-<p><b>答：该立体图形的体积是 <b>1105.28</b> 立方厘米。</b></p>
+<p><b>答：该立体图形的体积是 1105.28 立方厘米。</b></p>
 </div>
 </div>
 
@@ -2640,7 +2653,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：37×6666+111×7778=111×2222+111×7778（把37×6666转化为111×2222，使两个乘法有相同的因数）；</p>
 <p>第二步：=111×(2222+7778)；</p>
 <p>第三步：=111×10000=1110000。</p>
-<p><b>答：原式 = <b>1110000</b>。</b></p>
+<p><b>答：原式 = 1110000。</b></p>
 </div>
 </div>
 
@@ -2652,7 +2665,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：应用例2图示的规律可知，从"1"中不断减去剩余部分的一半，结果和最后一个减数相等。</p>
 <p>第二步：所以原式=1/512。</p>
-<p><b>答：原式 = <b>1/512</b>。</b></p>
+<p><b>答：原式 = 1/512。</b></p>
 </div>
 </div>
 
@@ -2672,7 +2685,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：还发现，当n=1，2，4，8，…时，如果从某个数开始操作，那么最后就留下这个数。比如，当n=4时，如果从3开始操作，最后留下的数是3。</p>
 <p>第三步：当n=6时，从1开始操作，擦去2和4之后，问题就转化为"共有4个数，顺时针依次排列为5，6，1，3，从5开始操作"，所以最后留下的数是5。</p>
 <p>第四步：当n=20时，从1开始操作，擦去2，4，6，8这4个数，问题转化为"共有16个数，从9开始操作"，所以最后留下的数是9。</p>
-<p><b>答：n=6 时剩下 <b>5</b>；n=20 时剩下 <b>9</b>。</b></p>
+<p><b>答：n=6 时剩下 5；n=20 时剩下 9。</b></p>
 </div>
 </div>
 
@@ -2685,7 +2698,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：用两个完全相同的楔形圆柱体拼合成一个圆柱，再除以2，得到楔形圆柱体的体积为 (π×1²)×(3+2)÷2=2.5π（立方厘米）。</p>
 <p>第二步：所以水面上升高度为 2.5π÷(π×2²)=5/8（厘米）。</p>
-<p><b>答：水面将上升 <b>5/8</b> 厘米。</b></p>
+<p><b>答：水面将上升 5/8 厘米。</b></p>
 </div>
 </div>
 
@@ -2741,7 +2754,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><b>解析：</b></p>
 <p>第一步：如图，连结FD，发现直线FD和AC互相平行（它们都是所在正方形的对角线，方向相同）。</p>
 <p>第二步：△ACF和△ACD有一条共同的底边AC，它们的顶点F和D都在与AC平行的直线FD上，所以高相等，S△ACF=S△ACD=10×10÷2=50（平方厘米）。</p>
-<p><b>答：△ACF的面积是 <b>50</b> 平方厘米。</b></p>
+<p><b>答：△ACF的面积是 50 平方厘米。</b></p>
 </div>
 </div>
 
@@ -2755,7 +2768,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：长方体水槽余下的空间为50×40×(30−20)=20000(cm³)。</p>
 <p>第二步：柱子没入水中的部分（高度按30cm计算）的体积为20×20×30=12000(cm³)。</p>
 <p>第三步：因为12000&lt;20000，所以水槽中的水不会溢出来。</p>
-<p><b>答：水<b>不会</b>溢出来。</b></p>
+<p><b>答：水不会溢出来。</b></p>
 </div>
 </div>
 
@@ -2771,7 +2784,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：如图，连结AC，因为直线AD和BC互相平行，顶点F和A都在AD上，所以S△FEC=S△AEC。</p>
 <img src="images/ch20_1_solution.svg" alt="连结AC后阴影转化为三角形AEC" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：阴影部分的面积就转化为△AEC，正好是平行四边形面积的一半，即24×8÷2=96（平方厘米）。</p>
-<p><b>答：阴影部分的面积之和是 <b>96</b> 平方厘米。</b></p>
+<p><b>答：阴影部分的面积之和是 96 平方厘米。</b></p>
 </div>
 </div>
 
@@ -2785,7 +2798,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：点D为BC的中点，利用等底同高，求出S△ADC=(1/2)S△ABC=24。</p>
 <p>第二步：点E是AC的中点，利用等底同高，求出S△AED=(1/2)S△ADC=12。</p>
 <p>第三步：F是AD的中点，利用等底同高，求出S△DEF=(1/2)S△AED=6。</p>
-<p><b>答：△DEF的面积是 <b>6</b>。</b></p>
+<p><b>答：△DEF的面积是 6。</b></p>
 </div>
 </div>
 
@@ -2801,7 +2814,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：如图2，连结CE，根据AE和BD互相平行，把△BFE等积变形成△FCE。</p>
 <img src="images/ch20_3_fig2.svg" alt="图2：连结CE，把三角形BFE等积变形成三角形FCE" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第三步：阴影部分的面积就等于△FCE的面积，为8×8÷2=32。</p>
-<p><b>答：阴影部分的面积是 <b>32</b>。</b></p>
+<p><b>答：阴影部分的面积是 32。</b></p>
 </div>
 </div>
 
@@ -2817,7 +2830,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：在△AEC中，因为BE=2BC，所以S△ABE=2S△ABC；又因为AB=AD，所以S△ABE=S△ADE，那么S△BDE=S△ABE+S△ADE=4S△ABC。同理，S△ADF=4S△ABC，S△CEF=9S△ABC。</p>
 <p>第三步：因此S△DEF=S△BDE+S△ADF+S△CEF+S△ABC=4S△ABC+4S△ABC+9S△ABC+S△ABC=18S△ABC。</p>
 <p>第四步：因为S△ABC=1（平方厘米），所以S△DEF=18（平方厘米）。</p>
-<p><b>答：△DEF的面积是 <b>18</b> 平方厘米。</b></p>
+<p><b>答：△DEF的面积是 18 平方厘米。</b></p>
 </div>
 </div>
 
@@ -2833,7 +2846,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：发现小的三角形和梯形正好可以拼成一个正方形。这样我们把一个大正方形分成了5个全等的小正方形（如图2）。</p>
 <img src="images/ch20_5_fig2.svg" alt="图2：大正方形分成5个全等的小正方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第三步：阴影部分正好是一个小正方形，面积为10×10÷5=20（平方厘米）。</p>
-<p><b>答：四边形BFGE的面积是 <b>20</b> 平方厘米。</b></p>
+<p><b>答：四边形BFGE的面积是 20 平方厘米。</b></p>
 </div>
 </div>
 
@@ -2903,7 +2916,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：思思和想想的路程差（先走的路程）为(1/40)×5=1/8，速度差为1/30−1/40=1/120。</p>
 <p>第二步：追及时间为1/8÷1/120=15（分钟）。</p>
-<p><b>答：想想 <b>15</b> 分钟才能追上思思。</b></p>
+<p><b>答：想想 15 分钟才能追上思思。</b></p>
 </div>
 </div>
 
@@ -2917,7 +2930,7 @@ th{background:#eaf2f8;font-weight:bold}
 <img src="images/ch21_2_whale.svg" alt="年龄数轴：2岁、10岁、18岁、26岁，三段差各为8岁" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：当小鲸鱼2岁时，大鲸鱼10岁。</p>
 <p>第三步：所以大、小鲸鱼现在分别是18岁和10岁。</p>
-<p><b>答：大鲸鱼 <b>18</b> 岁，小鲸鱼 <b>10</b> 岁。</b></p>
+<p><b>答：大鲸鱼 18 岁，小鲸鱼 10 岁。</b></p>
 </div>
 </div>
 
@@ -2929,7 +2942,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：该商品每件实际售价为28×0.9=25.2（元）。</p>
 <p>第二步：进价为25.2÷(1+20%)=21（元）。</p>
-<p><b>答：该商品的进价为每件 <b>21</b> 元。</b></p>
+<p><b>答：该商品的进价为每件 21 元。</b></p>
 </div>
 </div>
 
@@ -2943,7 +2956,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：设1头牛一周吃的草为1份。因为牧场原来有一批草，而且在不断生长，23头牛9周吃草23×9=207（份），27头牛6周吃草27×6=162（份）。</p>
 <p>第二步：两种情况吃草相差207−162=45（份），时间相差9−6=3（周），所以每周长草15份。</p>
 <p>第三步：牧场中每周长的草可供15头牛吃1周，所以牧场上原有草6×(27−15)=72（份），故21头牛可吃72÷(21−15)=12（周）。</p>
-<p><b>答：21头牛吃完这片牧场的草要 <b>12</b> 周。</b></p>
+<p><b>答：21头牛吃完这片牧场的草要 12 周。</b></p>
 </div>
 </div>
 
@@ -3022,7 +3035,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步："8"处于"a"的位置，"7∆3"处于"b"的位置，先算括号里的"7∆3"。</p>
 <p>第二步：在"7∆3"中，"7"处于"c"的位置，"3"处于"d"的位置，所以7∆3=7+3×3=16。</p>
 <p>第三步：8✱(7∆3)=5×8−2×(7∆3)=40−2×(7+3×3)=40−2×16=8。</p>
-<p><b>答：8✱(7∆3) = <b>8</b>。</b></p>
+<p><b>答：8✱(7∆3) = 8。</b></p>
 </div>
 </div>
 
@@ -3034,7 +3047,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：各个加数有共同的特点，可以用字母表示为 [a×a−(a−1)×(a+1)] / [(a+1)×(a+2)]，而且 [a×a−(a−1)×(a+1)] / [(a+1)×(a+2)] = (a²−a²+1) / [(a+1)×(a+2)] = 1/[(a+1)×(a+2)]。</p>
 <p>第二步：原式=1/(12×13)+1/(13×14)+…+1/(19×20) = 1/12−1/13+1/13−1/14+…+1/19−1/20（中间全部抵消）=1/12−1/20=1/30。</p>
-<p><b>答：原式 = <b>1/30</b>。</b></p>
+<p><b>答：原式 = 1/30。</b></p>
 </div>
 </div>
 
@@ -3057,7 +3070,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：设 a=1/5+1/7+1/9+1/11，b=1/7+1/9+1/11。</p>
 <p>第二步：原式=a×(b+1/13)−(a+1/13)×b = ab+a/13−ab−b/13 = (a−b)/13 = (1/5)÷13=1/65。</p>
-<p><b>答：原式 = <b>1/65</b>。</b></p>
+<p><b>答：原式 = 1/65。</b></p>
 </div>
 </div>
 
@@ -3218,6 +3231,1641 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
 <b>【老师说】</b>数字化的策略是"以小见大"。先用小数字试试，看看规律，再推广到一般情况。选特殊值时要注意代表性，不能只选一种类型。数字化常用于验证猜想、发现规律。总结：数字化是将抽象的文字信息转化为具体的数字来分析，通过设特殊值、取具体数等方式，使抽象问题具体化，关键是要选择有代表性的数值，使推导具有普遍性。<br><br>
 <b>【易错点提醒】</b>①选的特殊值不具代表性；②从特殊值推一般规律时出错；③数字太大导致计算困难。
+</p>
+
+<!-- ========== 第24章：不变量 ========== -->
+<h2 class="chapter-title" id="ch24">二十四、不变量</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>在事物变化过程中保持恒定不变的量或规律就是"不变量"，通过不变量来解题的方法称为不变量法。</p>
+<p>不变量法应用广泛，在倍数问题、分数问题、比例问题、图形与几何等很多问题中，可以起到化复杂为简单，化抽象为具体，化难为易的效果。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">不变量</span></div>
+<div class="question-title">
+<p>思思今年5岁，爸爸的年龄是思思的7倍。请问再过多少年，爸爸的年龄是思思的3倍？</p>
+<img src="images/ch24_ex1_ques.svg" alt="不变量年龄问题双状态图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：爸爸和思思的年龄差有变化吗？</i></p>
+<p>第一步：用线段图表示出思思和爸爸的年龄之间的关系。</p>
+<img src="images/ch24_ex1_line.svg" alt="思思和爸爸年龄份额线段图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：求出今年爸爸的年龄5×7=35（岁）。</p>
+<p>第三步：把增长的年龄和5岁合起来看成1份，求出2份表示的年龄是35−5=30（岁）。</p>
+<p>第四步：求出1份表示的年龄是30÷2=15（岁），也就是思思15岁的时候爸爸的年龄是思思的3倍。因此，15−5=10（年），也就是10年后，爸爸的年龄是思思的3倍。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">不变量</span></div>
+<div class="question-title">
+<p>思思有红、蓝两种颜色的卡片，红色卡片有48张，蓝色卡片有56张，两种卡片各取出相同的张数后，蓝色卡片的张数比红色卡片多2/11，两种卡片各取出多少张？</p>
+<img src="images/ch24_ex2_cards.svg" alt="红蓝卡片示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：红、蓝两种卡片的数量都在变化，但取出卡片前后，两种卡片张数之间的差不变。可以抓住"两种卡片张数之间的差不变"来进行思考。</i></p>
+<p>第一步：取出前后，两种卡片张数的差是56−48=8（张）。</p>
+<p>第二步：与"8张"有对应关系的是蓝色卡片张数比红色多2/11。</p>
+<p>第三步：取出后，红色卡片还剩8÷(2/11)=44（张）。</p>
+<p>第四步：所以取出的卡片张数都是48−44=4（张）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">不变量</span></div>
+<div class="question-title">
+<p>纸上写有1,2,3,4,...,100这100个数，思思和想想两人在玩运算游戏。第一步划去前面4个数：1,2,3,4，在100后面写上划去的4个数的和10；第二步再划去前面的4个数：5,6,7,8，在最后写上划去的4个数的和26；如此操作下去（即每步划去前面4个数，在最后面写上划去的4个数的和）。请问经过多少步操作后，纸上只剩下一个数？最后剩下的数是几？</p>
+<img src="images/ch24_ex3_game.svg" alt="数字游戏示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：每一步减少了几个数？这些数的总和有没有变化？</i></p>
+<p>第一问：</p>
+<p>第一步：每步划去4个数，加上1个数，相当于每步减少3个数。</p>
+<p>第二步：求出经过的步数：(100−1)÷3=33（步）。</p>
+<p>第二问：</p>
+<p>第一步：经过第1步后，这组数是5,6,7,8,...,100,10。</p>
+<p>第二步：经过第2步后，这组数是9,10,11,12,...,100,10,26。</p>
+<p>第三步：这组数最后剩下的一个数就是这组数的和，是1+2+3+...+100=5050。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">不变量</span></div>
+<div class="question-title">思思和想想在分享图书。思思："我带了5本书。"想想："把我带的书给你3本后，我的本数是你的2倍。"请问：想想原来带了多少本书？</div>
+<img src="images/ch24_ch1_ques.svg" alt="图书分享题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_1')">查看解析</button></div>
+<div class="hidden-content" id="ans24_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：把他们的书本数画出来。</p>
+<img src="images/ch24_ch1_circles.svg" alt="书本数圆圈计数组" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：从图中得出，思思现在有书5+3=8（本），思思现有书的2倍是8×2=16（本）。</p>
+<p>第三步：加上想想分享给思思的3本得出想想原来带的书是16+3=19（本）。</p>
+<p><b>答案：想想原来带了19本书。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">不变量</span></div>
+<div class="question-title">一块三角形土地，如果只把底增加4米，或只把高增加6米，它的面积都增加24平方米。这块三角形土地原来的面积是多少？</div>
+<img src="images/ch24_ch2_triangle.svg" alt="三角形土地示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_2')">查看解析</button></div>
+<div class="hidden-content" id="ans24_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：只把底增加4米，面积增加24平方米的时候，高不变，可求出高=24×2÷4=12（米）。</p>
+<p>第二步：只把高增加6米，面积增加24平方米的时候，底不变，可求出底=24×2÷6=8（米）。</p>
+<p>第三步：三角形土地原来的面积为12×8÷2=48（平方米）。</p>
+<p><b>答案：48平方米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">不变量</span></div>
+<div class="question-title">一个书架分上、下两层，共放书160本，如果把上层的1/5放入下层，上、下层的本数就相等了。上、下层原来各放书多少本？</div>
+<img src="images/ch24_ch3_ques.svg" alt="书架上下层题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_3')">查看解析</button></div>
+<div class="hidden-content" id="ans24_3">
+<p><span class="answer-label">解析：</span></p>
+<p>方法1：</p>
+<p>第一步：画出线段图。</p>
+<img src="images/ch24_ch3_line.svg" alt="上下层5份3份线段图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：从图中可知，上层原来有5份，下层原来有3份，求出每份的本数160÷(5+3)=20（本）。</p>
+<p>第三步：上层原有5×20=100（本），下层原有3×20=60（本）。</p>
+<p>方法2：</p>
+<p>第一步：当上、下两层的本数相等时，上、下两层各放书160÷2=80（本）。</p>
+<p>第二步：由于把上层本数的1/5放入下层，这时80本只相当于上层原来本数的1−1/5=4/5。</p>
+<p>第三步：按这个对应关系，求出上层原来的本数80÷(4/5)=100（本）。</p>
+<p>第四步：用总本数减去上层的本数，剩下的就是下层原来的本数160−100=60（本）。</p>
+<p><b>答案：上层原有100本，下层原有60本。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">不变量</span></div>
+<div class="question-title">将19/31的分子与分母各加上同一个数后，得到5/7，所加的数是多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_4')">查看解析</button></div>
+<div class="hidden-content" id="ans24_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：分子与分母加上同一个数，分子与分母的差没有改变。</p>
+<p>第二步：原分数的分子与分母之比是19:31，分子与分母相差12。</p>
+<p>第三步：现在分数的分子与分母之比是5:7，分子与分母相差2。</p>
+<p>第四步：把现在分数的分子与分母之差扩大6倍，成为12。分子与分母也相应扩大6倍，它们的比调整为30:42。</p>
+<p>第五步：分子与分母的比从19:31调整为30:42，分子与分母都增加了11。</p>
+<p><b>答案：所加的数是11。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">不变量</span></div>
+<div class="question-title">甲、乙两个工程队参加旧校园改造工程，如果从甲队调出25人给乙队，则甲队比乙队少10人；如果从两个队各调出25人，则乙队剩下的人数是甲队剩下人数的3/5。甲、乙两个工程队原来各有多少人？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_5')">查看解析</button></div>
+<div class="hidden-content" id="ans24_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：甲队比乙队多25×2−10=40（人）。</p>
+<p>第二步：各自调走25人后，两队的人数差还是40人。</p>
+<p>第三步：将"甲队剩下人数"看作单位"1"，则乙队剩下3/5，可得甲队剩下的人数为40÷(1−3/5)=100（人）。</p>
+<p>第四步：甲队原来有100+25=125（人），乙队原来有125−40=85（人）。</p>
+<p><b>答案：甲队原来有125人，乙队原来有85人。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>不变量思想的关键是"在变化中找到不变"。常见不变量：年龄差不变、总量守恒、某几个量的和/差不变。遇到动态问题，先问自己：什么东西是不变的？找到它，问题就迎刃而解。<br><br>
+<b>【易错点提醒】</b>①找不到不变量；②误把变化的量当成不变量；③不变量的使用条件不明确。
+</p>
+
+<!-- ========== 第25章：面积法 ========== -->
+<h2 class="chapter-title" id="ch25">二十五、面积法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>运用面积关系来解决问题的方法，称为面积法。面积法可以将几何、代数、概率等知识关联起来，将所学的知识融会贯通。</p>
+<p>面积法常用的解题思路有：(1)在图形问题中通过面积转化、等积变形等方法，巧妙解决问题；(2)在路程、浓度、平均数、鸡兔同笼等数学问题中，将数量关系与长方形中的长、宽及面积相对应，以形解数，使复杂问题直观化、简单化。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">面积法</span></div>
+<div class="question-title">
+<p>思思在整理玩具时，找到了一块直角三角形塑料片和一块中间有空心圆孔的长方形塑料片。她测量了有关数据如下图所示（单位：cm）。思思想把直角三角形塑料片从长方形塑料片的空心孔穿过去，你认为能穿过去吗？请用计算说明理由。</p>
+<img src="images/ch25_ex1_triangle.svg" alt="直角三角形塑料片与带空心圆孔的长方形塑料片" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：三角形塑料片能否穿过空心圆孔，取决于三角形最小的高与空心圆孔直径的大小。需要计算最大边上的高来判断。</i></p>
+<p>第一步：根据两条直角边分别为3cm和4cm，先求出直角三角形的面积=3×4÷2=6（cm²）。</p>
+<p>第二步：因为斜边是直角三角形最大的边，设斜边上的高为h，根据5×h÷2=3×4÷2，可得h=2.4（cm）。</p>
+<p>第三步：根据2.4cm＜2.8cm，可以判断能穿过。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">面积法</span></div>
+<div class="question-title">
+<p>笼子里有若干只鸡和兔，共有35个头，94只脚。问鸡和兔各有几只？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：脚的只数能否用图形的面积来表示呢？</i></p>
+<p>第一步：如图1，画两个相连的长方形，它们相连边的长分别表示鸡和兔的只数，另两条边分别表示每只鸡和兔的脚数。</p>
+<img src="images/ch25_ex2_fig1.svg" alt="鸡兔同箱图1" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：如图2，将图1补成大长方形。大长方形的面积相当于35只动物都有4只脚，一共有35×4=140（只）脚。</p>
+<p>实际是94只脚，说明图中左上方长方形的面积相当于140−94=46（只）脚。</p>
+<img src="images/ch25_ex2_fig2.svg" alt="鸡兔同箱图2补成大长方形" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第三步：这个长方形的宽是兔子和鸡的脚数差4−2=2（只），它的长（鸡的只数）是46÷2=23（只），那么兔的只数为35−23=12（只）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">面积法</span></div>
+<div class="question-title">
+<p>甲、乙两组学生进行一分钟跳绳比赛，平均每人跳152个，其中甲组有6人，乙组有9人。已知乙组平均每人跳160个，请问甲组平均每人跳多少个？</p>
+
+<p><b>解析：</b></p>
+<p><i>想一想：跳绳的总数能否用图形的面积来表示呢？</i></p>
+<p>第一步：如图，画两个相连的长方形，它们相连边的长表示每组的人数，另两条边表示各组的人均跳绳个数。</p>
+<img src="images/ch25_ex3_jump.svg" alt="跳绳平均数移多补少示意图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：计算出乙组超过两组平均水平的总数量，用长方形A的面积表示。A的长表示乙组有9人，宽表示乙组每人平均比总平均多跳160−152=8（个），可知A的面积为(160−152)×9=72。</p>
+<p>第三步：将A的面积补给甲组，用长方形B的面积表示。B的长表示甲组有6人，根据A的面积=B的面积，可知B的宽，即甲组每人平均比总平均少跳72÷6=12（个）。</p>
+<p>第四步：甲组平均每人跳了152−12=140（个）。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">面积法</span></div>
+<div class="question-title">如图，已知平行四边形ABCD的两条邻边分别是AB=24厘米，BC=32厘米，其中一条高AF=28厘米，求另一条高AE的长。</div>
+<img src="images/ch25_ch1_parallelogram.svg" alt="平行四边形ABCD及两条高AF与AE" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_1')">查看解析</button></div>
+<div class="hidden-content" id="ans25_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：由AF是CD边上的高，可以计算出平行四边形的面积为24×28=672（平方厘米）。</p>
+<p>第二步：由AE是BC边上的高，可得平行四边形的面积为BC×AE=32×AE。</p>
+<p>第三步：由32×AE=672（平方厘米）可得AE=672÷32=21（厘米）。</p>
+<p><b>答案：AE的长是21厘米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">面积法</span></div>
+<div class="question-title">一个长方形，如果宽不变，长增加6米，那么它的面积增加54平方米；如果长不变，宽减少3米，那么它的面积减少36平方米。请问这个长方形原来的面积是多少平方米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_2')">查看解析</button></div>
+<div class="hidden-content" id="ans25_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：由"宽不变，长增加6米，那么它的面积增加54平方米"可知它的宽是54÷6=9（米）。</p>
+<p>第二步：由"长不变，宽减少3米，那么它的面积减少36平方米"可知它的长为36÷3=12（米）。</p>
+<p>第三步：原长方形的面积是12×9=108（平方米）。</p>
+<p><b>答案：108平方米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">面积法</span></div>
+<div class="question-title">某商店采购了20筐苹果，每筐装了28千克。现要分装销售，每筐需减少8千克，请问商店需要多准备几个筐？</div>
+
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_3')">查看解析</button></div>
+<div class="hidden-content" id="ans25_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，以长方形ABFE的长表示20筐，宽表示每筐装的28千克，以长方形ADCH的长表示分装后需要的筐数，宽表示分装后每筐装28−8=20（千克）。</p>
+<img src="images/ch25_ch3_apples.svg" alt="苹果分装等面积长方形图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：由长方形ABFE的面积=长方形ADCH的面积，可知AD=28×20÷20=28。</p>
+<p>第三步：商店还需要多准备28−20=8（个）筐。</p>
+<p><b>答案：需要多准备8个筐。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">面积法</span></div>
+<div class="question-title">A、B两地相距8千米，甲从A地出发前往B地，以每分钟350米的速度行驶了一段时间，然后将速度降低到每分钟250米，到达B地共用时24分钟。请问甲出发后几分钟开始降速？</div>
+
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_4')">查看解析</button></div>
+<div class="hidden-content" id="ans25_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，根据题意画图，补成大长方形，这样相当于24分钟的速度都是350米/分钟，一共行驶了350×24=8400（米）。</p>
+<img src="images/ch25_ch4_speed.svg" alt="变速行程速度时间面积图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：右上角的长方形面积相当于比实际多行的8400−8000=400（米）。</p>
+<p>第三步：这个长方形的宽就是前后速度差350−250=100（米/分钟），它的长（后一段时间）是400÷100=4（分钟），那么前一段时间是24−4=20（分钟），即出发后20分钟开始降速。</p>
+<p><b>答案：出发后20分钟开始降速。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">面积法</span></div>
+<div class="question-title">某次数学测验，全班平均成绩是91.2分，其中男生有24人，女生有21人。已知女生的平均成绩是92分，求男生的平均成绩。</div>
+
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_5')">查看解析</button></div>
+<div class="hidden-content" id="ans25_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，先计算出女生超过全班平均成绩的总分数，用长方形A的面积表示。A的长表示女生有21人，宽表示女生的平均成绩比全班平均成绩多92−91.2=0.8（分）。</p>
+<img src="images/ch25_ch5_fig1.svg" alt="平均成绩移多补少图1" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：A的面积为(92−91.2)×21=16.8。</p>
+<img src="images/ch25_ch5_fig2.svg" alt="平均成绩移多补少图2" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第三步：再把A的面积补给男生，用长方形B表示。B的长表示男生有24人，根据A的面积=B的面积，可知B的宽为16.8÷24=0.7（分）。</p>
+<p>第四步：所以男生的平均成绩为91.2−0.7=90.5（分）。</p>
+<p><b>答案：男生的平均成绩是90.5分。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>面积法的核心是利用面积关系建立等式。常用技巧：同底等高→面积相等；等底同高→面积比=底边比。面积法在几何证明中特别有用，能用面积解决的问题往往比纯几何方法更简洁。<br><br>
+<b>【易错点提醒】</b>①面积公式记混（特别是三角形忘了÷2）；②底和高不对应；③面积比和边长比的关系搞错。
+</p>
+
+<!-- ========== 第26章：各取一半 ========== -->
+<h2 class="chapter-title" id="ch26">二十六、各取一半</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>通过几个量之间相同的“倍”或“半”的关系，从整体上理解问题，进而解决问题，这样的方法称为各取其半。</p>
+<p>各取其半可以借助数形结合、逻辑推理，将复杂问题转化为简单问题，将未知问题转化为已知问题。在实际问题中，这个“半”可以是1/2，也可以是其他数值。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">各取一半</span></div>
+<div class="question-title">
+<p>如图，已知线段AB=10cm，D为AC的中点，E为BC的中点，求线段DE的长。</p>
+<img src="images/ch26_ex1_line.svg" alt="线段AB上标有中点D、C、E" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：如何借助中点D、E，实现DE与AB的转化？</i></p>
+<p>第一步：因为D为AC中点，E为BC中点，所以DC=½AC，CE=½CB。</p>
+<p>第二步：因此DE=DC+CE=½AC+½CB=½AB=5（cm）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">各取一半</span></div>
+<div class="question-title">
+<p>如图，点E在边长为6cm的正方形ABCD的边BC上，长方形AEFG的边FG过点D。你能求出长方形AEFG的面积吗？</p>
+<img src="images/ch26_ex2_square.svg" alt="正方形ABCD与长方形AEFG，FG边经过点D" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：能否从正方形ABCD与长方形AEFG的公共部分找到问题的突破口？</i></p>
+<p>第一步：连结线段DE，从△AED着手思考。</p>
+<p>第二步：因为S△AED=½S正方形ABCD，S△AED=½S长方形AEFG。</p>
+<p>第三步：所以S长方形AEFG=S正方形ABCD=6×6=36（cm²）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">各取一半</span></div>
+<div class="question-title">
+<p>摄制组准备在一天内从A市赶到B市，计划上午比下午多行驶100千米到C市吃午饭。由于道路拥堵，中午才赶到一个小镇D，只行驶了原计划的三分之一。过了小镇，汽车行驶了400千米，傍晚才赶到E地停下来休息。司机说再行驶从C市到这里的二分之一路程，就到达B市了。求A、B两市的距离。</p>
+<img src="images/ch26_ex3_route.svg" alt="A到B的路线，D为小镇，C、E为途中点" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：C市把A、B两市的路程分成了AC和CB两段。D、E又在这两段的什么位置？</i></p>
+<p>第一步：由题意可知，点D是AC的三等分点（靠近点A），点E是CB的三等分点（靠近点B）。</p>
+<p>第二步：所以DC=⅔AC，CE=⅔CB。</p>
+<p>第三步：DE=DC+CE=⅔AC+⅔CB=⅔AB。</p>
+<p>第四步：因为D、E两地距离为400千米，所以A、B两市之间的距离是400÷⅔=600（千米）。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">各取一半</span></div>
+<div class="question-title">如图，点D为AC的中点，点E为BC的中点，线段DE=5cm，求线段AB的长。</div>
+<img src="images/ch26_ch1_line.svg" alt="线段上标有A、D、B、E、C" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_1')">查看解析</button></div>
+<div class="hidden-content" id="ans26_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：因为点D为AC中点，点E为BC中点。</p>
+<p>第二步：所以DE=DC−EC=½AC−½BC=½AB。</p>
+<p>第三步：又因为DE=5cm，所以AB=10cm。</p>
+<p><b>答案：AB的长是10cm。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">各取一半</span></div>
+<div class="question-title">如图，已知∠AOB=70°，射线OD平分∠AOC，射线OE平分∠BOC，求∠DOE的度数。</div>
+<img src="images/ch26_ch2_angle.svg" alt="角AOB及角平分线OD、OE" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_2')">查看解析</button></div>
+<div class="hidden-content" id="ans26_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：∠DOE=∠DOC−∠EOC。</p>
+<p>第二步：因为射线OD平分∠AOC，射线OE平分∠BOC。</p>
+<p>第三步：所以∠DOE=∠DOC−∠EOC=½∠AOC−½∠BOC=½∠AOB=½×70°=35°。</p>
+<p><b>答案：∠DOE的度数是35°。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">各取一半</span></div>
+<div class="question-title">如图，线段EF把面积为36cm²的长方形ABCD分为两个小长方形。求阴影部分的面积。</div>
+<img src="images/ch26_ch3_shadows.svg" alt="长方形被EF分成两部分，内有阴影三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_3')">查看解析</button></div>
+<div class="hidden-content" id="ans26_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：长方形AEFD内三个阴影三角形的面积之和=½S长方形AEFD，长方形BCFE内两个阴影三角形的面积之和=½S长方形BCFE。</p>
+<p>第二步：所以阴影部分的面积=½S长方形AEFD+½S长方形BCFE=½S长方形ABCD=18（cm²）。</p>
+<p><b>答案：阴影部分的面积是18cm²。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">各取一半</span></div>
+<div class="question-title">如图，E为长方形ABCD的边BC上的任意一点，点F为BE的三等分点（靠近点B），点G为EC的三等分点（靠近点C），点H为AD上任意一点。已知△HFG的面积为8cm²，求长方形ABCD的面积。</div>
+<img src="images/ch26_ch4_triangle.svg" alt="长方形ABCD内三角形HFG" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_4')">查看解析</button></div>
+<div class="hidden-content" id="ans26_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：由题意可知，EF=⅔BE，EG=⅔EC，所以FG=FE+EG=⅔BE+⅔EC=⅔BC。</p>
+<p>第二步：又因为S长方形ABCD=BC×AB，S△HFG=½×FG×AB=½×⅔BC×AB。</p>
+<p>第三步：所以S长方形ABCD=S△HFG÷½÷⅔=24（cm²）。</p>
+<p><b>答案：长方形ABCD的面积是24cm²。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">各取一半</span></div>
+<div class="question-title">如图，已知正方形CDEF的边长为6cm，BI平行于正方形的一条边，△ABC的面积为8cm²，求△GCD的面积。</div>
+<img src="images/ch26_ch5_square.svg" alt="正方形CDEF及三角形ABC、GCD" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_5')">查看解析</button></div>
+<div class="hidden-content" id="ans26_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，过点G作BI的垂线，交ED、FC于点L、M。</p>
+<img src="images/ch26_ch5_solution.svg" alt="过点G作垂线后的辅助线图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：因为S△ABG=½S长方形BGLE，S△BGC=½S长方形BFMG。</p>
+<p>第三步：所以S长方形EFML=2×S△ABC=2×8=16（cm²）。</p>
+<p>第四步：S长方形LMCD=S正方形EFCD−S长方形EFML=6×6−16=20（cm²）。</p>
+<p>第五步：所以S△GCD=½S长方形LMCD=½×20=10（cm²）。</p>
+<p><b>答案：△GCD的面积是10cm²。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>各取一半的思想源于对称性。中点、平均数、角平分线都是“各取一半”的体现。遇到对称问题，抓住“一半”这个关键，整体就好理解了。画图标注中点和对称轴，思路会更清晰。<br><br>
+<b>【易错点提醒】</b>①“一半”找得不对；②对称性判断出错；③中点位置计算错误。总结：各取一半的思想是将整体分成相等的两部分，通过分析一半来推知整体。常用于对称问题、平均数问题、中点问题等。关键是要找到合理的“一半”，利用对称性或平均性质简化问题。
+</p>
+
+
+<!-- ========== 第27章：裂项相消 ========== -->
+<h2 class="chapter-title" id="ch27">二十七、裂项相消</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>在求若干项的和时，把每项进行拆分，重新组合后消去一些项，从而简化计算，这样的方法称为裂项相消法。</p>
+<p>裂项相消法是分解与组合思想在求和问题中的具体应用，常用的公式如下：</p>
+<p>1/[n×(n+1)] = 1/n − 1/(n+1)</p>
+<p>1/[n×(n+a)] = (1/a)×(1/n − 1/(n+a))</p>
+<p>1/[n×(n+1)×(n+2)] = ½×[1/(n×(n+1)) − 1/((n+1)×(n+2))]</p>
+<p>n×(n+1) = (1/3)×[n×(n+1)×(n+2) − (n−1)×n×(n+1)]</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">裂项相消</span></div>
+<div class="question-title">
+<p>计算：1/(1×2)+1/(2×3)+1/(3×4)+…+1/(9×10)。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：观察相邻两项的特点，有什么发现吗？</i></p>
+<p>第一步：1/(1×2)+1/(2×3)+1/(3×4)+…+1/(9×10)</p>
+<p>=（1/1−1/2）+（1/2−1/3）+…+（1/9−1/10）</p>
+<p>第二步：=1−1/10=9/10。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">裂项相消</span></div>
+<div class="question-title">
+<p>计算：1/(2×3×4)+1/(3×4×5)+1/(4×5×6)+1/(5×6×7)+1/(6×7×8)。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：从第一项开始研究，怎样裂项才能相互抵消呢？</i></p>
+<p>第一步：原式=（1/(2×3)−1/(3×4)）×½+（1/(3×4)−1/(4×5)）×½+…+（1/(6×7)−1/(7×8)）×½</p>
+<p>第二步：=（1/(2×3)−1/(3×4)+1/(3×4)−1/(4×5)+…+1/(6×7)−1/(7×8)）×½</p>
+<p>第三步：=（1/(2×3)−1/(7×8)）×½=25/336。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">裂项相消</span></div>
+<div class="question-title">
+<p>计算：1×2+2×3+3×4+…+99×100。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：分数可以裂项相消，整数该怎样裂项才能相互抵消呢？</i></p>
+<p>第一步：因为1×2=(1/3)×(1×2×3−0×1×2)，2×3=(1/3)×(2×3×4−1×2×3)，3×4=(1/3)×(3×4×5−2×3×4)，…，99×100=(1/3)×(99×100×101−98×99×100)。</p>
+<p>第二步：以上式子整体相加，可得1×2+2×3+3×4+…+99×100=(1/3)×[(1×2×3−0×1×2)+(2×3×4−1×2×3)+(3×4×5−2×3×4)+…+(99×100×101−98×99×100)]=(1/3)×99×100×101=333300。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">裂项相消</span></div>
+<div class="question-title">计算：1/6+1/12+1/20+1/30+1/42+1/56+1/72+1/90。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_1')">查看解析</button></div>
+<div class="hidden-content" id="ans27_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：原式=1/(2×3)+1/(3×4)+…+1/(9×10)。</p>
+<p>第二步：=1/2−1/3+1/3−1/4+…+1/9−1/10。</p>
+<p>第三步：=1/2−1/10=2/5。</p>
+<p><b>答案：2/5。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">裂项相消</span></div>
+<div class="question-title">计算：1/(1×4)+1/(4×7)+1/(7×10)+…+1/(40×43)。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_2')">查看解析</button></div>
+<div class="hidden-content" id="ans27_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：=(1/3)×(1−1/4+1/4−1/7+1/7−1/10+…+1/40−1/43)。</p>
+<p>第二步：=(1/3)×(1−1/43)=14/43。</p>
+<p><b>答案：14/43。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">裂项相消</span></div>
+<div class="question-title">计算：1/(1×3)+1/(2×4)+1/(3×5)+…+1/(99×101)。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_3')">查看解析</button></div>
+<div class="hidden-content" id="ans27_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：=½×(1−1/3)+½×(1/2−1/4)+½×(1/3−1/5)+…+½×(1/98−1/100)+½×(1/99−1/101)。</p>
+<p>第二步：=½×[(1+1/2)−(1/100+1/101)]。</p>
+<p>第三步：=½×14949/10100=14949/20200。</p>
+<p><b>答案：14949/20200。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">裂项相消</span></div>
+<div class="question-title">计算：1/(1×2×3)+1/(2×3×4)+1/(3×4×5)+…+1/(98×99×100)。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_4')">查看解析</button></div>
+<div class="hidden-content" id="ans27_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：=½×(1/(1×2)−1/(2×3))+½×(1/(2×3)−1/(3×4))+½×(1/(3×4)−1/(4×5))+…+½×(1/(98×99)−1/(99×100))。</p>
+<p>第二步：=½×(1/(1×2)−1/(99×100))=4949/19800。</p>
+<p><b>答案：4949/19800。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">裂项相消</span></div>
+<div class="question-title">计算：1×3+3×5+5×7+…+99×101。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_5')">查看解析</button></div>
+<div class="hidden-content" id="ans27_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：=1×3+[(3×5×7−1×3×5)+(5×7×9−3×5×7)+…+(99×101×103−97×99×101)]÷6。</p>
+<p>第二步：=3+（99×101×103−1×3×5）÷6。</p>
+<p>第三步：=3+(1029897−15)÷6=3+1029882÷6=3+171647=171650。</p>
+<p><b>答案：171650。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>裂项相消的核心公式：1/(n×(n+1))=1/n−1/(n+1)。公差为k时：1/(n×(n+k))=(1/k)×(1/n−1/(n+k))。裂项后大部分项会抵消，关键是算准剩下的首尾几项。<br><br>
+<b>【易错点提醒】</b>①裂项公式记错；②首尾项遗漏或重复；③公差不是1时裂项公式不会调整。总结：裂项相消是将分数拆分成两项之差，使得相邻项相互抵消，从而简化求和。常见形式：1/(n×(n+1))=1/n−1/(n+1)。关键是要准确裂项，注意首尾项不要遗漏。
+</p>
+
+<!-- ========== 第28章：数形结合 ========== -->
+<h2 class="chapter-title" id="ch28">二十八、数形结合</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>数形结合就是根据数与形之间的对应关系，通过数与形的相互转化来解决数学问题的方法。</p>
+<p>著名数学家华罗庚曾说：“数缺形时少直观，形少数时难入微。”数形结合将抽象的数学语言与直观图形相对应，使抽象思维与形象思维相结合，通过“数”与“形”之间的转化来解决问题。数形结合包括“以数解形”和“以形助数”。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">数形结合</span></div>
+<div class="question-title">
+<p>如图，6个正方形围成一个长方形，最小的正方形面积为1，求长方形的面积。</p>
+<img src="images/ch28_ex1_squares.svg" alt="6个正方形围成长方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：这6个正方形的边长之间有什么关系？</i></p>
+<p>第一步：设次小的正方形边长为x，则另三个正方形边长分别为x+1，x+2，x+3。</p>
+<p>第二步：由长方形的一组对边得，(x+2)+(x+3)=(x+1)+2x，所以x=4。</p>
+<p>第三步：长方形面积S=13×11=143。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">数形结合</span></div>
+<div class="question-title">
+<p>如图，有一堆钢管，从上到下依次有1,2,3,…n根（共n层），这堆钢管一共有多少根？</p>
+<img src="images/ch28_ex2_pipes.svg" alt="钢管堆叠示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：每一层的钢管数量有怎样的规律呢？</i></p>
+<p>第一步：如图，假设有一堆同样的钢管倒放在原来这堆钢管的旁边。</p>
+<p>第二步：这两堆钢管一共有n层，每层有(n+1)根，共有n×(n+1)根。</p>
+<p>第三步：所以这堆钢管一共有1+2+…+n=n(n+1)/2（根）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">数形结合</span></div>
+<div class="question-title">
+<p>已知n为不小于1的自然数，计算：1²+2²+…+n²。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：根据1²=1，2²=2+2，3²=3+3+3，n²用加法式子可以怎么表示呢？</i></p>
+<img src="images/ch28_ex3_nums.svg" alt="1²+2²+…+n²的数字三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图1，图中所有数字的和就是1²+2²+…+n²。</p>
+<p>第二步：将图1分别变换，得到图2和图3。</p>
+<p>第三步：将图1、图2、图3中对应位置的数字相加，得到图4。</p>
+<p>第四步：图4中所有数的和是3×(1²+2²+…+n²)=n(n+1)(2n+1)/2，所以1²+2²+…+n²=n(n+1)(2n+1)/6。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">数形结合</span></div>
+<div class="question-title">古希腊人常用小石子在沙滩摆成各种形状来研究数。例如他们研究过图中的1,3,6,10,…，由于这些数能够表示三角形，于是将其称为三角形数；类似地，称1,4,9,16,…这样的数称为正方形数。下列数中既是三角形数又是正方形数的是（　）。A.289　B.1024　C.1225　D.1378</div>
+<img src="images/ch28_ch1_numbers.svg" alt="三角形数与正方形数石子图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_1')">查看解析</button></div>
+<div class="hidden-content" id="ans28_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：289=17²，1024=32²，1225=35²，1378不是正方形数，排除D选项。</p>
+<p>第二步：1225=1+2+3+…+49，289和1024都不是三角形数。所以选C。</p>
+<p><b>答案：C。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">数形结合</span></div>
+<div class="question-title">如图，用同样规格的黑白两色的正方形瓷砖铺设长方形地面，请问第7个图中，白色瓷砖有几块？</div>
+<img src="images/ch28_ch2_tiles.svg" alt="黑白瓷砖铺设图案" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_2')">查看解析</button></div>
+<div class="hidden-content" id="ans28_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设白色瓷砖的边长为1，求几块白色瓷砖就等于求白色瓷砖的总面积。</p>
+<p>第二步：第1个图中白色瓷砖的长为2，宽为1，面积为1×2=2；第2个图中长为3，宽为2，面积为2×3=6；第3个图中长为4，宽为3，面积为3×4=12；同理可得，第n个图中白色瓷砖的长为(n+1)，宽为n，面积为n×(n+1)。</p>
+<p>第三步：综上所述，第7个图中白色瓷砖的面积为7×8=56，即56块白色瓷砖。</p>
+<p><b>答案：56块。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">数形结合</span></div>
+<div class="question-title">已知n为不小于1的自然数，计算：1+3+5+…+(2n−1)。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_3')">查看解析</button></div>
+<div class="hidden-content" id="ans28_3">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch28_ch3_odds.svg" alt="正奇数L形划分示意" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：正方形数从一点出发，按如图所示的方法划分出3,5,7,…,2n−1。</p>
+<p>第二步：前n个正奇数的求和公式1+3+5+…+(2n−1)=n²。</p>
+<p><b>答案：n²。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">数形结合</span></div>
+<div class="question-title">如图，时针与分针垂直，你知道现在是8时多少分吗？</div>
+<img src="images/ch28_ch4_clock.svg" alt="钟面示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_4')">查看解析</button></div>
+<div class="hidden-content" id="ans28_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：把钟面分成60小格，分针的速度是1小格/分钟，时针的速度是1/12小格/分钟。</p>
+<p>第二步：从8点到两针第一次垂直时，分针比时针多走的“路程”是40−15=25（小格）。</p>
+<p>第三步：算出追及时间是25÷(1−1/12)=27又3/11（分），所以钟表的时针与分针在8时27又3/11分第一次垂直。</p>
+<p><b>答案：8时27又3/11分。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">数形结合</span></div>
+<div class="question-title">在两条平行线之间放着如图的一个直角三角形和一个长方形的纸片。现把三角形以每秒2厘米的速度向右平移，直至三角形移出长方形。根据三角形盖住长方形的面积变化，画出了统计图。请问这个长方形的面积是多少平方厘米？</div>
+<img src="images/ch28_ch5_fig1.svg" alt="直角三角形与长方形纸片" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<img src="images/ch28_ch5_fig2.svg" alt="盖住面积随时间变化的统计图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_5')">查看解析</button></div>
+<div class="hidden-content" id="ans28_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：根据统计图可知，第5-7秒时三角形完全覆盖住长方形，可得三角形的面积等于24（平方厘米）。</p>
+<p>第二步：第2-5秒时，三角形和长方形从开始覆盖到完全覆盖，可以得出三角形的底边为(5−2)×2=6（厘米）；于是三角形的高为24÷6÷½=8（厘米），即长方形的宽也为8（厘米）。</p>
+<p>第三步：第7秒时，三角形已经运动到长方形最右端，可以计算出长方形的长为(7−2)×2=10（厘米），所以长方形的面积等于10×8=80（平方厘米）。</p>
+<p><b>答案：80平方厘米。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>数形结合是最重要的数学思想之一。“数缺形时少直观，形少数时难入微。”遇到抽象的数量关系，画个图看看；遇到复杂的图形问题，算一算数据。线段图、示意图、坐标图都是好帮手。<br><br>
+<b>【易错点提醒】</b>①画图不准确，导致判断出错；②图形和数量关系对应不上；③线段图的比例不对。总结：数形结合是将数量关系与图形直观结合起来的解题方法。通过画图使抽象的数量关系形象化，或通过计算使图形问题精确化。关键是要善于用线段图、示意图等辅助思考。
+</p>
+
+<!-- ========== 第29章：分类讨论 ========== -->
+<h2 class="chapter-title" id="ch29">二十九、分类讨论</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>把研究的对象按照一定的标准进行分类并逐类进行讨论，再把每一类的结论综合，使问题得到解决的方法称为分类讨论法。</p>
+<p>分类讨论法的实质是把问题分而治之，其分类规则和解题步骤是各个击破、综合归纳。具体要求是：(1)根据研究的需要确定同一个分类标准；(2)恰当地对研究对象进行分类，做到既不重复又不遗漏；(3)逐类逐级进行讨论；(4)综合归纳得出最后结论。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">分类讨论</span></div>
+<div class="question-title">
+<p>有一个等腰三角形，其中的两条边分别是4厘米和6厘米，求这个等腰三角形的周长。</p>
+<img src="images/ch29_ex1_triangles.svg" alt="两种等腰三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：两条边中，哪一条作为腰，哪一条作为底？</i></p>
+<p>第一步：如图1，当腰长4厘米、底长6厘米时，另一条腰也是长4厘米，所以周长是4+4+6=14（厘米）。</p>
+<p>第二步：如图2，当腰长6厘米、底长4厘米时，另一条腰也是长6厘米，所以周长是6+6+4=16（厘米）。</p>
+<p>第三步：所以这个等腰三角形的周长为14厘米或16厘米。</p>
+<p><i>拓展思考：如果这个等腰三角形的两条边分别是2厘米和6厘米，那么它的周长是多少呢？</i></p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">分类讨论</span></div>
+<div class="question-title">
+<p>如图，含有★的正方形有多少个？</p>
+<img src="images/ch29_ex2_grid.svg" alt="5x5网格中含星号" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：有多少种不同边长的正方形？</i></p>
+<p>第一步：含有★的“1×1”的正方形有1个。</p>
+<p>第二步：含有★的“2×2”的正方形有4个。</p>
+<p>第三步：含有★的“3×3”的正方形有4个。</p>
+<p>第四步：含有★的“4×4”的正方形有4个。</p>
+<p>第五步：含有★的“5×5”的正方形有1个。</p>
+<p>第六步：所以含有★的正方形共有1+4+4+4+1=14个。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">分类讨论</span></div>
+<div class="question-title">
+<p>如图，水平桌面上有A、B两个相同的长方体容器（容器足够高），用一根管子在距离底部6cm处连通（不计管子粗细）。已知A中有水，水位高为4cm。若每分钟向B中注入1cm高的水，请问几分钟后，A与B的水位高度之差是1cm？</p>
+<img src="images/ch29_ex3_containers.svg" alt="两个连通容器" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：A与B的水位高度之差是1cm时，有多少种不同的情况？</i></p>
+<p>第一步：当B的水位比A低1cm时，4−1=3（分钟）。</p>
+<p>第二步：当B的水位比A高1cm，且A的水位不变时，4+1=5（分钟）。</p>
+<p>第三步：当B的水位比A高1cm，且A的水位上升1cm时，6+1=7（分钟）。</p>
+<p>第四步：3分钟、5分钟或者7分钟后，A与B的水位高度之差是1cm。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">分类讨论</span></div>
+<div class="question-title">公园中，银杏树、梧桐树和柳树三棵大树排成一排，引人注目。其中银杏树和梧桐树相距180米，柳树和梧桐树相距90米。那么银杏树和柳树相距多少米？</div>
+<img src="images/ch29_ch1_trees.svg" alt="三棵树两种位置关系" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans29_1')">查看解析</button></div>
+<div class="hidden-content" id="ans29_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图1，当银杏树、柳树分别在梧桐树的两侧时，银杏树和柳树相距180+90=270（米）。</p>
+<p>第二步：如图2，当银杏树、柳树分别在梧桐树的同侧时，银杏树和柳树相距180−90=90（米）。</p>
+<p>第三步：所以银杏树和柳树相距270米或90米。</p>
+<p><b>答案：270米或90米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">分类讨论</span></div>
+<div class="question-title">沿着直线剪去长方形的一个角，请问还有几个角？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans29_2')">查看解析</button></div>
+<div class="hidden-content" id="ans29_2">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch29_ch2_cuts.svg" alt="剪去长方形一个角的三种情况" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图1，剪去一个角，成为三角形，还有三个角。</p>
+<p>第二步：如图2，剪去一个角，成为四边形，还有四个角。</p>
+<p>第三步：如图3，剪去一个角，成为五边形，还有五个角。</p>
+<p>第四步：所以还有三个角、四个角或五个角。</p>
+<p><b>答案：3个、4个或5个角。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">分类讨论</span></div>
+<div class="question-title">A、B两地相距720千米，两辆车从两地同时相对开出，甲车每小时行驶50千米，乙车每小时行驶70千米。行驶几小时后两车相距120千米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans29_3')">查看解析</button></div>
+<div class="hidden-content" id="ans29_3">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch29_ch3_meet.svg" alt="两车相遇前后的两种情况" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图1，两车相遇前相距120千米，(720−120)÷(50+70)=5（小时）。</p>
+<p>第二步：如图2，两车相遇后相距120千米，(720+120)÷(50+70)=7（小时）。</p>
+<p>第三步：所以行驶5小时或7小时后两车相距120千米。</p>
+<p><b>答案：5小时或7小时。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">分类讨论</span></div>
+<div class="question-title">在一个400米长的操场跑道上，思思和想想同时从同一个地点出发，思思每分钟走60米，想想每分钟走40米。两人几分钟后相遇？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans29_4')">查看解析</button></div>
+<div class="hidden-content" id="ans29_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：当两人相背而行时，400÷(60+40)=4（分钟）。</p>
+<p>第二步：当两人相向而行时，思思需要超过想想1圈才能相遇，400÷(60−40)=20（分钟）。</p>
+<p>第三步：两人4分钟或20分钟后相遇。</p>
+<p><b>答案：4分钟或20分钟。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">分类讨论</span></div>
+<div class="question-title">如图，实验室里水平桌面上有甲、乙、丙三个圆柱形容器（容器足够高），底面半径之比为1:2:1，用两个相同的管子在容器的5厘米高度处连通（即管子底端距离容器底部5厘米，不计管子粗细）。现三个容器中只有甲中有水，水位高1厘米。若每分钟同时向乙和丙注入相同量的水，开始注水1分钟，乙的水位上升5/6厘米。开始注水几分钟后，甲与乙的水位高度之差是0.5厘米？</div>
+<img src="images/ch29_ch5_cyl.svg" alt="甲乙丙三个连通圆柱形容器" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans29_5')">查看解析</button></div>
+<div class="hidden-content" id="ans29_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：甲、乙、丙三个圆柱形容器的底面半径之比为1:2:1，因为注水1分钟乙的水位上升5/6厘米，所以注水1分钟丙的水位上升10/3厘米。</p>
+<p>第二步：当乙的水位比甲低0.5厘米时，0.5÷(5/6)=3/5（分钟）。</p>
+<p>第三步：当乙的水位比甲高0.5厘米、甲水位不变时，1.5÷(5/6)=1.8（分钟），1.8×(10/3)=6&gt;5（厘米），此时丙容器的水溢入乙容器。经过5÷(10/3)=3/2（分钟）丙容器的水达到管子底端，接下来一段时间内，向丙容器注入的水也流入乙容器，乙容器的水上升速度为(5/6)×2=5/3（厘米/分钟）。此时乙的水位上升(5/6)×(3/2)=5/4厘米，所以(1.5−5/4)÷(5/3)+3/2=33/20（分钟）。</p>
+<p>第四步：当乙的水位比甲高0.5厘米、甲的水位上升时，此时甲、乙、丙三个容器的水位高分别为4.5厘米、5厘米、5厘米。乙的水位到达管子底端时，需(5−5/4)÷(5/3)+3/2=15/4（分钟）。接下来一段时间内，向乙和丙容器注入的水均流入甲容器，甲容器的水位上升速度为(10/3)×2=20/3（厘米/分钟），所以(5−1−0.5)÷(20/3)+15/4=171/40（分钟）。</p>
+<p>第五步：注水3/5分钟、33/20分钟或171/40分钟，甲与乙的水位高度差为0.5厘米。</p>
+<p><b>答案：3/5分钟、33/20分钟或171/40分钟。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>分类讨论要做到“不重不漏”。分类标准要统一，每一类要独立讨论。讨论完后要综合各类结果。常见分类依据：按数值大小、按奇偶性、按图形类型等。分类讨论是严谨思维的体现。<br><br>
+<b>【易错点提醒】</b>①分类标准不统一；②各类之间有重叠；③遗漏某类情况；④讨论完忘记汇总。总结：分类讨论是将问题按照某个标准分成若干类，分别求解后再综合。关键是要做到分类标准统一、不重不漏。每一类都要独立求解，最后将各类结果合并或比较。
+</p>
+
+<!-- ========== 第30章：单位化 ========== -->
+<h2 class="chapter-title" id="ch30">三十、单位化</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>将一段路程、一项工程、一筐苹果、一段时间等视为一个整体或一个单位，以此来解决问题的方法，称为单位化。</p>
+<p>在工程问题、水管问题、牛吃草问题等抽象性问题中，往往可以假设单位“1”，构建等量关系来解决问题。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">单位化</span></div>
+<div class="question-title">
+<p>两支植树队要种300棵树。甲队8天可种完，乙队10天可种完。现在两队合种，5天能种完吗？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：除了用工作总量“300棵”来解决问题，还有其他办法吗？</i></p>
+<p>第一步：设工作总量为“1”，工作效率=工作量÷工作时间，算出两队的效率。甲队的种植效率为1÷8=1/8，乙队的种植效率为1÷10=1/10。</p>
+<p>第二步：两队合作的种植效率为1/8+1/10=9/40。</p>
+<p>第三步：两队合作种植所需天数为1÷(9/40)=40/9。</p>
+<p>第四步：因为计算结果&lt;5，所以两队合种5天能种完。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">单位化</span></div>
+<div class="question-title">
+<p>一项工程，甲、乙两队合作30天可完成。现在甲、乙合作27天后，乙队另有任务，甲队再单独做9天完成。这项工程如果由甲队单独做，需要多少天完成？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：设工程总量为“1”，甲队最后9天的工作总量是多少呢？</i></p>
+<p>第一步：设工程总量为“1”，甲队最后9天的工作量为1−(1/30)×27=1/10。</p>
+<p>第二步：甲队每天的工作效率为(1/10)÷9=1/90。</p>
+<p>第三步：这项工程如果由甲队单独做，需要1÷(1/90)=90（天）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">单位化</span></div>
+<div class="question-title">
+<p>一个水池，底部装有一根常开的排水管，上部装有若干根同样粗细的进水管。当打开4根进水管时，需要5小时才能注满水池；当打开2根进水管时，需要15小时才能注满水池。现在需要在2小时内将水池注满，那么最少要打开几根进水管？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：在水池又进水又排水的状态下，如何计算进水效率与排水效率呢？</i></p>
+<p>第一步：设水池的容量为“1”。4根进水管效率−1根排水管效率=1/5，2根进水管效率−1根排水管效率=1/15。</p>
+<p>第二步：转化上面两个式子，得到进水管效率为(1/5−1/15)÷(4−2)=1/15，排水管效率为4×(1/15)−1/5=1/15。</p>
+<p>第三步：要求在两小时内注满水池，则一小时内必须注入水池的1/2，同时还需要补上排水管一小时的排水量1/15，得到(1/2+1/15)÷(1/15)=8.5（根），所以最少要打开9根进水管。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">单位化</span></div>
+<div class="question-title">有一批零件，甲单独做6小时完成，乙单独做8小时完成。现在两人合作，完成任务时甲比乙多做24个，问这批零件共有多少个？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans30_1')">查看解析</button></div>
+<div class="hidden-content" id="ans30_1">
+<p><span class="answer-label">解析：</span></p>
+<p>将这批零件总的工作量记为单位“1”，可以计算出甲、乙效率之比和甲、乙合作所需要的时间，找出等量关系进而可以计算出总量。</p>
+<p>第一步：甲队工作效率为1÷6=1/6，乙队工作效率为1÷8=1/8，甲、乙两队合作的工作效率为1/6+1/8=7/24。</p>
+<p>第二步：甲、乙两队合作所需时间为1÷(7/24)=24/7。</p>
+<p>第三步：计算每小时甲比乙多做的零件个数、甲与乙的效率之比，找到等量关系从而计算出工作总量。每小时甲比乙多做零件数为24÷(24/7)=7（个），零件总量为7÷(1/6−1/8)=168（个）。</p>
+<p><b>答案：168个。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">单位化</span></div>
+<div class="question-title">规定两人轮流做一项工程，每人做一小时后交换，如此反复，做完为止。如果按甲、乙轮流的顺序做这项工程需要9.8小时；如果按乙、甲轮流的顺序做同样的工程只需要9.6小时。请问乙单独做这项工程需要多少小时？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans30_2')">查看解析</button></div>
+<div class="hidden-content" id="ans30_2">
+<p><span class="answer-label">解析：</span></p>
+<p>这是交替工作类型的工程问题，求解问题的关键是根据题意得到两人工作效率的关系，然后转化成一个人的工程问题。根据题意，甲、乙轮流做与乙、甲轮流做需要的时间不同，根据最后相差的时间可求得甲、乙两人的工作效率之比。</p>
+<p>第一步：分析题意，①甲乙轮流做：甲做了5小时，乙做了4.8小时；②乙甲轮流做：乙做了5小时，甲做了4.6小时。</p>
+<p>第二步：比较两种做法，得到甲做5−4.6=0.4（小时）与乙做5−4.8=0.2（小时）的工作量相等，故甲工作2小时相当于乙工作1小时的工作量。</p>
+<p>第三步：将①甲乙轮流做（或者②）的时间进行转化，即可得到乙单独做这项工程需要的时间：2.5+4.8=7.3（小时）。</p>
+<p><b>答案：7.3小时。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">单位化</span></div>
+<div class="question-title">一个水池装有3根水管，甲是进水管，乙和丙都是出水管。如果单独打开乙管，20分钟可将整池水放完；如果单独打开丙管，30分钟可将整池水放完。现在水池已注满水，同时打开甲、乙、丙三管，18分钟可将水放完。如果只打开甲、乙两管，多少分钟可将整池水放完？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans30_3')">查看解析</button></div>
+<div class="hidden-content" id="ans30_3">
+<p><span class="answer-label">解析：</span></p>
+<p>题目中的第一种情况是三管合计放水工作效率为1/18，已知乙管、丙管的工作效率，可以理解为甲管降低了放水的效率，由此得到甲管的工作效率。</p>
+<p>第一步：乙管、丙管合作放水的工作效率为1/20+1/30=1/12，甲管的工作效率为1/12−1/18=1/36。</p>
+<p>第二步：甲管进水，乙管放水。甲管、乙管合作放水的工作效率为1/20−1/36=1/45，此时放完水需要的时间为1÷(1/45)=45（分钟）。</p>
+<p><b>答案：45分钟。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">单位化</span></div>
+<div class="question-title">牧场上有一片青草，每天青草都匀速生长。这片青草可供10头牛吃20天，或者可供15头牛吃10天。这片青草可供25头牛吃几天？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans30_4')">查看解析</button></div>
+<div class="hidden-content" id="ans30_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设1头牛1天吃的草量为“1份”，分析两种情况可知：前后两次青草的量相差10×20−15×10=50（份）。</p>
+<p>第二步：多出来的草量50是第二种情况比第一种情况多的10天生长出来的，所以每天生长的草量为50÷10=5（份）。</p>
+<p>第三步：原有草量为10×20−5×20=100（份）或15×10−5×10=100（份）。</p>
+<p>第四步：分析新情况，原有草量可供25头牛吃100÷(25−5)=5（天）。</p>
+<p><b>答案：5天。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">单位化</span></div>
+<div class="question-title">有一个牧场，21头牛20天可将草吃完，25头牛15天可将草吃完。现有若干头牛吃草，吃了6天草后，牧场卖了4头牛，余下的牛再吃2天将草吃完，问原有牛多少头？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans30_5')">查看解析</button></div>
+<div class="hidden-content" id="ans30_5">
+<p><span class="answer-label">解析：</span></p>
+<p>根据题干两种情况可以求出草每天生长的速度；根据草每天生长的速度，可求出牧场原有的草量；根据牧场每天生长的草量不变，与一头牛每天吃的草量不变，即可以求出原有牛的头数。</p>
+<p>第一步：设1头牛1天吃的草量为“1份”，前后两次青草的量相差21×20−25×15=45（份），每天生长的草量为45÷(20−15)=9（份）。</p>
+<p>第二步：牧场原有草量为(21−9)×20=240（份）。</p>
+<p>第三步：现情况是总共吃了8天，则草量为240+8×9=312（份）。</p>
+<p>第四步：假设4头牛没被卖出，则已有草量不足，缺少草量为4×2=8（份）。所以假设现有草量为312+8=320（份），牛的数量为320÷(6+2)=40（头）。</p>
+<p><b>答案：40头。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>单位化是解决分数应用题的万能钥匙。关键是找准单位“1”（通常是“全部”“总量”），然后理清各部分占单位“1”的几分之几。工程问题中，把工作总量设为1，效率就是时间的倒数。<br><br>
+<b>【易错点提醒】</b>①单位“1”设错；②各部分与单位“1”的关系搞混；③分数除法计算出错。总结：单位化是将某个量设为“1”或一个单位，以此为基准来分析其他量。常用于分数应用题、工程问题、比例问题等。关键是选好单位“1”，理清各部分与单位“1”的关系。
+</p>
+
+<!-- ========== 第31章：倒数法 ========== -->
+<h2 class="chapter-title" id="ch31">三十一、倒数法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>通过研究原数的倒数来解决问题的方法称为倒数法。</p>
+<p>倒数法的使用方法主要有：(1)交换一个分数的分子和分母，得到原数的倒数；(2)用1去除以原数，得到原数的倒数；(3)交换原算式的除数和被除数，得原算式的倒数。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">倒数法</span></div>
+<div class="question-title">
+<p>比较12/25与11/23大小。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：能否用取倒数的方法来比较大小？</i></p>
+<p>第一步：12/25的倒数为25/12，11/23的倒数为23/11。</p>
+<p>第二步：因为25/12=2+1/12，23/11=2+1/11，又因为1/12&lt;1/11，所以25/12&lt;23/11。</p>
+<p>第三步：因此12/25&gt;11/23。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">倒数法</span></div>
+<div class="question-title">
+<p>计算：(1/12)÷(1+1/2+1/3+1/4)。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：交换原算式的除数和被除数，有什么发现吗？</i></p>
+<p>第一步：因为(1+1/2+1/3+1/4)÷(1/12)=(1+1/2+1/3+1/4)×12=12+6+4+3=25。</p>
+<p>第二步：所以(1/12)÷(1+1/2+1/3+1/4)=1/25。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">倒数法</span></div>
+<div class="question-title">
+<p>有一个分数b/a，如果分母加7，得4/15；如果分母减7，得1/2，求这个分数。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：b/(a+7)和b/(a−7)有相同的分数单位吗？如果没有，可以怎么转化呢？</i></p>
+<p>第一步：由题意得，b/(a+7)=4/15，b/(a−7)=1/2。</p>
+<p>第二步：取倒数后得，(a+7)/b=15/4……①，(a−7)/b=2……②。</p>
+<p>第三步：由①+②得，(a+7)/b+(a−7)/b=15/4+2=23/4，所以a/b=23/8。</p>
+<p>第四步：所以这个分数为b/a=8/23。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">倒数法</span></div>
+<div class="question-title">比较73/217与69/205的大小。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans31_1')">查看解析</button></div>
+<div class="hidden-content" id="ans31_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：73/217的倒数为217/73，69/205的倒数为205/69。</p>
+<p>第二步：因为217/73=3−2/73，205/69=3−2/69，又因为2/73&lt;2/69，所以217/73&gt;205/69。</p>
+<p>第三步：因此73/217&lt;69/205。</p>
+<p><b>答案：73/217&lt;69/205。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">倒数法</span></div>
+<div class="question-title">计算：(1/48)÷(2/3+3/4+5/6+7/16)。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans31_2')">查看解析</button></div>
+<div class="hidden-content" id="ans31_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：因为(2/3+3/4+5/6+7/16)÷(1/48)=(2/3+3/4+5/6+7/16)×48=32+36+40+21=129。</p>
+<p>第二步：所以(1/48)÷(2/3+3/4+5/6+7/16)=1/129。</p>
+<p><b>答案：1/129。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">倒数法</span></div>
+<div class="question-title">有一个分数，如果分母加9，则可化简为3；如果分母加16，则可化简为2，求这个分数。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans31_3')">查看解析</button></div>
+<div class="hidden-content" id="ans31_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设这个分数为b/a。</p>
+<p>第二步：由题意得b/(a+9)=3，b/(a+16)=2。</p>
+<p>第三步：取倒数后得(a+9)/b=1/3，(a+16)/b=1/2。</p>
+<p>第四步：(a+9)/b−(a+16)/b=1/3−1/2=−1/6，所以−7/b=−1/6，b=42。</p>
+<p>第五步：将b=42代入b/(a+9)=3，得a=5。</p>
+<p>第六步：所以这个分数为42/5。</p>
+<p><b>答案：42/5。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">倒数法</span></div>
+<div class="question-title">思思和想想从甲地出发去乙地。已知思思每分钟走64米，想想所用时间比思思少20%，想想每分钟走多少米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans31_4')">查看解析</button></div>
+<div class="hidden-content" id="ans31_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设路程为“1”，则每个人行走的速度和所用时间互为倒数。想想所用时间比思思少20%，则想想所用时间为思思所用时间的(1−20%)。</p>
+<p>第二步：因此，想想行走的速度是思思行走速度的1/(1−20%)。</p>
+<p>第三步：64×1/(1−20%)=80（米）。</p>
+<p><b>答案：80米/分钟。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">倒数法</span></div>
+<div class="question-title">某公路建设队修2000米的公路，增派人员后提前16小时完成任务。实际用时是原计划的20%，请问实际效率比原计划增加了多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans31_5')">查看解析</button></div>
+<div class="hidden-content" id="ans31_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设工作总量为“1”，则工作效率和工作时间互为倒数。</p>
+<p>第二步：实际用时是原计划的20%，则实际效率为原计划的1/20%=5（倍）。</p>
+<p>第三步：实际效率比原计划增加(5−1)×100%=400%。</p>
+<p><b>答案：增加400%。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>倒数法的核心：a÷b=a×(1/b)。比较大小时，如果两个数都接近某个整数，取倒数后更容易比较。记住：正数中，倒数越大原数越小。倒数法在分数比较和除法化简中特别好用。<br><br>
+<b>【易错点提醒】</b>①求倒数时分子分母搞反；②比较大小时忘了“倒数大原数小”的结论；③除法变乘法时忘记取倒数。总结：倒数法是利用倒数的性质来简化计算或比较大小。a÷b=a×(1/b)，通过求倒数可以将除法转化为乘法。在比较大小时，有时求倒数后更容易判断。关键是要熟练掌握倒数的运算规则。
+</p>
+
+<!-- ========== 第32章：比例思想 ========== -->
+<h2 class="chapter-title" id="ch32">三十二、比例思想</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>比例思想就是用数量之间的比例关系来解决问题的方法。</p>
+<p>应用比例思想解决问题，常常用份数之比来代替两个实际量之比，以反映这两个实际量之间的关系，往往可以突破单一的思维，促进对问题解决策略的多样化研究。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">比例思想</span></div>
+<div class="question-title">
+<p>数学活动课上，老师带着同学们到操场上做实验。测得思思身高1.6m，影长1.2m，同一时刻测得一竹竿影长为3m，你能算出竹竿的高度吗？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：此题表示同一时刻同一地点，物体高度和物体影长的比值不变，所以竹竿高度/竹竿影长=物体高度/物体影长。</i></p>
+<p>第一步：竹竿高度/3=1.6/1.2。</p>
+<p>第二步：竹竿高度=1.6×3÷1.2=4（m）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">比例思想</span></div>
+<div class="question-title">
+<p>如图，一个长方形被两条直线分成四个长方形，其中三个长方形的面积分别是20公顷、25公顷和30公顷。求阴影部分的面积。</p>
+<img src="images/ch32_ex2_rect.svg" alt="长方形分成四块，面积25、20、30及阴影" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：当长方形的长一定时，长方形的面积与宽之间存在怎样的比例关系呢？</i></p>
+<p>第一步：因为25/阴影部分面积=20/30。</p>
+<p>第二步：所以阴影部分面积为25×30÷20=37.5（公顷）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">比例思想</span></div>
+<div class="question-title">
+<p>如图，△ABC的面积是1，E是AC的中点，点D在BC上，且BD:DC=1:2，AD与BE交于点F。求四边形DFEC的面积。</p>
+<img src="images/ch32_ex3_triangle.svg" alt="三角形中的比例线段" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：如何实现线段比和面积比的转化？</i></p>
+<p>第一步：如图，连结CF，由S△ABD:S△ACD=BD:DC，S△BDF:S△CDF=BD:DC，可得S△ABF:S△ACF=BD:DC。</p>
+<p>第二步：由S△ABE:S△BCE=AE:EC，S△AEF:S△CEF=AE:EC，可得S△ABF:S△BCF=AE:EC。</p>
+<p>第三步：结合已知条件，AE:EC=1:1，BD:DC=1:2，可知S△ACF:S△ABF:S△BCF=2:1:1。所以S△BCF=(1/4)S△ABC=1/4。</p>
+<p>第四步：由S△BDF:S△BCF=1:3，可知S△BDF=1/12。</p>
+<p>第五步：由S△ABE:S△BCE=1:1，可知S△BCE=1/2。</p>
+<p>第六步：所以S四边形DFCE=S△BCE−S△BDF=1/2−1/12=5/12。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">比例思想</span></div>
+<div class="question-title">古希腊时期，人们认为最美人体的头顶至肚脐的长度与肚脐至足底的长度之比是0.618（称为黄金分割比例），著名的“断臂维纳斯”便是如此。此外，最美人体的头顶至咽喉的长度与咽喉至肚脐的长度之比也是0.618。若某人满足上述两个黄金分割比例，且头顶至咽喉的长度为26cm，则其身高可能是（　）。A.165cm　B.178cm　C.185cm　D.190cm</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans32_1')">查看解析</button></div>
+<div class="hidden-content" id="ans32_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：由题意可得，咽喉至肚脐的长度=26÷0.618≈42（cm）。</p>
+<p>第二步：头顶至肚脐≈26+42=68（cm），肚脐至足底≈68÷0.618≈110（cm）。</p>
+<p>第三步：身高≈26+42+110=178（cm），所以选B。</p>
+<p><b>答案：B。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">比例思想</span></div>
+<div class="question-title">2024/2026的分子减去一个数，分母加上这个数后，分数值是2/3，求这个数。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans32_2')">查看解析</button></div>
+<div class="hidden-content" id="ans32_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：2024+2026=4050（份），2/3的分子与分母对应的总份数也是4050份。</p>
+<p>第二步：即2/3=2×810/(3×810)=1620/2430，比较2024/2026与1620/2430，得2430−2026=404，2024−1620=404。</p>
+<p>第三步：这个数是404。</p>
+<p><b>答案：404。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">比例思想</span></div>
+<div class="question-title">如图，一个长方形被分成8个小长方形，其中有5个小长方形的面积如图所示，请问这8个小长方形中最大的面积是多少？</div>
+<img src="images/ch32_ch3_rects.svg" alt="长方形分成8格标面积" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans32_3')">查看解析</button></div>
+<div class="hidden-content" id="ans32_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：长方形的长一定，面积与宽成正比例，上下两个矩形的宽的比与面积比相同。</p>
+<p>第二步：这8个小矩形的面积比可写成()/36=20/16=30/()=()/12。</p>
+<p>第三步：因此最大矩形的面积为20×36÷16=45。</p>
+<p><b>答案：45。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">比例思想</span></div>
+<div class="question-title">已知正方形ABCD的边长为12厘米，E、F分别是AB、BC边的中点，AF与CE交于点G。求四边形AGCD的面积。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans32_4')">查看解析</button></div>
+<div class="hidden-content" id="ans32_4">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch32_ch4_square.svg" alt="正方形ABCD及中点E、F与交点G" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图，连结AC、GB，由正方形ABCD的边长为12厘米，可知S△ABC=S△ADC=½×12²=72（平方厘米）。</p>
+<p>第二步：因为S△AGB:S△AGC=BF:FC=1:1，S△AGC:S△BGC=AE:EB=1:1，所以S△AGC=(1/3)S△ABC。</p>
+<p>第三步：所以S四边形ADCG=S△ADC+(1/3)S△ABC=72+24=96（平方厘米）。</p>
+<p><b>答案：96平方厘米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">比例思想</span></div>
+<div class="question-title">甲、乙两人分别从A、B两地同时出发，相向而行，出发时甲的速度是乙的3/2。他们相遇后，甲的速度提高了20%，乙的速度提高了30%。这样，当甲到达B地时，乙离A地还有14千米，那么A、B两地的距离是多少千米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans32_5')">查看解析</button></div>
+<div class="hidden-content" id="ans32_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：相遇时甲、乙两人的路程比为3:2。相遇后，甲、乙两人的速度比为[3×(1+20%)]:[2×(1+30%)]=3.6:2.6=18:13。当甲到达B地时即甲又行了2份的路程，这时乙的路程为2×13/18=13/9（份）。</p>
+<p>第二步：乙从两人相遇后到达A地要行3份的路程，还剩下3−13/9=14/9（份），正好还剩下14千米，所以1份这样的路程为14÷(14/9)=9（千米）。</p>
+<p>第三步：因此A、B两地的总路程为9×(3+2)=45（千米）。</p>
+<p><b>答案：45千米。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>比例思想的关键性质：内项积=外项积。按比分配时，先求总份数，再算每人占总量的几分之几。比例尺=图上距离/实际距离。掌握比例思想，能解决大量实际问题。<br><br>
+<b>【易错点提醒】</b>①比例的基本性质（内项积=外项积）记混；②按比分配时总份数算错；③正比例和反比例搞混。总结：比例思想是利用比例关系来分析和解决问题。核心性质：内项积=外项积；比例的基本性质可以用来解比例方程。常用于按比分配、相似图形、正反比例等问题。
+</p>
+
+<!-- ========== 第33章：加法原理 ========== -->
+<h2 class="chapter-title" id="ch33">三十三、加法原理</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>生活中常有这样的情况：完成一件事有两类不同方案，在第1类方案中有m种不同的方法，在第2类方案中有n种不同的方法，那么完成这件事共有N=m+n种不同的方法，这就是加法原理。</p>
+<p>加法原理还可推广到更一般情形：如果完成一件事有n类不同方案，第一类方案中有m₁种不同方法，第二类方案中有m₂种不同方法，…，第n类方案中有mₙ种不同方法，则完成这件事共有N=m₁+m₂+…+mₙ种不同方法。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">加法原理</span></div>
+<div class="question-title">
+<p>用1克、3克、9克三个砝码（砝码只能放在同一个秤盘上），可以称出几种不同重量的物体？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：每次可以选几个砝码？</i></p>
+<p>第一步：1克、3克、9克三个砝码可以选1个、2个、3个。</p>
+<p>第二步：放一个砝码，可以放1克、3克、9克，可以称出1克、3克、9克3种不同重量的物体；放两个砝码，可以放1克和3克、1克和9克、3克和9克，可以称出4克、10克、12克3种不同重量的物体；放三个砝码，可以称出13克1种重量的物体。</p>
+<p>第三步：所以可以称出3+3+1=7（种）不同重量的物体。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">加法原理</span></div>
+<div class="question-title">
+<p>如图，一共有多少个三角形？</p>
+<img src="images/ch33_ex2_triangle.svg" alt="组合图形中的三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：这是一个组合图形，三角形可以由几个几何图形组成？</i></p>
+<p>第一步：按照三角形由几个几何图形构成分类讨论。</p>
+<p>(1)由1个几何图形组成即单个三角形有6个；(2)由2个几何图形组成的三角形有4个；(3)由3个几何图形组成的三角形有1个；(4)由4个几何图形组成的三角形有2个；(5)由8个几何图形组成的三角形有1个。</p>
+<p>第二步：所以一共有6+4+1+2+1=14（个）三角形。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">加法原理</span></div>
+<div class="question-title">
+<p>一天，爸爸带着思思去家具工厂参观，在加工处摆放着许多待处理的木材，有长度分别为1,2,…,9的细木棍各一根（单位：分米）。思思最近在学校里刚学习了三角形的知识，这些细木棍就像学具袋里放大版的小棒，这不禁激起思思的好奇心：以这9根细木棍为边可以构成多少种不同的三角形？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：三角形的三边应满足什么关系？</i></p>
+<p>第一步：记三角形的三边长为a、b、c，不妨设a&lt;b&lt;c，则有a+b&gt;c。按c的长度将这些三角形分类，则可分为c=4，c=5，…，c=9不同的六类。</p>
+<p>第二步：设c=k，按照k的奇偶性分类计数。当c=4时，(a,b)的取法种数是1；当c=5时是2；当c=6时是1+3=4；当c=7时是2+4=6；当c=8时是1+3+5=9；当c=9时是2+4+6=12。</p>
+<p>第三步：所以一共可以构成1+2+4+6+9+12=34（种）不同的三角形。</p>
+<p><b>另外一种解法：</b></p>
+<p>一、关键分析。三角形构成条件：对于三条边（a&lt;b&lt;c），只需满足a+b&gt;c（因a+c&gt;b和b+c&gt;a必然成立）。排除含1的组合：长度为1的木棍无法构成三角形，若a=1，则c≤b+1，此时1+b≤c，不满足a+b&gt;c。分类依据：按最长边c分类讨论（c可取4到9，因最短的有效最长边为4），列举满足a&lt;b&lt;c且a+b&gt;c的组合。</p>
+<p>二、具体计算（按最长边c分类）。c=4：仅（2,3,4）满足2+3&gt;4，共1种。c=5：（2,4,5）、（3,4,5），共2种。c=6：（2,5,6）、（3,5,6）、（4,5,6）、（3,4,6），共4种。c=7：（2,6,7）、（3,6,7）、（4,6,7）、（5,6,7）、（3,5,7）、（4,5,7），共6种。c=8：（2,7,8）、（3,7,8）、（4,7,8）、（5,7,8）、（6,7,8）、（3,6,8）、（4,6,8）、（5,6,8）、（4,5,8），共9种。c=9：（2,8,9）、（3,8,9）、（4,8,9）、（5,8,9）、（6,8,9）、（7,8,9）、（3,7,9）、（4,7,9）、（5,7,9）、（6,7,9）、（4,6,9）、（5,6,9），共12种。</p>
+<p>三、总和：所有情况相加，1+2+4+6+9+12=34。答案：34种。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">加法原理</span></div>
+<div class="question-title">有10元、5元、2元和1元的纸币各一张，请问可组成多少种不同的币值？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans33_1')">查看解析</button></div>
+<div class="hidden-content" id="ans33_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：可以按照取1、2、3、4张纸币分类。</p>
+<p>第二步：(1)若取1张纸币，则有4种选择；(2)若取2张纸币，则有6种选择；(3)若取3张纸币，则有4种选择；(4)若取4张纸币，则有1种选择。</p>
+<p>第三步：所以可以组成4+6+4+1=15（种）不同的币值。</p>
+<p><b>答案：15种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">加法原理</span></div>
+<div class="question-title">一只青蛙在A、B、C三点之间跳动，若青蛙从A点跳起，跳4次仍回到A点，则这只青蛙一共有多少种不同的跳法？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans33_2')">查看解析</button></div>
+<div class="hidden-content" id="ans33_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：按第1次跳到B点或C点开始分类讨论。</p>
+<p>第二步：第1次跳到B点，借助树状图可以发现，跳4次回到A点有3种方法；同理第1次跳到C点也有3种方法。</p>
+<p>第三步：所以这只青蛙一共有6种不同的跳法。</p>
+<p><b>答案：6种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">加法原理</span></div>
+<div class="question-title">从1~9这9个数中取出3个，使它们的和是3的倍数，有多少种不同的取法？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans33_3')">查看解析</button></div>
+<div class="hidden-content" id="ans33_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：按照三个加数被3除的余数分类。</p>
+<p>第二步：(1)3个数都是3的倍数，有1种情况；(2)3个数除以3都余1，有1种情况；(3)3个数除以3都余2，有1种情况；(4)一个数除以3余1，一个数除以3余2，一个数是3的倍数，有3×3×3=27（种）情况。</p>
+<p>第三步：所以一共有1+1+1+27=30（种）不同取法。</p>
+<p><b>答案：30种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">加法原理</span></div>
+<div class="question-title">从1~10这10个数中每次取两个不同的数相加，和大于10的共有多少种取法？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans33_4')">查看解析</button></div>
+<div class="hidden-content" id="ans33_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：根据第一个数的大小，将和大于10的取法分为9类。</p>
+<p>第二步：列表如下：第1类（1,10）1种；第2类（2,10或9）2种；第3类3种；第4类4种；第5类5种；第6类4种；第7类3种；第8类2种；第9类1种。</p>
+<p>第三步：所以共有1+2+3+4+5+4+3+2+1=25（种）取法。</p>
+<p><b>答案：25种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">加法原理</span></div>
+<div class="question-title">有一批长度分别为1,2,3,4,5,6,7,8,9,10的细木条（单位：厘米），它们的数量都足够多，从中选取3根木条作为三条边，能围成多少种不同的三角形？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans33_5')">查看解析</button></div>
+<div class="hidden-content" id="ans33_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：按照最长边为10,9,…,1分类。</p>
+<p>第二步：(1)最长边为10厘米，次长为10,9,8,7,6厘米的三角形分别有10,8,6,4,2个，共计10+8+6+4+2=30（种）；(2)最长边为9厘米的三角形有9+7+5+3+1=25（种）；(3)最长边为8厘米的三角形有8+6+4+2=20（种）；(4)最长边为7厘米的三角形有7+5+3+1=16（种）；(5)最长边为6厘米的三角形有6+4+2=12（种）；(6)最长边为5厘米的三角形有5+3+1=9（种）；(7)最长边为4厘米的三角形有4+2=6（种）；(8)最长边为3厘米的三角形有3+1=4（种）；(9)最长边为2厘米的三角形有2种；(10)最长边为1厘米的三角形有1种。</p>
+<p>第三步：所以能围成30+25+20+16+12+9+6+4+2+1=125（种）不同的三角形。</p>
+<p><b>答案：125种。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>加法原理适用于“分类完成”——做一件事有k类独立方案，各类分别有m₁、m₂、…、mₖ种方法，总计m₁+m₂+…+mₖ种。关键是分类要互斥且穷尽。和乘法原理对比学习效果更好。<br><br>
+<b>【易错点提醒】</b>①和乘法原理搞混（分类用加法，分步用乘法）；②分类时各类之间有重叠；③遗漏某类方案。总结：加法原理适用于“分类完成”的问题：完成一件事有k类方案，各类分别有n₁、n₂、…、nₖ种方法，则总共n₁+n₂+…+nₖ种方法。关键是准确分类，确保各类之间不重叠。
+</p>
+
+<!-- ========== 第34章：乘法原理 ========== -->
+<h2 class="chapter-title" id="ch34">三十四、乘法原理</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>生活中常有这样的情况：完成一件事需要两个步骤，做第1步有m种不同的方法，做第2步有n种不同的方法，那么完成这件事共有N=m×n种不同的方法，这就是乘法原理。</p>
+<p>乘法原理还可推广到更一般情形：假设完成一件事需要分成n个步骤进行，做第1步有m₁种不同的方法，做第2步有m₂种不同的方法，…，做第n步有mₙ种不同的方法，那么完成这件事共有N=m₁×m₂×…×mₙ种不同的方法。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">乘法原理</span></div>
+<div class="question-title">
+<p>从甲城到乙城有3条不同的道路，从乙城到丙城有5条不同的道路，那么从甲城经过乙城再到丙城共有多少条不同的道路？</p>
+<img src="images/ch34_ex1_roads.svg" alt="甲乙丙三城道路图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：从甲城经过乙城再到丙城需要分几个步骤？每个步骤里各有多少条不同的道路？</i></p>
+<p>方法1：第一步：设甲城到乙城的3条道路分别为a、b、c；乙城到丙城的5条道路分别为1、2、3、4、5。第二步：那么从甲城到丙城共有a1,a2,a3,a4,a5,b1,b2,b3,b4,b5,c1,c2,c3,c4,c5共15条不同的道路。</p>
+<p>方法2：第一步：从甲城到丙城分两步，第1步从甲城到乙城，有3条不同的道路；第2步从乙城到丙城，有5条不同的道路。第二步：根据乘法原理，从甲城经过乙城再到丙城共有3×5=15（条）不同的道路。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">乘法原理</span></div>
+<div class="question-title">
+<p>用数字1,2,3,4,5可以组成多少个没有重复数字的三位数？这些三位数的和是多少？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：用数字1,2,3,4,5组成没有重复数字的三位数，需要分几个步骤呢？如何更好更快地求这些三位数的和呢？</i></p>
+<p>第一步：分三步完成。第1步，选一个数字放在百位上，共有5种选择；第2步，在剩下的4个数字中选一个放在十位上，有4种选择；第3步，在剩下的3个数字中选一个放在个位上，有3种选择。</p>
+<p>第二步：根据乘法原理有5×4×3=60（个）没有重复数字的三位数。</p>
+<p>第三步：1,2,3,4,5在百位时，各有12个；作为十位、个位时，同样各有12个。</p>
+<p>第四步：这些数的和为(1+2+3+4+5)×(100+10+1)×12=19980。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">乘法原理</span></div>
+<div class="question-title">
+<p>有4位同学在同一天的上、下午参加“身高与体重”“立定跳远”“肺活量”“握力”“台阶”五个项目的测试，每位同学上、下午各测试一个项目，且不重复。若上午不测“握力”项目，下午不测“台阶”项目，其余项目上、下午都各测试一人，则不同的安排方式共有　　种。（用数字作答）</p>
+<p><b>解析：</b></p>
+<p><i>想一想：哪两个测试项目比较特殊？考虑问题应该从哪里入手比较方便？</i></p>
+<p>第一步：用A、B、C、D、E分别表示“身高与体重”“立定跳远”“肺活量”“握力”“台阶”五个项目的测试。上午测A、B、C、E四个项目，下午测A、B、C、D四个项目。</p>
+<p>第二步：如果搭配为ED，则其余为AB,BC,CA或AC,CB,BA，有2种情况；如果搭配为EA，则其余为AD,BC,CB或BD,AC,CB或CD,AB,BC，有3种情况；如果搭配为EB，则其余为AD,BC,CA或BD,AC,CA或CD,AC,BA，有3种情况；如果搭配为EC，则其余为AD,BA,CB或BD,AB,CA或CD,AB,BA，有3种情况。上、下午各有一个项目搭配总共有2+3×3=11种情况。</p>
+<p>第三步：每一种搭配分配给4个同学，有4×3×2×1=24种方案，所以不同的安排方式共有24×11=264种。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">乘法原理</span></div>
+<div class="question-title">学校升旗仪式时，思思、想想、小小和方方四名升旗手要排成一列，可以有多少种不同排法？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans34_1')">查看解析</button></div>
+<div class="hidden-content" id="ans34_1">
+<p><span class="answer-label">解析：</span></p>
+<p>方法1：用A、B、C、D来表示四位同学，将A、B、C、D进行排列：ABCD,ABDC,ACBD,ACDB,ADBC,ADCB,BACD,BADC,BCAD,BCDA,BDAC,BDCA,CABD,CADB,CBAD,CBDA,CDAB,CDBA,DABC,DACB,DBAC,DBCA,DCAB,DCBA，共有24种排法。</p>
+<p>方法2：第一步：四位同学要排成一列可采用分步排队的方法。第1步，从4人中选1人排在队伍的首位，有4种选择；第2步，再从剩下3人中选1人排在队伍的第二位，有3种选择；第3步，从剩下的2人中选出1人排第三位，有2种选择；最后剩余1人站在队伍的末位，只有1种选择。</p>
+<p>第二步：根据乘法原理有4×3×2×1=24种排法。</p>
+<p><b>答案：24种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">乘法原理</span></div>
+<div class="question-title">如图，有一只小蚂蚁沿线段从A点依次经过B点、C点到达D点，一共有多少种路线？</div>
+<img src="images/ch34_ch2_ant.svg" alt="蚂蚁从A经B、C到D的路线图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans34_2')">查看解析</button></div>
+<div class="hidden-content" id="ans34_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：蚂蚁从A点到达D点，必须经过B点和C点，因此蚂蚁从A点到达D点分三步进行。第1步蚂蚁从A点爬到B点，有3条路线；第2步蚂蚁从B点到C点，也有3条路线；第3步蚂蚁从C点最终到达D点，同样有3条路线。</p>
+<p>第二步：根据乘法原理有3×3×3=27（种），所以一共有27种路线。</p>
+<p><b>答案：27种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">乘法原理</span></div>
+<div class="question-title">用数字1,2,3可以组成若干个没有重复数字的三位数，求这些数的和。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans34_3')">查看解析</button></div>
+<div class="hidden-content" id="ans34_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：用数字1,2,3组成没有重复数字的三位数，分三步完成。第1步，选一个数字放在百位上，共有3种选择；第2步，在剩下的2个数字中选一个放在十位上，有2种选择；第3步把剩下的1个数字放在个位上，只有1种选择。</p>
+<p>第二步：根据乘法原理，数字1,2,3组成没有重复数字的三位数共有3×2×1=6（个）。</p>
+<p>第三步：1,2,3作为百位时，各有2个三位数；作为十位、个位时，同样各有2个三位数。</p>
+<p>第四步：这些数的和为(1+2+3)×(100+10+1)×2=1332。</p>
+<p><b>答案：1332。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">乘法原理</span></div>
+<div class="question-title">用5、7、9、9四张数字卡片，可以组成多少个不同的四位数？（其中9可以倒过来当6用）</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans34_4')">查看解析</button></div>
+<div class="hidden-content" id="ans34_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：(1)当两张9都作9用时，可分成三种类型：首位是5的有3个；首位是7的有3个；首位是9的有3×2×1=6（个），共计3+3+6=12（个）。(2)当两张9都作6用时，同(1)也有12个。(3)当两张9一个作9用、一个作6用时，有4×3×2×1=24（个）。</p>
+<p>第二步：根据加法原理一共可以组成12+12+24=48（个）不同的四位数。</p>
+<p><b>答案：48个。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">乘法原理</span></div>
+<div class="question-title">从数字0,1,2,3,4,5中任意挑选出五个数字组成能被5整除且各个数位上数字不同的五位数，共有多少个？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans34_5')">查看解析</button></div>
+<div class="hidden-content" id="ans34_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：能被5整除的五位数分2类情况：第1类，五位数的末位是0，共有5×4×3×2=120（个）；第2类，五位数的末位为5，共有4×4×3×2=96（个）。</p>
+<p>第二步：根据加法原理，一共有120+96=216（个）不同的五位数。</p>
+<p><b>答案：216个。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>乘法原理适用于“分步完成”——做一件事需要k个步骤，各步分别有m₁、m₂、…、mₖ种方法，总计m₁×m₂×…×mₖ种。关键是各步缺一不可、相互独立。排列组合问题的基础就是乘法原理。<br><br>
+<b>【易错点提醒】</b>①和加法原理搞混；②分步时各步之间不独立；③某一步的方法数算错。总结：乘法原理适用于“分步完成”的问题：完成一件事有k个步骤，各步分别有n₁、n₂、…、nₖ种方法，则总共n₁×n₂×…×nₖ种方法。关键是准确分步，确保各步之间相互独立。
+</p>
+
+<!-- ========== 第35章：容斥原理 ========== -->
+<h2 class="chapter-title" id="ch35">三十五、容斥原理</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>在计算“事物A和事物B的总数”时，优化应用“A的个数＋B的个数－A、B重叠个数”的计算方法是容斥原理，可以用韦恩图表示。</p>
+<p>运用容斥原理也可以解决有关三个或者三个以上事物的个数问题，从而起到优化计数的效果。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">容斥原理</span></div>
+<div class="question-title">
+<p>某班36名同学在一项测试中，答对第一题的有25人，答对第二题的有23人，两题都对的有15人。问有多少位同学两题都没对？</p>
+<img src="images/ch35_ex1_venn.svg" alt="两题答对人数韦恩图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：题目中哪一部分是重复的？</i></p>
+<p>第一步：发现只答对第一题的人数是答对第一题的人数减去两题都答对的人数，即有25−15=10（人）。</p>
+<p>第二步：已知两道题都没答对的人数是班级总人数减去至少有一题答对的人数，即有36−(10+23)=3（人）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">容斥原理</span></div>
+<div class="question-title">
+<p>在1到100的自然数中，既不是5的倍数也不是6的倍数的数有多少个？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：从1到100的自然数中，是5或6的倍数共有多少个呢？</i></p>
+<p>第一步：将100以内是5或6的倍数的个数相加，减去两者最小公倍数的个数即得到所有倍数的个数，即16+20−3=33（个）。</p>
+<p>第二步：100减去5或6的所有倍数的个数，得到既不是5的倍数也不是6的倍数的个数，即100−33=67（个）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">容斥原理</span></div>
+<div class="question-title">
+<p>计算100以内能被2、3或5整除的数的个数。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：能被2,3或5整除的数有几个呢？能同时被2和3、2和5或者3和5整除的数又有几个呢？能同时被2,3和5整除的数呢？</i></p>
+<p>第一步：发现被2,3或5整除的数的个数即是能被2,3,5整除的数的个数减去能同时被其中两个数整除的数的个数，再加上同时被这三个数整除的数的个数。</p>
+<p>第二步：所以满足要求的数个数为50+33+20−(16+10+6)+3=74。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">容斥原理</span></div>
+<div class="question-title">50名同学面向老师站成一排，老师先让大家从左至右按1,2,3,…,49,50依次报数，再让报数是4的倍数的同学向后转，接着又让报数是6的倍数的同学向后转。请问现在有多少名学生面向老师？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans35_1')">查看解析</button></div>
+<div class="hidden-content" id="ans35_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：50以内4的倍数的个数有12个，6的倍数的个数有8个，既是4的倍数又是6的倍数共有4个。</p>
+<p>第二步：求的是面向老师的有多少人：所以还应该加上转了2次的学生人数。所以现在面向老师的同学有50−12−8+4+4=38（名）。</p>
+<p><b>答案：38名。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">容斥原理</span></div>
+<div class="question-title">有25人参加跳远达标赛，每人跳三次，已知每人至少有一次达到优秀。第一次达到优秀的有10人，第二次达到优秀的有13人，第三次达到优秀的有15人，三次都达到优秀的只有1人。问恰有两次达到优秀的有多少人？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans35_2')">查看解析</button></div>
+<div class="hidden-content" id="ans35_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：每次达到优秀的总人数10+13+15=38（人）。</p>
+<p>第二步：达到优秀的总人数减去重复计数的人数（三次都达优秀的人数和至少有一次达到优秀的人数）即为恰有两次达到优秀的人数：38−1×2−25=11（人）。</p>
+<p><b>答案：11人。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">容斥原理</span></div>
+<div class="question-title">54人中35人懂俄语，45人懂德语，40人懂日语，50人懂法语。问这四种语言都懂的至少有多少人？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans35_3')">查看解析</button></div>
+<div class="hidden-content" id="ans35_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：发现这四种语言都懂的人数即总人数减去不会某种语言的人数，再由总人数减去他们的人数和，即54−[(54−35)+(54−45)+(54−40)+(54−50)]=8（人）。</p>
+<p>第二步：所以这四种语言都懂的至少8人。</p>
+<p><b>答案：至少8人。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">容斥原理</span></div>
+<div class="question-title">分母是105的最简真分数有多少个？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans35_4')">查看解析</button></div>
+<div class="hidden-content" id="ans35_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：105是3的倍数或5的倍数或7的倍数，因此分子不能是3的倍数或5的倍数或7的倍数。</p>
+<p>第二步：因为分子需要小于105，所以104内3的倍数有34个，5的倍数有20个，7的倍数有14个，同时是3和5的倍数的数有6个，同时是3和7的倍数的数有4个，同时是5和7的倍数的数有2个。</p>
+<p>第三步：分母是105的最简真分数有104−(34+20+14−6−4−2)=48（个）。</p>
+<p><b>答案：48个。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">容斥原理</span></div>
+<div class="question-title">某美术馆有100盏灯，每盏用拉线开关，并标上号码1到100。灯原来都处于关闭的状态，第一个管理员将号码为2的倍数的灯全拉一下，第二个管理员将号码为3的倍数的灯全拉一下，第三个管理员将号码为5的倍数的灯全拉一下。问最后有几盏灯是开着的？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans35_5')">查看解析</button></div>
+<div class="hidden-content" id="ans35_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：100以内能被2、3或5整除的数有：100÷2=50（个），100÷3=33（个），100÷5=20（个），即共有50+33+20=103（个）。</p>
+<p>第二步：能同时被2和3、2和5及3和5整除的数分别有16、10、6个，合计16+10+6=32（个），能同时被2、3和5整除的数有3个。</p>
+<p>第三步：所以亮着灯的数量即为(50+33+20)−2×(16+10+6)+4×3=51，即有51盏灯开着。</p>
+<p><b>答案：51盏。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>容斥原理的核心公式：|A∪B|=|A|+|B|−|A∩B|。三个集合时：|A∪B∪C|=|A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C|。画韦恩图辅助理解最直观。<br><br>
+<b>【易错点提醒】</b>①忘记减去重复计数的部分；②三个集合时公式记错；③交集的元素个数算错。
+</p>
+
+<!-- ========== 第36章：抽屉原理 ========== -->
+<h2 class="chapter-title" id="ch36">三十六、抽屉原理</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>4只鸽子飞进3个鸽巢，必有一个鸽巢至少飞进2只鸽子；5个苹果放入4个抽屉，必有一个抽屉中至少有2个苹果。这样的原理称为“鸽巢原理”，也称为“抽屉原理”。在实际问题中运用抽屉原理的关键是寻找“抽屉”和“苹果”。</p>
+<p>抽屉原理有两条基本原理：(1)把多于n个苹果放入n个抽屉，则必有一个抽屉中至少有2个苹果；(2)把多于m×n个苹果放入n个抽屉，则必有一个抽屉中至少有m+1个苹果。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">抽屉原理</span></div>
+<div class="question-title">
+<p>从1，2，…，20这20个非零自然数中任取11个，其中必有两个数的差是5。你知道这是为什么吗？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：尝试将差为5的数对枚举出来。</i></p>
+<p>第一步：把20个数分成如下10组：(1,6),(2,7),(3,8),(4,9),(5,10),(11,16),(12,17),(13,18),(14,19),(15,20)，相当于有10个“抽屉”。</p>
+<p>第二步：从1,2,…,20这20个非零自然数中任取11个（相当于11个“苹果”），必然有两个数取自同一组，这两个数的差是5。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">抽屉原理</span></div>
+<div class="question-title">
+<p>如图，在2×9的每个小方格中涂上黑色或蓝色，则必有3列的涂色方式是完全一样的。你知道这是为什么吗？</p>
+<img src="images/ch36_ex2_grid.svg" alt="2乘9网格涂色" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：每列的涂色方式有几种可能？</i></p>
+<p>方法1：</p>
+<p>第一步：每列的涂色方式有如下4种可能，相当于4个“抽屉”。</p>
+<p>第二步：9列小方格相当于9个“苹果”，因为9&gt;4×2，所以由抽屉原理第2条可知必有3列的涂色方式是完全一样的。</p>
+<p>方法2：</p>
+<p>第一步：假设结论不成立，那么最多只有两列的涂色方式相同。</p>
+<p>第二步：从方法1可知共有4种涂色方式，如果每种涂色方式都涂两列，也只能涂满8列，与要求给9列小方格涂色矛盾。</p>
+<p>第三步：因此结论成立，必有3列的涂色方式是完全一样的。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">抽屉原理</span></div>
+<div class="question-title">
+<p>证明在任何6个人的聚会上，总有三个人互相认识，或者总有三个人彼此之间都不认识。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：可以借助图形求解，用6个点代表6个人，如果两人互相认识，则用蓝色线段连结两点，否则用黑色线段连结。</i></p>
+<p>第一步：原问题转化为：有6个点（任意三点均不共线），把每两点间的线段染上蓝色或黑色，无论怎么染，总存在一个三边同色的三角形。</p>
+<p>第二步：把蓝色、黑色两种颜色看作2个“抽屉”。考虑从某一点（如A点）出发的5条线段，根据抽屉原理，至少有三条线段颜色相同，不妨设线段AC、AD、AE为蓝色。</p>
+<p>第三步：连结C、D、E的线段中，如果有一条线段染蓝色，那么它与两条已染蓝色的线段组成三边同为蓝色的三角形；如果三条线段全是黑色，那么CDE是一个三边同为黑色的三角形。</p>
+<p>第四步：所以任意6个人中，总有三个人互相认识，或者互不认识。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">抽屉原理</span></div>
+<div class="question-title">某班级有30名学生，其年龄都是10岁或者11岁，其中必有2名学生是同年同月出生的，为什么？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_1')">查看解析</button></div>
+<div class="hidden-content" id="ans36_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：这里10岁和11岁两个年龄段的学生出生的年月共12×2=24（个）。</p>
+<p>第二步：30&gt;24，根据抽屉原理，则必有至少2名学生是同年同月出生的。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">抽屉原理</span></div>
+<div class="question-title">一些孩子在沙滩上玩耍，他们把石子堆成许多堆，其中有一个孩子发现，从石子堆中任意选出四堆，其中必有两堆石子数之差是3的倍数，你说他的结论对吗？为什么？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_2')">查看解析</button></div>
+<div class="hidden-content" id="ans36_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：把4堆石子数看作任意4个自然数，它们被3除的余数是0、1或2。</p>
+<p>第二步：这里每种余数看作一个“抽屉”，4堆石子数看作“苹果”，根据抽屉原理，必有至少2堆石子数除以3的余数相同，此时这2堆石子数之差是3的倍数，故结论正确。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">抽屉原理</span></div>
+<div class="question-title">据统计，某校六年级中有100名学生分别参加了舞蹈、绘画、乐器三种兴趣班中的一种、两种或三种。那么至少有15名学生参加的兴趣班完全相同，为什么？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_3')">查看解析</button></div>
+<div class="hidden-content" id="ans36_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：参加一种兴趣班的有3种选法，参加两种兴趣班的有3种选法，参加三种兴趣班的有1种选法，共有3+3+1=7（种）。</p>
+<p>第二步：100&gt;7×14，根据抽屉原理第2条基本原理，必有14+1=15名学生参加的兴趣班完全相同。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">抽屉原理</span></div>
+<div class="question-title">用数字1,2,3,4,5,6填满一个6×6方格，每个方格只填其中的一个数字，将每个2×2方格内的四个数字之和称为这个2×2方格的“标示数”。能否给出一种填法，使任何两个标示数均不相同？如果能，请举出一例；如果不能，请说明理由。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_4')">查看解析</button></div>
+<div class="hidden-content" id="ans36_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：2×2方格内的数字和最大是6+6+6+6=24，最小是1+1+1+1=4，从4至24共有21个不同数值（即21个“抽屉”）。</p>
+<p>第二步：在6×6方格中共有25个不同的2×2方格，也就有25个“标示数”（即25个“苹果”）。</p>
+<p>第三步：25&gt;21，根据抽屉原理，无论怎么填数，必有两个“标示数”相同。</p>
+<p>第四步：所以找不到一种填法，使任何两个“标示数”均不相同。</p>
+<p><b>答案：不能。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">抽屉原理</span></div>
+<div class="question-title">在一个边长为1的正三角形内随意放置10个点，请说明至少有2个点之间的距离不大于1/3。</div>
+<img src="images/ch36_ch5_triangle.svg" alt="正三角形分成9个小三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_5')">查看解析</button></div>
+<div class="hidden-content" id="ans36_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，把正三角形的每条边都三等分，连结各等分点，将这个三角形分成9个边长为1/3的正三角形。</p>
+<p>第二步：10个点放在9个三角形中，根据抽屉原理，必有2个点在同一个小三角形内（点可以在边上）。</p>
+<p>第三步：这两点之间的连线不超过三角形的边长，即这两点之间的距离不超过1/3。</p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>抽屉原理的两条基本原理：(1) n+1个物品放入n个抽屉，必有1个抽屉≥2个；(2) m×n+k个物品放入n个抽屉（k≥1），必有1个抽屉≥m+1个。关键是合理构造“抽屉”，使同一抽屉中的元素具有共同性质。<br><br>
+<b>【易错点提醒】</b>①抽屉设计不合理；②物品数和抽屉数搞混；③应用第2条原理时m和n搞混。总结：抽屉原理（鸽巢原理）的核心：把n+1个物品放入n个抽屉，必有一个抽屉至少放2个物品。解题关键是合理构造“抽屉”和“物品”，抽屉的设计要保证同一抽屉中的元素具有某种共同性质。
 </p>
 
 <div class="footer">

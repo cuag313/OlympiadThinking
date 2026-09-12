@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" width="420" height="240">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 12px; fill: #333; }
+  </style>
+  <rect x="0" y="0" width="420" height="240" fill="#fafafa" stroke="#ddd"/>
+  <!-- 坐标轴 -->
+  <line x1="50" y1="200" x2="390" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="200" x2="50" y2="30" stroke="#333" stroke-width="1.5"/>
+  <text x="390" y="220" text-anchor="end">时间/秒</text>
+  <text x="48" y="28" text-anchor="start">面积/cm²</text>
+  <!-- 刻度 -->
+  <text x="45" y="205" text-anchor="end">0</text>
+  <text x="45" y="145" text-anchor="end">12</text>
+  <text x="45" y="85" text-anchor="end">24</text>
+  <text x="90" y="215" text-anchor="middle">1</text>
+  <text x="125" y="215" text-anchor="middle">2</text>
+  <text x="195" y="215" text-anchor="middle">5</text>
+  <text x="265" y="215" text-anchor="middle">7</text>
+  <text x="335" y="215" text-anchor="middle">9</text>
+  <!-- 折线：0到2为0，2-5上升，5-7平台24，7-9下降到0 -->
+  <polyline points="50,200 125,200 195,55 265,55 335,200" fill="none" stroke="#e03a3a" stroke-width="2.5"/>
+  <circle cx="125" cy="200" r="3" fill="#e03a3a"/>
+  <circle cx="195" cy="55" r="3" fill="#e03a3a"/>
+  <circle cx="265" cy="55" r="3" fill="#e03a3a"/>
+  <circle cx="335" cy="200" r="3" fill="#e03a3a"/>
+  <text x="230" y="48" text-anchor="middle" fill="#e03a3a">完全覆盖</text>
+  <text x="210" y="30" text-anchor="middle" fill="#555">盖住的面积随时间变化</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 13px; }
+    .label { font-weight: bold; }
+    .dim { font-size: 12px; fill: #666; }
+  </style>
+
+  <!-- 图1：两个相连长方形 -->
+  <text x="30" y="22" class="label">图1：实际脚数 = 94</text>
+  <!-- 鸡的长方形：长=鸡的只数，宽=2 -->
+  <rect x="60" y="150" width="140" height="60" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+  <text x="110" y="185" class="label">鸡</text>
+  <text x="115" y="225" class="dim">每只2只脚</text>
+  <!-- 兔的长方形：长=兔的只数，宽=4 -->
+  <rect x="200" y="90" width="80" height="120" fill="#d6eaf8" stroke="#3498db" stroke-width="2"/>
+  <text x="225" y="155" class="label">兔</text>
+  <text x="288" y="155" class="dim">每只4只脚</text>
+  <text x="60" y="245" class="dim">鸡只数 + 兔只数 = 35个头</text>
+
+  <!-- 图2：补成大长方形 -->
+  <text x="360" y="22" class="label">图2：补成大长方形（假设全是兔）</text>
+  <!-- 大长方形 35 × 4 -->
+  <rect x="380" y="50" width="220" height="120" fill="#eaf2f8" stroke="#3498db" stroke-width="2"/>
+  <!-- 左上补的小长方形 -->
+  <rect x="380" y="50" width="140" height="60" fill="#f5b7b1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="395" y="85" fill="#c0392b" font-weight="bold">多算的面积</text>
+  <text x="398" y="102" fill="#c0392b" font-size="12">140−94=46</text>
+  <text x="380" y="190" class="dim">大长方形面积 = 35×4 = 140（只脚）</text>
+  <text x="380" y="212" class="dim">小长方形宽 = 4−2 = 2</text>
+  <text x="380" y="234" fill="#e67e22" font-weight="bold">鸡的只数 = 46÷2 = 23（只），兔 = 35−23 = 12（只）</text>
+</svg>

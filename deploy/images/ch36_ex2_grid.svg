@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 12px; fill: #333; }
+  </style>
+  <!-- 2x9 网格 -->
+  <rect x="30" y="60" width="270" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <g stroke="#333" stroke-width="1">
+    <line x1="60" y1="60" x2="60" y2="120"/>
+    <line x1="90" y1="60" x2="90" y2="120"/>
+    <line x1="120" y1="60" x2="120" y2="120"/>
+    <line x1="150" y1="60" x2="150" y2="120"/>
+    <line x1="180" y1="60" x2="180" y2="120"/>
+    <line x1="210" y1="60" x2="210" y2="120"/>
+    <line x1="240" y1="60" x2="240" y2="120"/>
+    <line x1="270" y1="60" x2="270" y2="120"/>
+    <line x1="30" y1="90" x2="300" y2="90"/>
+  </g>
+  <!-- 4种涂色方式示意 -->
+  <text x="45" y="48" text-anchor="middle">4种可能的涂色方式：</text>
+  <rect x="320" y="40" width="18" height="12" fill="#222"/>
+  <rect x="320" y="52" width="18" height="12" fill="#222"/>
+  <text x="348" y="56">全黑</text>
+  <rect x="320" y="72" width="18" height="12" fill="#fff" stroke="#333"/>
+  <rect x="320" y="84" width="18" height="12" fill="#fff" stroke="#333"/>
+  <text x="348" y="88">全白</text>
+  <rect x="320" y="104" width="18" height="12" fill="#222"/>
+  <rect x="320" y="116" width="18" height="12" fill="#fff" stroke="#333"/>
+  <text x="348" y="120">上黑下白</text>
+  <rect x="320" y="136" width="18" height="12" fill="#fff" stroke="#333"/>
+  <rect x="320" y="148" width="18" height="12" fill="#222"/>
+  <text x="348" y="152">上白下黑</text>
+  <text x="165" y="150" text-anchor="middle">9列相当于9个“苹果”，4种方式相当于4个“抽屉”</text>
+  <text x="165" y="180" text-anchor="middle">9&gt;4×2，必有3列涂色方式完全一样</text>
+</svg>

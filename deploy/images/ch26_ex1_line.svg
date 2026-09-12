@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 18px; font-style: italic; }
+    .pt { fill: #3030a0; }
+    .dk { fill: #222; }
+  </style>
+  <!-- 线段 AB（红色） -->
+  <line x1="50" y1="78" x2="510" y2="58" stroke="#e03a3a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- 点 A -->
+  <circle cx="50" cy="78" r="7" class="pt"/>
+  <text x="48" y="108" text-anchor="middle" class="pt">A</text>
+  <!-- 点 D -->
+  <circle cx="180" cy="74" r="6.5" class="dk"/>
+  <text x="180" y="104" text-anchor="middle" class="dk">D</text>
+  <!-- 点 C -->
+  <circle cx="310" cy="69" r="6.5" class="pt"/>
+  <text x="310" y="99" text-anchor="middle" class="pt">C</text>
+  <!-- 点 E -->
+  <circle cx="390" cy="66" r="6.5" class="dk"/>
+  <text x="390" y="96" text-anchor="middle" class="dk">E</text>
+  <!-- 点 B -->
+  <circle cx="510" cy="58" r="7" class="pt"/>
+  <text x="510" y="88" text-anchor="middle" class="pt">B</text>
+</svg>

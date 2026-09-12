@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 16px; fill: #333; }
+  </style>
+  <!-- 钟面 -->
+  <circle cx="140" cy="140" r="110" fill="#fffef5" stroke="#333" stroke-width="3"/>
+  <!-- 刻度 -->
+  <g stroke="#333" stroke-width="2">
+    <line x1="140" y1="35" x2="140" y2="48"/>
+    <line x1="140" y1="232" x2="140" y2="245"/>
+    <line x1="35" y1="140" x2="48" y2="140"/>
+    <line x1="232" y1="140" x2="245" y2="140"/>
+  </g>
+  <text x="140" y="70" text-anchor="middle" font-weight="bold">12</text>
+  <text x="210" y="146" text-anchor="middle" font-weight="bold">3</text>
+  <text x="140" y="225" text-anchor="middle" font-weight="bold">6</text>
+  <text x="70" y="146" text-anchor="middle" font-weight="bold">9</text>
+  <!-- 时针：指向约8时与9时之间偏8 -->
+  <line x1="140" y1="140" x2="95" y2="175" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  <!-- 分针：约27分，指向5-6之间 -->
+  <line x1="140" y1="140" x2="175" y2="210" stroke="#e03a3a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="140" cy="140" r="5" fill="#333"/>
+  <text x="140" y="270" text-anchor="middle">8时多，两针垂直</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" width="520" height="160">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .row { font-weight: bold; }
+    .cap { font-size: 12px; fill: #555; }
+  </style>
+
+  <!-- 红色卡片条 48张 -->
+  <text x="30" y="48" class="row" fill="#c0392b">红</text>
+  <rect x="60" y="28" width="300" height="34" rx="5" fill="#e74c3c" opacity="0.75"/>
+  <text x="210" y="50" text-anchor="middle" fill="white" font-weight="bold">红色卡片 48张</text>
+
+  <!-- 蓝色卡片条 56张 -->
+  <text x="30" y="98" class="row" fill="#2471a3">蓝</text>
+  <rect x="60" y="78" width="350" height="34" rx="5" fill="#3498db" opacity="0.75"/>
+  <text x="235" y="100" text-anchor="middle" fill="white" font-weight="bold">蓝色卡片 56张</text>
+
+  <!-- 差值标注：红条末端与蓝条末端之间 -->
+  <line x1="360" y1="62" x2="360" y2="78" stroke="#e67e22" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="360" y1="120" x2="410" y2="120" stroke="#e67e22" stroke-width="1.6"/>
+  <text x="430" y="124" fill="#e67e22" font-weight="bold">相差 8张</text>
+
+  <!-- 不变量提示 -->
+  <text x="60" y="148" fill="#c0392b" font-weight="bold">不变量：各取出相同张数，两种卡片的张数之差始终不变</text>
+</svg>

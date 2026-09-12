@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 13px; }
+    .ptitle { font-size: 14px; font-weight: bold; }
+    .note { font-size: 12px; }
+  </style>
+
+  <!-- ========== 情况1：只把底增加4米 ========== -->
+  <text x="160" y="28" text-anchor="middle" class="ptitle" fill="#e74c3c">情况1：只把底增加 4 米</text>
+
+  <!-- 原三角形 -->
+  <polygon points="40,190 160,80 280,190" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <!-- 高（不变量）绿色虚线 -->
+  <line x1="160" y1="80" x2="160" y2="190" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="168" y="140" class="note" fill="#27ae60" font-weight="bold">高不变</text>
+
+  <!-- 增量小三角形（红色虚线辅助） -->
+  <polygon points="280,190 345,190 160,80" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="280" y1="178" x2="280" y2="202" stroke="#e74c3c" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- 标注 -->
+  <text x="312" y="212" text-anchor="middle" class="note" fill="#e74c3c" font-weight="bold">+4米</text>
+  <text x="283" y="168" text-anchor="middle" class="note" fill="#c0392b">面积</text>
+  <text x="283" y="182" text-anchor="middle" class="note" fill="#c0392b">+24㎡</text>
+  <text x="40" y="212" class="note" fill="#666">底</text>
+
+  <!-- 分隔线 -->
+  <line x1="400" y1="20" x2="400" y2="240" stroke="#ddd" stroke-width="1"/>
+
+  <!-- ========== 情况2：只把高增加6米 ========== -->
+  <text x="520" y="28" text-anchor="middle" class="ptitle" fill="#27ae60">情况2：只把高增加 6 米</text>
+
+  <!-- 原三角形 -->
+  <polygon points="430,190 520,110 610,190" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <!-- 底（不变量） -->
+  <line x1="424" y1="196" x2="616" y2="196" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="520" y="212" text-anchor="middle" class="note" fill="#e74c3c" font-weight="bold">底不变</text>
+
+  <!-- 新顶点：高增加后 -->
+  <polygon points="520,62 430,190 520,110" fill="#27ae60" opacity="0.2"/>
+  <polygon points="520,62 610,190 520,110" fill="#27ae60" opacity="0.2"/>
+  <line x1="520" y1="62" x2="430" y2="190" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="520" y1="62" x2="610" y2="190" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- +6m 高增量标注 -->
+  <line x1="506" y1="62" x2="506" y2="110" stroke="#27ae60" stroke-width="1.5"/>
+  <line x1="500" y1="62" x2="512" y2="62" stroke="#27ae60" stroke-width="1.5"/>
+  <line x1="500" y1="110" x2="512" y2="110" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="492" y="90" text-anchor="end" class="note" fill="#27ae60" font-weight="bold">+6米</text>
+  <!-- 增量面积标注 -->
+  <text x="546" y="116" text-anchor="middle" class="note" fill="#1e8449">面积</text>
+  <text x="546" y="130" text-anchor="middle" class="note" fill="#1e8449">+24㎡</text>
+</svg>

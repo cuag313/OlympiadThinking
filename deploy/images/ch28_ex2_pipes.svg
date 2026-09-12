@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" width="360" height="280">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
+  </style>
+  <!-- 钢管堆：从上到下 1,2,3,4,5 根 -->
+  <!-- 第1层 -->
+  <ellipse cx="180" cy="30" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <!-- 第2层 -->
+  <ellipse cx="155" cy="58" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="205" cy="58" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <!-- 第3层 -->
+  <ellipse cx="130" cy="86" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="180" cy="86" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="230" cy="86" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <!-- 第4层 -->
+  <ellipse cx="105" cy="114" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="155" cy="114" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="205" cy="114" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="255" cy="114" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <!-- 第5层 -->
+  <ellipse cx="80" cy="142" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="130" cy="142" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="180" cy="142" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="230" cy="142" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="280" cy="142" rx="18" ry="12" fill="#b0c4de" stroke="#333" stroke-width="1.5"/>
+  <!-- 层数标注 -->
+  <text x="40" y="34">1根</text>
+  <text x="40" y="62">2根</text>
+  <text x="40" y="90">3根</text>
+  <text x="40" y="118">4根</text>
+  <text x="40" y="146">5根</text>
+  <text x="180" y="180" text-anchor="middle">共n层，从上到下依次1,2,3,…,n根</text>
+  <!-- 倒放示意 -->
+  <text x="180" y="220" text-anchor="middle" fill="#666">倒放拼合：每层 n+1 根，共 n 层</text>
+  <text x="180" y="248" text-anchor="middle" fill="#e03a3a">1+2+…+n = n(n+1)/2</text>
+</svg>

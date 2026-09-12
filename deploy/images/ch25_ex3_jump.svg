@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+    .num { font-size: 13px; }
+  </style>
+  <defs>
+    <pattern id="h3" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#dddddd"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#9a9a9a" stroke-width="1.6"/>
+    </pattern>
+    <marker id="ah1" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8" fill="none" stroke="#333" stroke-width="1.4"/>
+    </marker>
+  </defs>
+
+  <!-- ============ 图 1（左） ============ -->
+  <!-- 移多补少弧形双箭头 -->
+  <text x="185" y="22" text-anchor="middle">移多补少</text>
+  <path d="M 242 62 C 215 32, 160 30, 128 96" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah1)"/>
+  <path d="M 128 96 C 150 58, 215 56, 246 62" fill="none" stroke="#333" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- 甲组长方格 -->
+  <rect x="70" y="135" width="105" height="95" fill="url(#h3)" stroke="#333" stroke-width="1.6"/>
+  <!-- B 区域标注（甲组长方格上方至152虚线之间） -->
+  <text x="122" y="126" text-anchor="middle" font-style="italic">B</text>
+  <!-- 乙组长方格 -->
+  <rect x="175" y="70" width="125" height="160" fill="url(#h3)" stroke="#333" stroke-width="1.6"/>
+  <text x="237" y="96" text-anchor="middle" font-style="italic">A</text>
+  <!-- 152个 虚线 -->
+  <line x1="45" y1="110" x2="175" y2="110" stroke="#333" stroke-width="1.2" stroke-dasharray="7,5"/>
+  <!-- 右侧数据 -->
+  <line x1="310" y1="70" x2="318" y2="70" stroke="#333" stroke-width="1"/>
+  <text x="322" y="74" class="num">160个</text>
+  <line x1="310" y1="110" x2="318" y2="110" stroke="#333" stroke-width="1"/>
+  <text x="322" y="114" class="num">152个</text>
+  <!-- 底部 -->
+  <text x="122" y="252" text-anchor="middle">甲组有6人</text>
+  <text x="240" y="252" text-anchor="middle">乙组有9人</text>
+  <text x="185" y="286" text-anchor="middle">图 1</text>
+
+  <!-- ============ 图 2（右） ============ -->
+  <text x="540" y="22" text-anchor="middle">移多补少</text>
+  <path d="M 597 62 C 570 32, 515 30, 483 96" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah1)"/>
+  <path d="M 483 96 C 505 58, 570 56, 601 62" fill="none" stroke="#333" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- 甲组长方格 -->
+  <rect x="425" y="135" width="105" height="95" fill="url(#h3)" stroke="#333" stroke-width="1.6"/>
+  <!-- B 区域：虚线框，标 72 -->
+  <rect x="425" y="110" width="105" height="25" fill="url(#h3)" stroke="#333" stroke-width="1.4" stroke-dasharray="6,4"/>
+  <text x="477" y="128" text-anchor="middle" class="num">72</text>
+  <!-- 乙组长方格 -->
+  <rect x="530" y="70" width="125" height="160" fill="url(#h3)" stroke="#333" stroke-width="1.6"/>
+  <text x="592" y="97" text-anchor="middle" class="num">(160−152)×9=72</text>
+  <!-- 152个 虚线 -->
+  <line x1="400" y1="110" x2="530" y2="110" stroke="#333" stroke-width="1.2" stroke-dasharray="7,5"/>
+  <!-- 右侧数据 -->
+  <line x1="665" y1="70" x2="673" y2="70" stroke="#333" stroke-width="1"/>
+  <text x="677" y="74" class="num">160个</text>
+  <line x1="665" y1="110" x2="673" y2="110" stroke="#333" stroke-width="1"/>
+  <text x="677" y="114" class="num">152个</text>
+  <!-- 底部 -->
+  <text x="477" y="252" text-anchor="middle">甲组有6人</text>
+  <text x="592" y="252" text-anchor="middle">乙组有9人</text>
+  <text x="540" y="286" text-anchor="middle">图 2</text>
+</svg>

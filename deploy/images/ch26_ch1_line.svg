@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 18px; font-style: italic; }
+  </style>
+  <rect x="0" y="0" width="560" height="120" fill="#d6d2cc"/>
+  <line x1="40" y1="60" x2="520" y2="60" stroke="#333" stroke-width="2.2"/>
+  <circle cx="40" cy="60" r="4.5" fill="#333"/>
+  <circle cx="190" cy="60" r="4.5" fill="#333"/>
+  <circle cx="310" cy="60" r="4.5" fill="#333"/>
+  <circle cx="400" cy="60" r="4.5" fill="#333"/>
+  <circle cx="520" cy="60" r="4.5" fill="#333"/>
+  <text x="40" y="92" text-anchor="middle" fill="#333">A</text>
+  <text x="190" y="92" text-anchor="middle" fill="#333">D</text>
+  <text x="310" y="92" text-anchor="middle" fill="#333">B</text>
+  <text x="400" y="92" text-anchor="middle" fill="#333">E</text>
+  <text x="520" y="92" text-anchor="middle" fill="#333">C</text>
+</svg>

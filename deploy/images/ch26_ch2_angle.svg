@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 18px; font-style: italic; fill: #333; }
+  </style>
+  <rect x="0" y="0" width="420" height="320" fill="#d6d2cc"/>
+
+  <!-- 顶点 O -->
+  <circle cx="60" cy="180" r="5" fill="#333"/>
+  <text x="48" y="190" text-anchor="end">O</text>
+
+  <!-- 射线 OA（最上） -->
+  <line x1="60" y1="180" x2="360" y2="40" stroke="#333" stroke-width="2"/>
+  <circle cx="360" cy="40" r="3.5" fill="#333"/>
+  <text x="370" y="40">A</text>
+
+  <!-- 射线 OD -->
+  <line x1="60" y1="180" x2="340" y2="110" stroke="#333" stroke-width="2"/>
+  <circle cx="340" cy="110" r="3.5" fill="#333"/>
+  <text x="350" y="114">D</text>
+
+  <!-- 射线 OB -->
+  <line x1="60" y1="180" x2="320" y2="170" stroke="#333" stroke-width="2"/>
+  <circle cx="320" cy="170" r="3.5" fill="#333"/>
+  <text x="330" y="176">B</text>
+
+  <!-- 射线 OE -->
+  <line x1="60" y1="180" x2="300" y2="230" stroke="#333" stroke-width="2"/>
+  <circle cx="300" cy="230" r="3.5" fill="#333"/>
+  <text x="310" y="238">E</text>
+
+  <!-- 射线 OC（最下） -->
+  <line x1="60" y1="180" x2="270" y2="290" stroke="#333" stroke-width="2"/>
+  <circle cx="270" cy="290" r="3.5" fill="#333"/>
+  <text x="280" y="300">C</text>
+
+  <!-- ∠AOB 弧线标注 70° -->
+  <path d="M 130 118 A 90 90 0 0 1 148 165" fill="none" stroke="#e03a3a" stroke-width="1.6"/>
+  <text x="155" y="130" fill="#e03a3a" font-size="14">70°</text>
+</svg>

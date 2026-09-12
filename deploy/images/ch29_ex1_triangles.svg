@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" width="480" height="200">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 15px; fill: #333; }
+  </style>
+  <!-- 图1：腰4底6 -->
+  <polygon points="120,40 70,150 170,150" fill="#f4e5df" stroke="#8b4513" stroke-width="2"/>
+  <text x="120" y="30" text-anchor="middle">腰4</text>
+  <text x="70" y="170" text-anchor="middle" fill="#e03a3a">4</text>
+  <text x="170" y="170" text-anchor="middle" fill="#e03a3a">4</text>
+  <text x="120" y="170" text-anchor="middle" fill="#3030a0">6</text>
+  <text x="120" y="195" text-anchor="middle">图1 周长14</text>
+
+  <!-- 图2：腰6底4 -->
+  <polygon points="360,40 320,150 400,150" fill="#e8f0fe" stroke="#3030a0" stroke-width="2"/>
+  <text x="360" y="30" text-anchor="middle">腰6</text>
+  <text x="320" y="170" text-anchor="middle" fill="#e03a3a">6</text>
+  <text x="400" y="170" text-anchor="middle" fill="#e03a3a">6</text>
+  <text x="360" y="170" text-anchor="middle" fill="#3030a0">4</text>
+  <text x="360" y="195" text-anchor="middle">图2 周长16</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="500" height="200">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .label { font-weight: bold; }
+    .age { font-size: 12px; fill: #666; }
+  </style>
+  
+  <!-- 思思的年龄线段 -->
+  <text x="30" y="50" class="label">思思</text>
+  <line x1="80" y1="45" x2="230" y2="45" stroke="#e74c3c" stroke-width="8"/>
+  <text x="130" y="40" class="age">5岁</text>
+  <text x="80" y="70" class="age">现在</text>
+  
+  <!-- 爸爸的年龄线段 -->
+  <text x="30" y="120" class="label">爸爸</text>
+  <line x1="80" y1="115" x2="430" y2="115" stroke="#3498db" stroke-width="8"/>
+  <text x="230" y="110" class="age">35岁</text>
+  <text x="80" y="140" class="age">现在</text>
+  
+  <!-- 年龄差标注 -->
+  <line x1="230" y1="55" x2="230" y2="105" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="240" y="85" class="age">年龄差 = 30岁</text>
+  
+  <!-- 问题标注 -->
+  <text x="80" y="180" fill="#e67e22" font-weight="bold">问：再过多少年，爸爸年龄是思思的3倍？</text>
+</svg>

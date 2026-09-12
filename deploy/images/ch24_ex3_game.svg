@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 165" width="550" height="165">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 13px; }
+    .label { font-weight: bold; font-size: 14px; }
+    .step { font-size: 12px; fill: #666; }
+  </style>
+  
+  <!-- 初始数字序列 -->
+  <text x="30" y="30" class="label">初始：</text>
+  <text x="80" y="30">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ... , 100</text>
+  
+  <!-- 第一步 -->
+  <text x="30" y="70" class="label">第一步：</text>
+  <text x="80" y="70" fill="#e74c3c" text-decoration="line-through">1, 2, 3, 4</text>
+  <text x="220" y="70">→</text>
+  <text x="250" y="70">5, 6, 7, 8, ... , 100,</text>
+  <rect x="430" y="55" width="40" height="25" rx="4" fill="#27ae60" opacity="0.3"/>
+  <text x="450" y="73" text-anchor="middle" fill="#27ae60" font-weight="bold">10</text>
+  <text x="480" y="73" class="step">(1+2+3+4)</text>
+  
+  <!-- 第二步 -->
+  <text x="30" y="110" class="label">第二步：</text>
+  <text x="80" y="110" fill="#e74c3c" text-decoration="line-through">5, 6, 7, 8</text>
+  <text x="220" y="110">→</text>
+  <text x="250" y="110">9, 10, ... , 100, 10,</text>
+  <rect x="430" y="95" width="40" height="25" rx="4" fill="#27ae60" opacity="0.3"/>
+  <text x="450" y="113" text-anchor="middle" fill="#27ae60" font-weight="bold">26</text>
+  <text x="480" y="113" class="step">(5+6+7+8)</text>
+  
+  <!-- 后续示意 -->
+  <text x="30" y="150" class="label">···</text>
+  <text x="80" y="150">如此继续，每步划去前面的4个数，在最后写上它们的和</text>
+</svg>

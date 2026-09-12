@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 16px; fill: #333; }
+    .lab { font-family: SimSun, "Microsoft YaHei", serif; font-size: 15px; font-style: normal; font-weight: bold; }
+  </style>
+  <rect x="0" y="0" width="560" height="120" fill="#d6d2cc"/>
+  <!-- 路线 -->
+  <line x1="40" y1="70" x2="520" y2="70" stroke="#333" stroke-width="2.2"/>
+  <!-- 小镇标注 -->
+  <text x="145" y="42" text-anchor="middle" class="lab">小镇</text>
+  <circle cx="40" cy="70" r="4" fill="#333"/>
+  <circle cx="145" cy="70" r="4" fill="#333"/>
+  <circle cx="290" cy="70" r="4" fill="#333"/>
+  <circle cx="410" cy="70" r="4" fill="#333"/>
+  <circle cx="520" cy="70" r="4" fill="#333"/>
+  <text x="40" y="98" text-anchor="middle" font-style="italic" font-size="18" fill="#333">A</text>
+  <text x="145" y="98" text-anchor="middle" font-style="italic" font-size="18" fill="#333">D</text>
+  <text x="290" y="98" text-anchor="middle" font-style="italic" font-size="18" fill="#333">C</text>
+  <text x="410" y="98" text-anchor="middle" font-style="italic" font-size="18" fill="#333">E</text>
+  <text x="520" y="98" text-anchor="middle" font-style="italic" font-size="18" fill="#333">B</text>
+</svg>

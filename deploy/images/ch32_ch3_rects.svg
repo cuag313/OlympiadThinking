@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+    .n { font-size: 16px; font-weight: bold; fill: #3030a0; }
+  </style>
+  <!-- 大长方形分成8格，标5个面积 -->
+  <rect x="40" y="40" width="320" height="160" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- 竖线：约1/3、2/3处 -->
+  <line x1="147" y1="40" x2="147" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="253" y1="40" x2="253" y2="200" stroke="#333" stroke-width="1.5"/>
+  <!-- 横线 -->
+  <line x1="40" y1="120" x2="360" y2="120" stroke="#333" stroke-width="1.5"/>
+  <!-- 已知面积 -->
+  <text x="93" y="85" text-anchor="middle" class="n">36</text>
+  <text x="200" y="85" text-anchor="middle" class="n">20</text>
+  <text x="307" y="85" text-anchor="middle" class="n">30</text>
+  <text x="93" y="165" text-anchor="middle" class="n">?</text>
+  <text x="200" y="165" text-anchor="middle" class="n">16</text>
+  <text x="307" y="165" text-anchor="middle" class="n">12</text>
+  <text x="200" y="230" text-anchor="middle">由面积比求最大面积</text>
+</svg>

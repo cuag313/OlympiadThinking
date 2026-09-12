@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280">
+  <style>
+    text { font-family: "Times New Roman", SimSun, serif; font-size: 16px; font-style: italic; fill: #333; }
+  </style>
+  <defs>
+    <pattern id="hatch26" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#cccccc"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#888" stroke-width="1.8"/>
+    </pattern>
+  </defs>
+
+  <!-- 外框 ABCD -->
+  <rect x="50" y="40" width="420" height="200" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- 中线 EF -->
+  <line x1="50" y1="140" x2="470" y2="140" stroke="#333" stroke-width="2"/>
+
+  <!-- 上矩形 AEFD 内三个阴影三角形（合计约一半） -->
+  <polygon points="50,40 170,40 110,140" fill="url(#hatch26)" stroke="#555" stroke-width="1"/>
+  <polygon points="170,40 290,140 170,140" fill="url(#hatch26)" stroke="#555" stroke-width="1"/>
+  <polygon points="290,40 470,40 410,140" fill="url(#hatch26)" stroke="#555" stroke-width="1"/>
+
+  <!-- 下矩形 BCFE 内两个阴影三角形（合计约一半） -->
+  <polygon points="50,140 230,140 140,240" fill="url(#hatch26)" stroke="#555" stroke-width="1"/>
+  <polygon points="290,140 470,140 380,240" fill="url(#hatch26)" stroke="#555" stroke-width="1"/>
+
+  <!-- 顶点字母 -->
+  <text x="40" y="40" text-anchor="end">A</text>
+  <text x="40" y="145" text-anchor="end">E</text>
+  <text x="40" y="248" text-anchor="end">B</text>
+  <text x="480" y="40" text-anchor="start">D</text>
+  <text x="480" y="145" text-anchor="start">F</text>
+  <text x="480" y="248" text-anchor="start">C</text>
+</svg>

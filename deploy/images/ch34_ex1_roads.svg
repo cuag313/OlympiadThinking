@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+  </style>
+  <!-- 甲城 - 乙城 - 丙城，道路 -->
+  <text x="50" y="100" text-anchor="middle" font-weight="bold">甲城</text>
+  <text x="200" y="100" text-anchor="middle" font-weight="bold">乙城</text>
+  <text x="350" y="100" text-anchor="middle" font-weight="bold">丙城</text>
+  <circle cx="50" cy="100" r="8" fill="#3030a0"/>
+  <circle cx="200" cy="100" r="8" fill="#e03a3a"/>
+  <circle cx="350" cy="100" r="8" fill="#2e7d32"/>
+  <!-- 甲到乙 3条路 -->
+  <path d="M58,95 Q130,50 192,90" fill="none" stroke="#3030a0" stroke-width="1.8"/>
+  <path d="M58,100 Q130,100 192,100" fill="none" stroke="#3030a0" stroke-width="1.8"/>
+  <path d="M58,105 Q130,150 192,110" fill="none" stroke="#3030a0" stroke-width="1.8"/>
+  <text x="125" y="45" text-anchor="middle">3条道路</text>
+  <!-- 乙到丙 5条路 -->
+  <path d="M208,88 Q275,40 342,90" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <path d="M208,94 Q275,70 342,95" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <path d="M208,100 Q275,100 342,100" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <path d="M208,106 Q275,130 342,105" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <path d="M208,112 Q275,160 342,110" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="275" y="35" text-anchor="middle">5条道路</text>
+  <text x="200" y="180" text-anchor="middle">3×5=15条不同路线</text>
+</svg>

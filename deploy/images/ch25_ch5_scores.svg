@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 13px; }
+    .label { font-weight: bold; }
+    .dim { font-size: 12px; fill: #666; }
+  </style>
+
+  <!-- 全班平均线 91.2 -->
+  <line x1="60" y1="120" x2="500" y2="120" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="505" y="124" class="label">91.2</text>
+
+  <!-- 男生长方形：低于平均线 -->
+  <rect x="80" y="120" width="160" height="80" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+  <text x="120" y="158" class="label">B：男生少</text>
+  <text x="118" y="178" class="dim">面积 = 16.8</text>
+  <text x="125" y="222" class="dim">男生 24 人</text>
+
+  <!-- 女生长方形：高到 92 -->
+  <rect x="240" y="60" width="230" height="140" fill="#d6eaf8" stroke="#3498db" stroke-width="2"/>
+  <rect x="240" y="60" width="230" height="60" fill="#f5b7b1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="300" y="86" class="label">A：女生多</text>
+  <text x="288" y="105" fill="#c0392b" font-size="12">(92−91.2)×21 = 16.8</text>
+  <text x="310" y="168" class="dim">女生 21 人，平均 92 分</text>
+
+  <text x="80" y="245" fill="#e67e22" font-weight="bold">A = B → 男生平均 = 91.2 − 16.8÷24 = 90.5（分）</text>
+</svg>

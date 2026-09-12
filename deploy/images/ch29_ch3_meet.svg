@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
+  </style>
+  <!-- 图1 相遇前相距120 -->
+  <text x="280" y="22" text-anchor="middle">图1 相遇前相距120千米</text>
+  <line x1="40" y1="80" x2="520" y2="80" stroke="#333" stroke-width="2"/>
+  <text x="35" y="85" text-anchor="end">A</text>
+  <text x="525" y="85" text-anchor="start">B</text>
+  <!-- 甲车位置 -->
+  <rect x="160" y="55" width="40" height="22" rx="3" fill="#4a90d9"/>
+  <text x="180" y="50" text-anchor="middle">甲</text>
+  <!-- 乙车位置 -->
+  <rect x="380" y="55" width="40" height="22" rx="3" fill="#50b86c"/>
+  <text x="400" y="50" text-anchor="middle">乙</text>
+  <!-- 120km gap -->
+  <line x1="200" y1="100" x2="380" y2="100" stroke="#e03a3a" stroke-width="1.5"/>
+  <text x="290" y="115" text-anchor="middle" fill="#e03a3a">120千米</text>
+  <text x="280" y="135" text-anchor="middle" fill="#666">总路程720千米，(720−120)÷(50+70)=5小时</text>
+  <!-- 图2 相遇后相距120 -->
+  <text x="280" y="165" text-anchor="middle">图2 相遇后相距120千米</text>
+  <line x1="40" y1="200" x2="520" y2="200" stroke="#333" stroke-width="2"/>
+  <rect x="250" y="185" width="40" height="18" rx="3" fill="#4a90d9" opacity="0.7"/>
+  <rect x="310" y="185" width="40" height="18" rx="3" fill="#50b86c" opacity="0.7"/>
+  <text x="280" y="215" text-anchor="middle" fill="#666">错过后继续行驶，(720+120)÷(50+70)=7小时</text>
+</svg>

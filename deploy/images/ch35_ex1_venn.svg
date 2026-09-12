@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
+  </style>
+  <!-- 韦恩图：两集合 -->
+  <circle cx="140" cy="110" r="70" fill="#3030a0" fill-opacity="0.25" stroke="#3030a0" stroke-width="2"/>
+  <circle cx="220" cy="110" r="70" fill="#e03a3a" fill-opacity="0.25" stroke="#e03a3a" stroke-width="2"/>
+  <text x="100" y="70" text-anchor="middle" fill="#3030a0" font-weight="bold">答对第一题</text>
+  <text x="260" y="70" text-anchor="middle" fill="#e03a3a" font-weight="bold">答对第二题</text>
+  <text x="110" y="115" text-anchor="middle">10人</text>
+  <text x="180" y="115" text-anchor="middle">15人</text>
+  <text x="250" y="115" text-anchor="middle">8人</text>
+  <text x="180" y="50" text-anchor="middle">25人 / 23人</text>
+  <text x="180" y="200" text-anchor="middle">全班36人，求两题都没对的人数</text>
+</svg>

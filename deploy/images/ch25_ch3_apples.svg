@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+    .num { font-size: 13px; }
+  </style>
+  <defs>
+    <pattern id="h4" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#dddddd"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#9a9a9a" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+
+  <!-- ============ 上面板（题图） ============ -->
+  <!-- 高的长方形 ABFE（阴影） -->
+  <rect x="150" y="60" width="230" height="150" fill="url(#h4)" stroke="#333" stroke-width="1.6"/>
+  <!-- 矮的长方形 ADCH 的右侧延伸轮廓 -->
+  <path d="M 380 120 L 520 120 L 520 210" fill="none" stroke="#333" stroke-width="1.6"/>
+
+  <!-- 左侧括号：8千克 / 28千克 -->
+  <path d="M 122 60 q -7 0 -7 5 l 0 50 q 0 5 7 5" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="104" y="95" text-anchor="end" class="num">8千克</text>
+  <path d="M 96 60 q -7 0 -7 5 l 0 140 q 0 5 7 5" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="78" y="140" text-anchor="end" class="num">28千克</text>
+
+  <!-- 字母标注 -->
+  <text x="150" y="50" text-anchor="middle">B</text>
+  <text x="380" y="50" text-anchor="middle">F</text>
+  <text x="141" y="126" text-anchor="end">H</text>
+  <text x="388" y="132" text-anchor="start">G</text>
+  <text x="526" y="126" text-anchor="middle">C</text>
+  <text x="144" y="226" text-anchor="middle">A</text>
+  <text x="380" y="226" text-anchor="middle">E</text>
+  <text x="522" y="226" text-anchor="middle">D</text>
+
+  <!-- 底部括号 -->
+  <path d="M 150 230 L 150 236 L 262 236 L 265 242 L 268 236 L 380 236 L 380 230" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="265" y="262" text-anchor="middle">20筐</text>
+  <path d="M 380 230 L 380 236 L 447 236 L 450 242 L 453 236 L 520 236 L 520 230" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="450" y="262" text-anchor="middle" class="num">多准备几个筐？</text>
+
+  <!-- ============ 下面板（解图） ============ -->
+  <g transform="translate(0,320)">
+    <!-- 高的长方形 ABFE（阴影） -->
+    <rect x="150" y="60" width="230" height="150" fill="url(#h4)" stroke="#333" stroke-width="1.6"/>
+    <!-- 右侧延伸长方形（阴影） -->
+    <rect x="380" y="120" width="140" height="90" fill="url(#h4)" stroke="#333" stroke-width="1.6"/>
+
+    <!-- 区域面积标注 -->
+    <text x="265" y="96" text-anchor="middle" class="num">560千克</text>
+    <text x="265" y="171" text-anchor="middle" class="num">560千克</text>
+
+    <!-- 左侧括号：8千克 / 28千克 -->
+    <path d="M 122 60 q -7 0 -7 5 l 0 50 q 0 5 7 5" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="104" y="95" text-anchor="end" class="num">8千克</text>
+    <path d="M 96 60 q -7 0 -7 5 l 0 140 q 0 5 7 5" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="78" y="140" text-anchor="end" class="num">28千克</text>
+
+    <!-- 字母标注 -->
+    <text x="150" y="50" text-anchor="middle">B</text>
+    <text x="380" y="50" text-anchor="middle">F</text>
+    <text x="141" y="126" text-anchor="end">H</text>
+    <text x="388" y="132" text-anchor="start">G</text>
+    <text x="526" y="126" text-anchor="middle">C</text>
+    <text x="144" y="226" text-anchor="middle">A</text>
+    <text x="380" y="226" text-anchor="middle">E</text>
+    <text x="522" y="226" text-anchor="middle">D</text>
+
+    <!-- 底部括号 -->
+    <path d="M 150 230 L 150 236 L 262 236 L 265 242 L 268 236 L 380 236 L 380 230" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="265" y="262" text-anchor="middle">20筐</text>
+    <path d="M 380 230 L 380 236 L 447 236 L 450 242 L 453 236 L 520 236 L 520 230" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="450" y="262" text-anchor="middle" class="num">28−20=8筐</text>
+    <path d="M 150 276 L 150 282 L 332 282 L 335 288 L 338 282 L 520 282 L 520 276" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="335" y="308" text-anchor="middle" class="num">560÷20=28筐</text>
+  </g>
+</svg>

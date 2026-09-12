@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="520" height="180">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .row { font-weight: bold; }
+    .cnt { font-weight: bold; }
+  </style>
+
+  <!-- 上层 -->
+  <text x="40" y="58" class="row" fill="#e74c3c">上层</text>
+  <rect x="90" y="38" width="330" height="40" rx="6" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="2"/>
+  <text x="255" y="63" text-anchor="middle" class="cnt" fill="#c0392b">？本</text>
+
+  <!-- 下层 -->
+  <text x="40" y="128" class="row" fill="#3498db">下层</text>
+  <rect x="90" y="108" width="240" height="40" rx="6" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <text x="210" y="133" text-anchor="middle" class="cnt" fill="#2471a3">？本</text>
+
+  <!-- 共160本 -->
+  <text x="440" y="63" class="cnt" fill="#333">共</text>
+  <text x="440" y="128" class="cnt" fill="#333">160本</text>
+  <line x1="424" y1="40" x2="424" y2="146" stroke="#555" stroke-width="1.2"/>
+
+  <!-- 操作箭头：上层末尾约1/5段 → 下层 -->
+  <path d="M 362 78 C 372 98, 350 104, 332 107" fill="none" stroke="#e67e22" stroke-width="1.8" marker-end="url(#arrDown)"/>
+  <defs>
+    <marker id="arrDown" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9" fill="none" stroke="#e67e22" stroke-width="1.8"/>
+    </marker>
+  </defs>
+  <text x="255" y="16" text-anchor="middle" fill="#e67e22" font-weight="bold">上层的 1/5 放入下层</text>
+  <rect x="330" y="38" width="90" height="40" fill="none" stroke="#e67e22" stroke-width="1.8" stroke-dasharray="5,4"/>
+</svg>

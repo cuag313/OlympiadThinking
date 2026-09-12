@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .title { font-size: 15px; font-weight: bold; }
+    .row { font-size: 13px; fill: #444; }
+    .red { fill: #e74c3c; font-weight: bold; }
+  </style>
+
+  <text x="280" y="30" text-anchor="middle" class="title">不变量：年龄问题</text>
+
+  <!-- 现在 -->
+  <text x="40" y="75" text-anchor="end" class="row">现在：</text>
+  <!-- 爸爸长条 -->
+  <rect x="60" y="88" width="420" height="22" rx="3" fill="#3498db" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="270" y="104" text-anchor="middle" fill="white" font-weight="bold">爸爸 35岁（5×7）</text>
+  <!-- 思思短块 -->
+  <rect x="60" y="60" width="70" height="22" rx="3" fill="#e67e22" stroke="#b35c0e" stroke-width="1.5"/>
+  <text x="95" y="76" text-anchor="middle" fill="white" font-weight="bold">思思 5岁</text>
+  <!-- 年龄差红色双向箭头：从思思块右端到爸爸条右端 -->
+  <line x1="132" y1="54" x2="478" y2="54" stroke="#e74c3c" stroke-width="1.5" marker-start="url(#arrL)" marker-end="url(#arrR)"/>
+  <text x="305" y="48" text-anchor="middle" class="red" font-size="12">年龄差=30岁（不变量）</text>
+  <defs>
+    <marker id="arrL" markerWidth="8" markerHeight="8" refX="0" refY="4" orient="auto-start-reverse">
+      <path d="M8,0 L0,4 L8,8" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrR" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    </marker>
+  </defs>
+
+  <!-- x年后 -->
+  <text x="40" y="155" text-anchor="end" class="row">x年后：</text>
+  <rect x="60" y="168" width="470" height="22" rx="3" fill="#3498db" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="295" y="184" text-anchor="middle" fill="white" font-weight="bold">爸爸 35+x</text>
+  <rect x="60" y="140" width="100" height="22" rx="3" fill="#e67e22" stroke="#b35c0e" stroke-width="1.5"/>
+  <text x="110" y="156" text-anchor="middle" fill="white" font-weight="bold">思思 5+x</text>
+
+  <!-- 公式框 -->
+  <rect x="150" y="215" width="280" height="60" rx="8" fill="#fdf6ec" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="290" y="240" text-anchor="middle" class="red" font-size="13">35+x = 3×(5+x)  →  x=10</text>
+  <text x="290" y="262" text-anchor="middle" class="red" font-size="13">再过10年，爸爸年龄是思思的3倍</text>
+</svg>

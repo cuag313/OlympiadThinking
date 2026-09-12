@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 170" width="520" height="170">
+  <style>
+    text { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 14px; }
+    .person { font-size: 15px; font-weight: bold; }
+    .lab { font-weight: bold; }
+  </style>
+
+  <!-- 思思 -->
+  <text x="30" y="50" class="person" fill="#e74c3c">思思</text>
+  <rect x="30" y="60" width="130" height="42" rx="8" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="2"/>
+  <text x="95" y="87" text-anchor="middle" class="lab" fill="#c0392b">5本</text>
+
+  <!-- 想想 -->
+  <text x="360" y="50" class="person" fill="#3498db">想想</text>
+  <rect x="360" y="60" width="130" height="42" rx="8" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <text x="425" y="87" text-anchor="middle" class="lab" fill="#2471a3">？本</text>
+
+  <!-- 给3本：箭头从想想指向思思 -->
+  <line x1="356" y1="81" x2="164" y2="81" stroke="#e67e22" stroke-width="2"/>
+  <polygon points="172,75 158,81 172,87" fill="#e67e22"/>
+  <text x="260" y="74" text-anchor="middle" fill="#e67e22" font-weight="bold">给3本</text>
+
+  <!-- 关系提示 -->
+  <text x="260" y="140" text-anchor="middle" fill="#c0392b" font-weight="bold">给书之后：想想的本数 = 思思本数的 2 倍</text>
+</svg>

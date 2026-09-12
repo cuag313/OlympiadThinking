@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="520" height="200">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
+  </style>
+  <rect x="0" y="0" width="520" height="200" fill="#fafafa" stroke="#ddd"/>
+  <!-- 平行线 -->
+  <line x1="30" y1="40" x2="490" y2="40" stroke="#666" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="30" y1="150" x2="490" y2="150" stroke="#666" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <!-- 直角三角形 -->
+  <polygon points="60,150 120,150 60,40" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="78" y="165" text-anchor="middle">三角形</text>
+  <!-- 长方形 -->
+  <rect x="180" y="40" width="160" height="110" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="260" y="100" text-anchor="middle">长方形</text>
+  <!-- 箭头 -->
+  <line x1="360" y1="95" x2="400" y2="95" stroke="#333" stroke-width="2"/>
+  <polygon points="400,90 412,95 400,100" fill="#333"/>
+  <!-- 平移后重叠示意 -->
+  <rect x="420" y="55" width="70" height="80" fill="#cfe8f5" stroke="#333" stroke-width="1.5"/>
+  <polygon points="420,135 460,135 420,55" fill="#f0c0c0" stroke="#e03a3a" stroke-width="1.5"/>
+  <text x="260" y="30" text-anchor="middle" fill="#555">三角形向右平移，盖住长方形的面积变化</text>
+</svg>
