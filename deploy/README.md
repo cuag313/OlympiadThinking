@@ -1,7 +1,15 @@
 # 点点思维 · 站点结构（可上线）
 
+**线上地址（启用 GitHub Pages 后）**  
+`https://cuag313.github.io/OlympiadThinking/`
+
+启用步骤（只需一次）：
+1. 打开仓库 → **Settings → Pages**
+2. **Source** 选 **GitHub Actions**
+3. 等 workflow「Deploy site」跑完（推送 `master` 会自动发布）
+
 网站根目录：`deploy/`  
-发布时把这个目录整包上传（GitHub Pages / 静态托管 / 对象存储均可）。
+由 `.github/workflows/deploy-site.yml` 自动把该目录发到 Pages。
 
 ```
 deploy/
