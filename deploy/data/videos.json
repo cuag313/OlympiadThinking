@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "updated": "2026-09-13",
   "convention": {
@@ -47,7 +47,6 @@
         {"id": "ch3_challenge_4", "type": "challenge", "num": "挑战4", "title": "服装销量", "answer": "160→1600", "file": "assets/videos/ch03/ch03_challenge_4.mp4", "status": "done", "html_anchor": "ans3_4"},
         {"id": "ch3_challenge_5", "type": "challenge", "num": "挑战5", "title": "框住九数", "answer": "177到197", "file": "assets/videos/ch03/ch03_challenge_5.mp4", "status": "done", "html_anchor": "ans3_5"}
       ]
-    }
     },
     "4": {
       "name": "列表法",
