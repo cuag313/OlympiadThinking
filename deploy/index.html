@@ -2,12 +2,14 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>小学奥数解题思维方法 - 思维挑战交互版</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:"Microsoft YaHei","SimSun",sans-serif;background:#f5f7fa;color:#333;line-height:1.8;padding:20px}
-.container{max-width:900px;margin:0 auto}
+html{overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{font-family:"Microsoft YaHei","SimSun",sans-serif;background:#f5f7fa;color:#333;line-height:1.8;padding:20px;max-width:100vw;overflow-x:hidden}
+img{max-width:100%;height:auto}
+.container{max-width:min(900px,100%);margin:0 auto;width:100%}
 h1{text-align:center;color:#2c3e50;margin-bottom:8px;font-size:28px}
 .subtitle{text-align:center;color:#7f8c8d;margin-bottom:30px;font-size:14px}
 .chapter-title{color:#2980b9;font-size:22px;margin:40px 0 20px;padding:10px 15px;border-left:5px solid #2980b9;background:#eaf2f8;border-radius:4px;page-break-before:always}
@@ -21,15 +23,15 @@ h1{text-align:center;color:#2c3e50;margin-bottom:8px;font-size:28px}
 .question-header{display:flex;align-items:center;gap:10px;margin-bottom:15px}
 .question-num{font-weight:bold;color:#2c3e50;font-size:18px}
 .tag{display:inline-block;padding:3px 10px;border-radius:5px;font-size:12px;font-weight:bold;background:#fef5e7;color:#e67e22}
-.question-title{font-size:16px;color:#2c3e50;margin-bottom:15px;line-height:1.8}
+.question-title{font-size:16px;color:#2c3e50;margin-bottom:15px;line-height:1.8;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .btn-group{display:flex;gap:10px;margin-top:15px;flex-wrap:wrap}
 .reveal-btn{display:inline-flex;align-items:center;gap:5px;padding:10px 18px;background:#e67e22;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;font-family:inherit;transition:all .3s}
 .reveal-btn:hover{background:#d35400;transform:translateY(-2px)}
 .reveal-btn::before{content:"👁 "}
-.hidden-content{display:none;margin-top:15px;padding:20px;background:#fef9f3;border-radius:8px;border:2px dashed #e67e22}
+.hidden-content{display:none;margin-top:15px;padding:20px;background:#fef9f3;border-radius:8px;border:2px dashed #e67e22;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .hidden-content.show{display:block}
 .answer-label{font-weight:bold;color:#27ae60;font-size:15px}
-table{border-collapse:collapse;margin:15px 0;width:100%}
+table{border-collapse:collapse;margin:15px 0;width:100%;font-size:14px}
 th,td{border:1px solid #ddd;padding:8px;text-align:center}
 th{background:#eaf2f8;font-weight:bold}
 .footer{text-align:center;margin-top:50px;padding:30px;color:#95a5a6;font-size:13px;border-top:2px solid #ecf0f1}
@@ -43,19 +45,42 @@ th{background:#eaf2f8;font-weight:bold}
 .video-btn:hover{background:#1f6a9a;transform:translateY(-2px)}
 .video-btn::before{content:"▶ "}
 .video-btn:disabled{background:#bdc3c7;cursor:not-allowed;transform:none}
-.video-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:1000;align-items:center;justify-content:center;padding:20px}
+.video-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:1000;align-items:center;justify-content:center;padding:16px}
 .video-modal.show{display:flex}
-.video-modal-box{background:#fff;border-radius:12px;max-width:860px;width:100%;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.25)}
-.video-modal-hd{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid #ecf0f1}
-.video-modal-hd strong{color:#2c3e50;font-size:15px}
-.video-modal-close{border:none;background:#f0f2f5;color:#666;width:32px;height:32px;border-radius:6px;cursor:pointer;font-size:18px;line-height:1}
-.video-modal-close:hover{background:#e1e5ea}
-.video-modal video{display:block;width:100%;max-height:70vh;background:#000}
+.video-modal-box{background:#fff;border-radius:12px;max-width:min(860px,100%);width:100%;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:min(92vh,100%)}
+.video-modal-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border-bottom:1px solid #ecf0f1}
+.video-modal-hd strong{color:#2c3e50;font-size:14px;line-height:1.3;word-break:break-all}
+.video-modal-actions{display:flex;gap:6px;flex-shrink:0}
+.video-modal-close,.video-modal-fs{border:none;background:#f0f2f5;color:#666;min-width:36px;height:36px;border-radius:8px;cursor:pointer;font-size:18px;line-height:1;padding:0 10px}
+.video-modal-close:hover,.video-modal-fs:hover{background:#e1e5ea}
+.video-modal-fs{font-size:13px}
+.video-modal video{display:block;width:100%;max-height:min(70vh,calc(100vh - 70px));background:#000;object-fit:contain;aspect-ratio:16/9}
+.video-tip{display:none;text-align:center;font-size:12px;color:#7f8c8d;padding:8px 12px 10px}
+.video-tip.show{display:block}
+@media (max-width:768px){
+  body{padding:10px}
+  h1{font-size:22px}
+  .chapter-title{font-size:18px;margin:28px 0 14px}
+  .example-card,.question-card,.method-intro,.toc{padding:14px;border-radius:8px}
+  table{font-size:12px}
+  th,td{padding:5px 4px}
+  .video-modal{padding:0;align-items:flex-end}
+  .video-modal-box{border-radius:12px 12px 0 0;max-width:100%;width:100%}
+  .video-modal video{max-height:min(72vh,calc(100vh - 88px))}
+  .btn-group{gap:8px}
+  .reveal-btn,.video-btn{padding:9px 14px;font-size:13px}
+}
+@media (orientation:landscape) and (max-height:500px){
+  .video-modal{padding:0;align-items:center}
+  .video-modal-box{border-radius:0;max-width:100%;height:100%;display:flex;flex-direction:column}
+  .video-modal video{flex:1;max-height:calc(100vh - 48px);width:100%;height:100%;object-fit:contain}
+  .video-tip{display:none!important}
+}
 @media print{
-  body{background:#fff;padding:10px}
+  body{background:#fff;padding:10px;overflow:visible}
   .btn-group{display:none}
   .video-modal{display:none!important}
-  .hidden-content{display:block!important;border:1px solid #ccc;background:#f9f9f9}
+  .hidden-content{display:block!important;border:1px solid #ccc;background:#f9f9f9;overflow:visible}
   .question-card,.example-card{box-shadow:none;border:1px solid #ddd;page-break-inside:avoid}
 }
 </style>
@@ -4927,29 +4952,51 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="video-modal-box">
 <div class="video-modal-hd">
 <strong id="videoModalTitle">动画讲解</strong>
+<div class="video-modal-actions">
+<button class="video-modal-fs" type="button" onclick="toggleFs()" aria-label="全屏">全屏</button>
 <button class="video-modal-close" onclick="closeVideo()" aria-label="关闭">×</button>
 </div>
-<video id="videoModalPlayer" controls playsinline preload="none"></video>
+</div>
+<video id="videoModalPlayer" controls playsinline webkit-playsinline preload="metadata" x5-video-player-type="h5" x5-video-player-fullscreen="true"></video>
+<p class="video-tip" id="videoTip">竖屏字体会偏小，点「全屏」或把手机横过来更清晰</p>
 </div>
 </div>
 <script>
 function toggleAnswer(id){var el=document.getElementById(id);el.classList.toggle('show')}
+function isPortraitPhone(){
+  return window.matchMedia('(max-width:768px) and (orientation:portrait)').matches;
+}
 function openVideo(src,title){
   var m=document.getElementById('videoModal');
   var v=document.getElementById('videoModalPlayer');
+  var tip=document.getElementById('videoTip');
   document.getElementById('videoModalTitle').textContent=title||'动画讲解';
   v.src=src;v.currentTime=0;m.classList.add('show');
   v.play().catch(function(){});
   document.body.style.overflow='hidden';
+  if(tip) tip.classList.toggle('show', isPortraitPhone());
 }
 function closeVideo(){
   var m=document.getElementById('videoModal');
   var v=document.getElementById('videoModalPlayer');
+  try{ if(document.fullscreenElement||document.webkitFullscreenElement) (document.exitFullscreen||document.webkitExitFullscreen).call(document); }catch(e){}
   v.pause();v.removeAttribute('src');v.load();
   m.classList.remove('show');
   document.body.style.overflow='';
 }
+function toggleFs(){
+  var v=document.getElementById('videoModalPlayer');
+  var el=v;
+  var req=el.requestFullscreen||el.webkitRequestFullscreen||el.msRequestFullscreen;
+  if(req) { try{req.call(el);}catch(e){} return; }
+  if(v.webkitEnterFullscreen) { try{v.webkitEnterFullscreen();}catch(e){} }
+}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeVideo()});
+window.addEventListener('orientationchange',function(){
+  var tip=document.getElementById('videoTip');
+  if(tip && document.getElementById('videoModal').classList.contains('show'))
+    tip.classList.toggle('show', isPortraitPhone());
+});
 </script>
 </body>
 </html>
