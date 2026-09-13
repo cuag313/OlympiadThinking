@@ -494,6 +494,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：先计算出每张骨牌的点数和，前8张依次为3，2，5，4，7，6，9，8；</p>
 <p>第二步：观察每张骨牌的点数和，可以发现第1，3，5，7张骨牌的点数和分别为3，5，7，9，第2，4，6，8张骨牌的点数和分别为2，4，6，8。</p>
 <p>第三步：因此最后一张骨牌（第9张）的点数之和是11，下半部分点数为5，所以上半部分点数为6。</p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_example_1.mp4','例1 · 多米诺规律')">看动画</button></div>
 </div>
 <img src="assets/images/ch3_ex1_domino.svg" alt="多米诺骨牌排列图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 </div>
@@ -507,6 +508,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：根据已知的图形，可以看到第一个正方形的边长是1，第3个正方形的边长是2，第5个正方形的边长是4，…</p>
 <p>第二步：把第1，3，5，…个正方形组成一个新的正方形序列，发现后一个正方形的边长是前一个正方形边长的2倍。</p>
 <p>第三步：综上所述，可得第15个正方形的边长是128（2<sup>7</sup>）。</p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_example_2.mp4','例2 · 对角线正方形')">看动画</button></div>
 </div>
 </div>
 
@@ -519,6 +521,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第一步：因为30<sup>3</sup>=27000，40<sup>3</sup>=64000，所以30&lt;a&lt;40。</p>
 <p>第二步：从个位数字观察，列表如下：可知a的个位数字只能是7</p>
 <p>第三步：综上所述，a的值是37。</p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_example_3.mp4','例3 · 立方根观察')">看动画</button></div>
 </div>
 </div>
 
@@ -527,7 +530,10 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">观察法</span></div>
 <div class="question-title">观察下面的式子，在空格处填上答案：1×1=1；11×11=121；111×111=12321；……11111111×11111111=____。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_1')">查看解析</button></div>
+<div class="btn-group">
+<button class="reveal-btn" onclick="toggleAnswer('ans3_1')">查看解析</button>
+<button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_challenge_1.mp4','挑战1 · 全1平方')">看动画</button>
+</div>
 <div class="hidden-content" id="ans3_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：观察条件，11×11=121，两位数相乘，积的中间数是2，111×111=12321，三位数相乘，积的中间数是3。</p>
@@ -540,7 +546,10 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">观察法</span></div>
 <div class="question-title">如图所示，有一张黑白相间的方格纸，用记号(2,3)表示从上往下数第2行，从左往右数的第3列的这一格，请问(23,100)这一格是什么颜色？</div>
 <img src="assets/images/ch3_ch2_checkerboard.svg" alt="黑白方格纸示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_2')">查看解析</button></div>
+<div class="btn-group">
+<button class="reveal-btn" onclick="toggleAnswer('ans3_2')">查看解析</button>
+<button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_challenge_2.mp4','挑战2 · 黑白方格')">看动画</button>
+</div>
 <div class="hidden-content" id="ans3_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：观察已知图表可发现整个图表的奇数行和偶数行有着各自的规律，(23,100)这一格位于从上往下数第23行，是奇数行。</p>
@@ -553,7 +562,10 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">观察法</span></div>
 <div class="question-title">观察如图九宫格，图中的每一行、每一列、每一对角线中小方格内的数字之和都相同，请补全该九宫格。</div>
 <img src="assets/images/ch3_ch3_magic_square.svg" alt="九宫格示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_3')">查看解析</button></div>
+<div class="btn-group">
+<button class="reveal-btn" onclick="toggleAnswer('ans3_3')">查看解析</button>
+<button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_challenge_3.mp4','挑战3 · 九宫格')">看动画</button>
+</div>
 <div class="hidden-content" id="ans3_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：由第二行可得出，该九宫格的每一行、每一列、每一对角线的数字之和为10+6+2=18。</p>
@@ -577,7 +589,10 @@ th{background:#eaf2f8;font-weight:bold}
 <tr><td style="border:1px solid #999;padding:5px 10px">夏装</td><td style="border:1px solid #999;padding:5px 10px">200</td><td style="border:1px solid #999;padding:5px 10px">160</td><td style="border:1px solid #999;padding:5px 10px">1400</td><td style="border:1px solid #999;padding:5px 10px">300</td><td style="border:1px solid #999;padding:5px 10px">3500</td></tr>
 </table>
 上面统计表中，有一个季度的夏装销售量记录错误，根据表中数据，结合生活实际，你认为抄错的数据是____，正确的应是____。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_4')">查看解析</button></div>
+<div class="btn-group">
+<button class="reveal-btn" onclick="toggleAnswer('ans3_4')">查看解析</button>
+<button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_challenge_4.mp4','挑战4 · 服装销量')">看动画</button>
+</div>
 <div class="hidden-content" id="ans3_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：观察表格，可以发现夏装第二季度销售量比第一季度还少，结合生活实际，第二季度天气逐渐变热，夏装销售量应该明显上升，所以夏装第二季度的数据"160件"记录错误。</p>
@@ -590,7 +605,10 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">观察法</span></div>
 <div class="question-title">将1，2，3，…，1008如图排列，用一个长方形框出"3行3列"的9个数，例如下图框出的9个数是：22，23，24，31，32，33，40，41，42。要使被框住的9个数的和分别等于1785，2349，1683。请问能否办到？若能办到，请写出方框里的最小数和最大数；若不能办到，请说明理由。</div>
 <img src="assets/images/ch3_ch5_numbers.svg" alt="数字1-1008按行列排列" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_5')">查看解析</button></div>
+<div class="btn-group">
+<button class="reveal-btn" onclick="toggleAnswer('ans3_5')">查看解析</button>
+<button class="video-btn" onclick="openVideo('assets/videos/ch03/ch03_challenge_5.mp4','挑战5 · 框住九数')">看动画</button>
+</div>
 <div class="hidden-content" id="ans3_5">
 <p><span class="answer-label">解析：</span>1785和2349不能办到，1683能办到，对应的最小数为177，最大数为197。</p>
 <p>第一步：首先找到被框住的9个数的规律：每一行是3个连续的整数，每列的相邻两数之差是9，9个数的和是正中间数的9倍。</p>
