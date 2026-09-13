@@ -4963,6 +4963,12 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 </div>
 <script>
 function toggleAnswer(id){var el=document.getElementById(id);el.classList.toggle('show')}
+/* 视频走 jsDelivr（GitHub 镜像），国内通常比 Pages 直链快；失败则回退本站相对路径 */
+var VIDEO_CDN='https://cdn.jsdelivr.net/gh/cuag313/OlympiadThinking@master/deploy/';
+function videoSrc(path){
+  if(/^https?:\/\//i.test(path)) return path;
+  return VIDEO_CDN + path.replace(/^\.?\//,'');
+}
 function isPortraitPhone(){
   return window.matchMedia('(max-width:768px) and (orientation:portrait)').matches;
 }
@@ -4970,8 +4976,20 @@ function openVideo(src,title){
   var m=document.getElementById('videoModal');
   var v=document.getElementById('videoModalPlayer');
   var tip=document.getElementById('videoTip');
+  var path=src;
+  var url=videoSrc(src);
   document.getElementById('videoModalTitle').textContent=title||'动画讲解';
-  v.src=src;v.currentTime=0;m.classList.add('show');
+  v.onerror=function(){
+    // CDN 失败时回退本站
+    if(v.getAttribute('data-fb')!=='1' && /^https?:\/\//i.test(url)){
+      v.setAttribute('data-fb','1');
+      v.src=path;
+      v.play().catch(function(){});
+    }
+  };
+  v.removeAttribute('data-fb');
+  v.src=url;
+  v.currentTime=0;m.classList.add('show');
   v.play().catch(function(){});
   document.body.style.overflow='hidden';
   if(tip) tip.classList.toggle('show', isPortraitPhone());
