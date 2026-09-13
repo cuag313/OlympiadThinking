@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320">
+  <style>
+    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 14px; fill: #333; }
+    .num { font-size: 14px; }
+  </style>
+  <defs>
+    <pattern id="hatch2" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#dddddd"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#9a9a9a" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+
+  <!-- 顶部大括号：共140只脚 -->
+  <text x="260" y="26" text-anchor="middle">共140只脚</text>
+  <path d="M 85 36 L 85 42 L 257 42 L 260 48 L 263 42 L 435 42 L 435 36" fill="none" stroke="#333" stroke-width="1.2"/>
+
+  <!-- 大长方形外框 -->
+  <rect x="85" y="60" width="350" height="140" fill="none" stroke="#333" stroke-width="1.6"/>
+  <!-- 兔长方格（阴影） -->
+  <rect x="280" y="60" width="155" height="140" fill="url(#hatch2)" stroke="#333" stroke-width="1.6"/>
+  <text x="357" y="134" text-anchor="middle">兔</text>
+  <!-- 鸡长方格（阴影） -->
+  <rect x="85" y="125" width="195" height="75" fill="url(#hatch2)" stroke="#333" stroke-width="1.6"/>
+  <text x="182" y="168" text-anchor="middle">鸡</text>
+  <!-- 左上补出的长方形（虚线） -->
+  <rect x="85" y="60" width="195" height="65" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5"/>
+  <text x="182" y="97" text-anchor="middle" class="num">140−94=46(只)</text>
+
+  <!-- 左测两个括号 2只脚 -->
+  <line x1="62" y1="60" x2="62" y2="125" stroke="#333" stroke-width="1.2"/>
+  <line x1="62" y1="60" x2="68" y2="60" stroke="#333" stroke-width="1.2"/>
+  <line x1="62" y1="125" x2="68" y2="125" stroke="#333" stroke-width="1.2"/>
+  <text x="56" y="97" text-anchor="end" class="num">2只脚</text>
+  <line x1="62" y1="125" x2="62" y2="200" stroke="#333" stroke-width="1.2"/>
+  <line x1="62" y1="200" x2="68" y2="200" stroke="#333" stroke-width="1.2"/>
+  <text x="56" y="167" text-anchor="end" class="num">2只脚</text>
+
+  <!-- 右侧括号 4只脚 -->
+  <line x1="458" y1="60" x2="458" y2="200" stroke="#333" stroke-width="1.2"/>
+  <line x1="452" y1="60" x2="458" y2="60" stroke="#333" stroke-width="1.2"/>
+  <line x1="452" y1="200" x2="458" y2="200" stroke="#333" stroke-width="1.2"/>
+  <text x="464" y="134" class="num">4只脚</text>
+
+  <!-- 底部标注 -->
+  <text x="182" y="224" text-anchor="middle">鸡的只数</text>
+  <text x="357" y="224" text-anchor="middle">兔的只数</text>
+  <path d="M 85 240 L 85 234 L 257 234 L 260 228 L 263 234 L 435 234 L 435 240" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="260" y="260" text-anchor="middle">共35个头</text>
+
+  <text x="260" y="304" text-anchor="middle">图 2</text>
+</svg>

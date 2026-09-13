@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一、枚举法 · 视频教学试点</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei","SimSun",sans-serif;background:#f5f7fa;color:#333;line-height:1.8;padding:20px}
+.container{max-width:920px;margin:0 auto}
+h1{text-align:center;color:#2c3e50;margin-bottom:8px;font-size:26px}
+.subtitle{text-align:center;color:#7f8c8d;margin-bottom:28px;font-size:14px}
+.banner{background:linear-gradient(135deg,#2980b9,#27ae60);color:#fff;border-radius:12px;padding:18px 22px;margin-bottom:24px}
+.banner h2{font-size:20px;margin-bottom:6px;font-weight:600}
+.banner p{font-size:14px;opacity:.95}
+.method-intro{background:#fff;padding:18px 20px;border-radius:10px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-left:4px solid #27ae60}
+.method-intro h3{color:#27ae60;margin-bottom:8px;font-size:16px}
+.question-card{background:#fff;border-radius:10px;padding:20px 22px;margin-bottom:22px;box-shadow:0 3px 12px rgba(0,0,0,.1);border-left:5px solid #e67e22}
+.question-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.question-num{font-weight:bold;color:#2c3e50;font-size:17px}
+.tag{display:inline-block;padding:3px 10px;border-radius:5px;font-size:12px;font-weight:bold;background:#fef5e7;color:#e67e22}
+.tag.video{background:#eaf2f8;color:#2980b9;margin-left:6px}
+.question-title{font-size:16px;color:#2c3e50;margin-bottom:14px}
+.video-wrap{margin:14px 0;border-radius:10px;overflow:hidden;border:1px solid #dce6f1;background:#000}
+.video-wrap video{display:block;width:100%;height:auto;vertical-align:middle}
+.video-cap{font-size:12px;color:#7f8c8d;text-align:center;padding:8px 10px 10px;background:#f8fafc}
+.btn-group{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.reveal-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;background:#e67e22;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;font-family:inherit;transition:all .3s}
+.reveal-btn:hover{background:#d35400;transform:translateY(-1px)}
+.hidden-content{display:none;margin-top:14px;padding:16px 18px;background:#fef9f3;border-radius:8px;border:2px dashed #e67e22}
+.hidden-content.show{display:block}
+.answer-label{font-weight:bold;color:#27ae60}
+table{border-collapse:collapse;margin:12px 0;width:100%;font-size:14px}
+th,td{border:1px solid #ddd;padding:8px;text-align:center}
+th{background:#eaf2f8}
+.arch{background:#fff;border-radius:10px;padding:18px 20px;margin-top:28px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-left:4px solid #2980b9}
+.arch h3{color:#2980b9;margin-bottom:10px;font-size:16px}
+.arch pre{background:#f4f7fb;padding:14px;border-radius:8px;font-size:12px;line-height:1.55;overflow-x:auto;color:#2c3e50}
+.footer{text-align:center;margin-top:36px;padding:20px;color:#95a5a6;font-size:13px;border-top:2px solid #ecf0f1}
+@media print{
+  .btn-group{display:none}
+  .hidden-content{display:block!important}
+  .video-wrap{display:none}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>小学奥数解题思维方法 · 一、枚举法</h1>
+<p class="subtitle">视频教学试点页 | Manim 数形结合动画 | 可打印</p>
+
+<div class="banner">
+<h2>本章试点说明</h2>
+<p>每道题可配 1 段约 15–40 秒的数形结合动画。本页已接入挑战1 的树状图动画作为样例；其余题目可按同一规范批量生成后嵌入。</p>
+</div>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>枚举法（又称穷举法）：按某种顺序把所有满足条件的情况逐一列举出来。使用时要做到<strong>不重复、不遗漏</strong>，可用表格、树状图辅助。</p>
+</div>
+
+<div class="question-card">
+<div class="question-header">
+  <span class="question-num">挑战1.</span>
+  <span class="tag">枚举法</span>
+  <span class="tag video">含动画</span>
+</div>
+<div class="question-title">用 3、5、7 这三张数字卡片可以摆出哪几个三位数？</div>
+
+<div class="video-wrap">
+  <video controls playsinline preload="metadata" poster="">
+    <source src="../assets/videos/ch01/ch01_cards_tree.mp4" type="video/mp4">
+    您的浏览器不支持视频播放，请更新浏览器。
+  </video>
+  <div class="video-cap">动画演示：百位 → 十位 → 个位 有序枚举，共 6 种</div>
+</div>
+
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1')">查看解析</button></div>
+<div class="hidden-content" id="ans1">
+  <p><span class="answer-label">解析：</span></p>
+  <p>第一步：百位可以是 3、5、7；</p>
+  <p>第二步：借助树状图枚举。</p>
+  <table>
+    <tr><th>百位</th><th>十位</th><th>个位</th><th>三位数</th></tr>
+    <tr><td>3</td><td>5</td><td>7</td><td>357</td></tr>
+    <tr><td>3</td><td>7</td><td>5</td><td>375</td></tr>
+    <tr><td>5</td><td>3</td><td>7</td><td>537</td></tr>
+    <tr><td>5</td><td>7</td><td>3</td><td>573</td></tr>
+    <tr><td>7</td><td>3</td><td>5</td><td>735</td></tr>
+    <tr><td>7</td><td>5</td><td>3</td><td>753</td></tr>
+  </table>
+  <p><b>答案：357，375，537，573，735，753</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header">
+  <span class="question-num">挑战2.</span>
+  <span class="tag">枚举法</span>
+  <span class="tag">待生成动画</span>
+</div>
+<div class="question-title">小蚂蚱在尺子上每次向左或向右跳 1 厘米，从 5 厘米处跳 5 次后停在 8 厘米处，有几种跳法？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2')">查看解析</button></div>
+<div class="hidden-content" id="ans2">
+  <p><span class="answer-label">解析：</span>向右净移动 3 厘米 → 4 次右、1 次左，枚举得 5 种路径。</p>
+  <p>5→6→5→6→7→8；5→6→7→6→7→8；5→6→7→8→7→8；5→6→7→8→9→8；5→4→5→6→7→8</p>
+  <p><b>答案：5 种。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header">
+  <span class="question-num">例3.</span>
+  <span class="tag">枚举法</span>
+  <span class="tag">待生成动画</span>
+</div>
+<div class="question-title">掷两个骰子，点数之和为 5、6、7、8 时思思胜，否则想想胜，谁胜的可能性大？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3')">查看解析</button></div>
+<div class="hidden-content" id="ans3">
+  <p><span class="answer-label">解析：</span>6×6=36 种等可能；思思 20 种，想想 16 种。</p>
+  <p><b>答案：思思获胜的可能性大。</b></p>
+</div>
+</div>
+
+<div class="arch">
+<h3>站点 + 视频 架构（建议）</h3>
+<pre>点点思维网站/
+├── index.html                 # 首页：36章导航
+├── chapters/ch01.html         # 单章页（本页即 ch01 试点）
+├── assets/
+│   ├── css/  js/
+│   ├── images/                # 现有 SVG 示意图
+│   └── videos/ch01/           # Manim 成片（faststart mp4）
+│       └── ch01_cards_tree.mp4
+├── manim/                     # 或独立仓 UpMath/manim_scenes/
+│   ├── ch01_cards_tree.py     # 可复现源码
+│   └── render_ch01.bat
+└── (GitHub Pages / 对象存储 CDN 挂 videos/)
+
+视频流水线（手写场景优先，Agent 兜底）：
+  题目 JSON → 手写 Manim Scene → manim -qm → ffmpeg +faststart
+            → assets/videos/chNN/qid.mp4 → 网页 &lt;video&gt; 嵌入
+</pre>
+</div>
+
+<div class="footer">
+<p>点点思维 · 枚举法视频试点 | Manim Community + ffmpeg</p>
+<p>打印时动画不嵌入，解析会自动展开</p>
+</div>
+</div>
+<script>
+function toggleAnswer(id){document.getElementById(id).classList.toggle('show')}
+</script>
+</body>
+</html>

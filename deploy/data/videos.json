@@ -1,0 +1,94 @@
+﻿{
+    "version":  1,
+    "updated":  "2026-09-13",
+    "convention":  {
+                       "video_path":  "assets/videos/ch{NN}/{slug}.mp4",
+                       "slug":  "ch{NN}_{example|challenge}_{M}",
+                       "page_anchor":  "id=\"ch{N}\""
+                   },
+    "chapters":  {
+                     "1":  {
+                               "name":  "枚举法",
+                               "anchor":  "ch1",
+                               "items":  [
+                                             {
+                                                 "id":  "ch1_example_1",
+                                                 "type":  "example",
+                                                 "num":  "例1",
+                                                 "title":  "10/20/50元纸币各6张组成60元有几种方法",
+                                                 "answer":  "5种",
+                                                 "file":  "assets/videos/ch01/ch01_example_1.mp4",
+                                                 "status":  "done"
+                                             },
+                                             {
+                                                 "id":  "ch1_example_2",
+                                                 "type":  "example",
+                                                 "num":  "例2",
+                                                 "title":  "15分米木棒截三段组成整分米三角形",
+                                                 "answer":  "7种",
+                                                 "file":  "assets/videos/ch01/ch01_example_2.mp4",
+                                                 "status":  "done"
+                                             },
+                                             {
+                                                 "id":  "ch1_example_3",
+                                                 "type":  "example",
+                                                 "num":  "例3",
+                                                 "title":  "掷两个骰子，和为5-8思思胜谁胜率大",
+                                                 "answer":  "思思 20/36",
+                                                 "file":  "assets/videos/ch01/ch01_example_3.mp4",
+                                                 "status":  "done"
+                                             },
+                                             {
+                                                 "id":  "ch1_challenge_1",
+                                                 "type":  "challenge",
+                                                 "num":  "挑战1",
+                                                 "title":  "用3、5、7摆三位数",
+                                                 "answer":  "357,375,537,573,735,753",
+                                                 "file":  "assets/videos/ch01/ch01_cards_tree.mp4",
+                                                 "status":  "done",
+                                                 "html_anchor":  "ans1_1"
+                                             },
+                                             {
+                                                 "id":  "ch1_challenge_2",
+                                                 "type":  "challenge",
+                                                 "num":  "挑战2",
+                                                 "title":  "小蚂蚱从5跳5次到8有几种跳法",
+                                                 "answer":  "5种",
+                                                 "file":  "assets/videos/ch01/ch01_challenge_2.mp4",
+                                                 "status":  "done",
+                                                 "html_anchor":  "ans1_2"
+                                             },
+                                             {
+                                                 "id":  "ch1_challenge_3",
+                                                 "type":  "challenge",
+                                                 "num":  "挑战3",
+                                                 "title":  "80cm铁丝围长整米长方形面积最大",
+                                                 "answer":  "20×20=400",
+                                                 "file":  "assets/videos/ch01/ch01_challenge_3.mp4",
+                                                 "status":  "done",
+                                                 "html_anchor":  "ans1_3"
+                                             },
+                                             {
+                                                 "id":  "ch1_challenge_4",
+                                                 "type":  "challenge",
+                                                 "num":  "挑战4",
+                                                 "title":  "4封信全装错信封有几种方法",
+                                                 "answer":  "9种",
+                                                 "file":  "assets/videos/ch01/ch01_challenge_4.mp4",
+                                                 "status":  "done",
+                                                 "html_anchor":  "ans1_4"
+                                             },
+                                             {
+                                                 "id":  "ch1_challenge_5",
+                                                 "type":  "challenge",
+                                                 "num":  "挑战5",
+                                                 "title":  "15站公交车至少要多少座位",
+                                                 "answer":  "56个",
+                                                 "file":  "assets/videos/ch01/ch01_challenge_5.mp4",
+                                                 "status":  "done",
+                                                 "html_anchor":  "ans1_5"
+                                             }
+                                         ]
+                           }
+                 }
+}
