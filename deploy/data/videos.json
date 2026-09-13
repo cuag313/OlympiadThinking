@@ -61,5 +61,6 @@
         {"id": "ch4_challenge_4", "type": "challenge", "num": "挑战4", "title": "猜名次", "answer": "C1B2A3E4D5", "file": "assets/videos/ch04/ch04_challenge_4.mp4", "status": "done", "html_anchor": "ans4_4"},
         {"id": "ch4_challenge_5", "type": "challenge", "num": "挑战5", "title": "同班配对", "answer": "AD BF CH EG", "file": "assets/videos/ch04/ch04_challenge_5.mp4", "status": "done", "html_anchor": "ans4_5"}
       ]
+    }
   }
 }
