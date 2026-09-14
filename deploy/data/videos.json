@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "convention": {
     "video_path": "assets/videos/ch{NN}/{slug}.mp4",
     "slug": "ch{NN}_{example|challenge}_{M}"
@@ -74,6 +74,21 @@
         {"id": "ch5_challenge_3", "type": "challenge", "num": "挑战3", "title": "合唱总分", "answer": "967", "file": "assets/videos/ch05/ch05_challenge_3.mp4", "status": "done", "html_anchor": "ans5_3"},
         {"id": "ch5_challenge_4", "type": "challenge", "num": "挑战4", "title": "擦掉两数", "answer": "13和14", "file": "assets/videos/ch05/ch05_challenge_4.mp4", "status": "done", "html_anchor": "ans5_4"},
         {"id": "ch5_challenge_5", "type": "challenge", "num": "挑战5", "title": "倒数和整数部分", "answer": "0", "file": "assets/videos/ch05/ch05_challenge_5.mp4", "status": "done", "html_anchor": "ans5_5"}
+      ]
+    },
+    "6": {
+      "name": "倒推法",
+      "anchor": "ch6",
+      "items": [
+        {"id": "ch6_example_1", "type": "example", "num": "例1", "title": "袋子里的球", "answer": "26个", "file": "assets/videos/ch06/ch06_example_1.mp4", "status": "done"},
+        {"id": "ch6_example_2", "type": "example", "num": "例2", "title": "两桶油倒推", "answer": "甲45乙27", "file": "assets/videos/ch06/ch06_example_2.mp4", "status": "done"},
+        {"id": "ch6_example_3", "type": "example", "num": "例3", "title": "修路倒推", "answer": "1000米", "file": "assets/videos/ch06/ch06_example_3.mp4", "status": "done"},
+        {"id": "ch6_example_4", "type": "example", "num": "例4", "title": "筐里鸡蛋", "answer": "42个", "file": "assets/videos/ch06/ch06_example_4.mp4", "status": "done"},
+        {"id": "ch6_challenge_1", "type": "challenge", "num": "挑战1", "title": "逆运算倒推", "answer": "1", "file": "assets/videos/ch06/ch06_challenge_1.mp4", "status": "done", "html_anchor": "ans6_1"},
+        {"id": "ch6_challenge_2", "type": "challenge", "num": "挑战2", "title": "绳子对折剪", "answer": "16米", "file": "assets/videos/ch06/ch06_challenge_2.mp4", "status": "done", "html_anchor": "ans6_2"},
+        {"id": "ch6_challenge_3", "type": "challenge", "num": "挑战3", "title": "画片倒推", "answer": "思思30/想想18", "file": "assets/videos/ch06/ch06_challenge_3.mp4", "status": "done", "html_anchor": "ans6_3"},
+        {"id": "ch6_challenge_4", "type": "challenge", "num": "挑战4", "title": "水泥倒推", "answer": "44吨", "file": "assets/videos/ch06/ch06_challenge_4.mp4", "status": "done", "html_anchor": "ans6_4"},
+        {"id": "ch6_challenge_5", "type": "challenge", "num": "挑战5", "title": "粮食三次倒推", "answer": "156吨", "file": "assets/videos/ch06/ch06_challenge_5.mp4", "status": "done", "html_anchor": "ans6_5"}
       ]
     }
   }
