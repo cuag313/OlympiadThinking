@@ -845,6 +845,89 @@
           "html_anchor": "ans11_5"
         }
       ]
+    },
+    "12": {
+      "name": "移多补少",
+      "anchor": "ch12",
+      "items": [
+        {
+          "id": "ch12_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "纸飞机移多补少",
+          "answer": "2或6架",
+          "file": "assets/videos/ch12/ch12_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch12_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "书架移多补少",
+          "answer": "210本",
+          "file": "assets/videos/ch12/ch12_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch12_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "糖包移多补少",
+          "answer": "480千克",
+          "file": "assets/videos/ch12/ch12_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch12_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "平均分移多补少",
+          "answer": "95分",
+          "file": "assets/videos/ch12/ch12_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans12_1"
+        },
+        {
+          "id": "ch12_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "煎饺子",
+          "answer": "50个",
+          "file": "assets/videos/ch12/ch12_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans12_2"
+        },
+        {
+          "id": "ch12_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "换气球",
+          "answer": "4或18个",
+          "file": "assets/videos/ch12/ch12_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans12_3"
+        },
+        {
+          "id": "ch12_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "换树",
+          "answer": "40棵",
+          "file": "assets/videos/ch12/ch12_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans12_4"
+        },
+        {
+          "id": "ch12_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "书架比例",
+          "answer": "288本",
+          "file": "assets/videos/ch12/ch12_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans12_5"
+        }
+      ]
     }
   }
 }
