@@ -1939,6 +1939,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>有32名男选手参加乒乓球单打比赛，比赛采取淘汰制，即每场比赛淘汰1人。请问要决出冠军，需要比赛多少场？</p>
 <p><i>想一想：本题从正面考虑，可知需比赛16+8+4+2+1=31（场）。能从反面出发破解问题吗？</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_example_1.mp4','例1 · 淘汰赛要赛几场')">看动画</button></div>
 <p><b>解析：</b></p>
 <p>第一步：因为每比赛1场，淘汰1名运动员。</p>
 <p>第二步：要决出冠军，需淘汰31名运动员，所以需要比赛31场。</p>
@@ -1950,6 +1951,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>已知a，b，c三个数中，一个是1，一个是2，一个是3。你能说明(a+5)×(b+6)×(c+7)一定是偶数吗？</p>
 <p><i>想一想：要说明(a+5)×(b+6)×(c+7)为偶数，只要说明三个因数中有一个偶数即可。</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_example_2.mp4','例2 · 一定是偶数吗')">看动画</button></div>
 <p><b>解析：</b></p>
 <p>第一步：假设(a+5)×(b+6)×(c+7)是奇数，则(a+5)，(b+6)，(c+7)都为奇数。</p>
 <p>第二步：于是a为偶数，b为奇数，c为偶数，这与a，b，c的取值矛盾。</p>
@@ -1962,6 +1964,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>今有1元纸币一张，2元纸币一张，5元纸币一张，10元纸币四张，50元纸币两张，请问可以组成多少种不同的币值？</p>
 <p><i>想一想：此题中能组成的最小币值、最大币值分别是多少？它们之间的金额（整数元）都能组成吗？</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_example_3.mp4','例3 · 能组成多少种币值')">看动画</button></div>
 <p><b>解析一（从反面出发，减去凑不出的）：</b></p>
 <p>第一步：确定最小、最大币值。能组成的最小币值为1元，最大币值为所有纸币总和：1+2+5+10×4+50×2=148（元）。</p>
 <p>第二步：找出1~148元中无法组成的币值。因为1元、2元、5元各只有一张，只能凑出0、1、2、3、5、6、7、8元，无法凑出个位为4、个位为9的金额。个位是4的共15个（4，14，…，134，144）；个位是9的共14个（9，19，…，129，139）。无法组成的币值共15+14=29（种）。</p>
@@ -1977,7 +1980,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">正难则反</span></div>
 <div class="question-title">计算：1 − 1/10 − 1/100 − 1/1000 − … − 1/10000000000。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans13_1')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_challenge_1.mp4','挑战1 · 一串减法')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans13_1')">查看解析</button></div>
 <div class="hidden-content" id="ans13_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：减去的部分1/10+1/100+1/1000+…+1/10000000000 = 0.1111111111。</p>
@@ -1989,7 +1992,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">正难则反</span></div>
 <div class="question-title">将1000个体积为1立方厘米的小正方体合在一起组成一个棱长为10厘米的大正方体，在大正方体的表面涂上红色后再分开成原来的小正方体。请问至少有一面涂色的小正方体共有多少个？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans13_2')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_challenge_2.mp4','挑战2 · 正方体涂色')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans13_2')">查看解析</button></div>
 <div class="hidden-content" id="ans13_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：计算1000个小正方体中每个面都没有涂色的小正方体有8×8×8=512（个）。</p>
@@ -2001,7 +2004,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">正难则反</span></div>
 <div class="question-title">把1600粒花生分给100只猴子，请说明：不管怎样分，至少有4只猴子分到的花生一样多。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans13_3')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_challenge_3.mp4','挑战3 · 分花生')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans13_3')">查看解析</button></div>
 <div class="hidden-content" id="ans13_3">
 <p><span class="answer-label">解析：</span>用反证法（抽屉原理）。</p>
 <p>第一步：假设最多只有3只猴子分到的花生一样多。</p>
@@ -2014,7 +2017,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">正难则反</span></div>
 <div class="question-title">从1，3，9，27，81这5个数中，每次任取1个或几个不同的数求和，把这些和从小到大排列起来，依次是1，3，4，9，10，12，…。请问第28个和是多少？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans13_4')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_challenge_4.mp4','挑战4 · 第28个和')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans13_4')">查看解析</button></div>
 <div class="hidden-content" id="ans13_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：从1，3，9，27，81这5个数中每次任取1个或几个不同的数求和，除去全都不取，一共可以得到2⁵−1=31个不同的和（补充原理：这是三进制子集和，任意不同子集求和结果不会重复）。</p>
@@ -2029,7 +2032,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">正难则反</span></div>
 <div class="question-title">如图，有6根小棒搭成了一个立体图形。请说明在A，B，C，D中一定可以找到一个点，从它出发的三根小棒可以构成一个三角形。</div>
 <img src="assets/images/ch13_5_tetra.svg" alt="A、B、C、D四点6根小棒搭成四面体" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans13_5')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch13/ch13_challenge_5.mp4','挑战5 · 小棒搭图形')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans13_5')">查看解析</button></div>
 <div class="hidden-content" id="ans13_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：假设从A，B，C，D出发的三根小棒均不能构成三角形。</p>

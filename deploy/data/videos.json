@@ -928,6 +928,89 @@
           "html_anchor": "ans12_5"
         }
       ]
+    },
+    "13": {
+      "name": "正难则反",
+      "anchor": "ch13",
+      "items": [
+        {
+          "id": "ch13_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "淘汰赛要赛几场",
+          "answer": "31场",
+          "file": "assets/videos/ch13/ch13_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch13_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "一定是偶数吗",
+          "answer": "一定是偶数",
+          "file": "assets/videos/ch13/ch13_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch13_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "能组成多少种币值",
+          "answer": "119种",
+          "file": "assets/videos/ch13/ch13_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch13_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "一串减法",
+          "answer": "0.8888888889",
+          "file": "assets/videos/ch13/ch13_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans13_1"
+        },
+        {
+          "id": "ch13_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "正方体涂色",
+          "answer": "488个",
+          "file": "assets/videos/ch13/ch13_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans13_2"
+        },
+        {
+          "id": "ch13_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "分花生",
+          "answer": "至少4只",
+          "file": "assets/videos/ch13/ch13_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans13_3"
+        },
+        {
+          "id": "ch13_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "第28个和",
+          "answer": "117",
+          "file": "assets/videos/ch13/ch13_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans13_4"
+        },
+        {
+          "id": "ch13_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "小棒搭图形",
+          "answer": "一定存在",
+          "file": "assets/videos/ch13/ch13_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans13_5"
+        }
+      ]
     }
   }
 }
