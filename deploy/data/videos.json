@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-14",
+  "updated": "2026-09-18",
   "convention": {
     "video_path": "assets/videos/ch{NN}/{slug}.mp4",
     "slug": "ch{NN}_{example|challenge}_{M}"
@@ -759,6 +759,90 @@
           "file": "assets/videos/ch09/ch09_challenge_5.mp4",
           "status": "done",
           "html_anchor": "ans9_5"
+        }
+      ]
+    },
+    "11": {
+      "name": "奇偶分析",
+      "anchor": "ch11",
+      "items": [
+        {
+          "id": "ch11_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "围棋盘黑白互换",
+          "answer": "不能",
+          "file": "assets/videos/ch11/ch11_example_1.mp4",
+          "status": "done",
+          "html_anchor": null
+        },
+        {
+          "id": "ch11_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "黑板上的三个数",
+          "answer": "不能是2,2,2",
+          "file": "assets/videos/ch11/ch11_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch11_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "翻杯子",
+          "answer": "不能",
+          "file": "assets/videos/ch11/ch11_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch11_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "判断等式",
+          "answer": "不对",
+          "file": "assets/videos/ch11/ch11_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans11_1"
+        },
+        {
+          "id": "ch11_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "书页页码之和",
+          "answer": "不能是211",
+          "file": "assets/videos/ch11/ch11_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans11_2"
+        },
+        {
+          "id": "ch11_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "盒子里的棋子",
+          "answer": "360次，黑色",
+          "file": "assets/videos/ch11/ch11_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans11_3"
+        },
+        {
+          "id": "ch11_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "展览馆路线",
+          "answer": "不存在",
+          "file": "assets/videos/ch11/ch11_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans11_4"
+        },
+        {
+          "id": "ch11_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "翻硬币",
+          "answer": "可以",
+          "file": "assets/videos/ch11/ch11_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans11_5"
         }
       ]
     }

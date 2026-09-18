@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -1656,6 +1656,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>围棋盘上有19×19个交叉点，每个交叉点上放了黑子或白子。请问能否把全部黑子和全部白子互换位置呢？</p>
 <p><i>想一想：按要求摆放黑白棋子，一共要放多少棋子？黑白棋子换位，有什么要求？</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_example_1.mp4','例1 · 围棋盘黑白互换')">看动画</button></div>
 <p><b>解析：</b></p>
 <p>第一步：19×19的积是一个奇数，棋盘上摆满棋子，总共要放奇数颗棋子。</p>
 <p>第二步：黑白棋子间全部换位，要求黑白棋子数必须相等，棋子总数为偶数。</p>
@@ -1668,6 +1669,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>在黑板上写三个自然数，每次操作如下：用其中某两个数之和再减去1的差替换第三个数，如此操作多次，最后得到5，11，2023。问原来的三个数能否为2，2，2呢？</p>
 <p><i>想一想：从2，2，2出发操作几次，能发现什么？</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_example_2.mp4','例2 · 黑板上的三个数')">看动画</button></div>
 <p><b>解析：</b></p>
 <p>第一步：原来三个数是偶数，那么操作一次后黑板上有两个偶数和一个奇数。</p>
 <p>第二步：接下去的一次操作：如果擦去一个偶数，那么得到的新数仍然是偶数；如果擦去一个奇数，那么得到的新数仍然是奇数。于是，这一次操作后黑板上仍是两个偶数和一个奇数。</p>
@@ -1680,6 +1682,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-title">
 <p>现有9个杯口朝上的杯子，将某4个杯子都翻转一次记为一次操作，能否操作几次，使它们杯口全部朝下？</p>
 <p><i>想一想：杯口朝上的一个杯子要翻转几次才能让杯口朝下？9个杯口朝上的杯子总共需要翻转奇数次还是偶数次才能使杯口全部朝下？</i></p>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_example_3.mp4','例3 · 翻杯子')">看动画</button></div>
 <p><b>解析：</b></p>
 <p>第一步：因为杯口朝上的一个杯子翻转奇数次能让杯口朝下，翻转偶数次则杯口朝上，要使杯口朝上的9个杯子的杯口全部朝下，总的翻动次数必须是奇数。</p>
 <p>第二步：每操作一次，就是翻转4个杯子，不论操作多少次，总的翻动次数都是偶数。</p>
@@ -1692,7 +1695,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">奇偶分析</span></div>
 <div class="question-title">思思在做计算题时，写出等式133×79+24=10532。请问做得对吗？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans11_1')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_challenge_1.mp4','挑战1 · 判断等式')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans11_1')">查看解析</button></div>
 <div class="hidden-content" id="ans11_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：由"奇数×奇数=奇数"得133×79的积为奇数，而24是偶数，再由"奇数＋偶数=奇数"得133×79＋24的计算结果为奇数。</p>
@@ -1704,7 +1707,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">奇偶分析</span></div>
 <div class="question-title">有一本书，每张纸的正反两页均印有页码，从中任选8张纸，这8张纸上的16个页码之和能否是211？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans11_2')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_challenge_2.mp4','挑战2 · 书页页码之和')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans11_2')">查看解析</button></div>
 <div class="hidden-content" id="ans11_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：每一张纸上有正反两个页码，这两个页码之和为奇数；</p>
@@ -1717,7 +1720,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">奇偶分析</span></div>
 <div class="question-title">甲盒中放了180颗白色棋子和181颗黑色棋子，乙盒中放了足够多的白色棋子。思思每次从甲盒中任意摸出两颗棋子，如果两颗棋子同色，他就从乙盒中拿出一颗白色棋子放入甲盒，把原先拿出的两颗同色棋子放乙盒里；如果两颗棋子不同色，他就把黑色棋子放回甲盒，白色棋子放入乙盒。那么思思要拿多少次，甲盒中才只剩下一颗棋子？这颗棋子是什么颜色的？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans11_3')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_challenge_3.mp4','挑战3 · 盒子里的棋子')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans11_3')">查看解析</button></div>
 <div class="hidden-content" id="ans11_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：思思每拿棋子一次，甲盒中的棋子就减少一颗，甲盒中共有361颗棋子，所以要拿360次后，甲盒中才剩下最后一颗棋子。</p>
@@ -1731,7 +1734,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">奇偶分析</span></div>
 <div class="question-title">一个展览馆有24间展览室（如图所示，图中每个方格代表一间展览室）。每相邻展览室都有门相通，问能否设计出一条从入口到出口参观路线，使参观者不重复不遗漏地走过每间展览室。</div>
 <img src="assets/images/ch11_4_problem.svg" alt="24间展览室布局：上排3格居中，下3排各7格，入口左下出口右下" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans11_4')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_challenge_4.mp4','挑战4 · 展览馆路线')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans11_4')">查看解析</button></div>
 <div class="hidden-content" id="ans11_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：对展览室的方格用黑白两色染色，使得每相邻两个格子的颜色互不相同，染色情况如图所示（用阴影部分表示黑色）：</p>
@@ -1746,7 +1749,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">奇偶分析</span></div>
 <div class="question-title">桌上放有2025枚正面朝下的硬币，第1次操作翻动其中的1枚，第2次操作翻动其中的2枚，第3次操作翻动其中的3枚，……，第2025次操作翻动全部硬币。经过这些操作后，你能否使这2025枚硬币全部正面朝上？说明理由。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans11_5')">查看解析</button></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch11/ch11_challenge_5.mp4','挑战5 · 翻硬币')">看动画</button><button class="reveal-btn" onclick="toggleAnswer('ans11_5')">查看解析</button></div>
 <div class="hidden-content" id="ans11_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：开始时每一枚硬币都是正面朝下，要使所有硬币正面朝上，则每一枚硬币都需要翻动奇数次。</p>
