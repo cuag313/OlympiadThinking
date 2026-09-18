@@ -10,85 +10,756 @@
       "name": "枚举法",
       "anchor": "ch1",
       "items": [
-        {"id": "ch1_example_1", "type": "example", "num": "例1", "title": "纸币凑60元", "answer": "5种", "file": "assets/videos/ch01/ch01_example_1.mp4", "status": "done"},
-        {"id": "ch1_example_2", "type": "example", "num": "例2", "title": "木棒截三角形", "answer": "7种", "file": "assets/videos/ch01/ch01_example_2.mp4", "status": "done"},
-        {"id": "ch1_example_3", "type": "example", "num": "例3", "title": "骰子和5-8", "answer": "思思20/36", "file": "assets/videos/ch01/ch01_example_3.mp4", "status": "done"},
-        {"id": "ch1_challenge_1", "type": "challenge", "num": "挑战1", "title": "3/5/7摆三位数", "answer": "6种", "file": "assets/videos/ch01/ch01_cards_tree.mp4", "status": "done", "html_anchor": "ans1_1"},
-        {"id": "ch1_challenge_2", "type": "challenge", "num": "挑战2", "title": "蚂蚱跳尺子", "answer": "5种", "file": "assets/videos/ch01/ch01_challenge_2.mp4", "status": "done", "html_anchor": "ans1_2"},
-        {"id": "ch1_challenge_3", "type": "challenge", "num": "挑战3", "title": "铁丝围长方形", "answer": "20×20=400", "file": "assets/videos/ch01/ch01_challenge_3.mp4", "status": "done", "html_anchor": "ans1_3"},
-        {"id": "ch1_challenge_4", "type": "challenge", "num": "挑战4", "title": "信封装错", "answer": "9种", "file": "assets/videos/ch01/ch01_challenge_4.mp4", "status": "done", "html_anchor": "ans1_4"},
-        {"id": "ch1_challenge_5", "type": "challenge", "num": "挑战5", "title": "公交座位", "answer": "56个", "file": "assets/videos/ch01/ch01_challenge_5.mp4", "status": "done", "html_anchor": "ans1_5"}
+        {
+          "id": "ch1_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "纸币凑60元",
+          "answer": "5种",
+          "file": "assets/videos/ch01/ch01_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch1_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "木棒截三角形",
+          "answer": "7种",
+          "file": "assets/videos/ch01/ch01_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch1_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "骰子和5-8",
+          "answer": "思思20/36",
+          "file": "assets/videos/ch01/ch01_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch1_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "3/5/7摆三位数",
+          "answer": "6种",
+          "file": "assets/videos/ch01/ch01_cards_tree.mp4",
+          "status": "done",
+          "html_anchor": "ans1_1"
+        },
+        {
+          "id": "ch1_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "蚂蚱跳尺子",
+          "answer": "5种",
+          "file": "assets/videos/ch01/ch01_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans1_2"
+        },
+        {
+          "id": "ch1_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "铁丝围长方形",
+          "answer": "20×20=400",
+          "file": "assets/videos/ch01/ch01_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans1_3"
+        },
+        {
+          "id": "ch1_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "信封装错",
+          "answer": "9种",
+          "file": "assets/videos/ch01/ch01_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans1_4"
+        },
+        {
+          "id": "ch1_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "公交座位",
+          "answer": "56个",
+          "file": "assets/videos/ch01/ch01_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans1_5"
+        }
       ]
     },
     "2": {
       "name": "假设法",
       "anchor": "ch2",
       "items": [
-        {"id": "ch2_example_1", "type": "example", "num": "例1", "title": "鸡兔同笼", "answer": "鸡6兔4", "file": "assets/videos/ch02/ch02_example_1.mp4", "status": "done"},
-        {"id": "ch2_example_2", "type": "example", "num": "例2", "title": "跑步比赛", "answer": "想想先到", "file": "assets/videos/ch02/ch02_example_2.mp4", "status": "done"},
-        {"id": "ch2_example_3", "type": "example", "num": "例3", "title": "两队修路", "answer": "乙15天", "file": "assets/videos/ch02/ch02_example_3.mp4", "status": "done"},
-        {"id": "ch2_challenge_1", "type": "challenge", "num": "挑战1", "title": "三种花", "answer": "53/65/62", "file": "assets/videos/ch02/ch02_challenge_1.mp4", "status": "done", "html_anchor": "ans2_1"},
-        {"id": "ch2_challenge_2", "type": "challenge", "num": "挑战2", "title": "蜘蛛螳螂", "answer": "蜘蛛5螳螂7", "file": "assets/videos/ch02/ch02_challenge_2.mp4", "status": "done", "html_anchor": "ans2_2"},
-        {"id": "ch2_challenge_3", "type": "challenge", "num": "挑战3", "title": "服装厂", "answer": "一厂6二厂9", "file": "assets/videos/ch02/ch02_challenge_3.mp4", "status": "done", "html_anchor": "ans2_3"},
-        {"id": "ch2_challenge_4", "type": "challenge", "num": "挑战4", "title": "糖水加水", "answer": "10%", "file": "assets/videos/ch02/ch02_challenge_4.mp4", "status": "done", "html_anchor": "ans2_4"},
-        {"id": "ch2_challenge_5", "type": "challenge", "num": "挑战5", "title": "三班人数", "answer": "女生4/9", "file": "assets/videos/ch02/ch02_challenge_5.mp4", "status": "done", "html_anchor": "ans2_5"}
+        {
+          "id": "ch2_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "鸡兔同笼",
+          "answer": "鸡6兔4",
+          "file": "assets/videos/ch02/ch02_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch2_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "跑步比赛",
+          "answer": "想想先到",
+          "file": "assets/videos/ch02/ch02_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch2_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "两队修路",
+          "answer": "乙15天",
+          "file": "assets/videos/ch02/ch02_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch2_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "三种花",
+          "answer": "53/65/62",
+          "file": "assets/videos/ch02/ch02_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans2_1"
+        },
+        {
+          "id": "ch2_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "蜘蛛螳螂",
+          "answer": "蜘蛛5螳螂7",
+          "file": "assets/videos/ch02/ch02_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans2_2"
+        },
+        {
+          "id": "ch2_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "服装厂",
+          "answer": "一厂6二厂9",
+          "file": "assets/videos/ch02/ch02_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans2_3"
+        },
+        {
+          "id": "ch2_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "糖水加水",
+          "answer": "10%",
+          "file": "assets/videos/ch02/ch02_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans2_4"
+        },
+        {
+          "id": "ch2_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "三班人数",
+          "answer": "女生4/9",
+          "file": "assets/videos/ch02/ch02_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans2_5"
+        }
       ]
     },
     "3": {
       "name": "观察法",
       "anchor": "ch3",
       "items": [
-        {"id": "ch3_example_1", "type": "example", "num": "例1", "title": "多米诺骨牌", "answer": "上半6", "file": "assets/videos/ch03/ch03_example_1.mp4", "status": "done"},
-        {"id": "ch3_example_2", "type": "example", "num": "例2", "title": "对角线正方形", "answer": "128", "file": "assets/videos/ch03/ch03_example_2.mp4", "status": "done"},
-        {"id": "ch3_example_3", "type": "example", "num": "例3", "title": "立方根50653", "answer": "37", "file": "assets/videos/ch03/ch03_example_3.mp4", "status": "done"},
-        {"id": "ch3_challenge_1", "type": "challenge", "num": "挑战1", "title": "全1平方", "answer": "123456787654321", "file": "assets/videos/ch03/ch03_challenge_1.mp4", "status": "done", "html_anchor": "ans3_1"},
-        {"id": "ch3_challenge_2", "type": "challenge", "num": "挑战2", "title": "黑白方格", "answer": "白色", "file": "assets/videos/ch03/ch03_challenge_2.mp4", "status": "done", "html_anchor": "ans3_2"},
-        {"id": "ch3_challenge_3", "type": "challenge", "num": "挑战3", "title": "九宫格", "answer": "和为18", "file": "assets/videos/ch03/ch03_challenge_3.mp4", "status": "done", "html_anchor": "ans3_3"},
-        {"id": "ch3_challenge_4", "type": "challenge", "num": "挑战4", "title": "服装销量", "answer": "160→1600", "file": "assets/videos/ch03/ch03_challenge_4.mp4", "status": "done", "html_anchor": "ans3_4"},
-        {"id": "ch3_challenge_5", "type": "challenge", "num": "挑战5", "title": "框住九数", "answer": "177到197", "file": "assets/videos/ch03/ch03_challenge_5.mp4", "status": "done", "html_anchor": "ans3_5"}
+        {
+          "id": "ch3_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "多米诺骨牌",
+          "answer": "上半6",
+          "file": "assets/videos/ch03/ch03_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch3_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "对角线正方形",
+          "answer": "128",
+          "file": "assets/videos/ch03/ch03_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch3_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "立方根50653",
+          "answer": "37",
+          "file": "assets/videos/ch03/ch03_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch3_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "全1平方",
+          "answer": "123456787654321",
+          "file": "assets/videos/ch03/ch03_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans3_1"
+        },
+        {
+          "id": "ch3_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "黑白方格",
+          "answer": "白色",
+          "file": "assets/videos/ch03/ch03_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans3_2"
+        },
+        {
+          "id": "ch3_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "九宫格",
+          "answer": "和为18",
+          "file": "assets/videos/ch03/ch03_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans3_3"
+        },
+        {
+          "id": "ch3_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "服装销量",
+          "answer": "160→1600",
+          "file": "assets/videos/ch03/ch03_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans3_4"
+        },
+        {
+          "id": "ch3_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "框住九数",
+          "answer": "177到197",
+          "file": "assets/videos/ch03/ch03_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans3_5"
+        }
       ]
     },
     "4": {
       "name": "列表法",
       "anchor": "ch4",
       "items": [
-        {"id": "ch4_example_1", "type": "example", "num": "例1", "title": "衬衫列表", "answer": "13人", "file": "assets/videos/ch04/ch04_example_1.mp4", "status": "done"},
-        {"id": "ch4_example_2", "type": "example", "num": "例2", "title": "租船列表", "answer": "10大船300元", "file": "assets/videos/ch04/ch04_example_2.mp4", "status": "done"},
-        {"id": "ch4_example_3", "type": "example", "num": "例3", "title": "冠军猜测", "answer": "0项", "file": "assets/videos/ch04/ch04_example_3.mp4", "status": "done"},
-        {"id": "ch4_challenge_1", "type": "challenge", "num": "挑战1", "title": "派车运货", "answer": "1大3小", "file": "assets/videos/ch04/ch04_challenge_1.mp4", "status": "done", "html_anchor": "ans4_1"},
-        {"id": "ch4_challenge_2", "type": "challenge", "num": "挑战2", "title": "页码搬家", "answer": "211和475", "file": "assets/videos/ch04/ch04_challenge_2.mp4", "status": "done", "html_anchor": "ans4_2"},
-        {"id": "ch4_challenge_3", "type": "challenge", "num": "挑战3", "title": "老师排课", "answer": "丁化甲物丙数乙英", "file": "assets/videos/ch04/ch04_challenge_3.mp4", "status": "done", "html_anchor": "ans4_3"},
-        {"id": "ch4_challenge_4", "type": "challenge", "num": "挑战4", "title": "猜名次", "answer": "C1B2A3E4D5", "file": "assets/videos/ch04/ch04_challenge_4.mp4", "status": "done", "html_anchor": "ans4_4"},
-        {"id": "ch4_challenge_5", "type": "challenge", "num": "挑战5", "title": "同班配对", "answer": "AD BF CH EG", "file": "assets/videos/ch04/ch04_challenge_5.mp4", "status": "done", "html_anchor": "ans4_5"}
+        {
+          "id": "ch4_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "衬衫列表",
+          "answer": "13人",
+          "file": "assets/videos/ch04/ch04_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch4_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "租船列表",
+          "answer": "10大船300元",
+          "file": "assets/videos/ch04/ch04_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch4_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "冠军猜测",
+          "answer": "0项",
+          "file": "assets/videos/ch04/ch04_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch4_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "派车运货",
+          "answer": "1大3小",
+          "file": "assets/videos/ch04/ch04_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans4_1"
+        },
+        {
+          "id": "ch4_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "页码搬家",
+          "answer": "211和475",
+          "file": "assets/videos/ch04/ch04_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans4_2"
+        },
+        {
+          "id": "ch4_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "老师排课",
+          "answer": "丁化甲物丙数乙英",
+          "file": "assets/videos/ch04/ch04_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans4_3"
+        },
+        {
+          "id": "ch4_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "猜名次",
+          "answer": "C1B2A3E4D5",
+          "file": "assets/videos/ch04/ch04_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans4_4"
+        },
+        {
+          "id": "ch4_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "同班配对",
+          "answer": "AD BF CH EG",
+          "file": "assets/videos/ch04/ch04_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans4_5"
+        }
       ]
     },
     "5": {
       "name": "估算法",
       "anchor": "ch5",
       "items": [
-        {"id": "ch5_example_1", "type": "example", "num": "例1", "title": "估算选答案", "answer": "C10557", "file": "assets/videos/ch05/ch05_example_1.mp4", "status": "done"},
-        {"id": "ch5_example_2", "type": "example", "num": "例2", "title": "地砖够不够", "answer": "不够", "file": "assets/videos/ch05/ch05_example_2.mp4", "status": "done"},
-        {"id": "ch5_example_3", "type": "example", "num": "例3", "title": "整数部分夹逼", "answer": "121", "file": "assets/videos/ch05/ch05_example_3.mp4", "status": "done"},
-        {"id": "ch5_challenge_1", "type": "challenge", "num": "挑战1", "title": "大巴车够吗", "answer": "不够", "file": "assets/videos/ch05/ch05_challenge_1.mp4", "status": "done", "html_anchor": "ans5_1"},
-        {"id": "ch5_challenge_2", "type": "challenge", "num": "挑战2", "title": "裁正方形", "answer": "能192块", "file": "assets/videos/ch05/ch05_challenge_2.mp4", "status": "done", "html_anchor": "ans5_2"},
-        {"id": "ch5_challenge_3", "type": "challenge", "num": "挑战3", "title": "合唱总分", "answer": "967", "file": "assets/videos/ch05/ch05_challenge_3.mp4", "status": "done", "html_anchor": "ans5_3"},
-        {"id": "ch5_challenge_4", "type": "challenge", "num": "挑战4", "title": "擦掉两数", "answer": "13和14", "file": "assets/videos/ch05/ch05_challenge_4.mp4", "status": "done", "html_anchor": "ans5_4"},
-        {"id": "ch5_challenge_5", "type": "challenge", "num": "挑战5", "title": "倒数和整数部分", "answer": "0", "file": "assets/videos/ch05/ch05_challenge_5.mp4", "status": "done", "html_anchor": "ans5_5"}
+        {
+          "id": "ch5_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "估算选答案",
+          "answer": "C10557",
+          "file": "assets/videos/ch05/ch05_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch5_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "地砖够不够",
+          "answer": "不够",
+          "file": "assets/videos/ch05/ch05_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch5_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "整数部分夹逼",
+          "answer": "121",
+          "file": "assets/videos/ch05/ch05_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch5_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "大巴车够吗",
+          "answer": "不够",
+          "file": "assets/videos/ch05/ch05_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans5_1"
+        },
+        {
+          "id": "ch5_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "裁正方形",
+          "answer": "能192块",
+          "file": "assets/videos/ch05/ch05_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans5_2"
+        },
+        {
+          "id": "ch5_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "合唱总分",
+          "answer": "967",
+          "file": "assets/videos/ch05/ch05_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans5_3"
+        },
+        {
+          "id": "ch5_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "擦掉两数",
+          "answer": "13和14",
+          "file": "assets/videos/ch05/ch05_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans5_4"
+        },
+        {
+          "id": "ch5_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "倒数和整数部分",
+          "answer": "0",
+          "file": "assets/videos/ch05/ch05_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans5_5"
+        }
       ]
     },
     "6": {
       "name": "倒推法",
       "anchor": "ch6",
       "items": [
-        {"id": "ch6_example_1", "type": "example", "num": "例1", "title": "袋子里的球", "answer": "26个", "file": "assets/videos/ch06/ch06_example_1.mp4", "status": "done"},
-        {"id": "ch6_example_2", "type": "example", "num": "例2", "title": "两桶油倒推", "answer": "甲45乙27", "file": "assets/videos/ch06/ch06_example_2.mp4", "status": "done"},
-        {"id": "ch6_example_3", "type": "example", "num": "例3", "title": "修路倒推", "answer": "1000米", "file": "assets/videos/ch06/ch06_example_3.mp4", "status": "done"},
-        {"id": "ch6_example_4", "type": "example", "num": "例4", "title": "筐里鸡蛋", "answer": "42个", "file": "assets/videos/ch06/ch06_example_4.mp4", "status": "done"},
-        {"id": "ch6_challenge_1", "type": "challenge", "num": "挑战1", "title": "逆运算倒推", "answer": "1", "file": "assets/videos/ch06/ch06_challenge_1.mp4", "status": "done", "html_anchor": "ans6_1"},
-        {"id": "ch6_challenge_2", "type": "challenge", "num": "挑战2", "title": "绳子对折剪", "answer": "16米", "file": "assets/videos/ch06/ch06_challenge_2.mp4", "status": "done", "html_anchor": "ans6_2"},
-        {"id": "ch6_challenge_3", "type": "challenge", "num": "挑战3", "title": "画片倒推", "answer": "思思30/想想18", "file": "assets/videos/ch06/ch06_challenge_3.mp4", "status": "done", "html_anchor": "ans6_3"},
-        {"id": "ch6_challenge_4", "type": "challenge", "num": "挑战4", "title": "水泥倒推", "answer": "44吨", "file": "assets/videos/ch06/ch06_challenge_4.mp4", "status": "done", "html_anchor": "ans6_4"},
-        {"id": "ch6_challenge_5", "type": "challenge", "num": "挑战5", "title": "粮食三次倒推", "answer": "156吨", "file": "assets/videos/ch06/ch06_challenge_5.mp4", "status": "done", "html_anchor": "ans6_5"}
+        {
+          "id": "ch6_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "袋子里的球",
+          "answer": "26个",
+          "file": "assets/videos/ch06/ch06_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch6_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "两桶油倒推",
+          "answer": "甲45乙27",
+          "file": "assets/videos/ch06/ch06_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch6_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "修路倒推",
+          "answer": "1000米",
+          "file": "assets/videos/ch06/ch06_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch6_example_4",
+          "type": "example",
+          "num": "例4",
+          "title": "筐里鸡蛋",
+          "answer": "42个",
+          "file": "assets/videos/ch06/ch06_example_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch6_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "逆运算倒推",
+          "answer": "1",
+          "file": "assets/videos/ch06/ch06_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans6_1"
+        },
+        {
+          "id": "ch6_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "绳子对折剪",
+          "answer": "16米",
+          "file": "assets/videos/ch06/ch06_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans6_2"
+        },
+        {
+          "id": "ch6_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "画片倒推",
+          "answer": "思思30/想想18",
+          "file": "assets/videos/ch06/ch06_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans6_3"
+        },
+        {
+          "id": "ch6_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "水泥倒推",
+          "answer": "44吨",
+          "file": "assets/videos/ch06/ch06_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans6_4"
+        },
+        {
+          "id": "ch6_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "粮食三次倒推",
+          "answer": "156吨",
+          "file": "assets/videos/ch06/ch06_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans6_5"
+        }
+      ]
+    },
+    "7": {
+      "name": "排除法",
+      "anchor": "ch7",
+      "items": [
+        {
+          "id": "ch7_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "体育馆面积",
+          "answer": "C 11088",
+          "file": "assets/videos/ch07/ch07_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch7_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "方格填数",
+          "answer": "A=1",
+          "file": "assets/videos/ch07/ch07_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch7_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "围棋冠军",
+          "answer": "甲",
+          "file": "assets/videos/ch07/ch07_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch7_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "积可能是",
+          "answer": "B 8295",
+          "file": "assets/videos/ch07/ch07_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans7_1"
+        },
+        {
+          "id": "ch7_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "九张纸牌",
+          "answer": "5和9",
+          "file": "assets/videos/ch07/ch07_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans7_2"
+        },
+        {
+          "id": "ch7_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "象棋比赛",
+          "answer": "D下了2盘",
+          "file": "assets/videos/ch07/ch07_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans7_3"
+        },
+        {
+          "id": "ch7_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "参加什么项目",
+          "answer": "甲跳远跳绳/乙跳高跳绳/丙跳高跳远",
+          "file": "assets/videos/ch07/ch07_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans7_4"
+        },
+        {
+          "id": "ch7_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "错标签盒子",
+          "answer": "从5+6标签盒取球称一次",
+          "file": "assets/videos/ch07/ch07_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans7_5"
+        }
+      ]
+    },
+    "8": {
+      "name": "平移法",
+      "anchor": "ch8",
+      "items": [
+        {
+          "id": "ch8_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "阶梯形周长",
+          "answer": "100厘米",
+          "file": "assets/videos/ch08/ch08_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch8_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "绿地小路面积",
+          "answer": "112平方米",
+          "file": "assets/videos/ch08/ch08_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch8_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "河上架桥",
+          "answer": "平移河宽连线",
+          "file": "assets/videos/ch08/ch08_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch8_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "重叠长方形",
+          "answer": "36厘米",
+          "file": "assets/videos/ch08/ch08_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans8_1"
+        },
+        {
+          "id": "ch8_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "七个小正方形",
+          "answer": "16厘米",
+          "file": "assets/videos/ch08/ch08_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans8_2"
+        },
+        {
+          "id": "ch8_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "不规则周长",
+          "answer": "94厘米",
+          "file": "assets/videos/ch08/ch08_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans8_3"
+        },
+        {
+          "id": "ch8_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "曲折小路",
+          "answer": "99平方米",
+          "file": "assets/videos/ch08/ch08_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans8_4"
+        },
+        {
+          "id": "ch8_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "六边形角B",
+          "answer": "120度",
+          "file": "assets/videos/ch08/ch08_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans8_5"
+        }
+      ]
+    },
+    "9": {
+      "name": "剪拼法",
+      "anchor": "ch9",
+      "items": [
+        {
+          "id": "ch9_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "三角形拼长方形",
+          "answer": "沿中位线和高剪拼",
+          "file": "assets/videos/ch09/ch09_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch9_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "9×4拼正方形",
+          "answer": "边长6厘米",
+          "file": "assets/videos/ch09/ch09_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch9_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "两正方形拼大正方形",
+          "answer": "边长5厘米",
+          "file": "assets/videos/ch09/ch09_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch9_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "正方形拼直角三角形",
+          "answer": "两种剪拼方案",
+          "file": "assets/videos/ch09/ch09_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans9_1"
+        },
+        {
+          "id": "ch9_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "四块拼正方形",
+          "answer": "4×4正方形",
+          "file": "assets/videos/ch09/ch09_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans9_2"
+        },
+        {
+          "id": "ch9_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "50×32拼正方形",
+          "answer": "边长40厘米",
+          "file": "assets/videos/ch09/ch09_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans9_3"
+        },
+        {
+          "id": "ch9_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "带洞正方形拼长方形",
+          "answer": "6×4长方形",
+          "file": "assets/videos/ch09/ch09_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans9_4"
+        },
+        {
+          "id": "ch9_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "缺角长方形拼正方形",
+          "answer": "正方形AMDN",
+          "file": "assets/videos/ch09/ch09_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans9_5"
+        }
       ]
     }
   }
