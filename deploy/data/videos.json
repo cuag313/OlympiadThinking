@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "convention": {
     "video_path": "assets/videos/ch{NN}/{slug}.mp4",
     "slug": "ch{NN}_{example|challenge}_{M}"
@@ -1092,6 +1092,1722 @@
           "file": "assets/videos/ch14/ch14_challenge_5.mp4",
           "status": "done",
           "html_anchor": "ans14_5"
+        }
+      ]
+    },
+    "15": {
+      "name": "对应思想",
+      "anchor": "ch15",
+      "items": [
+        {
+          "id": "ch15_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "字母数字密码",
+          "answer": "密码单词是 CHINA",
+          "file": "assets/videos/ch15/ch15_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "集装箱取法",
+          "answer": "共有 10 种不同取法",
+          "file": "assets/videos/ch15/ch15_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "九袋零件称重",
+          "answer": "最少称 1 次即可",
+          "file": "assets/videos/ch15/ch15_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "摩斯密码破译",
+          "answer": "密码意思是 GOOD JOB",
+          "file": "assets/videos/ch15/ch15_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "9个圆片摆三位数",
+          "answer": "可以摆出 28 个不同的三位数",
+          "file": "assets/videos/ch15/ch15_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "信纸原长",
+          "answer": "信纸原来的长度是 30 cm",
+          "file": "assets/videos/ch15/ch15_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "三人传球",
+          "answer": "有 42 种不同的传球方法",
+          "file": "assets/videos/ch15/ch15_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch15_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "两袋次品",
+          "answer": "最少称 1 次即可",
+          "file": "assets/videos/ch15/ch15_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "16": {
+      "name": "配凑法",
+      "anchor": "ch16",
+      "items": [
+        {
+          "id": "ch16_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "取棋子必胜策略",
+          "answer": "甲有必胜策略",
+          "file": "assets/videos/ch16/ch16_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "首尾配对求和",
+          "answer": "原式 = 9又1/2",
+          "file": "assets/videos/ch16/ch16_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "数组交替和",
+          "answer": "所有交替和的和是 80",
+          "file": "assets/videos/ch16/ch16_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "237×99",
+          "answer": "237×99 = 23463",
+          "file": "assets/videos/ch16/ch16_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "百僧百粥",
+          "answer": "大和尚 25 人，小和尚 75 人",
+          "file": "assets/videos/ch16/ch16_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "师徒零件",
+          "answer": "徒弟单独做需 15 天",
+          "file": "assets/videos/ch16/ch16_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "A 与 1/4 比大小",
+          "answer": "A < 1/4",
+          "file": "assets/videos/ch16/ch16_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch16_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "调和级数分子",
+          "answer": "分子 m 是 11 的倍数",
+          "file": "assets/videos/ch16/ch16_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "17": {
+      "name": "拆分法",
+      "anchor": "ch17",
+      "items": [
+        {
+          "id": "ch17_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "3417÷17",
+          "answer": "3417÷17 = 201",
+          "file": "assets/videos/ch17/ch17_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "和为16乘积最大",
+          "answer": "乘积最大值是 324",
+          "file": "assets/videos/ch17/ch17_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "17×11 方格剪长方形",
+          "answer": "最多可以剪出 15 个",
+          "file": "assets/videos/ch17/ch17_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "574 能否被7整除",
+          "answer": "574 能被 7 整除",
+          "file": "assets/videos/ch17/ch17_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "数字和为24的三位数",
+          "answer": "共有 10 个",
+          "file": "assets/videos/ch17/ch17_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "盒子与玻璃球",
+          "answer": "共有 11 个盒子",
+          "file": "assets/videos/ch17/ch17_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "1/6 拆成两个单位分数",
+          "answer": "共有 5 种写法",
+          "file": "assets/videos/ch17/ch17_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch17_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "铁皮做盒放工具",
+          "answer": "能放下 32 个工具盒",
+          "file": "assets/videos/ch17/ch17_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "18": {
+      "name": "分割法",
+      "anchor": "ch18",
+      "items": [
+        {
+          "id": "ch18_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "五边形面积",
+          "answer": "面积是 66 平方厘米",
+          "file": "assets/videos/ch18/ch18_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "圆柱+圆锥体积",
+          "answer": "体积是 1334.5 立方厘米",
+          "file": "assets/videos/ch18/ch18_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "正方形分成小正方形",
+          "answer": "能分成 6 个或 17 个",
+          "file": "assets/videos/ch18/ch18_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "L形菜地面积",
+          "answer": "面积是 341 平方米",
+          "file": "assets/videos/ch18/ch18_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "木板等积分割线",
+          "answer": "作直线 OA 即可",
+          "file": "assets/videos/ch18/ch18_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "竖放圆柱+圆锥",
+          "answer": "体积是 1105.28 立方厘米",
+          "file": "assets/videos/ch18/ch18_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "阴影分成四部分",
+          "answer": "能，分成4个相同的L形",
+          "file": "assets/videos/ch18/ch18_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch18_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "六边形分全等三角形",
+          "answer": "能分成 6 个或 7 个",
+          "file": "assets/videos/ch18/ch18_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "19": {
+      "name": "转化法",
+      "anchor": "ch19",
+      "items": [
+        {
+          "id": "ch19_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "多边形内角和",
+          "answer": "四边形360°，五边形540°，六边形720°",
+          "file": "assets/videos/ch19/ch19_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "分数和的形转化",
+          "answer": "原式 = 127/128",
+          "file": "assets/videos/ch19/ch19_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "补形求长方形面积",
+          "answer": "长方形面积是 28",
+          "file": "assets/videos/ch19/ch19_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "提公因数巧算",
+          "answer": "原式 = 1110000",
+          "file": "assets/videos/ch19/ch19_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "连减分数",
+          "answer": "原式 = 1/512",
+          "file": "assets/videos/ch19/ch19_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "约瑟夫环",
+          "answer": "n=6 剩下 5；n=20 剩下 9",
+          "file": "assets/videos/ch19/ch19_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "楔形圆柱排水",
+          "answer": "水面上升 5/8 厘米",
+          "file": "assets/videos/ch19/ch19_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch19_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "科克雪花周长",
+          "answer": "周长是 640 毫米",
+          "file": "assets/videos/ch19/ch19_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "20": {
+      "name": "等积变形",
+      "anchor": "ch20",
+      "items": [
+        {
+          "id": "ch20_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "梯形中的等积三角形",
+          "answer": "共有三对面积相等",
+          "file": "assets/videos/ch20/ch20_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "两正方形与△ACF",
+          "answer": "△ACF 面积是 50 cm²",
+          "file": "assets/videos/ch20/ch20_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "水槽会溢出吗",
+          "answer": "水不会溢出来",
+          "file": "assets/videos/ch20/ch20_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "平行四边形阴影和",
+          "answer": "阴影面积之和是 96 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "中点与面积",
+          "answer": "△DEF 面积是 6",
+          "file": "assets/videos/ch20/ch20_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "长方形中阴影面积",
+          "answer": "阴影面积是 32",
+          "file": "assets/videos/ch20/ch20_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "延长三边的大三角形",
+          "answer": "△DEF 面积是 18 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch20_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "正方形中阴影四边形",
+          "answer": "四边形面积是 20 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "21": {
+      "name": "等量思想",
+      "anchor": "ch21",
+      "items": [
+        {
+          "id": "ch21_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "思思和想想两人同时从两地骑自行车相向而行",
+          "answer": "两地距离为(15+13)×3=84（千米）。",
+          "file": "assets/videos/ch21/ch21_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "一列火车在匀速行驶，通过一条长1140米",
+          "answer": "火车车长为28×50−1140=260（米）。",
+          "file": "assets/videos/ch21/ch21_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "如图，在两个正方形中，已知大正方形的边长",
+          "answer": "可以得到S△AEB=S△AED（同底AE，顶点B、D在与AE平行的直线BD上），",
+          "file": "assets/videos/ch21/ch21_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "思思走一段路程要用40分钟，想想走同样一",
+          "answer": "想想 15 分钟才能追上思思",
+          "file": "assets/videos/ch21/ch21_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "小鲸鱼说：\"妈妈，我到您这么大的时候，您",
+          "answer": "大鲸鱼 18 岁，小鲸鱼 10 岁",
+          "file": "assets/videos/ch21/ch21_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "某商店把商品按照售价的九折出售（即优惠1",
+          "answer": "该商品的进价为每件 21 元",
+          "file": "assets/videos/ch21/ch21_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "一片牧场长满青草，牛在吃草的同时草也在生",
+          "answer": "21头牛吃完这片牧场的草要 12 周",
+          "file": "assets/videos/ch21/ch21_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch21_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "如图，△ABC是等腰直角三角形，腰AB=",
+          "answer": "半径为10÷2=5（cm），所以 S阴影=S扇形OBD+S△OCD=(1/4)×",
+          "file": "assets/videos/ch21/ch21_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "22": {
+      "name": "符号化",
+      "anchor": "ch22",
+      "items": [
+        {
+          "id": "ch22_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "计算：(1+0.12+0.23)×(0.",
+          "answer": "原式=(1+a)×b−(1+b)×a=b+ab−a−ab=b−a=0.34。",
+          "file": "assets/videos/ch22/ch22_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "计算：(1×3+2)/(2×3−1) +",
+          "answer": "原式=1+1+…+1（共99个1）=99。",
+          "file": "assets/videos/ch22/ch22_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "计算：1−1/3=（\\u3000），1/2−1/4",
+          "answer": "第n个式子为 1/n−1/(n+2)=[(n+2)−n]/[n×(n+2)]=2",
+          "file": "assets/videos/ch22/ch22_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "规定 a✱b=5a−2b，c∆d=c+3",
+          "answer": "8✱(7∆3) = 8",
+          "file": "assets/videos/ch22/ch22_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "计算：(11×11−10×12)/(12",
+          "answer": "原式 = 1/30",
+          "file": "assets/videos/ch22/ch22_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "计算：1−1/2=（\\u3000），1/2−1/3",
+          "answer": "第n个式子为 1/n−1/(n+1)=[(n+1)−n]/[n×(n+1)]=1",
+          "file": "assets/videos/ch22/ch22_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "计算：(1/5+1/7+1/9+1/11",
+          "answer": "原式 = 1/65",
+          "file": "assets/videos/ch22/ch22_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch22_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "如图，将边长为(a+b)的大正方形进行分",
+          "answer": "(a+b)² = a² + 2ab + b²",
+          "file": "assets/videos/ch22/ch22_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "23": {
+      "name": "数字化",
+      "anchor": "ch23",
+      "items": [
+        {
+          "id": "ch23_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "如图，活动长廊上有标记为1，2，3，4，",
+          "answer": "一共有13种方法可以挑战成功。",
+          "file": "assets/videos/ch23/ch23_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "有4个灯泡安装在台面上，用亮灯\"○\"和不",
+          "answer": "将灯泡亮灭情况数字化：灯泡亮记为1，灯泡灭记为0，那么4个灯泡所表示的数就可以用",
+          "file": "assets/videos/ch23/ch23_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "12个人围坐在一张圆桌旁参加一个游戏，主",
+          "answer": "其他每个人也都能用同样的方法知道自己的帽子颜色。",
+          "file": "assets/videos/ch23/ch23_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "a、b在数轴上的位置如图所示，以下正确的",
+          "answer": "选 D",
+          "file": "assets/videos/ch23/ch23_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "现有一笔出售苹果的生意，已知顾客可能需要",
+          "answer": "六个箱子分别装 1、2、4、8、16、32 个苹果",
+          "file": "assets/videos/ch23/ch23_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "如图，有号码为1，2，…，6的6个蜂巢，",
+          "answer": "（3）向右飞0次，总共需要飞5次，没有出现\"0\"。",
+          "file": "assets/videos/ch23/ch23_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "老师和同学们玩\"猜生肖\"的游戏，这个游戏",
+          "answer": "老师每旋转一次询问学生\"纸片上是否有你的生肖\"，学生回答\"有\"则记为1，回答\"无",
+          "file": "assets/videos/ch23/ch23_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch23_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "50名同学玩摸球游戏，已知球箱内有红、黄",
+          "answer": "（例如：编号30=2×3×5，三个球颜色为黄、蓝、绿。",
+          "file": "assets/videos/ch23/ch23_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "24": {
+      "name": "不变量",
+      "anchor": "ch24",
+      "items": [
+        {
+          "id": "ch24_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "思思今年5岁，爸爸的年龄是思思的7倍。请",
+          "answer": "求出1份表示的年龄是30÷2=15（岁），也就是思思15岁的时候爸爸的年龄是思思",
+          "file": "assets/videos/ch24/ch24_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "思思有红、蓝两种颜色的卡片，红色卡片有4",
+          "answer": "取出后，红色卡片还剩8÷(2/11)=44（张）。",
+          "file": "assets/videos/ch24/ch24_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "纸上写有1,2,3,4,...,100这",
+          "answer": "经过第1步后，这组数是5,6,7,8,...,100,10。",
+          "file": "assets/videos/ch24/ch24_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "思思和想想在分享图书。思思：\"我带了5本",
+          "answer": "答案：想想原来带了19本书。",
+          "file": "assets/videos/ch24/ch24_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "一块三角形土地，如果只把底增加4米，或只",
+          "answer": "答案：48平方米。",
+          "file": "assets/videos/ch24/ch24_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "一个书架分上、下两层，共放书160本，如",
+          "answer": "方法2：",
+          "file": "assets/videos/ch24/ch24_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "将19/31的分子与分母各加上同一个数后",
+          "answer": "分子与分母也相应扩大6倍，它们的比调整为30:42。",
+          "file": "assets/videos/ch24/ch24_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch24_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "甲、乙两个工程队参加旧校园改造工程，如果",
+          "answer": "答案：甲队原来有125人，乙队原来有85人。",
+          "file": "assets/videos/ch24/ch24_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "25": {
+      "name": "面积法",
+      "anchor": "ch25",
+      "items": [
+        {
+          "id": "ch25_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "思思在整理玩具时，找到了一块直角三角形塑",
+          "answer": "根据2.4cm＜2.8cm，可以判断能穿过。",
+          "file": "assets/videos/ch25/ch25_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "笼子里有若干只鸡和兔，共有35个头，94",
+          "answer": "实际是94只脚，说明图中左上方长方形的面积相当于140−94=46（只）脚。",
+          "file": "assets/videos/ch25/ch25_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "甲、乙两组学生进行一分钟跳绳比赛，平均每",
+          "answer": "将A的面积补给甲组，用长方形B的面积表示。",
+          "file": "assets/videos/ch25/ch25_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "如图，已知平行四边形ABCD的两条邻边分",
+          "answer": "答案：AE的长是21厘米。",
+          "file": "assets/videos/ch25/ch25_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "一个长方形，如果宽不变，长增加6米，那么",
+          "answer": "答案：108平方米。",
+          "file": "assets/videos/ch25/ch25_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "某商店采购了20筐苹果，每筐装了28千克",
+          "answer": "答案：需要多准备8个筐。",
+          "file": "assets/videos/ch25/ch25_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "A、B两地相距8千米，甲从A地出发前往B",
+          "answer": "答案：出发后20分钟开始降速。",
+          "file": "assets/videos/ch25/ch25_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch25_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "某次数学测验，全班平均成绩是91.2分，",
+          "answer": "B的长表示男生有24人，根据A的面积=B的面积，可知B的宽为16.8÷24=0.",
+          "file": "assets/videos/ch25/ch25_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "26": {
+      "name": "各取一半",
+      "anchor": "ch26",
+      "items": [
+        {
+          "id": "ch26_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "如图，已知线段AB=10cm，D为AC的",
+          "answer": "因此DE=DC+CE=½AC+½CB=½AB=5（cm）。",
+          "file": "assets/videos/ch26/ch26_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，点E在边长为6cm的正方形ABCD",
+          "answer": "所以S长方形AEFG=S正方形ABCD=6×6=36（cm²）。",
+          "file": "assets/videos/ch26/ch26_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "摄制组准备在一天内从A市赶到B市，计划上",
+          "answer": "DE=DC+CE=⅔AC+⅔CB=⅔AB。",
+          "file": "assets/videos/ch26/ch26_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "如图，点D为AC的中点，点E为BC的中点",
+          "answer": "答案：AB的长是10cm。",
+          "file": "assets/videos/ch26/ch26_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "如图，已知∠AOB=70°，射线OD平分",
+          "answer": "答案：∠DOE的度数是35°。",
+          "file": "assets/videos/ch26/ch26_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "如图，线段EF把面积为36cm²的长方形",
+          "answer": "答案：阴影部分的面积是18cm²。",
+          "file": "assets/videos/ch26/ch26_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "如图，E为长方形ABCD的边BC上的任意",
+          "answer": "答案：长方形ABCD的面积是24cm²。",
+          "file": "assets/videos/ch26/ch26_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch26_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "如图，已知正方形CDEF的边长为6cm，",
+          "answer": "所以S△GCD=½S长方形LMCD=½×20=10（cm²）。",
+          "file": "assets/videos/ch26/ch26_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "27": {
+      "name": "裂项相消",
+      "anchor": "ch27",
+      "items": [
+        {
+          "id": "ch27_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "计算：1/(1×2)+1/(2×3)+1",
+          "answer": "=1−1/10=9/10。",
+          "file": "assets/videos/ch27/ch27_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "计算：1/(2×3×4)+1/(3×4×",
+          "answer": "=（1/(2×3)−1/(7×8)）×½=25/336。",
+          "file": "assets/videos/ch27/ch27_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "计算：1×2+2×3+3×4+…+99×",
+          "answer": "以上式子整体相加，可得1×2+2×3+3×4+…+99×100=(1/3)×[(",
+          "file": "assets/videos/ch27/ch27_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "计算：1/6+1/12+1/20+1/3",
+          "answer": "答案：2/5。",
+          "file": "assets/videos/ch27/ch27_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "计算：1/(1×4)+1/(4×7)+1",
+          "answer": "答案：14/43。",
+          "file": "assets/videos/ch27/ch27_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "计算：1/(1×3)+1/(2×4)+1",
+          "answer": "答案：14949/20200。",
+          "file": "assets/videos/ch27/ch27_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "计算：1/(1×2×3)+1/(2×3×",
+          "answer": "答案：4949/19800。",
+          "file": "assets/videos/ch27/ch27_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch27_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "计算：1×3+3×5+5×7+…+99×",
+          "answer": "答案：171650。",
+          "file": "assets/videos/ch27/ch27_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "28": {
+      "name": "数形结合",
+      "anchor": "ch28",
+      "items": [
+        {
+          "id": "ch28_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "如图，6个正方形围成一个长方形，最小的正",
+          "answer": "长方形面积S=13×11=143。",
+          "file": "assets/videos/ch28/ch28_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，有一堆钢管，从上到下依次有1,2,",
+          "answer": "所以这堆钢管一共有1+2+…+n=n(n+1)/2（根）。",
+          "file": "assets/videos/ch28/ch28_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "已知n为不小于1的自然数，计算：1²+2",
+          "answer": "图4中所有数的和是3×(1²+2²+…+n²)=n(n+1)(2n+1)/2，所",
+          "file": "assets/videos/ch28/ch28_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "古希腊人常用小石子在沙滩摆成各种形状来研",
+          "answer": "答案：C。",
+          "file": "assets/videos/ch28/ch28_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "如图，用同样规格的黑白两色的正方形瓷砖铺",
+          "answer": "答案：56块。",
+          "file": "assets/videos/ch28/ch28_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "已知n为不小于1的自然数，计算：1+3+",
+          "answer": "答案：n²。",
+          "file": "assets/videos/ch28/ch28_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "如图，时针与分针垂直，你知道现在是8时多",
+          "answer": "答案：8时27又3/11分。",
+          "file": "assets/videos/ch28/ch28_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch28_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "在两条平行线之间放着如图的一个直角三角形",
+          "answer": "答案：80平方厘米。",
+          "file": "assets/videos/ch28/ch28_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "29": {
+      "name": "分类讨论",
+      "anchor": "ch29",
+      "items": [
+        {
+          "id": "ch29_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "有一个等腰三角形，其中的两条边分别是4厘",
+          "answer": "拓展思考：如果这个等腰三角形的两条边分别是2厘米和6厘米，那么它的周长是多少呢？",
+          "file": "assets/videos/ch29/ch29_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，含有★的正方形有多少个？",
+          "answer": "含有★的“4×4”的正方形有4个。",
+          "file": "assets/videos/ch29/ch29_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "如图，水平桌面上有A、B两个相同的长方体",
+          "answer": "3分钟、5分钟或者7分钟后，A与B的水位高度之差是1cm。",
+          "file": "assets/videos/ch29/ch29_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "公园中，银杏树、梧桐树和柳树三棵大树排成",
+          "answer": "答案：270米或90米。",
+          "file": "assets/videos/ch29/ch29_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "沿着直线剪去长方形的一个角，请问还有几个",
+          "answer": "答案：3个、4个或5个角。",
+          "file": "assets/videos/ch29/ch29_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "A、B两地相距720千米，两辆车从两地同",
+          "answer": "答案：5小时或7小时。",
+          "file": "assets/videos/ch29/ch29_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "在一个400米长的操场跑道上，思思和想想",
+          "answer": "答案：4分钟或20分钟。",
+          "file": "assets/videos/ch29/ch29_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch29_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "如图，实验室里水平桌面上有甲、乙、丙三个",
+          "answer": "此时乙的水位上升(5/6)×(3/2)=5/4厘米，所以(1.5−5/4)÷(5",
+          "file": "assets/videos/ch29/ch29_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "30": {
+      "name": "单位化",
+      "anchor": "ch30",
+      "items": [
+        {
+          "id": "ch30_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "两支植树队要种300棵树。甲队8天可种完",
+          "answer": "两队合作种植所需天数为1÷(9/40)=40/9。",
+          "file": "assets/videos/ch30/ch30_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "一项工程，甲、乙两队合作30天可完成。现",
+          "answer": "这项工程如果由甲队单独做，需要1÷(1/90)=90（天）。",
+          "file": "assets/videos/ch30/ch30_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "一个水池，底部装有一根常开的排水管，上部",
+          "answer": "要求在两小时内注满水池，则一小时内必须注入水池的1/2，同时还需要补上排水管一小",
+          "file": "assets/videos/ch30/ch30_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "有一批零件，甲单独做6小时完成，乙单独做",
+          "answer": "每小时甲比乙多做零件数为24÷(24/7)=7（个），零件总量为7÷(1/6−1",
+          "file": "assets/videos/ch30/ch30_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "规定两人轮流做一项工程，每人做一小时后交",
+          "answer": "将①甲乙轮流做（或者②）的时间进行转化，即可得到乙单独做这项工程需要的时间：2.",
+          "file": "assets/videos/ch30/ch30_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "一个水池装有3根水管，甲是进水管，乙和丙",
+          "answer": "答案：45分钟。",
+          "file": "assets/videos/ch30/ch30_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "牧场上有一片青草，每天青草都匀速生长。这",
+          "answer": "答案：5天。",
+          "file": "assets/videos/ch30/ch30_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch30_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "有一个牧场，21头牛20天可将草吃完，2",
+          "answer": "假设4头牛没被卖出，则已有草量不足，缺少草量为4×2=8（份）。",
+          "file": "assets/videos/ch30/ch30_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "31": {
+      "name": "倒数法",
+      "anchor": "ch31",
+      "items": [
+        {
+          "id": "ch31_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "比较12/25与11/23大小。",
+          "answer": "因此12/25>11/23。",
+          "file": "assets/videos/ch31/ch31_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "计算：(1/12)÷(1+1/2+1/3",
+          "answer": "所以(1/12)÷(1+1/2+1/3+1/4)=1/25。",
+          "file": "assets/videos/ch31/ch31_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "有一个分数b/a，如果分母加7，得4/1",
+          "answer": "所以这个分数为b/a=8/23。",
+          "file": "assets/videos/ch31/ch31_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "比较73/217与69/205的大小。",
+          "answer": "答案：73/217<69/205。",
+          "file": "assets/videos/ch31/ch31_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "计算：(1/48)÷(2/3+3/4+5",
+          "answer": "答案：1/129。",
+          "file": "assets/videos/ch31/ch31_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "有一个分数，如果分母加9，则可化简为3；",
+          "answer": "将b=42代入b/(a+9)=3，得a=5。",
+          "file": "assets/videos/ch31/ch31_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "思思和想想从甲地出发去乙地。已知思思每分",
+          "answer": "答案：80米/分钟。",
+          "file": "assets/videos/ch31/ch31_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch31_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "某公路建设队修2000米的公路，增派人员",
+          "answer": "答案：增加400%。",
+          "file": "assets/videos/ch31/ch31_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "32": {
+      "name": "比例思想",
+      "anchor": "ch32",
+      "items": [
+        {
+          "id": "ch32_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "数学活动课上，老师带着同学们到操场上做实",
+          "answer": "竹竿高度=1.6×3÷1.2=4（m）。",
+          "file": "assets/videos/ch32/ch32_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，一个长方形被两条直线分成四个长方形",
+          "answer": "所以阴影部分面积为25×30÷20=37.5（公顷）。",
+          "file": "assets/videos/ch32/ch32_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "如图，△ABC的面积是1，E是AC的中点",
+          "answer": "所以S△BCF=(1/4)S△ABC=1/4。",
+          "file": "assets/videos/ch32/ch32_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "古希腊时期，人们认为最美人体的头顶至肚脐",
+          "answer": "答案：B。",
+          "file": "assets/videos/ch32/ch32_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "2024/2026的分子减去一个数，分母",
+          "answer": "答案：404。",
+          "file": "assets/videos/ch32/ch32_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "如图，一个长方形被分成8个小长方形，其中",
+          "answer": "答案：45。",
+          "file": "assets/videos/ch32/ch32_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "已知正方形ABCD的边长为12厘米，E、",
+          "answer": "答案：96平方厘米。",
+          "file": "assets/videos/ch32/ch32_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch32_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "甲、乙两人分别从A、B两地同时出发，相向",
+          "answer": "因此A、B两地的总路程为9×(3+2)=45（千米）。",
+          "file": "assets/videos/ch32/ch32_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "33": {
+      "name": "加法原理",
+      "anchor": "ch33",
+      "items": [
+        {
+          "id": "ch33_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "用1克、3克、9克三个砝码（砝码只能放在",
+          "answer": "所以可以称出3+3+1=7（种）不同重量的物体。",
+          "file": "assets/videos/ch33/ch33_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，一共有多少个三角形？",
+          "answer": "所以一共有6+4+1+2+1=14（个）三角形。",
+          "file": "assets/videos/ch33/ch33_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "一天，爸爸带着思思去家具工厂参观，在加工",
+          "answer": "当c=4时，(a,b)的取法种数是1；当c=5时是2；当c=6时是1+3=4；当",
+          "file": "assets/videos/ch33/ch33_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "有10元、5元、2元和1元的纸币各一张，",
+          "answer": "答案：15种。",
+          "file": "assets/videos/ch33/ch33_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "一只青蛙在A、B、C三点之间跳动，若青蛙",
+          "answer": "答案：6种。",
+          "file": "assets/videos/ch33/ch33_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "从1~9这9个数中取出3个，使它们的和是",
+          "answer": "答案：30种。",
+          "file": "assets/videos/ch33/ch33_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "从1~10这10个数中每次取两个不同的数",
+          "answer": "答案：25种。",
+          "file": "assets/videos/ch33/ch33_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch33_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "有一批长度分别为1,2,3,4,5,6,",
+          "answer": "答案：125种。",
+          "file": "assets/videos/ch33/ch33_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "34": {
+      "name": "乘法原理",
+      "anchor": "ch34",
+      "items": [
+        {
+          "id": "ch34_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "从甲城到乙城有3条不同的道路，从乙城到丙",
+          "answer": "从甲城到丙城分两步，第1步从甲城到乙城，有3条不同的道路；第2步从乙城到丙城，有",
+          "file": "assets/videos/ch34/ch34_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "用数字1,2,3,4,5可以组成多少个没",
+          "answer": "1,2,3,4,5在百位时，各有12个；作为十位、个位时，同样各有12个。",
+          "file": "assets/videos/ch34/ch34_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "有4位同学在同一天的上、下午参加“身高与",
+          "answer": "上、下午各有一个项目搭配总共有2+3×3=11种情况。",
+          "file": "assets/videos/ch34/ch34_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "学校升旗仪式时，思思、想想、小小和方方四",
+          "answer": "根据乘法原理有4×3×2×1=24种排法。",
+          "file": "assets/videos/ch34/ch34_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "如图，有一只小蚂蚁沿线段从A点依次经过B",
+          "answer": "答案：27种。",
+          "file": "assets/videos/ch34/ch34_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "用数字1,2,3可以组成若干个没有重复数",
+          "answer": "这些数的和为(1+2+3)×(100+10+1)×2=1332。",
+          "file": "assets/videos/ch34/ch34_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "用5、7、9、9四张数字卡片，可以组成多",
+          "answer": "答案：48个。",
+          "file": "assets/videos/ch34/ch34_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch34_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "从数字0,1,2,3,4,5中任意挑选出",
+          "answer": "答案：216个。",
+          "file": "assets/videos/ch34/ch34_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "35": {
+      "name": "容斥原理",
+      "anchor": "ch35",
+      "items": [
+        {
+          "id": "ch35_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "某班36名同学在一项测试中，答对第一题的",
+          "answer": "已知两道题都没答对的人数是班级总人数减去至少有一题答对的人数，即有36−(10+",
+          "file": "assets/videos/ch35/ch35_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "在1到100的自然数中，既不是5的倍数也",
+          "answer": "100减去5或6的所有倍数的个数，得到既不是5的倍数也不是6的倍数的个数，即10",
+          "file": "assets/videos/ch35/ch35_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "计算100以内能被2、3或5整除的数的个",
+          "answer": "所以满足要求的数个数为50+33+20−(16+10+6)+3=74。",
+          "file": "assets/videos/ch35/ch35_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "50名同学面向老师站成一排，老师先让大家",
+          "answer": "答案：38名。",
+          "file": "assets/videos/ch35/ch35_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "有25人参加跳远达标赛，每人跳三次，已知",
+          "answer": "答案：11人。",
+          "file": "assets/videos/ch35/ch35_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "54人中35人懂俄语，45人懂德语，40",
+          "answer": "答案：至少8人。",
+          "file": "assets/videos/ch35/ch35_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "分母是105的最简真分数有多少个？",
+          "answer": "答案：48个。",
+          "file": "assets/videos/ch35/ch35_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch35_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "某美术馆有100盏灯，每盏用拉线开关，并",
+          "answer": "答案：51盏。",
+          "file": "assets/videos/ch35/ch35_challenge_5.mp4",
+          "status": "done"
+        }
+      ]
+    },
+    "36": {
+      "name": "抽屉原理",
+      "anchor": "ch36",
+      "items": [
+        {
+          "id": "ch36_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "从1，2，…，20这20个非零自然数中任",
+          "answer": "从1,2,…,20这20个非零自然数中任取11个（相当于11个“苹果”），必然有",
+          "file": "assets/videos/ch36/ch36_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "如图，在2×9的每个小方格中涂上黑色或蓝",
+          "answer": "假设结论不成立，那么最多只有两列的涂色方式相同。",
+          "file": "assets/videos/ch36/ch36_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "证明在任何6个人的聚会上，总有三个人互相",
+          "answer": "连结C、D、E的线段中，如果有一条线段染蓝色，那么它与两条已染蓝色的线段组成三边",
+          "file": "assets/videos/ch36/ch36_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "某班级有30名学生，其年龄都是10岁或者",
+          "answer": "30>24，根据抽屉原理，则必有至少2名学生是同年同月出生的。",
+          "file": "assets/videos/ch36/ch36_challenge_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "一些孩子在沙滩上玩耍，他们把石子堆成许多",
+          "answer": "这里每种余数看作一个“抽屉”，4堆石子数看作“苹果”，根据抽屉原理，必有至少2堆",
+          "file": "assets/videos/ch36/ch36_challenge_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "据统计，某校六年级中有100名学生分别参",
+          "answer": "100>7×14，根据抽屉原理第2条基本原理，必有14+1=15名学生参加的兴趣",
+          "file": "assets/videos/ch36/ch36_challenge_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "用数字1,2,3,4,5,6填满一个6×",
+          "answer": "答案：不能。",
+          "file": "assets/videos/ch36/ch36_challenge_4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "在一个边长为1的正三角形内随意放置10个",
+          "answer": "这两点之间的连线不超过三角形的边长，即这两点之间的距离不超过1/3。",
+          "file": "assets/videos/ch36/ch36_challenge_5.mp4",
+          "status": "done"
         }
       ]
     }
