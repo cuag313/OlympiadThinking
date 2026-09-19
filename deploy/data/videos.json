@@ -1011,6 +1011,89 @@
           "html_anchor": "ans13_5"
         }
       ]
+    },
+    "14": {
+      "name": "整体思想",
+      "anchor": "ch14",
+      "items": [
+        {
+          "id": "ch14_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "甲杯酒精与乙杯水",
+          "answer": "一样多",
+          "file": "assets/videos/ch14/ch14_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch14_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "方格中的三角形",
+          "answer": "5cm²",
+          "file": "assets/videos/ch14/ch14_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch14_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "二十个乘积的总和",
+          "answer": "1/14",
+          "file": "assets/videos/ch14/ch14_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch14_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "小狗走了多少米",
+          "answer": "64米",
+          "file": "assets/videos/ch14/ch14_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans14_1"
+        },
+        {
+          "id": "ch14_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "圆周上的七个数",
+          "answer": "不能",
+          "file": "assets/videos/ch14/ch14_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans14_2"
+        },
+        {
+          "id": "ch14_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "三组数的乘积总和",
+          "answer": "189/25",
+          "file": "assets/videos/ch14/ch14_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans14_3"
+        },
+        {
+          "id": "ch14_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "点P到三边距离都是2",
+          "answer": "30cm²",
+          "file": "assets/videos/ch14/ch14_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans14_4"
+        },
+        {
+          "id": "ch14_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "表中所有乘积的和",
+          "answer": "4096",
+          "file": "assets/videos/ch14/ch14_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans14_5"
+        }
+      ]
     }
   }
 }
