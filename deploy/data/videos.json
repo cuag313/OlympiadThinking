@@ -1,10 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
-  "convention": {
-    "video_path": "assets/videos/ch{NN}/{slug}.mp4",
-    "slug": "ch{NN}_{example|challenge}_{M}"
-  },
+  "updated": "2026-09-20",
+  "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
       "name": "枚举法",
@@ -1092,6 +1089,103 @@
           "file": "assets/videos/ch14/ch14_challenge_5.mp4",
           "status": "done",
           "html_anchor": "ans14_5"
+        }
+      ]
+    },
+    "15": {
+      "name": "对应思想",
+      "anchor": "ch15",
+      "items": [
+        {
+          "id": "ch15_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "字母数字密码",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_example_1.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "例1 · 字母数字密码",
+          "note": "correspondence table + flash digits to letters"
+        },
+        {
+          "id": "ch15_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "集装箱取法",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_example_2.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "例2 · 集装箱取法",
+          "note": "number-shape: stacks + sequence + lattice path + 4+3+2+1"
+        },
+        {
+          "id": "ch15_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "九袋零件称重",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_example_3.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "例3 · 九袋零件称重",
+          "note": "ref PlasticBags.py: numbered bags + take i parts + scale + diff=bag"
+        },
+        {
+          "id": "ch15_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "摩斯密码破译",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "挑战1 · 摩斯密码破译"
+        },
+        {
+          "id": "ch15_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "9个圆片摆三位数",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "挑战2 · 9个圆片摆三位数"
+        },
+        {
+          "id": "ch15_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "信纸原长",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "挑战3 · 信纸原长"
+        },
+        {
+          "id": "ch15_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "三人传球",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "挑战4 · 三人传球"
+        },
+        {
+          "id": "ch15_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "两袋次品",
+          "answer": "",
+          "file": "assets/videos/ch15/ch15_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "id=ch15",
+          "title_scene": "挑战5 · 两袋次品"
         }
       ]
     }
