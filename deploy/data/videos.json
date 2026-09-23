@@ -1274,6 +1274,92 @@
           "html_anchor": "ans16_8"
         }
       ]
+    },
+    "17": {
+      "name": "拆分法",
+      "anchor": "ch17",
+      "items": [
+        {
+          "id": "ch17_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "3417÷17",
+          "answer": "201",
+          "file": "assets/videos/ch17/ch17_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch17"
+        },
+        {
+          "id": "ch17_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "和为16乘积最大",
+          "answer": "324",
+          "file": "assets/videos/ch17/ch17_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch17"
+        },
+        {
+          "id": "ch17_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "17×11剪3×4",
+          "answer": "15个",
+          "file": "assets/videos/ch17/ch17_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch17"
+        },
+        {
+          "id": "ch17_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "574÷7",
+          "answer": "能整除",
+          "file": "assets/videos/ch17/ch17_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans17_4"
+        },
+        {
+          "id": "ch17_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "数字和24",
+          "answer": "10个",
+          "file": "assets/videos/ch17/ch17_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans17_5"
+        },
+        {
+          "id": "ch17_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "盒子玻璃球",
+          "answer": "11盒",
+          "file": "assets/videos/ch17/ch17_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans17_6"
+        },
+        {
+          "id": "ch17_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "1/6拆单位分数",
+          "answer": "5种",
+          "file": "assets/videos/ch17/ch17_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans17_7"
+        },
+        {
+          "id": "ch17_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "铁皮放工具",
+          "answer": "32个",
+          "file": "assets/videos/ch17/ch17_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans17_8"
+        }
+      ]
     }
   }
 }
