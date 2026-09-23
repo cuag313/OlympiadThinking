@@ -1188,6 +1188,92 @@
           "title_scene": "挑战5 · 两袋次品"
         }
       ]
+    },
+    "16": {
+      "name": "配凑法",
+      "anchor": "ch16",
+      "items": [
+        {
+          "id": "ch16_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "取棋子必胜策略",
+          "answer": "甲有必胜策略",
+          "file": "assets/videos/ch16/ch16_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch16"
+        },
+        {
+          "id": "ch16_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "首尾配对求和",
+          "answer": "9又1/2",
+          "file": "assets/videos/ch16/ch16_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch16"
+        },
+        {
+          "id": "ch16_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "数组交替和",
+          "answer": "80",
+          "file": "assets/videos/ch16/ch16_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch16"
+        },
+        {
+          "id": "ch16_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "237×99",
+          "answer": "23463",
+          "file": "assets/videos/ch16/ch16_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans16_4"
+        },
+        {
+          "id": "ch16_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "百僧百粥",
+          "answer": "大25小75",
+          "file": "assets/videos/ch16/ch16_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans16_5"
+        },
+        {
+          "id": "ch16_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "师徒零件",
+          "answer": "15天",
+          "file": "assets/videos/ch16/ch16_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans16_6"
+        },
+        {
+          "id": "ch16_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "A与1/4比大小",
+          "answer": "A<1/4",
+          "file": "assets/videos/ch16/ch16_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans16_7"
+        },
+        {
+          "id": "ch16_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "调和级数分子",
+          "answer": "m是11的倍数",
+          "file": "assets/videos/ch16/ch16_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans16_8"
+        }
+      ]
     }
   }
 }
