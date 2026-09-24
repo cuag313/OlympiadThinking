@@ -1,3 +1,4 @@
+<!-- AI生成 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -86,6 +87,8 @@ th{background:#eaf2f8;font-weight:bold}
 </style>
 </head>
 <body>
+<p data-aigc-mark="1" style="margin:0 0 8px;font-size:10px;line-height:1.3;color:#6b6560;font-weight:400;">AI生成</p>
+
 <div class="container">
 <h1>小学奥数解题思维方法培训教材</h1>
 <p class="subtitle">思维挑战交互版 | 点击"查看解析"按钮查看答案 | 可打印下载</p>
@@ -2748,10 +2751,10 @@ th{background:#eaf2f8;font-weight:bold}
 <tr style="background:#eaf2f8"><td style="border:1px solid #bbb;padding:6px 22px"><b>图形</b></td><td style="border:1px solid #bbb;padding:6px 22px">△</td><td style="border:1px solid #bbb;padding:6px 22px">◇（四边形）</td><td style="border:1px solid #bbb;padding:6px 22px">⬠（五边形）</td><td style="border:1px solid #bbb;padding:6px 22px">⬡（六边形）</td></tr>
 <tr><td style="border:1px solid #bbb;padding:6px 22px;background:#eaf2f8"><b>内角和</b></td><td style="border:1px solid #bbb;padding:6px 22px">180°</td><td style="border:1px solid #bbb;padding:6px 22px">（　）°</td><td style="border:1px solid #bbb;padding:6px 22px">（　）°</td><td style="border:1px solid #bbb;padding:6px 22px">（　）°</td></tr>
 </table>
-<p><i>想一想：如何将四边形和五边形转化为三角形，然后得到内角和呢？</i></p>
+<p><i>想一想：多边形的内角和还不知道，怎样把它们转化成已经会算的三角形？</i></p>
 <p><b>解析：</b></p>
-<p>第一步：如图1，连结四边形的一条对角线，将四边形转化成两个三角形。</p>
-<img src="assets/images/ch19_ex1_fig1.svg" alt="图1：四边形连一条对角线分成两个三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图1，连结四边形的一条对角线，把“未知的四边形”转化成“已知的两个三角形”。</p>
+<img src="assets/images/ch19_ex1_fig1.svg" alt="图1：四边形经连对角线转化为两个三角形，内角和180°×2=360°" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：根据三角形内角和为180°，可知这个四边形的内角和是180°×2=360°。</p>
 <p>第三步：如图2，五边形的内角和也可以转化为三角形进行思考，五边形的内角和是180°×3=540°。</p>
 <img src="assets/images/ch19_ex1_fig2.svg" alt="图2：五边形分成三个三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
@@ -2759,21 +2762,21 @@ th{background:#eaf2f8;font-weight:bold}
 <img src="assets/images/ch19_ex1_fig3.svg" alt="六边形分成四个三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p><b>答：四边形 360°，五边形 540°，六边形 720°。</b></p>
 </div>
-<div class="btn-group"></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_example_1.mp4','例1 · 多边形内角和')">看动画</button></div>
 </div>
 
 <div class="example-card">
 <div class="example-header"><span class="example-num">例2.</span><span class="example-tag">转化法</span></div>
 <div class="question-title">
 <p>计算：1/2+1/4+1/8+1/16+1/32+1/64+1/128。</p>
-<p><i>想一想：直接通分计算比较麻烦，能否通过画图，借助形的思考解决数的运算呢？</i></p>
+<p><i>想一想：抽象的分数加法能不能转化成直观的面积图，让“看不见的和”变成“看得见的差”？</i></p>
 <p><b>解析：</b></p>
-<p>第一步：如图，画一个面积为1的正方形，在图中依次表示出算式中的每一个加数。</p>
-<img src="assets/images/ch19_ex2_square.svg" alt="正方形中依次表示1/2、1/4、1/8、…、1/128" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：如图，画一个面积为1的正方形，用色块依次表示算式中的每一个加数（求和视角：一块块涂上去）。</p>
+<img src="assets/images/ch19_ex2_square.svg" alt="例2求和视角面积图：色块依次表示1/2、1/4、…、1/128，和等于1减1/128" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：在算式中，从第二个加数开始，后一个加数是前一个的一半。</p>
 <p>第三步：在逐步求和过程中发现，和越来越接近1，最后结果与1相差1/128，所以原式=1−1/128=<b>127/128</b>。</p>
 </div>
-<div class="btn-group"></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_example_2.mp4','例2 · 分数和的形转化')">看动画</button></div>
 </div>
 
 <div class="example-card">
@@ -2788,7 +2791,7 @@ th{background:#eaf2f8;font-weight:bold}
 <p>第二步：长方形对角线将长方形分为两个面积相等的直角三角形。由图可知：S△ABI=S△ABC　①；S△AFH=S△AFD　②；S△FBG=S△FBE　③。</p>
 <p>第三步：从①减去②、③得：S△ABI−S△AFH−S△FBG=S△ABC−S△AFD−S△FBE，即 <b>S长方形HFGI=S长方形CDFE</b>，所以 S长方形CDFE=4×7=<b>28</b>。</p>
 </div>
-<div class="btn-group"></div>
+<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_example_3.mp4','例3 · 补形求长方形')">看动画</button></div>
 </div>
 
 <h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
@@ -2796,7 +2799,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">转化法</span></div>
 <div class="question-title">计算：37×6666+111×7778。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_1')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_challenge_1.mp4','挑战1 · 提公因数巧算')">看动画</button></div>
 <div class="hidden-content" id="ans19_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：37×6666+111×7778=111×2222+111×7778（把37×6666转化为111×2222，使两个乘法有相同的因数）；</p>
@@ -2809,7 +2812,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">转化法</span></div>
 <div class="question-title">计算：1−1/2−1/4−1/8−1/16−1/32−1/64−…−1/512。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_2')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_challenge_2.mp4','挑战2 · 连减分数')">看动画</button></div>
 <div class="hidden-content" id="ans19_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：应用例2图示的规律可知，从"1"中不断减去剩余部分的一半，结果和最后一个减数相等。</p>
@@ -2826,7 +2829,7 @@ th{background:#eaf2f8;font-weight:bold}
 <tr><td style="padding:2px 18px">单斜线"╲"表示第一轮擦去，双斜线"╱╲"表示第二轮擦去，依次类推，"○"内表示最后剩下的数。</td></tr>
 </table>
 <div class="question-title" style="margin-top:10px">若n=6，求最后剩下的数。n=20呢？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_3')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_challenge_3.mp4','挑战3 · 约瑟夫环')">看动画</button></div>
 <div class="hidden-content" id="ans19_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：通过操作发现：当n=1，2，4，8，…时，从1开始操作，最后剩下的数是1，如下图所示。</p>
@@ -2840,13 +2843,13 @@ th{background:#eaf2f8;font-weight:bold}
 
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">转化法</span></div>
-<div class="question-title">如图1是由平面截圆柱得到的几何体，称为楔形圆柱体。将实心的楔形圆柱体放进一个盛有水的足够高的圆柱形容器中，如图2所示，则该容器的水面将上升多少厘米？</div>
-<img src="assets/images/ch19_4_wedge.svg" alt="图1楔形圆柱体（高3cm和2cm，底面直径2cm）与图2容器（水面5cm，底面直径4cm）" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_4')">查看解析</button></div>
+<div class="question-title">如图1是由平面斜截圆柱得到的几何体，称为楔形圆柱体（灰虚线为截前的完整圆柱）。将实心的楔形圆柱体放进盛有水的足够高的圆柱形容器中（如图3），则容器里的水面将上升多少厘米？</div>
+<img src="assets/images/ch19_4_wedge.svg" alt="图1楔形圆柱体（平面斜截圆柱，高3cm和2cm，底面直径2cm）、图2两个楔形拼成圆柱、图3圆柱形容器（水面5cm，底面直径4cm）" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_challenge_4.mp4','挑战4 · 楔形圆柱排水')">看动画</button></div>
 <div class="hidden-content" id="ans19_4">
 <p><span class="answer-label">解析：</span></p>
-<p>第一步：用两个完全相同的楔形圆柱体拼合成一个圆柱，再除以2，得到楔形圆柱体的体积为 (π×1²)×(3+2)÷2=2.5π（立方厘米）。</p>
-<p>第二步：所以水面上升高度为 2.5π÷(π×2²)=5/8（厘米）。</p>
+<p>第一步：如图2，把难以直接求的楔形圆柱体转化成规则圆柱。用两个完全相同的楔形圆柱体倒扣拼合，恰好得到一个底面直径2厘米、高为3+2=5厘米的圆柱，所以楔形圆柱体的体积是 (π×1²)×(3+2)÷2=2.5π（立方厘米）。</p>
+<p>第二步：排水体积等于物体体积，所以水面上升高度为 2.5π÷(π×2²)=5/8（厘米）。</p>
 <p><b>答：水面将上升 5/8 厘米。</b></p>
 </div>
 </div>
@@ -2855,7 +2858,7 @@ th{background:#eaf2f8;font-weight:bold}
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">转化法</span></div>
 <div class="question-title">如图的"科克雪花"是瑞典科学家科克在1904年受雪花形状的启发而创造的。它的画法是这样的：首先，画出一个正三角形，如图1；其次，把每条边三等分，以居中的一段为边向外作正三角形，然后把居中的一段擦除，如图2；继续上面的步骤。假设图1的正三角形的边长为90毫米，求在图3基础上再操作一次后的雪花曲线的周长。</div>
 <img src="assets/images/ch19_5_koch.svg" alt="科克雪花构造：图1正三角形、图2六角星形、图3锯齿雪花" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_5')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans19_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch19/ch19_challenge_5.mp4','挑战5 · 科克雪花周长')">看动画</button></div>
 <div class="hidden-content" id="ans19_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：图1中，周长为90×3=270（毫米）。</p>

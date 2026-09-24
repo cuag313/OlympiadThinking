@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300">
 <rect x="0" y="0" width="420" height="300" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
-<text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">补形：长方形ACBI，延长DF、EF</text>
+<text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">补形：长方形 ACBI，延长 DF、EF</text>
 <rect x="70" y="60" width="224" height="140" fill="#fbfcfc" stroke="#7f8c8d" stroke-width="1.6" stroke-dasharray="6,4"/>
 <polygon points="70,60 70,200 294,200" fill="#eaf2f8" stroke="#2c3e50" stroke-width="2.4"/>
 <rect x="70" y="110" width="80" height="90" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>

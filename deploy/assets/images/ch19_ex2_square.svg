@@ -1,20 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="430" viewBox="0 0 460 430">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,3 L8,5 L0,7 L2,5 z" fill="#555"/>
+</marker>
+</defs>
 <rect x="0" y="0" width="460" height="430" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
-<text x="230" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">面积为1的正方形：依次取 1/2，1/4，1/8，…</text>
-<rect x="60" y="60" width="160.0" height="320" fill="#cfe0ef" stroke="#7f8c8d" stroke-width="1"/>
-<text x="140.0" y="224.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#4a6a8a">1/2</text>
-<rect x="220.0" y="60" width="160.0" height="160.0" fill="#fbeaea" stroke="#7f8c8d" stroke-width="1"/>
-<text x="300.0" y="144.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a6a8a">1/4</text>
-<rect x="220.0" y="220.0" width="80.0" height="160.0" fill="#cfe0ef" stroke="#7f8c8d" stroke-width="1"/>
-<text x="260.0" y="304.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a6a8a">1/8</text>
-<rect x="300.0" y="220.0" width="80.0" height="80.0" fill="#fbeaea" stroke="#7f8c8d" stroke-width="1"/>
-<text x="340.0" y="264.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a6a8a">1/16</text>
-<rect x="300.0" y="300.0" width="40.0" height="80.0" fill="#cfe0ef" stroke="#7f8c8d" stroke-width="1"/>
-<text x="320.0" y="344.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a6a8a">1/32</text>
-<rect x="340.0" y="300.0" width="40.0" height="40.0" fill="#fbeaea" stroke="#7f8c8d" stroke-width="1"/>
-<text x="360.0" y="324.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a6a8a">1/64</text>
-<rect x="340.0" y="340.0" width="20.0" height="40.0" fill="#cfe0ef" stroke="#7f8c8d" stroke-width="1"/>
-<text x="350.0" y="364.0" text-anchor="middle" font-size="8" font-weight="bold" fill="#4a6a8a">1/128</text>
-<rect x="60" y="60" width="320" height="320" fill="none" stroke="#2c3e50" stroke-width="2.6"/>
-<text x="230" y="414" text-anchor="middle" font-size="13" fill="#7f8c8d">不断重复取剩余的一半，最后剩下的空白正好是 1/128</text>
+<text x="230.0" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">例2：把分数加法画成面积（求和视角）</text>
+<rect x="80" y="60" width="280" height="280" fill="#ffffff" stroke="#2c3e50" stroke-width="2.6"/>
+<rect x="80.0" y="60.0" width="140.0" height="280.0" fill="#aed6f1" stroke="#7f8c8d" stroke-width="1"/>
+<text x="150.0" y="204.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">1/2</text>
+<rect x="220.0" y="60.0" width="140.0" height="140.0" fill="#f5b7b1" stroke="#7f8c8d" stroke-width="1"/>
+<text x="290.0" y="134.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">1/4</text>
+<rect x="220.0" y="200.0" width="70.0" height="140.0" fill="#aed6f1" stroke="#7f8c8d" stroke-width="1"/>
+<text x="255.0" y="274.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">1/8</text>
+<rect x="290.0" y="200.0" width="70.0" height="70.0" fill="#f5b7b1" stroke="#7f8c8d" stroke-width="1"/>
+<text x="325.0" y="239.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">1/16</text>
+<rect x="290.0" y="270.0" width="35.0" height="70.0" fill="#aed6f1" stroke="#7f8c8d" stroke-width="1"/>
+<rect x="325.0" y="270.0" width="35.0" height="35.0" fill="#f5b7b1" stroke="#7f8c8d" stroke-width="1"/>
+<rect x="325.0" y="305.0" width="17.5" height="35.0" fill="#aed6f1" stroke="#7f8c8d" stroke-width="1"/>
+<text x="220.0" y="368" text-anchor="middle" font-size="13" fill="#7f8c8d" font-family="Microsoft YaHei, SimHei, sans-serif">每一色块 = 算式中的一项；加满后与整块 1 只差最后的 1/128</text>
+<text x="220.0" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="#27ae60" font-family="Microsoft YaHei, SimHei, sans-serif">和 = 1 − 1/128 = 127/128（求和 → 看成“补上一小块就是 1”）</text>
 </svg>

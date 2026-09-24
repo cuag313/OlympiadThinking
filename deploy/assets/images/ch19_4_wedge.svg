@@ -1,24 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="260" viewBox="0 0 620 260">
-<rect x="0" y="0" width="620" height="260" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
-<text x="310" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：楔形圆柱体（左图）放进圆柱形容器（右图）</text>
-<polygon points="95,110 185,150 185,210 95,210" fill="#d9eef7" stroke="#2980b9" stroke-width="2"/>
-<ellipse cx="140" cy="210" rx="45" ry="14" fill="#bfe0f0" stroke="#2980b9" stroke-width="2"/>
-<line x1="95" y1="110" x2="185" y2="150" stroke="#c0392b" stroke-width="2.2"/>
-<line x1="73" y1="210" x2="73" y2="110" stroke="#555" stroke-width="1"/>
-<text x="67" y="160.0" text-anchor="end" font-size="13" fill="#555">3cm</text>
-<text x="193" y="180.0" font-size="13" fill="#555">2cm</text>
-<line x1="95" y1="236" x2="185" y2="236" stroke="#555" stroke-width="1"/>
-<text x="140" y="252" text-anchor="middle" font-size="13" fill="#555">2cm</text>
-<text x="140" y="270" text-anchor="middle" font-size="13" fill="#7f8c8d">图1</text>
-<path d="M215,170 l40,0 l-8,-7 M255,170 l-8,7" stroke="#e67e22" stroke-width="2.4" fill="none"/>
-<rect x="390" y="60" width="140" height="150" fill="#f8fbfb" stroke="#2c3e50" stroke-width="2.2"/>
-<rect x="391" y="100" width="138" height="110" fill="#aed9e8"/>
-<ellipse cx="460" cy="210" rx="70" ry="20" fill="#aed9e8" stroke="#2c3e50" stroke-width="2.2"/>
-<ellipse cx="460" cy="100" rx="70" ry="20" fill="#d4ecf5" stroke="#2c3e50" stroke-width="1.6"/>
-<ellipse cx="460" cy="60" rx="70" ry="20" fill="none" stroke="#2c3e50" stroke-width="2.2"/>
-<line x1="552" y1="210" x2="552" y2="100" stroke="#555" stroke-width="1"/>
-<text x="558" y="155.0" font-size="13" fill="#555">5cm</text>
-<line x1="390" y1="238" x2="530" y2="238" stroke="#555" stroke-width="1"/>
-<text x="460" y="254" text-anchor="middle" font-size="13" fill="#555">4cm</text>
-<text x="460" y="270" text-anchor="middle" font-size="13" fill="#7f8c8d">图2</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,3 L8,5 L0,7 L2,5 z" fill="#555"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="720" height="330" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
+<text x="360.0" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50" font-family="Microsoft YaHei, SimHei, sans-serif">图1楔形圆柱体 → 拼成圆柱 → 放入容器（工程标注）</text>
+<text x="150" y="52" text-anchor="middle" font-size="13" fill="#7f8c8d" font-family="Microsoft YaHei, SimHei, sans-serif">楔形圆柱体（平面斜截圆柱）</text>
+<rect x="88" y="122.0" width="124" height="108.0" fill="none" stroke="#bdc3c7" stroke-width="1.2" stroke-dasharray="5,4"/>
+<ellipse cx="150" cy="122.0" rx="62" ry="22" fill="none" stroke="#bdc3c7" stroke-width="1.2" stroke-dasharray="5,4"/>
+<ellipse cx="150" cy="230" rx="62" ry="22" fill="#d6eaf8" stroke="#2980b9" stroke-width="2.4"/>
+<path d="M 88,230 A 62,22 0 0 1 212,230" fill="none" stroke="#2980b9" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="88" y1="230" x2="88" y2="122.0" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="212" y1="230" x2="212" y2="158.0" stroke="#2c3e50" stroke-width="2.4"/>
+<line x1="150" y1="252" x2="150" y2="162.0" stroke="#2c3e50" stroke-width="2"/>
+<line x1="150" y1="208" x2="150" y2="118.0" stroke="#2c3e50" stroke-width="1.4" stroke-dasharray="5,4"/>
+<polygon points="212.0,158.0 210.8,161.9 207.3,165.0 201.6,167.2 193.8,168.3 184.4,168.3 173.7,167.2 162.1,165.1 150.0,162.0 137.9,158.1 126.3,153.4 115.6,148.3 106.2,142.8 98.4,137.3 92.7,131.8 89.2,126.6 88.0,122.0 89.2,118.1 92.7,115.0 98.4,112.8 106.2,111.7 115.6,111.7 126.3,112.8 137.9,114.9 150.0,118.0 162.1,121.9 173.7,126.6 184.4,131.7 193.8,137.2 201.6,142.7 207.3,148.2 210.8,153.4 212.0,158.0" fill="#fef5e7" stroke="none"/>
+<path d="M 212.0,158.0 L 211.5,160.7 L 209.9,163.1 L 207.3,165.0 L 203.7,166.6 L 199.2,167.7 L 193.8,168.3 L 187.7,168.4 L 181.0,168.1 L 173.7,167.2 L 166.0,165.9 L 158.1,164.2 L 150.0,162.0 L 141.9,159.5 L 134.0,156.6 L 126.3,153.4 L 119.0,150.1 L 112.3,146.5 L 106.2,142.8 L 100.8,139.1 L 96.3,135.4 L 92.7,131.8 L 90.1,128.3 L 88.5,125.0 L 88.0,122.0" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<path d="M 88.0,122.0 L 88.5,119.3 L 90.1,116.9 L 92.7,115.0 L 96.3,113.4 L 100.8,112.3 L 106.2,111.7 L 112.3,111.6 L 119.0,111.9 L 126.3,112.8 L 134.0,114.1 L 141.9,115.8 L 150.0,118.0 L 158.1,120.5 L 166.0,123.4 L 173.7,126.6 L 181.0,129.9 L 187.7,133.5 L 193.8,137.2 L 199.2,140.9 L 203.7,144.6 L 207.3,148.2 L 209.9,151.7 L 211.5,155.0 L 212.0,158.0" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="88" y1="230" x2="64" y2="230" stroke="#aaa" stroke-width="0.8"/>
+<line x1="88" y1="122.0" x2="64" y2="122.0" stroke="#aaa" stroke-width="0.8"/>
+<line x1="64" y1="230" x2="64" y2="122.0" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="58" y="176.0" text-anchor="end" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">3cm</text>
+<line x1="212" y1="230" x2="236" y2="230" stroke="#aaa" stroke-width="0.8"/>
+<line x1="212" y1="158.0" x2="236" y2="158.0" stroke="#aaa" stroke-width="0.8"/>
+<line x1="236" y1="230" x2="236" y2="158.0" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="242" y="194.0" text-anchor="start" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">2cm</text>
+<line x1="88" y1="278" x2="212" y2="278" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="150.0" y="270" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">底面直径 2cm</text>
+<line x1="88" y1="252" x2="88" y2="278" stroke="#aaa" stroke-width="0.8"/>
+<line x1="212" y1="252" x2="212" y2="278" stroke="#aaa" stroke-width="0.8"/>
+<path d="M 250,150 l 36,0 l -8,-7 M 286,150 l -8,7" stroke="#e67e22" stroke-width="2.2" fill="none"/>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#7f8c8d" font-family="Microsoft YaHei, SimHei, sans-serif">解析附图：两个相同楔形拼成一个圆柱</text>
+<rect x="345" y="120.0" width="110" height="130.0" fill="#f8fbfb" stroke="#2c3e50" stroke-width="2.3"/>
+<ellipse cx="400" cy="250" rx="55" ry="20" fill="#d6eaf8" stroke="#2c3e50" stroke-width="2.3"/>
+<path d="M 345,250 A 55,20 0 0 1 455,250" fill="none" stroke="#2c3e50" stroke-width="1.4" stroke-dasharray="5,4"/>
+<ellipse cx="400" cy="120.0" rx="55" ry="20" fill="none" stroke="#2c3e50" stroke-width="2.3"/>
+<path d="M 345,120.0 A 55,20 0 0 1 455,120.0" fill="none" stroke="#2c3e50" stroke-width="1.4" stroke-dasharray="5,4"/>
+<polygon points="455.0,250.0 454.5,252.6 453.1,255.2 450.8,257.7 447.6,260.0 443.6,262.2 438.9,264.1 433.5,265.9 427.5,267.3 421.0,268.5 414.2,269.3 407.2,269.8 400.0,270.0 392.8,269.8 385.8,269.3 379.0,268.5 372.5,267.3 366.5,265.9 361.1,264.1 356.4,262.2 352.4,260.0 349.2,257.7 346.9,255.2 345.5,252.6 345.0,250.0 345.0,172.0 345.5,174.7 346.9,177.6 349.2,180.6 352.4,183.7 356.4,186.9 361.1,189.9 366.5,193.0 372.5,195.8 379.0,198.5 385.8,201.0 392.8,203.1 400.0,205.0 407.2,206.5 414.2,207.7 421.0,208.5 427.5,208.8 433.5,208.8 438.9,208.3 443.6,207.5 447.6,206.3 450.8,204.7 453.1,202.7 454.5,200.5 455.0,198.0" fill="#d6eaf8" stroke="none"/>
+<polygon points="455.0,198.0 454.5,200.5 453.1,202.7 450.8,204.7 447.6,206.3 443.6,207.5 438.9,208.3 433.5,208.8 427.5,208.8 421.0,208.5 414.2,207.7 407.2,206.5 400.0,205.0 392.8,203.1 385.8,201.0 379.0,198.5 372.5,195.8 366.5,193.0 361.1,189.9 356.4,186.9 352.4,183.7 349.2,180.6 346.9,177.6 345.5,174.7 345.0,172.0 345.0,120.0 345.5,122.6 346.9,125.2 349.2,127.7 352.4,130.0 356.4,132.2 361.1,134.1 366.5,135.9 372.5,137.3 379.0,138.5 385.8,139.3 392.8,139.8 400.0,140.0 407.2,139.8 414.2,139.3 421.0,138.5 427.5,137.3 433.5,135.9 438.9,134.1 443.6,132.2 447.6,130.0 450.8,127.7 453.1,125.2 454.5,122.6 455.0,120.0" fill="#fdebd0" stroke="none"/>
+<path d="M 455.0,198.0 L 454.5,200.5 L 453.1,202.7 L 450.8,204.7 L 447.6,206.3 L 443.6,207.5 L 438.9,208.3 L 433.5,208.8 L 427.5,208.8 L 421.0,208.5 L 414.2,207.7 L 407.2,206.5 L 400.0,205.0 L 392.8,203.1 L 385.8,201.0 L 379.0,198.5 L 372.5,195.8 L 366.5,193.0 L 361.1,189.9 L 356.4,186.9 L 352.4,183.7 L 349.2,180.6 L 346.9,177.6 L 345.5,174.7 L 345.0,172.0" fill="none" stroke="#c0392b" stroke-width="2.2"/>
+<path d="M 345.0,172.0 L 345.5,169.5 L 346.9,167.3 L 349.2,165.3 L 352.4,163.7 L 356.4,162.5 L 361.1,161.7 L 366.5,161.2 L 372.5,161.2 L 379.0,161.5 L 385.8,162.3 L 392.8,163.5 L 400.0,165.0 L 407.2,166.9 L 414.2,169.0 L 421.0,171.5 L 427.5,174.2 L 433.5,177.0 L 438.9,180.1 L 443.6,183.1 L 447.6,186.3 L 450.8,189.4 L 453.1,192.4 L 454.5,195.3 L 455.0,198.0" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="5,4"/>
+<line x1="345" y1="250" x2="345" y2="120.0" stroke="#2c3e50" stroke-width="2.3"/>
+<line x1="455" y1="250" x2="455" y2="120.0" stroke="#2c3e50" stroke-width="2.3"/>
+<text x="380" y="196.0" text-anchor="end" font-size="12" fill="#2874a6" font-family="Microsoft YaHei, SimHei, sans-serif">楔形①</text>
+<text x="420" y="163.2" text-anchor="start" font-size="12" fill="#b9770e" font-family="Microsoft YaHei, SimHei, sans-serif">楔形②（倒扣）</text>
+<line x1="345" y1="290" x2="455" y2="290" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="400.0" y="282" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">直径 2cm</text>
+<line x1="473" y1="250" x2="473" y2="120.0" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="479" y="185.0" text-anchor="start" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">5cm</text>
+<path d="M 500,150 l 36,0 l -8,-7 M 536,150 l -8,7" stroke="#e67e22" stroke-width="2.2" fill="none"/>
+<text x="600" y="52" text-anchor="middle" font-size="13" fill="#7f8c8d" font-family="Microsoft YaHei, SimHei, sans-serif">圆柱形容器</text>
+<rect x="545" y="88.79999999999998" width="110" height="161.20000000000002" fill="#f8fbfb" stroke="#2c3e50" stroke-width="2.3"/>
+<rect x="546" y="120" width="108" height="130" fill="#aed9e8" stroke="none"/>
+<ellipse cx="600" cy="250" rx="55" ry="20" fill="#aed9e8" stroke="#2c3e50" stroke-width="2.3"/>
+<ellipse cx="600" cy="120" rx="55" ry="20" fill="#d4ecf5" stroke="#2874a6" stroke-width="1.6"/>
+<ellipse cx="600" cy="88.79999999999998" rx="55" ry="20" fill="none" stroke="#2c3e50" stroke-width="2.3"/>
+<path d="M 545,120 A 55,20 0 0 1 655,120" fill="none" stroke="#2874a6" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="545" y1="290" x2="655" y2="290" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="600.0" y="282" text-anchor="middle" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">直径 4cm</text>
+<line x1="673" y1="250" x2="673" y2="120" stroke="#555" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="679" y="185.0" text-anchor="start" font-size="13" fill="#555" font-family="Microsoft YaHei, SimHei, sans-serif">水面 5cm</text>
 </svg>

@@ -1446,6 +1446,92 @@
           "html_anchor": "ans18_5"
         }
       ]
+    },
+    "19": {
+      "name": "转化法",
+      "anchor": "ch19",
+      "items": [
+        {
+          "id": "ch19_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "多边形内角和",
+          "answer": "360/540/720",
+          "file": "assets/videos/ch19/ch19_example_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "分数和的形转化",
+          "answer": "127/128",
+          "file": "assets/videos/ch19/ch19_example_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "补形求长方形",
+          "answer": "28",
+          "file": "assets/videos/ch19/ch19_example_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "提公因数巧算",
+          "answer": "1110000",
+          "file": "assets/videos/ch19/ch19_challenge_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "连减分数",
+          "answer": "1/512",
+          "file": "assets/videos/ch19/ch19_challenge_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "约瑟夫环",
+          "answer": "5 and 9",
+          "file": "assets/videos/ch19/ch19_challenge_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "楔形圆柱排水",
+          "answer": "5/8 cm",
+          "file": "assets/videos/ch19/ch19_challenge_4.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        },
+        {
+          "id": "ch19_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "科克雪花周长",
+          "answer": "640 mm",
+          "file": "assets/videos/ch19/ch19_challenge_5.mp4",
+          "status": "remade",
+          "html_anchor": "ch19"
+        }
+      ]
     }
   }
 }
