@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-20",
+  "updated": "2026-09-24",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -1358,6 +1358,92 @@
           "file": "assets/videos/ch17/ch17_challenge_5.mp4",
           "status": "done",
           "html_anchor": "ans17_8"
+        }
+      ]
+    },
+    "18": {
+      "name": "分割法",
+      "anchor": "ch18",
+      "items": [
+        {
+          "id": "ch18_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "五边形面积",
+          "answer": "66平方厘米",
+          "file": "assets/videos/ch18/ch18_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch18"
+        },
+        {
+          "id": "ch18_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "圆柱+圆锥体积",
+          "answer": "1334.5立方厘米",
+          "file": "assets/videos/ch18/ch18_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch18"
+        },
+        {
+          "id": "ch18_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "正方形分小正方形",
+          "answer": "6个或17个",
+          "file": "assets/videos/ch18/ch18_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch18"
+        },
+        {
+          "id": "ch18_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "L形菜地面积",
+          "answer": "341平方米",
+          "file": "assets/videos/ch18/ch18_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ans18_1"
+        },
+        {
+          "id": "ch18_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "木板等积分割线",
+          "answer": "直线OA",
+          "file": "assets/videos/ch18/ch18_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ans18_2"
+        },
+        {
+          "id": "ch18_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "竖放圆柱+圆锥",
+          "answer": "1105.28立方厘米",
+          "file": "assets/videos/ch18/ch18_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ans18_3"
+        },
+        {
+          "id": "ch18_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "阴影四等分",
+          "answer": "4个相同L形",
+          "file": "assets/videos/ch18/ch18_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ans18_4"
+        },
+        {
+          "id": "ch18_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "六边形全等三角形",
+          "answer": "6个或7个",
+          "file": "assets/videos/ch18/ch18_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ans18_5"
         }
       ]
     }
