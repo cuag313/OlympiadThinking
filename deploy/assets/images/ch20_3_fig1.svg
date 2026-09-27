@@ -1,19 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="300" viewBox="0 0 460 300">
 <rect x="0" y="0" width="460" height="300" fill="#fdfefe" stroke="#d5dbdb" rx="10"/>
-<text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：连结BF(虚线)，把△AFG等积变形成△BFG</text>
-<polygon points="50,62 145,62 145,157" fill="#d5dbdb" stroke="none" stroke-width="2.4"/>
-<polygon points="145,62 240,62 145,157" fill="#d5dbdb" stroke="none" stroke-width="2.4"/>
-<polygon points="50,62 240,62 240,252 50,252" fill="none" stroke="#2c3e50" stroke-width="2.4"/>
-<line x1="145" y1="62" x2="145" y2="252" stroke="#c0392b" stroke-width="2.2"/>
-<line x1="50" y1="62" x2="145" y2="157" stroke="#2c3e50" stroke-width="2.2"/>
-<line x1="145" y1="157" x2="240" y2="62" stroke="#2c3e50" stroke-width="2.2"/>
-<line x1="50" y1="252" x2="145" y2="157" stroke="#c0392b" stroke-width="2.2"/>
-<line x1="50" y1="252" x2="145" y2="62" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6,4"/>
-<text x="36" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">A</text>
-<text x="145" y="50" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">F</text>
-<text x="254" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">E</text>
-<text x="36" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">B</text>
-<text x="145" y="272" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">C</text>
-<text x="254" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">D</text>
-<text x="161" y="163" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">G</text>
+<text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">图1：连结BF，△AFG等积变形为△BFG</text>
+<!-- 阴影 △AFG 与 △FGE（教材图1着色）-->
+<polygon points="50,70 190,70 190,140" fill="#c5b3d4" stroke="none"/>
+<polygon points="190,70 330,70 190,140" fill="#c5b3d4" stroke="none"/>
+<!-- 长方形外框 ABDE -->
+<polygon points="50,70 50,210 330,210 330,70" fill="none" stroke="#2c3e50" stroke-width="2.4"/>
+<!-- 正方形左边 FC -->
+<line x1="190" y1="70" x2="190" y2="210" stroke="#2c3e50" stroke-width="2.2"/>
+<!-- 对角线 BE -->
+<line x1="50" y1="210" x2="330" y2="70" stroke="#2c3e50" stroke-width="2.2"/>
+<!-- AG（实线，△AFG 的边）-->
+<line x1="50" y1="70" x2="190" y2="140" stroke="#2c3e50" stroke-width="1.8"/>
+<!-- 连结 BF（虚线）-->
+<line x1="50" y1="210" x2="190" y2="70" stroke="#c0392b" stroke-width="2.0" stroke-dasharray="6,4"/>
+<!-- 标注 -->
+<line x1="348" y1="70" x2="348" y2="210" stroke="#b06010" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="362" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#b06010">8</text>
+<!-- 顶点标签 -->
+<text x="36" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">A</text>
+<text x="190" y="58" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">F</text>
+<text x="346" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">E</text>
+<text x="36" y="218" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">B</text>
+<text x="190" y="232" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">C</text>
+<text x="346" y="218" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">D</text>
+<text x="208" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#1b4f72">G</text>
 </svg>

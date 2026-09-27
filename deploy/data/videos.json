@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-09-27",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -1530,6 +1530,92 @@
           "file": "assets/videos/ch19/ch19_challenge_5.mp4",
           "status": "remade",
           "html_anchor": "ch19"
+        }
+      ]
+    },
+    "20": {
+      "name": "等积变形",
+      "anchor": "ch20",
+      "items": [
+        {
+          "id": "ch20_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "梯形中的等积三角形",
+          "answer": "三对面积相等",
+          "file": "assets/videos/ch20/ch20_example_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "两正方形与△ACF",
+          "answer": "50 cm²",
+          "file": "assets/videos/ch20/ch20_example_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "水槽会溢出吗",
+          "answer": "不会溢出",
+          "file": "assets/videos/ch20/ch20_example_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "平行四边形阴影和",
+          "answer": "96 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "中点与面积减半",
+          "answer": "6",
+          "file": "assets/videos/ch20/ch20_challenge_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "长方形中的阴影",
+          "answer": "32",
+          "file": "assets/videos/ch20/ch20_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "延长三边的大三角形",
+          "answer": "18 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch20"
+        },
+        {
+          "id": "ch20_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "正方形中的阴影四边形",
+          "answer": "20 cm²",
+          "file": "assets/videos/ch20/ch20_challenge_5.mp4",
+          "status": "remade",
+          "html_anchor": "ch20"
         }
       ]
     }
