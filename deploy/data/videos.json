@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -1616,6 +1616,92 @@
           "file": "assets/videos/ch20/ch20_challenge_5.mp4",
           "status": "remade",
           "html_anchor": "ch20"
+        }
+      ]
+    },
+    "21": {
+      "name": "等量思想",
+      "anchor": "ch21",
+      "items": [
+        {
+          "id": "ch21_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "相向而行距中点相遇",
+          "answer": "84 千米",
+          "file": "assets/videos/ch21/ch21_example_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "火车过桥与过隧道",
+          "answer": "28 米/秒，车长 260 米",
+          "file": "assets/videos/ch21/ch21_example_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "两正方形圆弧阴影",
+          "answer": "16π cm²",
+          "file": "assets/videos/ch21/ch21_example_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "先走5分钟的追及",
+          "answer": "15 分钟",
+          "file": "assets/videos/ch21/ch21_challenge_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "大小鲸鱼的年龄",
+          "answer": "18 岁和 10 岁",
+          "file": "assets/videos/ch21/ch21_challenge_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "九折出售仍获利",
+          "answer": "21 元",
+          "file": "assets/videos/ch21/ch21_challenge_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "牛吃草",
+          "answer": "12 周",
+          "file": "assets/videos/ch21/ch21_challenge_4.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
+        },
+        {
+          "id": "ch21_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "等腰直角与半圆阴影",
+          "answer": "12.5+6.25π cm²",
+          "file": "assets/videos/ch21/ch21_challenge_5.mp4",
+          "status": "remade",
+          "html_anchor": "ch21"
         }
       ]
     }
