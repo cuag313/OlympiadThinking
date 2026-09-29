@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "updated": "2026-09-28",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
@@ -1702,6 +1702,92 @@
           "file": "assets/videos/ch21/ch21_challenge_5.mp4",
           "status": "remade",
           "html_anchor": "ch21"
+        }
+      ]
+    },
+    "22": {
+      "name": "符号化",
+      "anchor": "ch22",
+      "items": [
+        {
+          "id": "ch22_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "相同部分作整体",
+          "answer": "0.34",
+          "file": "assets/videos/ch22/ch22_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "99个分数都等于1",
+          "answer": "99",
+          "file": "assets/videos/ch22/ch22_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "找规律写第n个式子",
+          "answer": "2/[n×(n+2)]",
+          "file": "assets/videos/ch22/ch22_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "新定义运算",
+          "answer": "8",
+          "file": "assets/videos/ch22/ch22_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "符号化+裂项",
+          "answer": "1/30",
+          "file": "assets/videos/ch22/ch22_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "连续自然数规律",
+          "answer": "1/[n×(n+1)]",
+          "file": "assets/videos/ch22/ch22_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "长式子设元",
+          "answer": "1/65",
+          "file": "assets/videos/ch22/ch22_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
+        },
+        {
+          "id": "ch22_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "面积建等式",
+          "answer": "(a+b)² = a²+2ab+b²",
+          "file": "assets/videos/ch22/ch22_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ch22"
         }
       ]
     }
