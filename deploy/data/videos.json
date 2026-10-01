@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "updated": "2026-09-28",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
@@ -1795,14 +1795,172 @@
       "name": "数字化",
       "anchor": "ch23",
       "items": [
-        {"id": "ch23_ex1", "type": "example", "num": "例1", "title": "跳格子", "answer": "13 种", "file": "assets/videos/ch23/ch23_example_1.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ex2", "type": "example", "num": "例2", "title": "灯泡表数", "answer": "21", "file": "assets/videos/ch23/ch23_example_2.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ex3", "type": "example", "num": "例3", "title": "帽子猜色", "answer": "1/4", "file": "assets/videos/ch23/ch23_example_3.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ch1", "type": "challenge", "num": "挑战1", "title": "数轴取特殊值", "answer": "选 D", "file": "assets/videos/ch23/ch23_challenge_1.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ch2", "type": "challenge", "num": "挑战2", "title": "苹果装箱", "answer": "1,2,4,8,16,32", "file": "assets/videos/ch23/ch23_challenge_2.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ch3", "type": "challenge", "num": "挑战3", "title": "蜂巢路径", "answer": "16 种", "file": "assets/videos/ch23/ch23_challenge_3.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ch4", "type": "challenge", "num": "挑战4", "title": "猜生肖", "answer": "四位二进制编码", "file": "assets/videos/ch23/ch23_challenge_4.mp4", "status": "done", "html_anchor": "ch23"},
-        {"id": "ch23_ch5", "type": "challenge", "num": "挑战5", "title": "摸球传信", "answer": "质数乘积编码", "file": "assets/videos/ch23/ch23_challenge_5.mp4", "status": "done", "html_anchor": "ch23"}
+        {
+          "id": "ch23_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "跳格子",
+          "answer": "13 种",
+          "file": "assets/videos/ch23/ch23_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "灯泡表数",
+          "answer": "21",
+          "file": "assets/videos/ch23/ch23_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "帽子猜色",
+          "answer": "1/4",
+          "file": "assets/videos/ch23/ch23_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "数轴取特殊值",
+          "answer": "选 D",
+          "file": "assets/videos/ch23/ch23_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "苹果装箱",
+          "answer": "1,2,4,8,16,32",
+          "file": "assets/videos/ch23/ch23_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "蜂巢路径",
+          "answer": "16 种",
+          "file": "assets/videos/ch23/ch23_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "猜生肖",
+          "answer": "四位二进制编码",
+          "file": "assets/videos/ch23/ch23_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        },
+        {
+          "id": "ch23_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "摸球传信",
+          "answer": "质数乘积编码",
+          "file": "assets/videos/ch23/ch23_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ch23"
+        }
+      ]
+    },
+    "24": {
+      "name": "不变量",
+      "anchor": "ch24",
+      "items": [
+        {
+          "id": "ch24_ex1",
+          "type": "example",
+          "num": "例1",
+          "title": "年龄差不变",
+          "answer": "10年后",
+          "file": "assets/videos/ch24/ch24_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ex2",
+          "type": "example",
+          "num": "例2",
+          "title": "卡片差不变",
+          "answer": "各取出4张",
+          "file": "assets/videos/ch24/ch24_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ex3",
+          "type": "example",
+          "num": "例3",
+          "title": "总和不变的数字游戏",
+          "answer": "33步，5050",
+          "file": "assets/videos/ch24/ch24_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ch1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "分享图书",
+          "answer": "19本",
+          "file": "assets/videos/ch24/ch24_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ch2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "三角形土地",
+          "answer": "48平方米",
+          "file": "assets/videos/ch24/ch24_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ch3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "书架上下层",
+          "answer": "上100下60",
+          "file": "assets/videos/ch24/ch24_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ch4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "分子分母同加",
+          "answer": "11",
+          "file": "assets/videos/ch24/ch24_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        },
+        {
+          "id": "ch24_ch5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "甲乙工程队",
+          "answer": "甲125乙85",
+          "file": "assets/videos/ch24/ch24_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ch24"
+        }
       ]
     }
   }
