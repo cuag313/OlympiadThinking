@@ -1962,6 +1962,92 @@
           "html_anchor": "ch24"
         }
       ]
+    },
+    "25": {
+      "name": "面积法",
+      "anchor": "ch25",
+      "videos": [
+        {
+          "id": "ch25_ex1",
+          "type": "example",
+          "num": 1,
+          "title": "例1 · 三角形穿圆孔",
+          "answer": "能穿过去",
+          "file": "assets/videos/ch25/ch25_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ex2",
+          "type": "example",
+          "num": 2,
+          "title": "例2 · 鸡兔同笼",
+          "answer": "鸡23只，兔12只",
+          "file": "assets/videos/ch25/ch25_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ex3",
+          "type": "example",
+          "num": 3,
+          "title": "例3 · 跳绳平均",
+          "answer": "甲组平均140个",
+          "file": "assets/videos/ch25/ch25_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ch1",
+          "type": "challenge",
+          "num": 1,
+          "title": "挑战1 · 平行四边形两条高",
+          "answer": "AE=21厘米",
+          "file": "assets/videos/ch25/ch25_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ch2",
+          "type": "challenge",
+          "num": 2,
+          "title": "挑战2 · 长方形面积增减",
+          "answer": "108平方米",
+          "file": "assets/videos/ch25/ch25_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ch3",
+          "type": "challenge",
+          "num": 3,
+          "title": "挑战3 · 苹果分装",
+          "answer": "多准备8个筐",
+          "file": "assets/videos/ch25/ch25_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ch4",
+          "type": "challenge",
+          "num": 4,
+          "title": "挑战4 · 变速行程",
+          "answer": "20分钟开始降速",
+          "file": "assets/videos/ch25/ch25_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        },
+        {
+          "id": "ch25_ch5",
+          "type": "challenge",
+          "num": 5,
+          "title": "挑战5 · 平均成绩",
+          "answer": "男生平均90.5分",
+          "file": "assets/videos/ch25/ch25_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ch25"
+        }
+      ]
     }
   }
 }

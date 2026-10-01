@@ -12,19 +12,24 @@
   <circle cx="335" cy="55" r="3" fill="#3030a0"/>
   <circle cx="103" cy="55" r="3" fill="#3030a0"/>
 
-  <!-- 高 AE：A 到 BC 上的 E（竖直） -->
+  <!-- 高 AE：A 到 BC（BC 水平，AE 竖直，AE⊥BC） -->
   <line x1="150" y1="195" x2="150" y2="55" stroke="#d0342c" stroke-width="1.6" stroke-dasharray="6,4"/>
   <circle cx="150" cy="55" r="3" fill="#3030a0"/>
+  <!-- 直角记号 @E（AE⊥BC） -->
+  <polyline points="150,67 162,67 162,55" fill="none" stroke="#d0342c" stroke-width="1.2"/>
 
-  <!-- 高 AF：A 到 CD 延长线上的 F -->
-  <line x1="150" y1="195" x2="340" y2="47" stroke="#d0342c" stroke-width="1.6" stroke-dasharray="6,4"/>
-  <circle cx="340" cy="47" r="3" fill="#3030a0"/>
+  <!-- 高 AF：A 到 CD，垂足 F 在 CD 上（AF⊥CD） -->
+  <!-- CD: C(335,55)→D(382,195)，垂足 F=(358.5,125) -->
+  <line x1="150" y1="195" x2="358.5" y2="125" stroke="#d0342c" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <circle cx="358.5" cy="125" r="3" fill="#3030a0"/>
+  <!-- 直角记号 @F（AF⊥CD）：沿 CD 单位向量约 (0.318,0.948)，垂线单位约 (0.948,-0.318) -->
+  <polyline points="352.5,121.5 355.5,131.2 365.2,128.2" fill="none" stroke="#d0342c" stroke-width="1.2"/>
 
   <!-- 标注字母 -->
   <text x="98" y="47" text-anchor="end">B</text>
   <text x="150" y="47" text-anchor="middle">E</text>
   <text x="330" y="40" text-anchor="middle">C</text>
-  <text x="350" y="40" text-anchor="start">F</text>
+  <text x="368" y="122" text-anchor="start">F</text>
   <text x="143" y="212" text-anchor="end">A</text>
   <text x="389" y="212" text-anchor="start">D</text>
 </svg>
