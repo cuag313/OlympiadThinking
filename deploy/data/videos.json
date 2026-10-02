@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-28",
+  "updated": "2026-10-02",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -2046,6 +2046,92 @@
           "file": "assets/videos/ch25/ch25_challenge_5.mp4",
           "status": "done",
           "html_anchor": "ch25"
+        }
+      ]
+    },
+    "26": {
+      "name": "各取一半",
+      "anchor": "ch26",
+      "videos": [
+        {
+          "id": "ch26_ex1",
+          "type": "example",
+          "num": 1,
+          "title": "例1 · 中点连线",
+          "answer": "DE=5cm",
+          "file": "assets/videos/ch26/ch26_example_1.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ex2",
+          "type": "example",
+          "num": 2,
+          "title": "例2 · 正方形与长方形",
+          "answer": "36cm²",
+          "file": "assets/videos/ch26/ch26_example_2.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ex3",
+          "type": "example",
+          "num": 3,
+          "title": "例3 · 行程各取一半",
+          "answer": "AB=600km",
+          "file": "assets/videos/ch26/ch26_example_3.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ch1",
+          "type": "challenge",
+          "num": 1,
+          "title": "挑战1 · 中点连线求AB",
+          "answer": "AB=10cm",
+          "file": "assets/videos/ch26/ch26_challenge_1.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ch2",
+          "type": "challenge",
+          "num": 2,
+          "title": "挑战2 · 角平分线",
+          "answer": "∠DOE=35°",
+          "file": "assets/videos/ch26/ch26_challenge_2.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ch3",
+          "type": "challenge",
+          "num": 3,
+          "title": "挑战3 · 阴影面积",
+          "answer": "18cm²",
+          "file": "assets/videos/ch26/ch26_challenge_3.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ch4",
+          "type": "challenge",
+          "num": 4,
+          "title": "挑战4 · 三等分与一半",
+          "answer": "24cm²",
+          "file": "assets/videos/ch26/ch26_challenge_4.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
+        },
+        {
+          "id": "ch26_ch5",
+          "type": "challenge",
+          "num": 5,
+          "title": "挑战5 · 正方形与三角形",
+          "answer": "10cm²",
+          "file": "assets/videos/ch26/ch26_challenge_5.mp4",
+          "status": "done",
+          "html_anchor": "ch26"
         }
       ]
     }

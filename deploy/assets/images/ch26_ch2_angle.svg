@@ -1,39 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
   <style>
     text { font-family: "Times New Roman", SimSun, serif; font-size: 18px; font-style: italic; fill: #333; }
+    .arc { font-size: 14px; font-style: normal; fill: #c0392b; }
   </style>
   <rect x="0" y="0" width="420" height="320" fill="#d6d2cc"/>
 
   <!-- 顶点 O -->
-  <circle cx="60" cy="180" r="5" fill="#333"/>
-  <text x="48" y="190" text-anchor="end">O</text>
+  <circle cx="180" cy="170" r="5" fill="#333"/>
+  <text x="162" y="182" text-anchor="end">O</text>
 
-  <!-- 射线 OA（最上） -->
-  <line x1="60" y1="180" x2="360" y2="40" stroke="#333" stroke-width="2"/>
-  <circle cx="360" cy="40" r="3.5" fill="#333"/>
-  <text x="370" y="40">A</text>
+  <!-- 射线 OA → (266,47) -->
+  <line x1="180" y1="170" x2="266" y2="47" stroke="#333" stroke-width="2.2"/>
+  <circle cx="266" cy="47" r="3.5" fill="#333"/>
+  <text x="274" y="42">A</text>
 
-  <!-- 射线 OD -->
-  <line x1="60" y1="180" x2="340" y2="110" stroke="#333" stroke-width="2"/>
-  <circle cx="340" cy="110" r="3.5" fill="#333"/>
-  <text x="350" y="114">D</text>
+  <!-- 射线 OD（∠AOC平分线，水平右）→ (330,170) -->
+  <line x1="180" y1="170" x2="330" y2="170" stroke="#2980b9" stroke-width="2.2"/>
+  <circle cx="330" cy="170" r="3.5" fill="#2980b9"/>
+  <text x="338" y="162">D</text>
 
-  <!-- 射线 OB -->
-  <line x1="60" y1="180" x2="320" y2="170" stroke="#333" stroke-width="2"/>
-  <circle cx="320" cy="170" r="3.5" fill="#333"/>
-  <text x="330" y="176">B</text>
+  <!-- 射线 OB → (325,209) -->
+  <line x1="180" y1="170" x2="325" y2="209" stroke="#333" stroke-width="2.2"/>
+  <circle cx="325" cy="209" r="3.5" fill="#333"/>
+  <text x="333" y="222">B</text>
 
-  <!-- 射线 OE -->
-  <line x1="60" y1="180" x2="300" y2="230" stroke="#333" stroke-width="2"/>
-  <circle cx="300" cy="230" r="3.5" fill="#333"/>
-  <text x="310" y="238">E</text>
+  <!-- 射线 OE（∠BOC平分线）→ (303,256) -->
+  <line x1="180" y1="170" x2="303" y2="256" stroke="#27ae60" stroke-width="2.2"/>
+  <circle cx="303" cy="256" r="3.5" fill="#27ae60"/>
+  <text x="311" y="268">E</text>
 
-  <!-- 射线 OC（最下） -->
-  <line x1="60" y1="180" x2="270" y2="290" stroke="#333" stroke-width="2"/>
-  <circle cx="270" cy="290" r="3.5" fill="#333"/>
-  <text x="280" y="300">C</text>
+  <!-- 射线 OC → (266,293) -->
+  <line x1="180" y1="170" x2="266" y2="293" stroke="#333" stroke-width="2.2"/>
+  <circle cx="266" cy="293" r="3.5" fill="#333"/>
+  <text x="274" y="306">C</text>
 
-  <!-- ∠AOB 弧线标注 70° -->
-  <path d="M 130 118 A 90 90 0 0 1 148 165" fill="none" stroke="#e03a3a" stroke-width="1.6"/>
-  <text x="155" y="130" fill="#e03a3a" font-size="14">70°</text>
+  <!-- ∠AOB 弧：从 OA 接到 OB -->
+  <path d="M 220 119 A 70 70 0 0 1 248 188" fill="none" stroke="#c0392b" stroke-width="1.8"/>
+  <text x="218" y="128" class="arc">70°</text>
+
+  <!-- ∠DOE 弧：从 OD 接到 OE -->
+  <path d="M 280 170 A 100 100 0 0 1 254 224" fill="none" stroke="#27ae60" stroke-width="1.6"/>
+  <text x="288" y="208" class="arc" fill="#27ae60">∠DOE</text>
 </svg>
