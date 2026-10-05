@@ -1,31 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" width="520" height="220">
-  <style>
-    text { font-family: SimSun, "Microsoft YaHei", serif; font-size: 13px; fill: #333; }
-  </style>
-  <!-- 图1 -->
-  <rect x="8" y="8" width="230" height="170" rx="6" fill="#e8e4dc" stroke="#999"/>
-  <text x="123" y="195" text-anchor="middle" font-size="14">图1</text>
-  <!-- triangle of 1 / 2 2 / 3 3 3 / 4 4 4 4 -->
-  <circle cx="123" cy="35" r="11" fill="#fff" stroke="#555"/><text x="123" y="40" text-anchor="middle">1</text>
-  <circle cx="100" cy="65" r="11" fill="#fff" stroke="#555"/><text x="100" y="70" text-anchor="middle">2</text>
-  <circle cx="146" cy="65" r="11" fill="#fff" stroke="#555"/><text x="146" y="70" text-anchor="middle">2</text>
-  <circle cx="78" cy="95" r="11" fill="#fff" stroke="#555"/><text x="78" y="100" text-anchor="middle">3</text>
-  <circle cx="123" cy="95" r="11" fill="#fff" stroke="#555"/><text x="123" y="100" text-anchor="middle">3</text>
-  <circle cx="168" cy="95" r="11" fill="#fff" stroke="#555"/><text x="168" y="100" text-anchor="middle">3</text>
-  <circle cx="55" cy="125" r="11" fill="#fff" stroke="#555"/><text x="55" y="130" text-anchor="middle">4</text>
-  <circle cx="100" cy="125" r="11" fill="#fff" stroke="#555"/><text x="100" y="130" text-anchor="middle">4</text>
-  <circle cx="146" cy="125" r="11" fill="#fff" stroke="#555"/><text x="146" y="130" text-anchor="middle">4</text>
-  <circle cx="191" cy="125" r="11" fill="#fff" stroke="#555"/><text x="191" y="130" text-anchor="middle">4</text>
-  <text x="123" y="165" text-anchor="middle" fill="#666">…</text>
-  <!-- 图2 -->
-  <rect x="270" y="8" width="230" height="170" rx="6" fill="#e8e4dc" stroke="#999"/>
-  <text x="385" y="195" text-anchor="middle" font-size="14">图2</text>
-  <circle cx="385" cy="35" r="11" fill="#fff" stroke="#555"/><text x="385" y="40" text-anchor="middle">1</text>
-  <circle cx="362" cy="65" r="11" fill="#fff" stroke="#555"/><text x="362" y="70" text-anchor="middle">2</text>
-  <circle cx="408" cy="65" r="11" fill="#fff" stroke="#555"/><text x="408" y="70" text-anchor="middle">2</text>
-  <circle cx="340" cy="95" r="11" fill="#fff" stroke="#555"/><text x="340" y="100" text-anchor="middle">3</text>
-  <circle cx="385" cy="95" r="11" fill="#fff" stroke="#555"/><text x="385" y="100" text-anchor="middle">3</text>
-  <circle cx="430" cy="95" r="11" fill="#fff" stroke="#555"/><text x="430" y="100" text-anchor="middle">3</text>
-  <text x="385" y="140" text-anchor="middle" fill="#666">…</text>
-  <text x="260" y="140" text-anchor="middle" font-size="16" fill="#555">→</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 130" width="960" height="130">
+  <style>text { font-family: SimSun, "Microsoft YaHei", serif; }</style>
+
+  <!-- 图1: 行 i 有 i 个 i (蓝色) -->
+  <circle cx="100" cy="18" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="100" y="22" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="89" cy="42" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="89" y="46" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="111" cy="42" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="111" y="46" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="78" cy="66" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="78" y="70" text-anchor="middle" font-size="10" fill="#222">3</text>
+  <circle cx="100" cy="66" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="100" y="70" text-anchor="middle" font-size="10" fill="#222">3</text>
+  <circle cx="122" cy="66" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="122" y="70" text-anchor="middle" font-size="10" fill="#222">3</text>
+  <text x="100" y="85" text-anchor="middle" font-size="12" fill="#777">⋮</text>
+  <circle cx="56" cy="100" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="56" y="104" text-anchor="middle" font-size="10" fill="#222">n</text>
+  <circle cx="78" cy="100" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="78" y="104" text-anchor="middle" font-size="10" fill="#222">n</text>
+  <text x="111" y="104" text-anchor="middle" font-size="12" fill="#555">···</text>
+  <circle cx="122" cy="100" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="122" y="104" text-anchor="middle" font-size="10" fill="#222">n</text>
+  <circle cx="144" cy="100" r="10" fill="#eef3f8" stroke="#2980b9" stroke-width="1.2"/><text x="144" y="104" text-anchor="middle" font-size="10" fill="#222">n</text>
+  <text x="100" y="126" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">图1</text>
+
+  <!-- 图2: val=i-j+1 (橙色) 右边全1 -->
+  <circle cx="330" cy="18" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="330" y="22" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="319" cy="42" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="319" y="46" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="341" cy="42" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="341" y="46" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="308" cy="66" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="308" y="70" text-anchor="middle" font-size="10" fill="#222">3</text>
+  <circle cx="330" cy="66" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="330" y="70" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="352" cy="66" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="352" y="70" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <text x="330" y="85" text-anchor="middle" font-size="12" fill="#777">⋮</text>
+  <circle cx="286" cy="100" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="286" y="104" text-anchor="middle" font-size="10" fill="#222">n</text>
+  <circle cx="308" cy="100" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="308" y="104" text-anchor="middle" font-size="10" fill="#222">n-1</text>
+  <text x="330" y="104" text-anchor="middle" font-size="12" fill="#555">···</text>
+  <circle cx="352" cy="100" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="352" y="104" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="374" cy="100" r="10" fill="#fef5ec" stroke="#e67e22" stroke-width="1.2"/><text x="374" y="104" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <text x="330" y="126" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">图2</text>
+
+  <!-- 图3: val=j (绿色) 左边全1，右边全n -->
+  <circle cx="560" cy="18" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="560" y="22" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="549" cy="42" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="549" y="46" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="571" cy="42" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="571" y="46" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="538" cy="66" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="538" y="70" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="560" cy="66" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="560" y="70" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <circle cx="582" cy="66" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="582" y="70" text-anchor="middle" font-size="10" fill="#222">3</text>
+  <text x="560" y="85" text-anchor="middle" font-size="12" fill="#777">⋮</text>
+  <circle cx="516" cy="100" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="516" y="104" text-anchor="middle" font-size="10" fill="#222">1</text>
+  <circle cx="538" cy="100" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="538" y="104" text-anchor="middle" font-size="10" fill="#222">2</text>
+  <text x="560" y="104" text-anchor="middle" font-size="12" fill="#555">···</text>
+  <circle cx="582" cy="100" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="582" y="104" text-anchor="middle" font-size="10" fill="#222">4</text>
+  <circle cx="604" cy="100" r="10" fill="#ecf9ef" stroke="#27ae60" stroke-width="1.2"/><text x="604" y="104" text-anchor="middle" font-size="10" fill="#222">5</text>
+  <text x="560" y="126" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">图3</text>
+
+  <!-- 图4: 每格=2n+1 (红色) -->
+  <circle cx="790" cy="18" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="790" y="22" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="779" cy="42" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="779" y="46" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="801" cy="42" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="801" y="46" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="768" cy="66" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="768" y="70" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="790" cy="66" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="790" y="70" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="812" cy="66" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="812" y="70" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <text x="790" y="85" text-anchor="middle" font-size="12" fill="#777">⋮</text>
+  <circle cx="746" cy="100" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="746" y="104" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="768" cy="100" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="768" y="104" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <text x="790" y="104" text-anchor="middle" font-size="12" fill="#555">···</text>
+  <circle cx="812" cy="100" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="812" y="104" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <circle cx="834" cy="100" r="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/><text x="834" y="104" text-anchor="middle" font-size="10" fill="#222">2n+1</text>
+  <text x="790" y="126" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">图4</text>
 </svg>
