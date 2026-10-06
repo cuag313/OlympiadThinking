@@ -2220,6 +2220,92 @@
           "html_anchor": "ch27"
         }
       ]
+    },
+    "28": {
+      "name": "数形结合",
+      "anchor": "ch28",
+      "videos": [
+        {
+          "id": "ch28_ex1",
+          "type": "example",
+          "num": 1,
+          "title": "例1 · 六个正方形围成长方形",
+          "answer": "143",
+          "file": "assets/videos/ch28/ch28_example_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ex2",
+          "type": "example",
+          "num": 2,
+          "title": "例2 · 钢管堆求和",
+          "answer": "n(n+1)/2",
+          "file": "assets/videos/ch28/ch28_example_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ex3",
+          "type": "example",
+          "num": 3,
+          "title": "例3 · 平方和公式",
+          "answer": "n(n+1)(2n+1)/6",
+          "file": "assets/videos/ch28/ch28_example_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ch1",
+          "type": "challenge",
+          "num": 1,
+          "title": "挑战1 · 三角形数与正方形数",
+          "answer": "C",
+          "file": "assets/videos/ch28/ch28_challenge_1.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ch2",
+          "type": "challenge",
+          "num": 2,
+          "title": "挑战2 · 黑白瓷砖铺地",
+          "answer": "56",
+          "file": "assets/videos/ch28/ch28_challenge_2.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ch3",
+          "type": "challenge",
+          "num": 3,
+          "title": "挑战3 · 奇数和=n²",
+          "answer": "n²",
+          "file": "assets/videos/ch28/ch28_challenge_3.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ch4",
+          "type": "challenge",
+          "num": 4,
+          "title": "挑战4 · 钟面垂直",
+          "answer": "8时27又3/11分",
+          "file": "assets/videos/ch28/ch28_challenge_4.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        },
+        {
+          "id": "ch28_ch5",
+          "type": "challenge",
+          "num": 5,
+          "title": "挑战5 · 平移覆盖求面积",
+          "answer": "80",
+          "file": "assets/videos/ch28/ch28_challenge_5.mp4",
+          "status": "remade",
+          "html_anchor": "ch28"
+        }
+      ]
     }
   }
 }

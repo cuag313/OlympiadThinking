@@ -3419,7 +3419,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第二步：求出今年爸爸的年龄5×7=35（岁）。</p>
 <p>第三步：把增长的年龄和5岁合起来看成1份，求出2份表示的年龄是35−5=30（岁）。</p>
 <p>第四步：求出1份表示的年龄是30÷2=15（岁），也就是思思15岁的时候爸爸的年龄是思思的3倍。因此，15−5=10（年），也就是10年后，爸爸的年龄是思思的3倍。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_example_1.mp4','例1 · 年龄差不变')">看动画</button></div>
 </div>
 </div>
 
@@ -3434,7 +3433,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第二步：与"8张"有对应关系的是蓝色卡片张数比红色多2/11。</p>
 <p>第三步：取出后，红色卡片还剩8÷(2/11)=44（张）。</p>
 <p>第四步：所以取出的卡片张数都是48−44=4（张）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_example_2.mp4','例2 · 卡片差不变')">看动画</button></div>
 </div>
 </div>
 
@@ -3452,7 +3450,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：经过第1步后，这组数是5,6,7,8,...,100,10。</p>
 <p>第二步：经过第2步后，这组数是9,10,11,12,...,100,10,26。</p>
 <p>第三步：这组数最后剩下的一个数就是这组数的和，是1+2+3+...+100=5050。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_example_3.mp4','例3 · 总和不变')">看动画</button></div>
 </div>
 </div>
 
@@ -3462,7 +3459,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">不变量</span></div>
 <div class="question-title">思思和想想在分享图书。思思："我带了5本书。"想想："把我带的书给你3本后，我的本数是你的2倍。"请问：想想原来带了多少本书？</div>
 <img src="assets/images/ch24_ch1_ques.svg" alt="图书分享题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_challenge_1.mp4','挑战1 · 分享图书')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_1')">查看解析</button></div>
 <div class="hidden-content" id="ans24_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：把他们的书本数画出来。</p>
@@ -3477,7 +3474,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">不变量</span></div>
 <div class="question-title">一块三角形土地，如果只把底增加4米，或只把高增加6米，它的面积都增加24平方米。这块三角形土地原来的面积是多少？</div>
 <img src="assets/images/ch24_ch2_triangle.svg" alt="三角形土地示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_challenge_2.mp4','挑战2 · 三角形土地')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_2')">查看解析</button></div>
 <div class="hidden-content" id="ans24_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：只把底增加4米，面积增加24平方米的时候，高不变，可求出高=24×2÷4=12（米）。</p>
@@ -3491,7 +3488,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">不变量</span></div>
 <div class="question-title">一个书架分上、下两层，共放书160本，如果把上层的1/5放入下层，上、下层的本数就相等了。上、下层原来各放书多少本？</div>
 <img src="assets/images/ch24_ch3_ques.svg" alt="书架上下层题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_challenge_3.mp4','挑战3 · 书架上下层')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_3')">查看解析</button></div>
 <div class="hidden-content" id="ans24_3">
 <p><span class="answer-label">解析：</span></p>
 <p>方法1：</p>
@@ -3511,7 +3508,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">不变量</span></div>
 <div class="question-title">将19/31的分子与分母各加上同一个数后，得到5/7，所加的数是多少？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_challenge_4.mp4','挑战4 · 分子分母同加')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_4')">查看解析</button></div>
 <div class="hidden-content" id="ans24_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：分子与分母加上同一个数，分子与分母的差没有改变。</p>
@@ -3526,7 +3523,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">不变量</span></div>
 <div class="question-title">甲、乙两个工程队参加旧校园改造工程，如果从甲队调出25人给乙队，则甲队比乙队少10人；如果从两个队各调出25人，则乙队剩下的人数是甲队剩下人数的3/5。甲、乙两个工程队原来各有多少人？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch24/ch24_challenge_5.mp4','挑战5 · 甲乙工程队')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans24_5')">查看解析</button></div>
 <div class="hidden-content" id="ans24_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：甲队比乙队多25×2−10=40（人）。</p>
@@ -3563,7 +3560,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：根据两条直角边分别为3cm和4cm，先求出直角三角形的面积=3×4÷2=6（cm²）。</p>
 <p>第二步：因为斜边是直角三角形最大的边，设斜边上的高为h，根据5×h÷2=3×4÷2，可得h=2.4（cm）。</p>
 <p>第三步：根据2.4cm＜2.8cm，可以判断能穿过。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_example_1.mp4','例1 · 三角形穿圆孔')">看动画</button></div>
 </div>
 </div>
 
@@ -3579,7 +3575,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>实际是94只脚，说明图中左上方长方形的面积相当于140−94=46（只）脚。</p>
 <img src="assets/images/ch25_ex2_fig2.svg" alt="鸡兔同箱图2补成大长方形" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
 <p>第三步：这个长方形的宽是兔子和鸡的脚数差4−2=2（只），它的长（鸡的只数）是46÷2=23（只），那么兔的只数为35−23=12（只）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_example_2.mp4','例2 · 鸡兔同笼')">看动画</button></div>
 </div>
 </div>
 
@@ -3595,7 +3590,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第二步：计算出乙组超过两组平均水平的总数量，用长方形A的面积表示。A的长表示乙组有9人，宽表示乙组每人平均比总平均多跳160−152=8（个），可知A的面积为(160−152)×9=72。</p>
 <p>第三步：将A的面积补给甲组，用长方形B的面积表示。B的长表示甲组有6人，根据A的面积=B的面积，可知B的宽，即甲组每人平均比总平均少跳72÷6=12（个）。</p>
 <p>第四步：甲组平均每人跳了152−12=140（个）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_example_3.mp4','例3 · 跳绳平均')">看动画</button></div>
 </div>
 </div>
 
@@ -3605,7 +3599,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">面积法</span></div>
 <div class="question-title">如图，已知平行四边形ABCD的两条邻边分别是AB=24厘米，BC=32厘米，其中一条高AF=28厘米，求另一条高AE的长。</div>
 <img src="assets/images/ch25_ch1_parallelogram.svg" alt="平行四边形ABCD及两条高AF与AE" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_challenge_1.mp4','挑战1 · 平行四边形两条高')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_1')">查看解析</button></div>
 <div class="hidden-content" id="ans25_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：由AF是CD边上的高，可以计算出平行四边形的面积为24×28=672（平方厘米）。</p>
@@ -3618,7 +3612,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">面积法</span></div>
 <div class="question-title">一个长方形，如果宽不变，长增加6米，那么它的面积增加54平方米；如果长不变，宽减少3米，那么它的面积减少36平方米。请问这个长方形原来的面积是多少平方米？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_challenge_2.mp4','挑战2 · 长方形面积增减')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_2')">查看解析</button></div>
 <div class="hidden-content" id="ans25_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：由"宽不变，长增加6米，那么它的面积增加54平方米"可知它的宽是54÷6=9（米）。</p>
@@ -3632,7 +3626,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">面积法</span></div>
 <div class="question-title">某商店采购了20筐苹果，每筐装了28千克。现要分装销售，每筐需减少8千克，请问商店需要多准备几个筐？</div>
 
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_challenge_3.mp4','挑战3 · 苹果分装')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_3')">查看解析</button></div>
 <div class="hidden-content" id="ans25_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：如图，以长方形ABFE的长表示20筐，宽表示每筐装的28千克，以长方形ADCH的长表示分装后需要的筐数，宽表示分装后每筐装28−8=20（千克）。</p>
@@ -3647,7 +3641,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">面积法</span></div>
 <div class="question-title">A、B两地相距8千米，甲从A地出发前往B地，以每分钟350米的速度行驶了一段时间，然后将速度降低到每分钟250米，到达B地共用时24分钟。请问甲出发后几分钟开始降速？</div>
 
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_challenge_4.mp4','挑战4 · 变速行程')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_4')">查看解析</button></div>
 <div class="hidden-content" id="ans25_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：如图，根据题意画图，补成大长方形，这样相当于24分钟的速度都是350米/分钟，一共行驶了350×24=8400（米）。</p>
@@ -3662,7 +3656,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">面积法</span></div>
 <div class="question-title">某次数学测验，全班平均成绩是91.2分，其中男生有24人，女生有21人。已知女生的平均成绩是92分，求男生的平均成绩。</div>
 
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch25/ch25_challenge_5.mp4','挑战5 · 平均成绩')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans25_5')">查看解析</button></div>
 <div class="hidden-content" id="ans25_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：如图，先计算出女生超过全班平均成绩的总分数，用长方形A的面积表示。A的长表示女生有21人，宽表示女生的平均成绩比全班平均成绩多92−91.2=0.8（分）。</p>
@@ -3700,7 +3694,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p><i>想一想：如何借助中点D、E，实现DE与AB的转化？</i></p>
 <p>第一步：因为D为AC中点，E为BC中点，所以DC=½AC，CE=½CB。</p>
 <p>第二步：因此DE=DC+CE=½AC+½CB=½AB=5（cm）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_example_1.mp4','例1 · 中点连线')">看动画</button></div>
 </div>
 </div>
 
@@ -3714,7 +3707,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：连结线段DE，从△AED着手思考。</p>
 <p>第二步：因为S△AED=½S正方形ABCD，S△AED=½S长方形AEFG。</p>
 <p>第三步：所以S长方形AEFG=S正方形ABCD=6×6=36（cm²）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_example_2.mp4','例2 · 正方形与长方形')">看动画</button></div>
 </div>
 </div>
 
@@ -3729,7 +3721,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第二步：所以DC=⅔AC，CE=⅔CB。</p>
 <p>第三步：DE=DC+CE=⅔AC+⅔CB=⅔AB。</p>
 <p>第四步：因为D、E两地距离为400千米，所以A、B两市之间的距离是400÷⅔=600（千米）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_example_3.mp4','例3 · 行程各取一半')">看动画</button></div>
 </div>
 </div>
 
@@ -3739,7 +3730,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">各取一半</span></div>
 <div class="question-title">如图，点D为AC的中点，点E为BC的中点，线段DE=5cm，求线段AB的长。</div>
 <img src="assets/images/ch26_ch1_line.svg" alt="线段上标有A、D、B、E、C" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_challenge_1.mp4','挑战1 · 中点连线求AB')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_1')">查看解析</button></div>
 <div class="hidden-content" id="ans26_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：因为点D为AC中点，点E为BC中点。</p>
@@ -3753,7 +3744,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">各取一半</span></div>
 <div class="question-title">如图，已知∠AOB=70°，射线OD平分∠AOC，射线OE平分∠BOC，求∠DOE的度数。</div>
 <img src="assets/images/ch26_ch2_angle.svg" alt="角AOB及角平分线OD、OE" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_challenge_2.mp4','挑战2 · 角平分线')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_2')">查看解析</button></div>
 <div class="hidden-content" id="ans26_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：∠DOE=∠DOC−∠EOC。</p>
@@ -3767,7 +3758,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">各取一半</span></div>
 <div class="question-title">如图，线段EF把面积为36cm²的长方形ABCD分为两个小长方形。求阴影部分的面积。</div>
 <img src="assets/images/ch26_ch3_shadows.svg" alt="长方形被EF分成两部分，内有阴影三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_challenge_3.mp4','挑战3 · 阴影面积')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_3')">查看解析</button></div>
 <div class="hidden-content" id="ans26_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：长方形AEFD内三个阴影三角形的面积之和=½S长方形AEFD，长方形BCFE内两个阴影三角形的面积之和=½S长方形BCFE。</p>
@@ -3780,7 +3771,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">各取一半</span></div>
 <div class="question-title">如图，E为长方形ABCD的边BC上的任意一点，点F为BE的三等分点（靠近点B），点G为EC的三等分点（靠近点C），点H为AD上任意一点。已知△HFG的面积为8cm²，求长方形ABCD的面积。</div>
 <img src="assets/images/ch26_ch4_triangle.svg" alt="长方形ABCD内三角形HFG" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_challenge_4.mp4','挑战4 · 三等分与一半')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_4')">查看解析</button></div>
 <div class="hidden-content" id="ans26_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：由题意可知，EF=⅔BE，EG=⅔EC，所以FG=FE+EG=⅔BE+⅔EC=⅔BC。</p>
@@ -3794,7 +3785,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">各取一半</span></div>
 <div class="question-title">如图，已知正方形CDEF的边长为6cm，BI平行于正方形的一条边，△ABC的面积为8cm²，求△GCD的面积。</div>
 <img src="assets/images/ch26_ch5_square.svg" alt="正方形CDEF及三角形ABC、GCD" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch26/ch26_challenge_5.mp4','挑战5 · 正方形与三角形')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans26_5')">查看解析</button></div>
 <div class="hidden-content" id="ans26_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：如图，过点G作BI的垂线，交ED、FC于点L、M。</p>
@@ -3837,7 +3828,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：1/(1×2)+1/(2×3)+1/(3×4)+…+1/(9×10)</p>
 <p>=（1/1−1/2）+（1/2−1/3）+…+（1/9−1/10）</p>
 <p>第二步：=1−1/10=9/10。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_example_1.mp4','例1 · 裂项相消')">看动画</button></div>
 </div>
 </div>
 
@@ -3850,7 +3840,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：原式=（1/(2×3)−1/(3×4)）×½+（1/(3×4)−1/(4×5)）×½+…+（1/(6×7)−1/(7×8)）×½</p>
 <p>第二步：=（1/(2×3)−1/(3×4)+1/(3×4)−1/(4×5)+…+1/(6×7)−1/(7×8)）×½</p>
 <p>第三步：=（1/(2×3)−1/(7×8)）×½=25/336。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_example_2.mp4','例2 · 三项连乘裂项')">看动画</button></div>
 </div>
 </div>
 
@@ -3862,7 +3851,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p><i>想一想：分数可以裂项相消，整数该怎样裂项才能相互抵消呢？</i></p>
 <p>第一步：因为1×2=(1/3)×(1×2×3−0×1×2)，2×3=(1/3)×(2×3×4−1×2×3)，3×4=(1/3)×(3×4×5−2×3×4)，…，99×100=(1/3)×(99×100×101−98×99×100)。</p>
 <p>第二步：以上式子整体相加，可得1×2+2×3+3×4+…+99×100=(1/3)×[(1×2×3−0×1×2)+(2×3×4−1×2×3)+(3×4×5−2×3×4)+…+(99×100×101−98×99×100)]=(1/3)×99×100×101=333300。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_example_3.mp4','例3 · 整数裂项')">看动画</button></div>
 </div>
 </div>
 
@@ -3871,7 +3859,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">裂项相消</span></div>
 <div class="question-title">计算：1/6+1/12+1/20+1/30+1/42+1/56+1/72+1/90。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_challenge_1.mp4','挑战1 · 1/6+…+1/90')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_1')">查看解析</button></div>
 <div class="hidden-content" id="ans27_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：原式=1/(2×3)+1/(3×4)+…+1/(9×10)。</p>
@@ -3884,7 +3872,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">裂项相消</span></div>
 <div class="question-title">计算：1/(1×4)+1/(4×7)+1/(7×10)+…+1/(40×43)。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_challenge_2.mp4','挑战2 · 公差3裂项')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_2')">查看解析</button></div>
 <div class="hidden-content" id="ans27_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：=(1/3)×(1−1/4+1/4−1/7+1/7−1/10+…+1/40−1/43)。</p>
@@ -3896,7 +3884,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">裂项相消</span></div>
 <div class="question-title">计算：1/(1×3)+1/(2×4)+1/(3×5)+…+1/(99×101)。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_challenge_3.mp4','挑战3 · 错位消项')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_3')">查看解析</button></div>
 <div class="hidden-content" id="ans27_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：=½×(1−1/3)+½×(1/2−1/4)+½×(1/3−1/5)+…+½×(1/98−1/100)+½×(1/99−1/101)。</p>
@@ -3909,7 +3897,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">裂项相消</span></div>
 <div class="question-title">计算：1/(1×2×3)+1/(2×3×4)+1/(3×4×5)+…+1/(98×99×100)。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_challenge_4.mp4','挑战4 · 三项连乘裂项')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_4')">查看解析</button></div>
 <div class="hidden-content" id="ans27_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：=½×(1/(1×2)−1/(2×3))+½×(1/(2×3)−1/(3×4))+½×(1/(3×4)−1/(4×5))+…+½×(1/(98×99)−1/(99×100))。</p>
@@ -3921,7 +3909,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">裂项相消</span></div>
 <div class="question-title">计算：1×3+3×5+5×7+…+99×101。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch27/ch27_challenge_5.mp4','挑战5 · 整数裂项')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans27_5')">查看解析</button></div>
 <div class="hidden-content" id="ans27_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：=1×3+[(3×5×7−1×3×5)+(5×7×9−3×5×7)+…+(99×101×103−97×99×101)]÷6。</p>
@@ -3957,7 +3945,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：设次小的正方形边长为x，则另三个正方形边长分别为x+1，x+2，x+3。</p>
 <p>第二步：由长方形的一组对边得，(x+2)+(x+3)=(x+1)+2x，所以x=4。</p>
 <p>第三步：长方形面积S=13×11=143。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_example_1.mp4','例1 · 六个正方形')">看动画</button></div>
 </div>
 </div>
 
@@ -3971,7 +3958,6 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>第一步：如图，假设有一堆同样的钢管倒放在原来这堆钢管的旁边。</p>
 <p>第二步：这两堆钢管一共有n层，每层有(n+1)根，共有n×(n+1)根。</p>
 <p>第三步：所以这堆钢管一共有1+2+…+n=n(n+1)/2（根）。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_example_2.mp4','例2 · 钢管堆')">看动画</button></div>
 </div>
 </div>
 
@@ -3981,14 +3967,11 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p>已知n为不小于1的自然数，计算：1²+2²+…+n²。</p>
 <p><b>解析：</b></p>
 <p><i>想一想：根据1²=1，2²=2+2，3²=3+3+3，n²用加法式子可以怎么表示呢？</i></p>
-<img src="assets/images/ch28_ex3_fig1.png" alt="图1：数字三角形" style="display:block;margin:15px auto;max-width:220px;height:auto;border-radius:8px;border:1px solid #ddd">
+<img src="assets/images/ch28_ex3_nums.svg" alt="1²+2²+…+n²的数字三角形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
 <p>第一步：如图1，图中所有数字的和就是1²+2²+…+n²。</p>
 <p>第二步：将图1分别变换，得到图2和图3。</p>
-<img src="assets/images/ch28_ex3_fig23.png" alt="图2、图3：旋转得到的两个三角形" style="display:block;margin:15px auto;max-width:440px;height:auto;border-radius:8px;border:1px solid #ddd">
 <p>第三步：将图1、图2、图3中对应位置的数字相加，得到图4。</p>
-<img src="assets/images/ch28_ex3_fig4.png" alt="图4：叠合后每个圆圈中的数" style="display:block;margin:15px auto;max-width:220px;height:auto;border-radius:8px;border:1px solid #ddd">
 <p>第四步：图4中所有数的和是3×(1²+2²+…+n²)=n(n+1)(2n+1)/2，所以1²+2²+…+n²=n(n+1)(2n+1)/6。</p>
-<div class="btn-group"><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_example_3.mp4','例3 · 平方和')">看动画</button></div>
 </div>
 </div>
 
@@ -3998,7 +3981,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">数形结合</span></div>
 <div class="question-title">古希腊人常用小石子在沙滩摆成各种形状来研究数。例如他们研究过图中的1,3,6,10,…，由于这些数能够表示三角形，于是将其称为三角形数；类似地，称1,4,9,16,…这样的数称为正方形数。下列数中既是三角形数又是正方形数的是（　）。A.289　B.1024　C.1225　D.1378</div>
 <img src="assets/images/ch28_ch1_numbers.svg" alt="三角形数与正方形数石子图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_challenge_1.mp4','挑战1 · 三角形数')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_1')">查看解析</button></div>
 <div class="hidden-content" id="ans28_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：289=17²，1024=32²，1225=35²，1378不是正方形数，排除D选项。</p>
@@ -4011,7 +3994,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">数形结合</span></div>
 <div class="question-title">如图，用同样规格的黑白两色的正方形瓷砖铺设长方形地面，请问第7个图中，白色瓷砖有几块？</div>
 <img src="assets/images/ch28_ch2_tiles.svg" alt="黑白瓷砖铺设图案" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_challenge_2.mp4','挑战2 · 瓷砖铺地')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_2')">查看解析</button></div>
 <div class="hidden-content" id="ans28_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：假设白色瓷砖的边长为1，求几块白色瓷砖就等于求白色瓷砖的总面积。</p>
@@ -4024,7 +4007,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">数形结合</span></div>
 <div class="question-title">已知n为不小于1的自然数，计算：1+3+5+…+(2n−1)。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_challenge_3.mp4','挑战3 · 奇数和')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_3')">查看解析</button></div>
 <div class="hidden-content" id="ans28_3">
 <p><span class="answer-label">解析：</span></p>
 <img src="assets/images/ch28_ch3_odds.svg" alt="正奇数L形划分示意" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
@@ -4038,7 +4021,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">数形结合</span></div>
 <div class="question-title">如图，时针与分针垂直，你知道现在是8时多少分吗？</div>
 <img src="assets/images/ch28_ch4_clock.svg" alt="钟面示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_challenge_4.mp4','挑战4 · 钟面垂直')">看动画</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_4')">查看解析</button></div>
 <div class="hidden-content" id="ans28_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：把钟面分成60小格，分针的速度是1小格/分钟，时针的速度是1/12小格/分钟。</p>
@@ -4051,19 +4034,14 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">数形结合</span></div>
 <div class="question-title">在两条平行线之间放着如图的一个直角三角形和一个长方形的纸片。现把三角形以每秒2厘米的速度向右平移，直至三角形移出长方形。根据三角形盖住长方形的面积变化，画出了统计图。请问这个长方形的面积是多少平方厘米？</div>
-<img src="assets/images/ch28_ch5_fig1.png" alt="直角三角形与长方形及面积统计图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch28/ch28_challenge_5.mp4','挑战5 · 平移覆盖')">看动画</button></div>
+<img src="assets/images/ch28_ch5_fig1.svg" alt="直角三角形与长方形纸片" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<img src="assets/images/ch28_ch5_fig2.svg" alt="盖住面积随时间变化的统计图" style="max-width:100%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans28_5')">查看解析</button></div>
 <div class="hidden-content" id="ans28_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：根据统计图可知，第5-7秒时三角形完全覆盖住长方形，可得三角形的面积等于24（平方厘米）。</p>
-<p style="text-align:center;margin:8px 0">
-<img src="assets/images/ch28_ch5_fig3.png" alt="图1：三角形进入长方形过程" style="max-width:55%;height:auto;border:1px solid #ddd;border-radius:6px">
-</p>
-<p>第二步：第2-5秒时（如图1），三角形和长方形从开始覆盖到完全覆盖，可以得出三角形的底边为(5−2)×2=6（厘米）；于是三角形的高为24÷6÷½=8（厘米），即长方形的宽也为8（厘米）。</p>
-<p>第三步：第7秒时（如图2），三角形已经运动到长方形最右端，可以计算出长方形的长为(7−2)×2=10（厘米），所以长方形的面积等于10×8=80（平方厘米）。</p>
-<p style="text-align:center;margin:8px 0">
-<img src="assets/images/ch28_ch5_fig2.png" alt="图2：三角形运动到长方形最右端" style="max-width:40%;height:auto;border:1px solid #ddd;border-radius:6px">
-</p>
+<p>第二步：第2-5秒时，三角形和长方形从开始覆盖到完全覆盖，可以得出三角形的底边为(5−2)×2=6（厘米）；于是三角形的高为24÷6÷½=8（厘米），即长方形的宽也为8（厘米）。</p>
+<p>第三步：第7秒时，三角形已经运动到长方形最右端，可以计算出长方形的长为(7−2)×2=10（厘米），所以长方形的面积等于10×8=80（平方厘米）。</p>
 <p><b>答案：80平方厘米。</b></p>
 </div>
 </div>
