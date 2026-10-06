@@ -1,0 +1,713 @@
+{
+  "trash_chapters": [
+    {
+      "ch": 21,
+      "name": "等量思想",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch21"
+    },
+    {
+      "ch": 22,
+      "name": "符号化",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch22"
+    },
+    {
+      "ch": 23,
+      "name": "数字化",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch23"
+    },
+    {
+      "ch": 24,
+      "name": "不变量",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch24"
+    },
+    {
+      "ch": 25,
+      "name": "面积法",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch25"
+    },
+    {
+      "ch": 26,
+      "name": "各取一半",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch26"
+    },
+    {
+      "ch": 27,
+      "name": "裂项相消",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch27"
+    },
+    {
+      "ch": 28,
+      "name": "数形结合",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch28"
+    },
+    {
+      "ch": 29,
+      "name": "分类讨论",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch29"
+    },
+    {
+      "ch": 30,
+      "name": "单位化",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch30"
+    },
+    {
+      "ch": 31,
+      "name": "倒数法",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch31"
+    },
+    {
+      "ch": 32,
+      "name": "比例思想",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch32"
+    },
+    {
+      "ch": 33,
+      "name": "加法原理",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch33"
+    },
+    {
+      "ch": 34,
+      "name": "乘法原理",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch34"
+    },
+    {
+      "ch": 35,
+      "name": "容斥原理",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch35"
+    },
+    {
+      "ch": 36,
+      "name": "抽屉原理",
+      "mp4": 8,
+      "path": "E:\\数学思维学\\new奥数相关\\点点思维(研究)\\_trash\\videos_ch21_36_20260920\\ch36"
+    }
+  ],
+  "kept_chapters": {
+    "15": {
+      "name": "对应思想",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "把26个英文字母转换成数字密码，具体操作方法如下：A，B",
+          "answer": "",
+          "problem_head": "把26个英文字母转换成数字密码，具体操作方法如下：A，B，C，…，X，Y，Z分别对应数字1，2，3，…，24，25，26。例如，单词\"HELLO\"会被换成\"85",
+          "file": "assets/videos/ch15/ch15_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 字母数字密码",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "某货场有两堆集装箱，一堆有3个，另一堆有2个。现需将其全",
+          "answer": "",
+          "problem_head": "如图，某货场有两堆集装箱，一堆有3个，另一堆有2个。现需将其全部装运，每次只能从其中一堆取最上面的一个集装箱，则在装运过程中共有多少种不同的取法？ ",
+          "file": "assets/videos/ch15/ch15_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 集装箱取法",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "9个塑料袋中各装有9个零件，其中一个袋中全是次品，其他袋",
+          "answer": "",
+          "problem_head": "9个塑料袋中各装有9个零件，其中一个袋中全是次品，其他袋中全是正品。已知每个正品重10克，每个次品重9克。现有一架带码的天平，最少称几次才能保证找到哪一袋是次品",
+          "file": "assets/videos/ch15/ch15_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 九袋零件称重",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "摩尔斯电码（Morse code）也被称作摩斯密码，是一",
+          "answer": "",
+          "problem_head": "摩尔斯电码（Morse code）也被称作摩斯密码，是一种时通时断信号代码，通过点和短线不同的排列顺序来表达不同的英文字母、数字和标点符号。现在收到一条摩斯密码",
+          "file": "assets/videos/ch15/ch15_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · 摩斯密码破译",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "将9个圆片摆在三个数位的计数表中（各数位不能为空），可以",
+          "answer": "",
+          "problem_head": "将9个圆片摆在三个数位的计数表中（各数位不能为空），可以摆出几个不同的三位数？",
+          "file": "assets/videos/ch15/ch15_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 9个圆片摆三位数",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "思思给他的班主任写了一封信，折叠长方形信纸装入标准信封，",
+          "answer": "",
+          "problem_head": "思思给他的班主任写了一封信，折叠长方形信纸装入标准信封，情况如图。信纸原来的长度是多少厘米？",
+          "file": "assets/videos/ch15/ch15_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 信纸原长",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "甲、乙、丙三人练习传球，开始球在甲手上，每人都可以把球传",
+          "answer": "",
+          "problem_head": "甲、乙、丙三人练习传球，开始球在甲手上，每人都可以把球传另外两人中的一人。经过7次传球后，球回到甲手上。请问有多少种不同的传球方法？",
+          "file": "assets/videos/ch15/ch15_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · 三人传球",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "9个袋子中各装有60个零件，有7个袋中全是正品，2个袋中",
+          "answer": "",
+          "problem_head": "9个袋子中各装有60个零件，有7个袋中全是正品，2个袋中全是次品。已知每个正品重10克，每个次品重9克。现在有一架带码精准天平，最少称几次能弄清楚哪两袋是次品？",
+          "file": "assets/videos/ch15/ch15_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 两袋次品",
+          "exists": true
+        }
+      ]
+    },
+    "16": {
+      "name": "配凑法",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "有100枚棋子，甲、乙两人轮流取其中的1枚或2枚，规定谁",
+          "answer": "",
+          "problem_head": "有100枚棋子，甲、乙两人轮流取其中的1枚或2枚，规定谁取到最后一枚棋子谁就胜利。甲先取，他有必胜的策略吗？ ",
+          "file": "assets/videos/ch16/ch16_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 取棋子必胜策略",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "计算：1/10÷(1+1/10)+1/9÷(1+1/9)",
+          "answer": "",
+          "problem_head": "计算：1/10÷(1+1/10)+1/9÷(1+1/9)+…+1/2÷(1+1/2)+1÷(1+1)+2÷(1+2)+…+10÷(1+10)。 ",
+          "file": "assets/videos/ch16/ch16_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 首尾配对求和",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "定义数组的\"交替和\"如下：按照递减的次序重新排列这组数，",
+          "answer": "",
+          "problem_head": "定义数组的\"交替和\"如下：按照递减的次序重新排列这组数，然后从最大的数开始交替地减或加后继的数。（例如：数组{1，2，4，6，9}的交替和是9−6+4−2+1=",
+          "file": "assets/videos/ch16/ch16_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 数组交替和",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "计算：237×99",
+          "answer": "",
+          "problem_head": "计算：237×99。",
+          "file": "assets/videos/ch16/ch16_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · 237×99",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "100个和尚喝100碗粥，1个大和尚喝3碗粥，3个小和尚",
+          "answer": "",
+          "problem_head": "100个和尚喝100碗粥，1个大和尚喝3碗粥，3个小和尚喝1碗粥，请问大、小和尚各有几人？",
+          "file": "assets/videos/ch16/ch16_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 百僧百粥",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "师徒二人合作生产一批零件，6天可以完成任务。师傅做5天后",
+          "answer": "",
+          "problem_head": "师徒二人合作生产一批零件，6天可以完成任务。师傅做5天后，因事外出，由徒弟接着做3天，共完成了任务的7/10。如果这批零件单独由徒弟做，需几天可以完成？",
+          "file": "assets/videos/ch16/ch16_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 师徒零件",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "记 A=1/2×3/4×5/6×7/8×9/10×11/",
+          "answer": "",
+          "problem_head": "记 A=1/2×3/4×5/6×7/8×9/10×11/12×13/14×15/16，请比较A与1/4的大小。",
+          "file": "assets/videos/ch16/ch16_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · A 与 1/4 比大小",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "已知最简分数 m/n 可以表示成：m/n = 1+1/2",
+          "answer": "",
+          "problem_head": "已知最简分数 m/n 可以表示成：m/n = 1+1/2+1/3+…+1/10，你能说明分子m是11的倍数吗？",
+          "file": "assets/videos/ch16/ch16_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 调和级数分子",
+          "exists": true
+        }
+      ]
+    },
+    "17": {
+      "name": "拆分法",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "计算：3417÷17",
+          "answer": "",
+          "problem_head": "计算：3417÷17。 ",
+          "file": "assets/videos/ch17/ch17_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 3417÷17",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "若干个正整数的和是16，求它们乘积的最大值",
+          "answer": "",
+          "problem_head": "若干个正整数的和是16，求它们乘积的最大值。 ",
+          "file": "assets/videos/ch17/ch17_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 和为16乘积最大",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "在17×11的方格纸上，沿格子线剪开，最多可以得到多少个",
+          "answer": "",
+          "problem_head": "在17×11的方格纸上，沿格子线剪开，最多可以得到多少个3×4的长方形？请画出剪开的方法。 ",
+          "file": "assets/videos/ch17/ch17_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 17×11 方格剪长方形",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "请问574能否被7整除，你是怎么判断的",
+          "answer": "",
+          "problem_head": "请问574能否被7整除，你是怎么判断的？",
+          "file": "assets/videos/ch17/ch17_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · 574 能否被7整除",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "一个三位数，各位数字之和是24，这样的三位数有多少个",
+          "answer": "",
+          "problem_head": "一个三位数，各位数字之和是24，这样的三位数有多少个？",
+          "file": "assets/videos/ch17/ch17_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 数字和为24的三位数",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "若干个相同的盒子排成一排，思思把五十多个相同的玻璃球分装",
+          "answer": "",
+          "problem_head": "若干个相同的盒子排成一排，思思把五十多个相同的玻璃球分装在这些盒子内，其中恰有一个空盒，然后她外出了。想想从每一个装有玻璃球的盒子里各拿一个玻璃球放入空盒内，再",
+          "file": "assets/videos/ch17/ch17_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 盒子与玻璃球",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "请把1/6写成两个单位分数的和",
+          "answer": "",
+          "problem_head": "请把1/6写成两个单位分数的和。",
+          "file": "assets/videos/ch17/ch17_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · 1/6 拆成两个单位分数",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "学校手工坊的成员想利用一张长18分米、宽11分米的长方形",
+          "answer": "",
+          "problem_head": "学校手工坊的成员想利用一张长18分米、宽11分米的长方形铁皮，制作成长方体无盖铁盒，用于存放工具盒。（工具盒的尺寸为3分米×2分米×1分米，任意面均可作为底面）",
+          "file": "assets/videos/ch17/ch17_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 铁皮做盒放工具",
+          "exists": true
+        }
+      ]
+    },
+    "18": {
+      "name": "分割法",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "计算该平面图形的面积。（单位：厘米）",
+          "answer": "该平面图形的面积是 66 平方厘米",
+          "problem_head": "如图，计算该平面图形的面积。（单位：厘米） ",
+          "file": "assets/videos/ch18/ch18_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 五边形面积",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "计算该立体图形的体积。（单位：厘米，π取3.14）",
+          "answer": "",
+          "problem_head": "如图，计算该立体图形的体积。（单位：厘米，π取3.14） ",
+          "file": "assets/videos/ch18/ch18_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 圆柱+圆锥体积",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "（1）你能把一个正方形分为6个小正方形吗？请画图说明。 ",
+          "answer": "",
+          "problem_head": "（1）你能把一个正方形分为6个小正方形吗？请画图说明。 （2）你能把一个正方形分为17个小正方形吗？请画图说明。 ",
+          "file": "assets/videos/ch18/ch18_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 正方形分成小正方形",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "是一块菜地（单位：米），求这块菜地的面积",
+          "answer": "",
+          "problem_head": "如图是一块菜地（单位：米），求这块菜地的面积。",
+          "file": "assets/videos/ch18/ch18_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · L形菜地面积",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "是一块挖去了一个圆孔的长方形木板，请画一条直线，将这块木",
+          "answer": "",
+          "problem_head": "如图是一块挖去了一个圆孔的长方形木板，请画一条直线，将这块木板分成面积相等的两部分。",
+          "file": "assets/videos/ch18/ch18_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 木板等积分割线",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "计算该立体图形的体积。（单位：厘米，π取3.14）",
+          "answer": "",
+          "problem_head": "如图，计算该立体图形的体积。（单位：厘米，π取3.14）",
+          "file": "assets/videos/ch18/ch18_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 竖放圆柱+圆锥",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "是一个挖去了四分之一的正方形，你能将阴影部分分割成相同的",
+          "answer": "",
+          "problem_head": "如图是一个挖去了四分之一的正方形，你能将阴影部分分割成相同的四部分吗？",
+          "file": "assets/videos/ch18/ch18_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · 阴影分成四部分",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "是否存在这样的六边形，它能分割成6个相同的三角形？如果能",
+          "answer": "",
+          "problem_head": "是否存在这样的六边形，它能分割成6个相同的三角形？如果能，请画图说明；如果不能，请说明理由。能分割成7个相同的三角形吗？",
+          "file": "assets/videos/ch18/ch18_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 六边形分全等三角形",
+          "exists": true
+        }
+      ]
+    },
+    "19": {
+      "name": "转化法",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "三角形的内角和是180°，四边形和五边形的内角和分别是多",
+          "answer": "四边形 360°，五边形 540°，六边形 720°",
+          "problem_head": "三角形的内角和是180°，四边形和五边形的内角和分别是多少度？六边形呢？ 图形△◇（四边形）⬠（五边形）⬡（六边形） 内角和180°（ ）°（ ）°（ ）° ",
+          "file": "assets/videos/ch19/ch19_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 多边形内角和",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "计算：1/2+1/4+1/8+1/16+1/32+1/6",
+          "answer": "",
+          "problem_head": "计算：1/2+1/4+1/8+1/16+1/32+1/64+1/128。 ",
+          "file": "assets/videos/ch19/ch19_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 分数和的形转化",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "在直角三角形ABC中，D，E，F分别在直角边AC，CB与",
+          "answer": "",
+          "problem_head": "如图，在直角三角形ABC中，D，E，F分别在直角边AC，CB与斜边AB上，并且AD=4，EB=7，求长方形CDFE的面积。 ",
+          "file": "assets/videos/ch19/ch19_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 补形求长方形面积",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "计算：37×6666+111×7778",
+          "answer": "",
+          "problem_head": "计算：37×6666+111×7778。",
+          "file": "assets/videos/ch19/ch19_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · 提公因数巧算",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "计算：1−1/2−1/4−1/8−1/16−1/32−1",
+          "answer": "",
+          "problem_head": "计算：1−1/2−1/4−1/8−1/16−1/32−1/64−…−1/512。",
+          "file": "assets/videos/ch19/ch19_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 连减分数",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "有n个数围成一圈，按顺时针方向依次记为1，2，…，n。现",
+          "answer": "",
+          "problem_head": "有n个数围成一圈，按顺时针方向依次记为1，2，…，n。现在按如下方法每次间隔擦去一个数：从1开始，保留1，擦去2，保留3，擦去4，…，直至最后剩下一个数。例如，",
+          "file": "assets/videos/ch19/ch19_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 约瑟夫环",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "1是由平面截圆柱得到的几何体，称为楔形圆柱体。将实心的楔",
+          "answer": "",
+          "problem_head": "如图1是由平面截圆柱得到的几何体，称为楔形圆柱体。将实心的楔形圆柱体放进一个盛有水的足够高的圆柱形容器中，如图2所示，则该容器的水面将上升多少厘米？",
+          "file": "assets/videos/ch19/ch19_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · 楔形圆柱排水",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "的\"科克雪花\"是瑞典科学家科克在1904年受雪花形状的启",
+          "answer": "",
+          "problem_head": "如图的\"科克雪花\"是瑞典科学家科克在1904年受雪花形状的启发而创造的。它的画法是这样的：首先，画出一个正三角形，如图1；其次，把每条边三等分，以居中的一段为边",
+          "file": "assets/videos/ch19/ch19_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 科克雪花周长",
+          "exists": true
+        }
+      ]
+    },
+    "20": {
+      "name": "等积变形",
+      "items": [
+        {
+          "type": "example",
+          "num": "例1",
+          "key": "ex1",
+          "title": "在梯形ABCD中，AB和DC互相平行，请问图中哪几对三角",
+          "answer": "",
+          "problem_head": "如图，在梯形ABCD中，AB和DC互相平行，请问图中哪几对三角形的面积相等？ ",
+          "file": "assets/videos/ch20/ch20_example_1.mp4",
+          "status": "ok",
+          "scene_title": "例1 · 梯形中的等积三角形",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例2",
+          "key": "ex2",
+          "title": "已知正方形ABCD和正方形DEFG，正方形ABCD的边长",
+          "answer": "△ACF的面积是 50 平方厘米",
+          "problem_head": "如图，已知正方形ABCD和正方形DEFG，正方形ABCD的边长为10厘米。求△ACF的面积。 ",
+          "file": "assets/videos/ch20/ch20_example_2.mp4",
+          "status": "ok",
+          "scene_title": "例2 · 两正方形与△ACF",
+          "exists": true
+        },
+        {
+          "type": "example",
+          "num": "例3",
+          "key": "ex3",
+          "title": "在一个长50cm、宽40cm、高30cm的长方体水槽中，",
+          "answer": "水不会溢出来",
+          "problem_head": "在一个长50cm、宽40cm、高30cm的长方体水槽中，盛有高度20cm的水。现将一个长、宽、高分别为20cm、20cm、80cm的长方体柱子竖直地放到水槽底部",
+          "file": "assets/videos/ch20/ch20_example_3.mp4",
+          "status": "ok",
+          "scene_title": "例3 · 水槽会溢出吗",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战1",
+          "key": "ch1",
+          "title": "平行四边形ABCD的底边AD=24厘米，高CH=8厘米，",
+          "answer": "",
+          "problem_head": "如图，平行四边形ABCD的底边AD=24厘米，高CH=8厘米，E是底边BC上任意一点，求两个阴影三角形的面积之和。",
+          "file": "assets/videos/ch20/ch20_challenge_1.mp4",
+          "status": "ok",
+          "scene_title": "挑战1 · 平行四边形阴影和",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战2",
+          "key": "ch2",
+          "title": "△ABC的面积是48，D，E和F分别是BC，AC和AD的",
+          "answer": "",
+          "problem_head": "如图，△ABC的面积是48，D，E和F分别是BC，AC和AD的中点。求△DEF的面积。",
+          "file": "assets/videos/ch20/ch20_challenge_2.mp4",
+          "status": "ok",
+          "scene_title": "挑战2 · 中点与面积",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战3",
+          "key": "ch3",
+          "title": "在长方形ABDE中，正方形CDEF的边长为8，点G为FC",
+          "answer": "",
+          "problem_head": "在长方形ABDE中，正方形CDEF的边长为8，点G为FC和BE的交点，求阴影部分的面积。",
+          "file": "assets/videos/ch20/ch20_challenge_3.mp4",
+          "status": "ok",
+          "scene_title": "挑战3 · 长方形中阴影面积",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战4",
+          "key": "ch4",
+          "title": "在△ABC中，延长BA到点D，使AD=AB，延长CB到点",
+          "answer": "",
+          "problem_head": "如图，在△ABC中，延长BA到点D，使AD=AB，延长CB到点E，使BE=2BC，延长AC到点F，使CF=3AC，若△ABC的面积是1平方厘米，求△DEF的面积",
+          "file": "assets/videos/ch20/ch20_challenge_4.mp4",
+          "status": "ok",
+          "scene_title": "挑战4 · 延长三边的大三角形",
+          "exists": true
+        },
+        {
+          "type": "challenge",
+          "num": "挑战5",
+          "key": "ch5",
+          "title": "已知正方形ABCD的边长是10厘米，E，F分别是AB，B",
+          "answer": "",
+          "problem_head": "如图，已知正方形ABCD的边长是10厘米，E，F分别是AB，BC的中点，求四边形BFGE的面积。",
+          "file": "assets/videos/ch20/ch20_challenge_5.mp4",
+          "status": "ok",
+          "scene_title": "挑战5 · 正方形中阴影四边形",
+          "exists": true
+        }
+      ]
+    }
+  },
+  "wired": true,
+  "notes": [
+    "ch15-20 wired 1:1; ch21-36 removed from deploy and videos.json"
+  ],
+  "buttons_added": 48
+}

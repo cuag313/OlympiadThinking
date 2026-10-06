@@ -1,0 +1,6 @@
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_0.mp3'
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_1.mp3'
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_2.mp3'
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_3.mp3'
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_4.mp3'
+file 'E:\数学思维学\new奥数相关\点点思维(研究)\ch28_ch4_build\seg_5.mp3'

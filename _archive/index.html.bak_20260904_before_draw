@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小学奥数解题思维方法 - 思维挑战交互版</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei","SimSun",sans-serif;background:#f5f7fa;color:#333;line-height:1.8;padding:20px}
+.container{max-width:900px;margin:0 auto}
+h1{text-align:center;color:#2c3e50;margin-bottom:8px;font-size:28px}
+.subtitle{text-align:center;color:#7f8c8d;margin-bottom:30px;font-size:14px}
+.chapter-title{color:#2980b9;font-size:22px;margin:40px 0 20px;padding:10px 15px;border-left:5px solid #2980b9;background:#eaf2f8;border-radius:4px;page-break-before:always}
+.method-intro{background:#fff;padding:20px;border-radius:10px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-left:4px solid #27ae60}
+.method-intro h3{color:#27ae60;margin-bottom:10px}
+.example-card{background:#fff;border-radius:10px;padding:20px 25px;margin-bottom:20px;box-shadow:0 3px 12px rgba(0,0,0,.1);border-left:5px solid #3498db}
+.example-header{display:flex;align-items:center;gap:10px;margin-bottom:15px}
+.example-num{font-weight:bold;color:#2c3e50;font-size:18px}
+.example-tag{display:inline-block;padding:3px 10px;border-radius:5px;font-size:12px;font-weight:bold;background:#eaf2f8;color:#3498db}
+.question-card{background:#fff;border-radius:10px;padding:20px 25px;margin-bottom:25px;box-shadow:0 3px 12px rgba(0,0,0,.1);border-left:5px solid #e67e22}
+.question-header{display:flex;align-items:center;gap:10px;margin-bottom:15px}
+.question-num{font-weight:bold;color:#2c3e50;font-size:18px}
+.tag{display:inline-block;padding:3px 10px;border-radius:5px;font-size:12px;font-weight:bold;background:#fef5e7;color:#e67e22}
+.question-title{font-size:16px;color:#2c3e50;margin-bottom:15px;line-height:1.8}
+.btn-group{display:flex;gap:10px;margin-top:15px;flex-wrap:wrap}
+.reveal-btn{display:inline-flex;align-items:center;gap:5px;padding:10px 18px;background:#e67e22;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;font-family:inherit;transition:all .3s}
+.reveal-btn:hover{background:#d35400;transform:translateY(-2px)}
+.reveal-btn::before{content:"\U0001f441"}
+.hidden-content{display:none;margin-top:15px;padding:20px;background:#fef9f3;border-radius:8px;border:2px dashed #e67e22}
+.hidden-content.show{display:block}
+.answer-label{font-weight:bold;color:#27ae60;font-size:15px}
+table{border-collapse:collapse;margin:15px 0;width:100%}
+th,td{border:1px solid #ddd;padding:8px;text-align:center}
+th{background:#eaf2f8;font-weight:bold}
+.footer{text-align:center;margin-top:50px;padding:30px;color:#95a5a6;font-size:13px;border-top:2px solid #ecf0f1}
+.toc{background:#fff;padding:20px 30px;border-radius:10px;margin-bottom:30px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.toc h3{color:#2980b9;margin-bottom:15px}
+.toc ul{list-style:none}
+.toc li{margin:8px 0}
+.toc a{color:#3498db;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+@media print{
+  body{background:#fff;padding:10px}
+  .btn-group{display:none}
+  .hidden-content{display:block!important;border:1px solid #ccc;background:#f9f9f9}
+  .question-card,.example-card{box-shadow:none;border:1px solid #ddd;page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>小学奥数解题思维方法培训教材</h1>
+<p class="subtitle">思维挑战交互版 | 点击"查看解析"按钮查看答案 | 可打印下载</p>
+
+<div class="toc">
+<h3>目录</h3>
+<ul>
+<li><a href="#ch1">一、枚举法</a></li>
+<li><a href="#ch2">二、假设法</a></li>
+<li><a href="#ch3">三、观察法</a></li>
+<li><a href="#ch4">四、列表法</a></li>
+<li><a href="#ch5">五、估算法</a></li>
+<li><a href="#ch6">六、倒推法</a></li>
+<li><a href="#ch7">七、排除法</a></li>
+<li><a href="#ch8">八、平移法</a></li>
+<li><a href="#ch9">九、剪拼法</a></li>
+</ul>
+</div>
+
+
+<!-- ========== 第1章：枚举法 ========== -->
+<h2 class="chapter-title" id="ch1">1、枚举法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>枚举法（又称穷举法），起源于原始的计数方法（即数数）。解题时，按某种顺序把所有满足条件的情况逐一列举出来的方法，称为枚举法。在使用枚举法解决问题时，要做到：不重复、不遗漏。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">枚举法</span></div>
+<div class="question-title">
+<p>六（1）班小文有10元、20元和50元的纸币各6张，请问有几种方法可以组成60元？</p>
+<p><b>解题步骤：</b></p>
+<p>第一步：如果只使用一种纸币，可分为2种情形：</p>
+<p>1.6张10元纸币（10×6=60）；</p>
+<p>2.3张20元纸币（20×3=60）。</p>
+<p>第二步：如果使用两种纸币，可分为3种情形：</p>
+<p>1. 1张10元和1张50元（10×1 + 50×1 = 60）；</p>
+<p>2. 2张10元和2张20元（10×2 + 20×2 = 60）；</p>
+<p>3. 4张10元和1张20元（10×4 + 20×1 = 60）。</p>
+<p>第三步：如果使用三种纸币，金额至少为80元（10+20+50=80），无法组成60元。</p>
+<p><b>答：综上所述，一共有5种方法可以组成60元。</b></p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">枚举法</span></div>
+<div class="question-title">
+<p>将一段长为15分米的木棒截成长度为整分米的三段，使它们作为三角形的三边，可以得到几种不同的三角形？</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：可以根据线段长度或各角进行枚举。</i></p>
+<p>第一步：可根据三角形的三边关系，任意两边之和大于第三边，又周长为整分米，可知最长边只能是7分米、6分米或者5分米。</p>
+<p>第二步：当最长边为7分米时，另外两边还可以为：7分米和1分米（7、7、1）；6分米和2分米（7、6、2）；5分米和3分米（7、5、3）；4分米和4分米（7、4、4）；</p>
+<p>第三步：当最长边为6分米时，另外两边还可以为：6分米和3分米（6、6、3）；5分米和4分米（6、5、4）；</p>
+<p>第四步：当最长边为5分米时，另外两边都是5分米（5、5、5）；</p>
+<p>第五步：综上所述，可以得到7种不同的三角形。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">枚举法</span></div>
+<div class="question-title">
+<p>思思和想想玩掷骰子的游戏，每人各掷一个骰子。如果两个骰子的点数之和是5、6、7、8，那么思思获胜；如果两个骰子的点数之和是其他值时，那么想想获胜。请问谁获胜的可能性大？为什么？（如图所示）</p>
+<p><i>想一想：每个骰子的点数可能是：1、2、3、4、5、6，两个骰子的点数之和有哪些可能？这些数值出现的可能性一样吗？</i></p>
+<p><b>规则说明：</b></p>
+<p>两个骰子的点数之和为2、3、4，…，12时；</p>
+<p>当点数之和为2、3、4、9、10、11、12时，想想获胜；</p>
+<p>其他情况下思思获胜（即5、6、7、8）。</p>
+<p><b>解一解：</b>利用表格枚举出所有点数之和可能的情况（如下表所示）。</p>
+<table>
+<caption><b>两个骰子点数之和</b></caption>
+<tr style="background:#eaf2f8"><th>想想＼思思</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr>
+<tr><td style="background:#eaf2f8"><b>1</b></td><td style="color:#999">2</td><td style="color:#999">3</td><td style="color:#999">4</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">5</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">6</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td></tr>
+<tr><td style="background:#eaf2f8"><b>2</b></td><td style="color:#999">3</td><td style="color:#999">4</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">5</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">6</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">8</td></tr>
+<tr><td style="background:#eaf2f8"><b>3</b></td><td style="color:#999">4</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">5</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">6</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">8</td><td style="color:#999">9</td></tr>
+<tr><td style="background:#eaf2f8"><b>4</b></td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">5</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">6</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">8</td><td style="color:#999">9</td><td style="color:#999">10</td></tr>
+<tr><td style="background:#eaf2f8"><b>5</b></td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">6</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">8</td><td style="color:#999">9</td><td style="color:#999">10</td><td style="color:#999">11</td></tr>
+<tr><td style="background:#eaf2f8"><b>6</b></td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">7</td><td style="background:#d5f5e3;color:#27ae60;font-weight:bold">8</td><td style="color:#999">9</td><td style="color:#999">10</td><td style="color:#999">11</td><td style="color:#999">12</td></tr>
+</table>
+<p><b>总结：</b>通过枚举表格可以看出，所有的可能性为36种，有20种情况思思获胜，有16种情况想想获胜，所以思思获胜的可能性大。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">枚举法</span></div>
+<div class="question-title">用3、5、7这三张数字卡片可以摆出哪几个三位数？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1_1')">查看解析</button></div>
+<div class="hidden-content" id="ans1_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：百位上的数可以是3，5，7；</p>
+<p>第二步：借助"树状图"来枚举。</p>
+<table style="border-collapse:collapse;margin:10px 0;text-align:center">
+<tr><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">百位</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">十位</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">个位</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">此时的三位数</th></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">357</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">375</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">537</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">573</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">735</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">7</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">3</td><td style="border:1px solid #999;padding:5px 10px">753</td></tr>
+</table>
+<p><b>答案：357，375，537，573，735，753</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">枚举法</span></div>
+<div class="question-title">一只小蚂蚱在尺子上跳动，每次只能向左或者向右跳动1厘米，它一开始停在5厘米的位置，经过5次跳动之后停在8厘米处（可以重复经过某个数字），那么这只小蚂蚱一共有几种跳动的方式？</div>
+<img src="images/challenge2.svg" alt="蚂蚱跳动示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1_2')">查看解析</button></div>
+<div class="hidden-content" id="ans1_2">
+<p><span class="answer-label">解析：</span></p>
+<p>解题思路：跳了5次向右移动了3厘米，说明有1次往左跳动，4次往右跳动。</p>
+<p>枚举：</p>
+<p>5厘米→6厘米→5厘米→6厘米→7厘米→8厘米</p>
+<p>5厘米→6厘米→7厘米→6厘米→7厘米→8厘米</p>
+<p>5厘米→6厘米→7厘米→8厘米→7厘米→8厘米</p>
+<p>5厘米→6厘米→7厘米→8厘米→9厘米→8厘米</p>
+<p>5厘米→4厘米→5厘米→6厘米→7厘米→8厘米</p>
+<p><b>答案：一共有5种跳动方式。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">枚举法</span></div>
+<div class="question-title">用一根80厘米长的铁丝围成一个长方形，长和宽都是5厘米的整数倍数，哪一种方法围成的长方形的面积最大？</div>
+<img src="images/challenge3.svg" alt="铁丝围长方形示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1_3')">查看解析</button></div>
+<div class="hidden-content" id="ans1_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：已知长方形的周长为80厘米，所以长与宽的和是40厘米。根据题意，运用表格列举出所有可能的情况。</p>
+<table style="border-collapse:collapse;margin:10px 0;text-align:center">
+<tr><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">长方形</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">①</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">②</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">③</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">④</th></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">长（厘米）</td><td style="border:1px solid #999;padding:5px 10px">35</td><td style="border:1px solid #999;padding:5px 10px">30</td><td style="border:1px solid #999;padding:5px 10px">25</td><td style="border:1px solid #999;padding:5px 10px">20</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">宽（厘米）</td><td style="border:1px solid #999;padding:5px 10px">5</td><td style="border:1px solid #999;padding:5px 10px">10</td><td style="border:1px solid #999;padding:5px 10px">15</td><td style="border:1px solid #999;padding:5px 10px">20</td></tr>
+</table>
+<p>第二步：（计算过程）</p>
+<p>第一种: 35×5 = 175(平方米)</p>
+<p>第二种: 30×10 = 300(平方米)</p>
+<p>第三种: 25×15 = 375(平方米)</p>
+<p>第四种: 20×20 = 400(平方米)</p>
+<p>第三步：计算出每种方法围成的长方形的面积并进行比较</p>
+<p>20×20 = 400(平方米)</p>
+<p><b>答案：当围成边长为20厘米的正方形时面积最大。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">枚举法</span></div>
+<div class="question-title">某人给4个朋友写了不同的信以及4个相对应的信封，请问4封信都装错的方法有多少种？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1_4')">查看解析</button></div>
+<div class="hidden-content" id="ans1_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设这四个信封为A，B，C，D，对应的四封信分别为a，b，c，d。</p>
+<p>第二步：如果信a装在信封B内，那么以"B（a）"的形式表示。</p>
+<p>第三步：枚举装错信封的方法</p>
+<p>A（b），B（a），C（d），D（c）；</p>
+<p>A（b），B（d），C（a），D（c）；</p>
+<p>A（b），B（c），C（d），D（a）；</p>
+<p>A（c），B（a），C（d），D（b）；</p>
+<p>A（c），B（d），C（a），D（b）；</p>
+<p>A（c），B（d），C（b），D（a）；</p>
+<p>A（d），B（a），C（b），D（c）；</p>
+<p>A（d），B（c），C（b），D（a）；</p>
+<p>A（d），B（c），C（a），D（b）；</p>
+<p><b>答案：共有9种装错信封的方法。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">枚举法</span></div>
+<div class="question-title">有一辆公共汽车，包括起点和终点在内共要停靠15个车站。如果每一站上车的乘客中，恰好各有一位乘客从这一站坐到以后的每一站（终点站当然没有乘客上车）。为了使每位乘客都有座位，问这辆公共汽车至少要有多少个座位？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans1_5')">查看解析</button></div>
+<div class="hidden-content" id="ans1_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：上车最多的站是第一站，将"上车人数－下车人数"理解为人数的增加，第一站增加14人。</p>
+<p>第二步：第二站上车13人，下车1人，增加12人；第三站上车12人，下车2人，增加10人；第四、五、六、七站分别增加8，6，4，2人；第八站时上车和下车都是7人，第九站起，车上的人数开始减少；</p>
+<p>第三步：综上所述，汽车行驶在第7站至第9站之间，车上人数最多，需要安排14+12+10+8+6+4+2=56(个)座位。</p>
+<p><b>答案：这辆公共汽车至少要有56个座位。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>枚举法看似简单，但要做到"不重不漏"需要耐心和条理。建议用表格或树状图辅助，养成有序枚举的习惯。竞赛中枚举法常与计数问题结合，是基础中的基础。<br><br>
+<b>【易错点提醒】</b>①枚举时容易遗漏某些情况，特别是边界值；②重复列举同一类情况；③分类标准不明确，导致混乱。
+</p>
+
+<!-- ========== 第2章：假设法 ========== -->
+<h2 class="chapter-title" id="ch2">2、假设法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>假设法就是在解决问题时，根据题目中的已知条件或结论做出某种假设，再结合其他的条件进行计算和推理，从而解决问题的方法。</p>
+<p>假设法可以使复杂的条件变得简单，使隐蔽的数量关系变得明朗，使抽象的问题变得具体。在运用假设法时，可以假设几个具体数值、几个量相等或者某种情况是否发生，如果在计算和推理后出现矛盾，那么需要适当调整，从而找到正确答案。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">假设法</span></div>
+<div class="question-title">
+<p>笼子里有若干只鸡和兔，共有10个头，28只脚。问鸡和兔各有几只？（如图所示）</p>
+<p><i>试一试：如果都是鸡（或兔），会有几只脚？想一想</i></p>
+<p><b>解析：</b></p>
+<p>(第一步)假设笼子里有10只鸡，共有10×2=20(只)脚。</p>
+<p>(第二步)实际有28只脚，还多28-20=8(只)脚。</p>
+<p>(第三步)多出来的8只脚，在某些鸡上各"装"2只脚，就把这部分鸡调整成兔，所以兔有8÷(4-2)=4(只)，鸡有10-4=6(只)。</p>
+</div>
+<img src="images/ch2_ex1_chicken_rabbit.svg" alt="鸡兔同笼示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">假设法</span></div>
+<div class="question-title">
+<p>思思、想想两人同时出发进行跑步比赛，思思前一半路程的速度是5米/秒，后一半路程的速度是4米/秒；想想前一半时间的速度是5米/秒，后一半时间的速度是4米/秒。请问两人谁先到达终点？请说明理由。</p>
+<p><i>想一想：两人跑步的路程相同，可假设为一个具体的数值</i></p>
+<p><b>【解析】</b></p>
+<p><b>方法1：</b></p>
+<p>第一步：假设全程为360米。</p>
+<p>(第二步)思思跑完全程用时为180÷5+180÷4 = 81(秒)。</p>
+<p>(第三步)在求想想跑完全程所用的时间时，可以假设有两个"想想"分别以4米/秒和5米/秒的速度同时从两端相向而跑，相遇时间为360÷(4+5)=40(秒)，即所用时间的一半是40秒，于是想想一共用时40×2 = 80(秒)。</p>
+<p>(第四步)因为81&gt;80，所以想想所用时间少，先到达终点。</p>
+<p><b>方法2：</b></p>
+<p>(第一步)假设想想2秒跑完全程。</p>
+<p>(第二步)全程长度也就是想想跑的距离为5＋4 = 9(米)。</p>
+<p>(第三步)半程长度为9 ÷ 2 = 4.5(米)，所以思思跑完全程的时间为4.5÷5+4.5÷4 = 0.9 +1.125 = 2.025(秒)。</p>
+<p>(第四步)因为2.025&gt;2，所以想想所用时间少，先到达终点。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">假设法</span></div>
+<div class="question-title">
+<p>修一条公路，甲队单独修需要20天完成，乙队单独修需要30天完成。现两队合作，中途甲队休息了5天，请问完成任务时乙队工作了多少天？</p>
+<p><i>想一想：甲队单独修20天完成，乙队单独修30天完成，则公路总长可假设为20与30的公倍数（单位:米）；也可以假设甲队没有休息。</i></p>
+<p><b>方法1：</b></p>
+<p>(第一步)假设这条公路长600米。</p>
+<p>(第二步)甲队每天可修600÷20=30(米)；乙队每天可修600÷30=20(米)。</p>
+<p>(第三步)甲队休息的5天中乙队修了5×20=100(米)；甲、乙两队合作的长度为600-100=500(米)。</p>
+<p>(第四步)甲、乙两队合作的天数为500 ÷ (30 +20)=10(天)。</p>
+<p>(第五步)所以完成任务时乙队工作了10+5 = 15(天)。</p>
+<p><b>方法2：</b></p>
+<p>(第一步)假设甲没有休息，甲队5天的工作量是1/20×5，到工作完成之日时，甲、乙两队合作的工作量为1+1/20×5 = 5/4。</p>
+<p>(第二步)甲、乙两队合作的天数为5/4÷(1/20+1/30)=15(天)。</p>
+<p>(第三步)所以完成任务时乙队工作了15天</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">假设法</span></div>
+<div class="question-title">某公园里有月季花、玫瑰花、芍药花共180盆。其中，月季花比玫瑰花少12盆，芍药花比月季花多9盆，请问三种花各有多少盆？</div>
+<img src="images/ch2_ch1_flowers.svg" alt="月季花、玫瑰花、芍药花线段图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2_1')">查看解析</button></div>
+<div class="hidden-content" id="ans2_1">
+<p><span class="answer-label">解析：</span></p>
+<p>(第一步)用线段图把题目中的已知信息表示出来。</p>
+<p>（第二步）假设玫瑰花减少12盆、芍药花减少9盆，那么三种花的总数为180-(12+9)=159(盆)</p>
+<p>(第三步)所以月季花有159 ÷ 3=53(盆)，玫瑰花有53+12 = 65(盆)，芍药花有53+9=62(盆)</p>
+<p><b>答案：月季花有53盆，玫瑰花有65盆，芍药花有62盆。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">假设法</span></div>
+<div class="question-title">现有8条腿的蜘蛛和6条腿的螳螂共12只，如果它们一共有82条腿，那么蜘蛛和螳螂各有多少只？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2_2')">查看解析</button></div>
+<div class="hidden-content" id="ans2_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设12只都是螳螂，共有12×6=72(条)腿。</p>
+<p>第二步：实际有82条腿，还多82-72=10(条)腿。</p>
+<p>第三步：剩下的10条腿，在某些螳螂上各"装"2条腿，就把这部分螳螂调整成蜘蛛。</p>
+<p><b>答案：所以蜘蛛有10÷(8-6)=5(只)，螳螂有12-5 = 7(只)。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">假设法</span></div>
+<div class="question-title">加工一批服装，一厂单独完成需要12天，二厂单独完成需要18天。现在先由一厂单独加工了若干天之后，留给二厂单独加工，两个厂先后共用15天完成加工任务。请问一厂和二厂分别加工了多少天？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2_3')">查看解析</button></div>
+<div class="hidden-content" id="ans2_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设生产总量是360件，则一厂的工作效率是360÷12 = 30(件/天)，二厂的工作效率是360÷18 = 20(件/天)。</p>
+<p>第二步：假设15天全由二厂做，则共完成20 × 15 = 300(件)，比实际少360-300 = 60(件)，而二厂比一厂每天少做30 - 20=10(件)，60÷10 = 6(天)，说明一厂加工了6天，二厂加工了15- 6 = 9(天)。</p>
+<p><b>答案：一厂加工了6天，二厂加工了9天。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">假设法</span></div>
+<div class="question-title">一杯糖水，第一次加入一定量的水后，糖水的浓度变成了15%；第二次加入同样多的水后，糖水的浓度变成12%；第三次再加入同样多的水后，糖水浓度变成多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2_4')">查看解析</button></div>
+<div class="hidden-content" id="ans2_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设第一次加入一定量的水后糖水共有100克，则糖的质量是100×15%=15(克)。</p>
+<p>第二步：第二次加入水后糖水共有15÷12%=125(克)，则加水量是125-100=25(克)。</p>
+<p>第三步：第三次加入同样多的水后糖水共有100+25+25=150(克)，而糖的质量没有发生变化，所以糖水浓度为15÷150=10%</p>
+<p><b>答案：10%</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">假设法</span></div>
+<div class="question-title">某小学六年级有3个班，每班的人数相等。其中，一班的男生人数与二班的女生人数相等，三班的男生人数是全年级男生人数的2/5。请问全年级女生人数占总人数的几分之几？</div>
+<img src="images/ch2_ch5_classes.svg" alt="班级人数关系图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans2_5')">查看解析</button></div>
+<div class="hidden-content" id="ans2_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：假设全年级男生为50人，则三班男生有50 × 2/5 = 20(人)</p>
+<p>第二步：因为一班的男生人数与二班的女生人数相等（如图所示），推理得一班男生人数与二班男生人数相加就是一个班的总人数。</p>
+<p>第三步：一班与二班男生总人数等于50-20=30(人)，即一个班的总人数也是30人。</p>
+<p>第四步：求出全年级总人数为30×3=90(人)，全年级女生人数为90-50=40(人)</p>
+<p><b>答案：所以全年级女生人数占总人数的40÷90=4/9</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>假设法的核心公式是：另一类数量 = 差值 ÷ 单位差。记住口诀："全假设为甲，看差多少，差里有几个单位差，就有几个乙。"鸡兔同笼是经典，但假设法远不止于此。假设法的核心是"先假设，再调整"。通过假设全部为某一情况，找出与实际的差异，再根据差值进行调整。鸡兔同笼问题是假设法的经典应用，关键是理解"多出的脚数÷每只差=另一类的数量"。<br><br>
+<b>【易错点提醒】</b>①假设后忘记调整差值；②混淆"多出"和"不足"的方向；③除数和被除数搞反。
+</p>
+
+<!-- ========== 第3章：观察法 ========== -->
+<h2 class="chapter-title" id="ch3">3、观察法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>观察有关数据、图形的特点，进行分析、思考从而解决问题的方法称为观察法。观察法是通过对题目的结构形式、整体条件及相关图形等的观察，找出解决问题的关键；有时候也可以通过观察进行猜想，并对所做出的猜想进行验证。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">观察法</span></div>
+<div class="question-title">
+<p>每张多米诺骨牌都是由两个小方块组成，每个小方块上刻有"点数"，点数可以是1，2，3，4，5，6。如图按规律摆放了一排这样的骨牌，你知道最后一张骨牌的上半部分的点数吗？</p>
+<p><i>想一想：从整体观察，每张多米诺骨牌的点数和是多少呢？</i></p>
+<p><b>【解析】</b></p>
+<p>第一步：先计算出每张骨牌的点数和，前8张依次为3，2，5，4，7，6，9，8；</p>
+<p>第二步：观察每张骨牌的点数和，可以发现第1，3，5，7张骨牌的点数和分别为3，5，7，9，第2，4，6，8张骨牌的点数和分别为2，4，6，8。</p>
+<p>第三步：因此最后一张骨牌（第9张）的点数之和是11，下半部分点数为5，所以上半部分点数为6。</p>
+</div>
+<img src="images/ch3_ex1_domino.svg" alt="多米诺骨牌排列图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">观察法</span></div>
+<div class="question-title">
+<p>从边长为1的小正方形开始，以这个正方形的对角线为边作第2个正方形，再以第2个正方形的对角线为边作第3个正方形……如此下去，第15个正方形的边长是____。</p>
+<p><i>想一想：第1个、第3个、第5个正方形的边长有什么规律呢？</i></p>
+<p><b>【解析】</b></p>
+<p>第一步：根据已知的图形，可以看到第一个正方形的边长是1，第3个正方形的边长是2，第5个正方形的边长是4，…</p>
+<p>第二步：把第1，3，5，…个正方形组成一个新的正方形序列，发现后一个正方形的边长是前一个正方形边长的2倍。</p>
+<p>第三步：综上所述，可得第15个正方形的边长是128（2<sup>7</sup>）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">观察法</span></div>
+<div class="question-title">
+<p>已知a<sup>3</sup> = 50653，请问a的值是多少？</p>
+<p><i>想一想：a在哪两个整十数之间呢？末尾数又是几呢？</i></p>
+<p><b>【解析】</b></p>
+<p>第一步：因为30<sup>3</sup>=27000，40<sup>3</sup>=64000，所以30&lt;a&lt;40。</p>
+<p>第二步：从个位数字观察，列表如下：可知a的个位数字只能是7</p>
+<p>第三步：综上所述，a的值是37。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">观察法</span></div>
+<div class="question-title">观察下面的式子，在空格处填上答案：1×1=1；11×11=121；111×111=12321；……11111111×11111111=____。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_1')">查看解析</button></div>
+<div class="hidden-content" id="ans3_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：观察条件，11×11=121，两位数相乘，积的中间数是2，111×111=12321，三位数相乘，积的中间数是3。</p>
+<p>第二步：依次类推，八位数相乘，积的中间数为8。</p>
+<p><b>答案：123456787654321</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">观察法</span></div>
+<div class="question-title">如图所示，有一张黑白相间的方格纸，用记号(2,3)表示从上往下数第2行，从左往右数的第3列的这一格，请问(23,100)这一格是什么颜色？</div>
+<img src="images/ch3_ch2_checkerboard.svg" alt="黑白方格纸示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_2')">查看解析</button></div>
+<div class="hidden-content" id="ans3_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：观察已知图表可发现整个图表的奇数行和偶数行有着各自的规律，(23,100)这一格位于从上往下数第23行，是奇数行。</p>
+<p>第二步：根据图表可以发现奇数行方格的排列规律是第奇数列为黑色，第偶数列为白色，100是偶数，所以第100列为白色。</p>
+<p><b>答案：即(23,100)，这一格为白色</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">观察法</span></div>
+<div class="question-title">观察如图九宫格，图中的每一行、每一列、每一对角线中小方格内的数字之和都相同，请补全该九宫格。</div>
+<img src="images/ch3_ch3_magic_square.svg" alt="九宫格示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_3')">查看解析</button></div>
+<div class="hidden-content" id="ans3_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：由第二行可得出，该九宫格的每一行、每一列、每一对角线的数字之和为10+6+2=18。</p>
+<p>第二步：从图中第三列7+2+□=18会想到，18-7-2=9，所以第三列最下面的小方格中应填入9。</p>
+<p>第三步：同理可得，从对角线上的□＋6＋9 =18可知九宫格左上角的小方格中应填入3；从另一条对角线上的7＋6＋□ = 18可知九宫格左下角的小方格中应填入5；从第一行3+□+7=18可知第一行中间的小方格中应填入8；从第三行5+□+9=18可知第三行中间的小方格中应填入4。</p>
+<p><b>答案：</b></p>
+<table style="border-collapse:collapse;margin:10px 0;text-align:center">
+<tr><td style="border:1px solid #999;padding:5px 12px">3</td><td style="border:1px solid #999;padding:5px 12px">8</td><td style="border:1px solid #999;padding:5px 12px">7</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 12px">10</td><td style="border:1px solid #999;padding:5px 12px">6</td><td style="border:1px solid #999;padding:5px 12px">2</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 12px">5</td><td style="border:1px solid #999;padding:5px 12px">4</td><td style="border:1px solid #999;padding:5px 12px">9</td></tr>
+</table>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">观察法</span></div>
+<div class="question-title">某服装店当年各季度冬装和夏装的销售量如下表：<br>
+<table style="border-collapse:collapse;margin:10px 0;text-align:center">
+<tr><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">类别\季度</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">一</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">二</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">三</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">四</th><th style="border:1px solid #999;padding:5px 10px;background:#f0f0f0">合计</th></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">冬装</td><td style="border:1px solid #999;padding:5px 10px">1300</td><td style="border:1px solid #999;padding:5px 10px">300</td><td style="border:1px solid #999;padding:5px 10px">500</td><td style="border:1px solid #999;padding:5px 10px">1200</td><td style="border:1px solid #999;padding:5px 10px">3300</td></tr>
+<tr><td style="border:1px solid #999;padding:5px 10px">夏装</td><td style="border:1px solid #999;padding:5px 10px">200</td><td style="border:1px solid #999;padding:5px 10px">160</td><td style="border:1px solid #999;padding:5px 10px">1400</td><td style="border:1px solid #999;padding:5px 10px">300</td><td style="border:1px solid #999;padding:5px 10px">3500</td></tr>
+</table>
+上面统计表中，有一个季度的夏装销售量记录错误，根据表中数据，结合生活实际，你认为抄错的数据是____，正确的应是____。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_4')">查看解析</button></div>
+<div class="hidden-content" id="ans3_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：观察表格，可以发现夏装第二季度销售量比第一季度还少，结合生活实际，第二季度天气逐渐变热，夏装销售量应该明显上升，所以夏装第二季度的数据"160件"记录错误。</p>
+<p>第二步：观察表格信息，可以发现当年夏装销售量合计为3500件，记录正确的一、三、四季度夏装销售量分别为200件、1400件、300件，所以第二季度正确的数据应该是3500-200-1400-300=1600件。</p>
+<p><b>答案：抄错的数据是160件，正确的应是1600件。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">观察法</span></div>
+<div class="question-title">将1，2，3，…，1008如图排列，用一个长方形框出"3行3列"的9个数，例如下图框出的9个数是：22，23，24，31，32，33，40，41，42。要使被框住的9个数的和分别等于1785，2349，1683。请问能否办到？若能办到，请写出方框里的最小数和最大数；若不能办到，请说明理由。</div>
+<img src="images/ch3_ch5_numbers.svg" alt="数字1-1008按行列排列" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans3_5')">查看解析</button></div>
+<div class="hidden-content" id="ans3_5">
+<p><span class="answer-label">解析：</span>1785和2349不能办到，1683能办到，对应的最小数为177，最大数为197。</p>
+<p>第一步：首先找到被框住的9个数的规律：每一行是3个连续的整数，每列的相邻两数之差是9，9个数的和是正中间数的9倍。</p>
+<p>第二步：因为1785不是9的倍数，所以无法框出这样的9个数，使它们的和为1785。</p>
+<p>因为2349÷9=261，但进一步观察发现261在第9列，所以也无法框出这样的9个数，使它们的和为2349。</p>
+<p>因为1683÷9=187，且187÷9=20……7，观察发现187在第7列，所以符合要求，根据187可以写出其余8个数，框住的9个数从小到大依次为177，178，179，186，187，188，195，196，197，所以框住的9个数中最小数是177，最大数是197。</p>
+<p><b>答案：1785和2349不能办到；1683能办到，最小数是177，最大数是197。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>观察力是数学思维的起点。遇到规律题，先算前几个特例，再找共同点。观察时注意数字特征（奇偶、倍数）、位置关系、对称性等。好的观察习惯能让你事半功倍。观察法要求我们从题目中发现规律、找到突破口。解题时要仔细观察数字特征、图形变化、运算规律等，善于从特殊到一般，从简单到复杂，找到隐藏在表面之下的数学规律。<br><br>
+<b>【易错点提醒】</b>①只看表面不看本质；②观察不够全面，遗漏关键信息；③急于下结论，缺乏验证。
+</p>
+
+
+<!-- ========== 第4章：列表法 ========== -->
+<h2 class="chapter-title" id="ch4">四、列表法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>将问题中的信息用表格的形式反映出来并加以解决的方法，称为列表法。列表法常常与归纳法、排除法等结合使用，有助于理清条件和结论，更快地找到解题的方法和路径。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">列表法</span></div>
+<div class="question-title">
+<p>有50名学生（其中女生有18人）分别穿了蓝衬衫或者白衬衫，穿蓝衬衫的有31人，穿白衬衫的男生有14人。请问穿蓝衬衫的女生有几人？</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：根据已知条件，如何列表来解题呢？</i></p>
+<p>第一步：根据已知条件列出表格。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">性别</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">蓝衬衫</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">白衬衫</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">合计</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">男生</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">14</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">女生</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">18</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">合计</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">31</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">50</td></tr>
+</table>
+<p>第二步：根据以上条件，依次可得：男生有50-18=32（人），穿蓝衬衫的男生有32-14=18（人），穿白衬衫的学生有50-31=19（人），穿白衬衫的女生有19-14=5（人），穿蓝衬衫的女生有18-5=13（人）。同时可填表如下。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">性别</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">蓝衬衫</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">白衬衫</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">合计</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">男生</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">18</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">14</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">32</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">女生</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">13</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">5</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">18</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">合计</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">31</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">19</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">50</td></tr>
+</table>
+<p><b>答：所以，穿蓝衬衫的女生有13人。</b></p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">列表法</span></div>
+<div class="question-title">
+<p>一位老师带48名学生去公园划船，大船限乘5人，每条船租金是30元；小船限乘3人，每条船租金是21元。请问怎样租船最省钱？（如图所示）</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：租船问题既要兼顾"单人价格便宜"，又要兼顾"多余空位尽可能少"。借助列表法可以无遗漏地找到最省钱的租船方案。</i></p>
+<p>（第一步）根据题意列出各种租船方案</p>
+<div style="overflow-x:auto">
+<table style="border-collapse:collapse;margin:10px 0;font-size:13px">
+<tr><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">方案</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">1</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">2</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">3</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">4</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">5</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">6</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">7</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">8</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">9</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">10</th><th style="border:1px solid #ddd;padding:5px 8px;text-align:center;background:#f0f0f0;font-weight:bold">11</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">大船5人（30元）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">10</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">9</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">8</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">7</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">6</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">5</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">4</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">3</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">2</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">1</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">0</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">小船3人（21元）</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">0</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">1</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">3</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">5</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">7</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">8</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">10</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">12</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">13</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">15</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">17</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总座位数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">48</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">49</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">50</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">51</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px 8px;text-align:center;font-weight:bold">总钱数</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">300</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">292</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">303</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">315</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">327</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">318</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">330</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">342</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">333</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">345</td><td style="border:1px solid #ddd;padding:5px 8px;text-align:center">357</td></tr>
+</table>
+</div>
+<p>第二步：比较表中信息可得：租9条大船1条小船最省钱。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">列表法</span></div>
+<div class="question-title">
+<p>在校运动会上，思思参加了4项比赛，A、B、C三人对思思获得冠军的数量猜测如下。</p>
+<p>A：至少获得3项冠军；B：最多获得2项冠军；C：至少获得1项冠军。</p>
+<p>比赛结束后，发现A、B、C三人中只有一人的猜测是对的。</p>
+<p>问：思思获得了几项冠军？</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：可以将思思可能取得的冠军数量和A、B、C三人的预测情况列表</i></p>
+<p>第一步：因为思思共参加了4项比赛，所以思思获得冠军数共有5种情况，分别为0项，1项，2项，3项，4项，再根据题中A、B、C三人的猜测，分别把可能取得的冠军数量情况列出来，填入下表。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">三人预测</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">0项</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">1项</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">2项</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">3项</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">4项</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">A：至少获得3项冠军</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">B：最多获得2项冠军</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">C：至少获得1项冠军</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td></tr>
+</table>
+<p>第二步：分析表中信息可得，"只有一人的猜测是对的"的情况就是思思获得0项冠军，所以只有B说对了。</p>
+<p><b>答：所以，思思获得了0项冠军。</b></p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">列表法</span></div>
+<div class="question-title">某仓库共有货物23吨，现有大、小两种车辆，大车满载为8吨，小车满载为5吨。如果每辆车都满载，大、小车各派几辆能恰好运完这些货物？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans4_1')">查看解析</button></div>
+<div class="hidden-content" id="ans4_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：本题可以先思考其中一种车辆的数量，如先思考大车的数量，根据"货物总数为23吨"可以知道，大车派的数量可能为3辆、2辆、1辆、0辆，再通过列表的方式把每一种情况都列出来。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">派车方案</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">大车（8吨）的数量</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">小车（5吨）的数量</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">可运货物总吨数</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">1</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">3辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">0辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">24吨</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">2</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">2辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">2辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">26吨</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">3</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">1辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">3辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">23吨</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">4</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">0辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">5辆</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">25吨</td></tr>
+</table>
+<p><b>答案：大车派1辆，小车派3辆，恰好运完这些货物。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">列表法</span></div>
+<div class="question-title">校对一份1000页的书稿，页码编号从1到1000，后来发现需将原213~223页提前至185页后186页前，原564~588页提前至400页后401页前，然后重新按顺序编号为1~1000。请问原来200页是现在第几页？现在500页是原来第几页？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans4_2')">查看解析</button></div>
+<div class="hidden-content" id="ans4_2">
+<p><span class="answer-label">解析：</span></p>
+<p>（第一步）列表如下。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">原页码</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">186~212</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">213~223</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">224~400</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">401~563</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">564~588</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">现页码</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">197~223</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">186~196</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">224~400</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">426~588</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">401~425</td></tr>
+</table>
+<p>第二步：答案如下</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">原页码</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">200</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">475</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">现页码</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">211</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">500</td></tr>
+</table>
+<p><b>答案：原200页是现在第211页，现在500页是原来第475页。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">列表法</span></div>
+<div class="question-title">甲、乙、丙、丁四位老师分别教数学、物理、化学、英语。甲老师可以教物理和化学；乙老师可以教数学和英语；丙老师可以教数学和物理；丁老师只能教化学。为了让每位老师都能胜任工作，且每人只教一门学科，怎样安排最合理？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans4_3')">查看解析</button></div>
+<div class="hidden-content" id="ans4_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：把已知信息列成下表</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">学科</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">数学</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">物理</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">化学</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">英语</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">甲</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓②</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">乙</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓④</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">丙</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓③</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">丁</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">✓①</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+</table>
+<p>第二步：观察上表，按①~④的顺序分析：①因为丁只能教化学，所以丁老师安排教化学；②化学已被选走，甲老师只能安排教物理；③物理已被选走，丙老师只能安排教数学；④乙老师安排教英语。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">列表法</span></div>
+<div class="question-title">在一次数学测试中，A、B、C、D、E五名同学获得了前五名。名次公布前，五人对名次进行了猜测。A说："B是第三名，C是第五名。"B说："E是第四名，D是第五名。"C说："A是第一名，E是第四名。"D说："C是第一名，B是第二名。"E说："A是第三名，D是第四名。"测试成绩公布后，发现每个名次都有人猜对。问：五名同学的名次是怎样排列的？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans4_4')">查看解析</button></div>
+<div class="hidden-content" id="ans4_4">
+<p><span class="answer-label">解析：</span></p>
+<p>（第一步）将五名同学猜名次的情况列成下表。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">名次</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">第一名</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">第二名</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">第三名</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">第四名</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">第五名</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">A</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">B</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">C</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">B</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">E</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">D④</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">C</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">A</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">E⑤</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">D</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">C③</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">B①</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">E</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">A②</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">D</td></tr>
+</table>
+<p>（第二步）观察上表，按①~⑤的顺序分析。</p>
+<p>①因为题目告诉我们"每个名次都有人猜对"，从表中"第二名"这列可以看出被猜为第二名的只有B，所以B是第二名；</p>
+<p>②对表中"第三名"这列进行分析，前面已经得出B是第二名，所以B不可能是第三名，那么A就是第三名；</p>
+<p>③对表中"第一名"这列进行分析，前面已经得出A是第三名，所以A不可能是第一名，那么C就是第一名；</p>
+<p>④对表中"第五名"这列进行分析，前面已经得出C是第一名，所以C不可能是第五名，那么D是第五名。</p>
+<p>⑤最后剩下的E就是第四名。</p>
+<p><b>答案：C是第一名，B是第二名，A是第三名，E是第四名，D是第五名。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">列表法</span></div>
+<div class="question-title">五年级共有4个班，每班有两位劳动委员。每次召开五年级劳动委员会议时，每班各派一名劳动委员参加。参加第一次会议的有A、B、C、E；参加第二次会议的有C、D、F、G；参加第三次会议的有B、D、G、H；参加第四次会议的有D、E、F、H。请问：哪两位劳动委员是同班的？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans4_5')">查看解析</button></div>
+<div class="hidden-content" id="ans4_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：将题中信息用下表呈现，标"●"表示这位学生参加了这次会议。</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px">
+<tr><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">学生</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">A</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">B</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">C</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">D</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">E</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">F</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">G</th><th style="border:1px solid #ddd;padding:6px 10px;text-align:center;background:#f0f0f0;font-weight:bold">H</th></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">参加第一次会议</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">参加第二次会议</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">参加第三次会议</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td></tr>
+<tr><td style="border:1px solid #ddd;padding:6px 10px;text-align:center;font-weight:bold">参加第四次会议</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center"></td><td style="border:1px solid #ddd;padding:6px 10px;text-align:center">●</td></tr>
+</table>
+<p>第二步：观察表格，可得到以下结论</p>
+<p>A参加了第一次会议，D参加了第二、三、四次会议，所以A和D同班。</p>
+<p>B参加了第一、三次会议，F参加了第二、四次会议，所以B和F同班。</p>
+<p>C参加了第一、二次会议，H参加了第三、四次会议，所以C和H同班。</p>
+<p>E参加了第一、四次会议，G参加了第二、三次会议，所以E和G同班。</p>
+<p><b>答案：A和D同班，B和F同班，C和H同班，E和G同班。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666"><b>【老师说】</b>列表法的价值在于"让混乱变有序"。设计表格时先想清楚行和列分别代表什么。填完表后别急着下结论，多看几遍，找规律、找异常。列表法和枚举法常常配合使用。<br><br><b>【易错点提醒】</b>①表格设计不合理，信息不完整；②填表时粗心出错；③列表后不会从表中提取规律。总结：列表法通过有序排列信息，使复杂关系一目了然。适用于条件较多、关系复杂的问题。列表时要注意分类标准统一、信息完整，善用表格发现规律和隐含条件。</p>
+
+<!-- ========== 第5章：估算法 ========== -->
+<h2 class="chapter-title" id="ch5">五、估算法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>在解决"大概""够不够""比较大小"等问题时，运用"四舍五入"、"估大"或"估小"来计算的方法称为估算法。估算法主要包括化整估算法、数位估算法、大小比较法等，运用估算法可以起到简化计算、化繁为简的效果。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">估算法</span></div>
+<div class="question-title">
+<p>计算：391×27=（&nbsp;&nbsp;&nbsp;）。</p>
+<p>A.6557&nbsp;&nbsp;&nbsp;B.8557&nbsp;&nbsp;&nbsp;C.10557&nbsp;&nbsp;&nbsp;D.12557</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：题中的乘数391和27可以分别估算成哪两个数呢？</i></p>
+<p>第一步：发现391&lt;400，27&lt;30，所以391×27&lt;12000，排除D选项。</p>
+<p>第二步：联想到"25×4"这个特殊的组合，可得391×27≈400×25=10000。</p>
+<p><b>答：所以选C。</b></p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">估算法</span></div>
+<div class="question-title">
+<p>思思家的客厅长6.1米，宽4.5米，现在要铺地砖，请问准备100块边长为0.5米的正方形地砖够吗？（不计损耗）</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：结合生活实际，地砖是可以切割铺设的，所以要将客厅面积与100块地砖的总面积进行比较。</i></p>
+<p>第一步：在计算客厅面积时，可以把6.1米估小，6.1&gt;6，计算得6×4.5=27（平方米）。</p>
+<p>第二步：100块地砖的面积为0.5×0.5×100=25（平方米）</p>
+<p>第三步：100块地砖最多只能铺设25平方米的地面，客厅面积估小后是27平方米，因此准备100块边长为0.5米的正方形地砖是不够的。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">估算法</span></div>
+<div class="question-title">
+<p>记S=18/60+28/61+38/62+...+158/74，请问S的整数部分是多少？</p>
+<p><b>解题步骤：</b></p>
+<p><i>想一想：求一个数的整数部分，需要确定它在哪两个整数之间，如何借助估算来实现呢？</i></p>
+<p>第一步：由已知可得，各个加数的整数部分之和为1+2+3+…+15=（1+15）/2×15=120。</p>
+<p>第二步：在60，61，62、74这15个分数中，最小的是8/74，最大的是8/60，</p>
+<p>所以，15×8/74&lt;8/60+8/61+8/62+⋯+8/74&lt;15×8/60，</p>
+<p>故1&lt;8/60+8/61+8/62+8/62+...+8/74&lt;2。</p>
+<p><b>答：所以S的整数部分是120+1=121。</b></p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">估算法</span></div>
+<div class="question-title">某校1781名同学和39位老师要坐大巴车外出研学，每辆大巴车可以坐58人，请问安排28辆车够吗？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_1')">查看解析</button></div>
+<div class="hidden-content" id="ans5_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：把车辆数28估成30，把每辆车座位数估成60，可得30×60=1800（个）座位。</p>
+<p>第二步：实际坐车人数为1781+39=1820（人），1820&gt;1800。</p>
+<p>第三步：即使车辆座位估多也不够坐，因此安排28辆车是不够的。</p>
+<p><b>答案：不能。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">估算法</span></div>
+<div class="question-title">思思有一张长8.1分米，宽6.2分米的长方形卡纸，需要裁边长为0.5分米的正方形卡纸，能裁出180块吗？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_2')">查看解析</button></div>
+<div class="hidden-content" id="ans5_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：裁纸时不能拼接所以把长方形的长和宽估小，并取整计算。8.1&gt;8，6.2&gt;6。</p>
+<p>第二步：沿长方形的长边最多可以裁出16块边长为0.5分米的正方形：8÷0.5=16（块）；沿长方形的短边最多可以裁出12块边长为0.5分米的正方形：6÷0.5=12（块）。</p>
+<p>第三步：因为16×12=192&gt;180，所以能裁出180块。</p>
+<p><b>答案：能。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">估算法</span></div>
+<div class="question-title">在某次校园合唱比赛中，11个班级的平均分四舍五入到十位是87.9分，且每班的得分都是整数，请问这11个班级的总分是多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_3')">查看解析</button></div>
+<div class="hidden-content" id="ans5_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：记总分为S，则87.85≤S/11≤87.95。</p>
+<p>第二步：可得966.35≤S&lt;967.45，所以总分是967分。</p>
+<p><b>答案：967分</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">估算法</span></div>
+<div class="question-title">老师在黑板上从1开始写了若干个连续自然数：1，2，3，...，21，后来擦掉其中连续的两个数，计算剩下数的平均数保留两位小数后是10.74。请问老师擦掉的两个数分别是多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_4')">查看解析</button></div>
+<div class="hidden-content" id="ans5_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：因为平均数为10.74，计算（1+2+3+…+21）÷21=（1+21）×21÷2÷21=231÷21=11；</p>
+<p>第二步：因为10.74&lt;11，所以擦掉的两个数至少有一个大于11；</p>
+<p>第三步：当从求和式中擦掉11，12后，平均数为（231-11-12）÷19≈10.95，不符合要求；</p>
+<p>第四步：当从求和式中擦掉12,13后，平均数为（231-12-13）÷19≈10.84，不符合要求；</p>
+<p>第五步：当从求和式中擦掉13,14后，平均数为（231-13-14）÷19≈10.74，符合要求。</p>
+<p><b>答案：擦掉的两个数分别是13和14</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">估算法</span></div>
+<div class="question-title">算式1/（1/10+1/11+...+1/28+1/29），计算结果的整数部分是多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans5_5')">查看解析</button></div>
+<div class="hidden-content" id="ans5_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：观察分母部分，计算1/10+1/29=39/（10×29），1/11+1/28=39/（11×28），1/12+1/27=39/（12×27），……，1/19+1/20=39/（19×20）。</p>
+<p>第二步：所以10×39/（19×20）&lt;1/10+1/29+1/11+1/28+1/12+1/27+...+1/19+1/20&lt;10×39/（10×29），即39/38&lt;1/10+1/29+1/11+1/28+1/12+1/27+...+1/19+1/20&lt;39/29。</p>
+<p>第三步：计算发现分母部分为假分数，1除以假分数的结果肯定是真分数，真分数小于1，所以算式的整数部分是0。</p>
+<p><b>答案：0。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666"><b>【老师说】</b>估算不是"差不多就行"，而是有策略的近似。常用技巧：取整、四舍五入、放大缩小。估算在选择题中特别有用，能快速排除明显错误的选项。培养数感从估算开始。<br><br><b>【易错点提醒】</b>①估算时误差过大，方向判断出错；②忘记估算结果是近似值；③估算和精算混淆。</p>
+
+
+<!-- ========== 第六章：倒推法 ========== -->
+<h2 class="chapter-title" id="ch6">六、倒推法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>从结果出发，运用加法与减法、乘法与除法之间的互逆关系，通过逆推找到最初的数据，这种解决问题的方法称为倒推法，又称为还原法。倒推法常用于解答还原问题，在解答过程中，还可以和线段图、列表法结合。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">倒推法</span></div>
+<div class="question-title">袋子里有一些球，思思每次拿出其中的一半再放回一个球，这样共操作了3次，袋中还有5个球。请问袋中原来有多少个球？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex6_1')">查看解析</button></div>
+<div class="hidden-content" id="ex6_1">
+<p><span class="answer-label">解析：</span></p>
+<p><i>想一想：操作次数比较多的时候，可以用倒推法来解决问题。</i></p>
+<img src="images/ch6_ex1_balls.svg" alt="袋球倒推示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：第2次操作后袋子中的球数为(5-1)×2=8。</p>
+<p>第二步：第1次操作后袋子中的球数为(8-1)×2=14。</p>
+<p>第三步：袋子原来的球数为(14-1)×2=26。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">倒推法</span></div>
+<div class="question-title">甲、乙两桶油各有若干千克，如果要从甲桶中倒出和乙桶同样多的油放入乙桶，再从乙桶中倒出和甲桶同样多的油放入甲桶，这时两桶油恰好都是36千克。问两桶油原来各有多少千克？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex6_2')">查看解析</button></div>
+<div class="hidden-content" id="ex6_2">
+<p><span class="answer-label">解析：</span></p>
+<p><i>想一想：乙桶倒入甲桶多少千克呢？</i></p>
+<p>第一步：乙桶倒入甲桶之前（第一次倒油后）甲桶应有油36÷2=18（千克），乙桶应有油36+18=54（千克）。</p>
+<p>第二步：乙桶原有油应为54÷2=27（千克），甲桶原有油18+27=45（千克）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">倒推法</span></div>
+<div class="question-title">某筑路队修路，第一天修了全长的1/5多100米，第二天修了余下的2/7，还剩500米。这段公路全长多少米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex6_3')">查看解析</button></div>
+<div class="hidden-content" id="ex6_3">
+<p><span class="answer-label">解析：</span></p>
+<p><i>想一想："500米"占"第一天修路后余下"的几分之几？</i></p>
+<p>第一步：第一天修路后还剩的长度为500÷(1－2/7)=700（米）。</p>
+<p>第二步：这段公路全长为(700+100)÷(1－1/5)=1000（米）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例4.</span><span class="example-tag">倒推法</span></div>
+<div class="question-title">一筐鸡蛋，第一次拿出全部的一半多1个，第二次拿出余下的一半多2个，第三次拿出再余下的一半多3个，筐里还剩1个鸡蛋。筐里原来有多少个鸡蛋？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex6_4')">查看解析</button></div>
+<div class="hidden-content" id="ex6_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：第三次拿之前，筐里有(1+3)×2=8（个）。</p>
+<p>第二步：第二次拿之前，筐里有(8+2)×2=20（个）。</p>
+<p>第三步：第一次拿之前，筐里有(20+1)×2=42（个）。</p>
+<p><b>答案：原来有42个鸡蛋。</b></p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">倒推法</span></div>
+<div class="question-title">某数加上6，再乘6，减去6，除以6，结果等于6，这个数是多少？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans6_1')">查看解析</button></div>
+<div class="hidden-content" id="ans6_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：除以6之前的数是6×6=36；</p>
+<p>第二步：减去6之前的数是36+6=42；</p>
+<p>第三步：乘以6之前的数是42÷6=7；</p>
+<p>第四步：加6之前是7－6=1。</p>
+<p><b>答案：这个数等于1。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">倒推法</span></div>
+<div class="question-title">把一根绳子对半剪开，再取其中一段对半剪开，这样操作了四次，剩下的正好是1米。这根绳子原来长多少米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans6_2')">查看解析</button></div>
+<div class="hidden-content" id="ans6_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：从最后的结果1米逐步倒推，可知剪3次后剩下的绳子长为2米；</p>
+<p>第二步：依此类推，可知绳子原来的长度为1×2×2×2×2=16（米）。</p>
+<p><b>答案：16米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">倒推法</span></div>
+<div class="question-title">思思和想想各有画片若干张，如果思思拿出和想想同样多的画片送给想想，想想再拿出和思思同样多的画片送给思思，这时两人都有24张画片。请问思思和想想原来各有画片多少张？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans6_3')">查看解析</button></div>
+<div class="hidden-content" id="ans6_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：在想想给思思画片之前，思思有画片24÷2=12（张），想想有画片24+12=36（张）。</p>
+<p>第二步：在思思给想想画片之前，想想有画片36÷2=18（张），思思原有画片12+18=30（张）。</p>
+<p><b>答案：思思有30张，想想有18张。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">倒推法</span></div>
+<div class="question-title">一批水泥，第一天用去全部的1/2多1吨，第二天用去余下的1/3少2吨，还剩下16吨。原来这批水泥有多少吨？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans6_4')">查看解析</button></div>
+<div class="hidden-content" id="ans6_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：第一天用去后还剩(16－2)÷(1－1/3)=21（吨）。</p>
+<p>第二步：这批水泥原有(21+1)÷1/2=44（吨）。</p>
+<p><b>答案：44吨。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">倒推法</span></div>
+<div class="question-title">仓库里存有粮食若干吨，第一次运出总数的1/2又4吨，第二次运出余下的1/2又3吨，第三次运出余下的1/2又5吨，最后还剩下12吨。请问这个仓库原有粮食多少吨？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans6_5')">查看解析</button></div>
+<div class="hidden-content" id="ans6_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：第二次运出后还剩(12+5)÷(1－1/2)=34（吨）。</p>
+<p>第二步：第一次运出后还剩(34+3)÷(1－1/2)=74（吨）。</p>
+<p>第三步：原有粮食(74+4)÷(1－1/2)=156（吨）。</p>
+<p><b>答案：156吨。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>倒推法的关键是"逆向思维"。建议用表格记录每一步的变化，从最后一步开始逐步还原。特别注意：倒推时原来的加法变减法，乘法变除法，反之亦然。画图或列表能大大降低出错率。<br><br>
+<b>【易错点提醒】</b>①逆运算做错（加变减、乘变除搞混方向）；②漏掉某一步操作；③操作顺序搞反。
+</p>
+
+<!-- ========== 第七章：排除法 ========== -->
+<h2 class="chapter-title" id="ch7">七、排除法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>排除法是指在所有的可能结果中，把一切错误的结果排除，剩余正确结果的一种方法。</p>
+<p>排除法在选择题和推理问题中运用较多，能排除问题中的冗余信息或者选项中的错误选项，把一些无关的问题予以排除，缩小选择范围，快速明确答案。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">排除法</span></div>
+<div class="question-title">在计算首都体育馆比赛大厅的占地面积时，思思列出了一个三位数乘两位数的算式：1□2×□9（单位：米），那么首都体育馆比赛大厅的占地面积可能是（&nbsp;）平方米。<br>A.1738&nbsp;&nbsp;&nbsp;&nbsp;B.11036&nbsp;&nbsp;&nbsp;&nbsp;C.11088&nbsp;&nbsp;&nbsp;&nbsp;D.27068</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex7_1')">查看解析</button></div>
+<div class="hidden-content" id="ex7_1">
+<p><span class="answer-label">解析：</span></p>
+<p><i>想一想：1□2×□9的计算结果是几位数？个位上应该是几？</i></p>
+<p>第一步：1□2×□9的个位上应该是8，排除B选项。</p>
+<p>第二步：12×9&lt;200×100=20000，排除D选项。</p>
+<p>第三步：12×9≥102×19=1938，排除A选项。</p>
+<p>第四步：所以选C。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">排除法</span></div>
+<div class="question-title">在下图所示的方格中，每行、每列都恰好是1，2，3，4这四个数，请问A处应该填什么数呢？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex7_2')">查看解析</button></div>
+<div class="hidden-content" id="ex7_2">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch7_ex2_grid.svg" alt="4×4方格数独图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><i>想一想：11个未知的方格中，从哪一个入手能找到突破口呢？</i></p>
+<p>第一步：设第2行第1列的数为B，发现B所在的行有2，所在的列有1和3，所以B只能是4。</p>
+<p>第二步：因为A所在的行有2，4，所在的列有3，所以A就是1。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">排除法</span></div>
+<div class="question-title">在一次围棋比赛中，获得前四名的选手分别是甲、乙、丙、丁，没有并列第一。甲说："丁是冠军。"乙说："我是冠军。"丙说："甲不是冠军。"丁说："我不是冠军。"已知他们四人中只有一人说了真话。你知道冠军是谁吗？请说明理由。</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ex7_3')">查看解析</button></div>
+<div class="hidden-content" id="ex7_3">
+<p><span class="answer-label">解析：</span></p>
+<p><i>想一想：如果某两个人说的话互相矛盾，能得出什么结论？</i></p>
+<p>第一步：根据甲说的"丁是冠军"和丁说的"我不是冠军"可以看出两人的话相互矛盾，那么甲和丁的话一真一假。</p>
+<p>第二步：因为只有一个人说了真话，所以乙和丙都说了假话，根据"丙说的'甲不是冠军'"为假，可知冠军是甲。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">排除法</span></div>
+<div class="question-title">计算237×□5，积可能是（&nbsp;）。<br>A.1785&nbsp;&nbsp;&nbsp;&nbsp;B.8295&nbsp;&nbsp;&nbsp;&nbsp;C.11975&nbsp;&nbsp;&nbsp;&nbsp;D.23625</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans7_1')">查看解析</button></div>
+<div class="hidden-content" id="ans7_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：237×□5＞200×15＞3000，排除A选项；</p>
+<p>第二步：237×□5＜200×95＜22800，排除D选项；</p>
+<p>第三步：因为237为3的倍数，而11975不是3的倍数，排除C选项。</p>
+<p><b>答案：选B。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">排除法</span></div>
+<div class="question-title">将点数从1到9的九张纸牌背面朝上放在桌面上，甲、乙、丙、丁四人每人从中抽取两张牌。甲说："我手中的两张牌点数之和是8。"乙说："我手中的两张牌点数之差是4。"丙说："我手中的两张牌点数之积是24。"丁说："我手中的两张牌点数之商是4。"你知道乙手中的两张牌的点数吗？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans7_2')">查看解析</button></div>
+<div class="hidden-content" id="ans7_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：丙的两张牌点数之积是24，只有"3×8"和"4×6"两种可能。</p>
+<p>第二步：假设丙拿的是3和8，那么丁拿的是1和4。考虑剩下的2，5，6，7，9，甲拿的是2和6，乙拿的是5和9。</p>
+<p>第三步：假设丙拿的是4和6，那么丁拿的是2和8。考虑剩下的1，3，5，7，9，甲拿的是1和7或者3和5。如果甲拿的是3和5，那么1，7，9这三张牌中没有两张牌点数之差是4，所以甲拿的是1和7，乙拿的是5和9。</p>
+<p><b>答案：综上所述，乙手中的两张牌点数是5和9。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">排除法</span></div>
+<div class="question-title">A，B，C，D，E五个同学一起参加象棋比赛，每两人要比赛一盘。到现在为止，A已经比赛了4盘，B比赛了3盘，C比赛了2盘，E比赛了1盘，你知道D现在比赛了几盘吗？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans7_3')">查看解析</button></div>
+<div class="hidden-content" id="ans7_3">
+<p><span class="answer-label">解析：</span></p>
+<img src="images/ch7_ch3_chess.svg" alt="象棋比赛连线图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第一步：5个人进行象棋比赛，那么每人最多下4盘，根据A下了4盘为突破口连线。</p>
+<p>第二步：A和B，C，D，E各下了1盘。E只下了1盘，是和A下的。B下了3盘，没有和E下，所以是和A，C，D下的。C下了2盘，是和A，B下的。</p>
+<p>第三步：因为A和D下了1盘，B和D下了1盘，所以D下了2盘。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">排除法</span></div>
+<div class="question-title">甲、乙、丙三人参加跳高、跳远和跳绳比赛。根据下面的条件判断他们各参加什么项目的比赛。(1)甲没有参加跳高比赛；(2)乙参加了跳绳比赛；(3)每人参加两个项目的比赛；(4)每个项目的比赛中有他们三人中的两人。他们三人各参加什么项目的比赛？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans7_4')">查看解析</button></div>
+<div class="hidden-content" id="ans7_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：根据条件(1)和条件(2)列表得到：</p>
+<table style="border-collapse:collapse;margin:10px 0">
+<tr><td style="border:1px solid #ccc;padding:5px 10px">项目</td><td style="border:1px solid #ccc;padding:5px 10px">跳高</td><td style="border:1px solid #ccc;padding:5px 10px">跳远</td><td style="border:1px solid #ccc;padding:5px 10px">跳绳</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px 10px">甲</td><td style="border:1px solid #ccc;padding:5px 10px">✕</td><td style="border:1px solid #ccc;padding:5px 10px"></td><td style="border:1px solid #ccc;padding:5px 10px"></td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px 10px">乙</td><td style="border:1px solid #ccc;padding:5px 10px"></td><td style="border:1px solid #ccc;padding:5px 10px"></td><td style="border:1px solid #ccc;padding:5px 10px">✓</td></tr>
+</table>
+<p>第二步：再根据条件(3)和条件(4)可知丙不参加跳绳，参加了跳高和跳远，乙还参加了跳高。</p>
+<table style="border-collapse:collapse;margin:10px 0">
+<tr><td style="border:1px solid #ccc;padding:5px 10px">项目</td><td style="border:1px solid #ccc;padding:5px 10px">跳高</td><td style="border:1px solid #ccc;padding:5px 10px">跳远</td><td style="border:1px solid #ccc;padding:5px 10px">跳绳</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px 10px">甲</td><td style="border:1px solid #ccc;padding:5px 10px">✕</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px 10px">乙</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td><td style="border:1px solid #ccc;padding:5px 10px">✕</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px 10px">丙</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td><td style="border:1px solid #ccc;padding:5px 10px">✓</td><td style="border:1px solid #ccc;padding:5px 10px">✕</td></tr>
+</table>
+<p><b>答案：甲参加了跳远和跳绳，乙参加了跳高和跳绳，丙参加了跳高和跳远。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">排除法</span></div>
+<div class="question-title">有三个盒子，第一个盒子里装了两个5g的红球；第二个盒子里装了两个6g的红球；第三个盒子里装了一个5g的红球和一个6g的红球。每个盒子外面贴的标有球的质量的标签都是错的。聪明的思思只从一个盒子里取出一个红球，放在天平上称一下，就把所有的标签都改正过来了。你知道他是怎样做的吗？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans7_5')">查看解析</button></div>
+<div class="hidden-content" id="ans7_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：从标有"一个5g的红球和一个6g的红球"的盒子里拿一个红球称一下。</p>
+<p>第二步：若称出该球重6g，则此盒子里装的是两个6g的红球；标有"两个6g红球"的盒子里装的是两个5g的红球；标有"两个5g红球"的盒子里装的是一个5g的红球和一个6g的红球。</p>
+<p>第三步：若称出该球重5g，则此盒子里装的是两个5g的红球；标有"两个5g红球"的盒子里装的是两个6g的红球；标有"两个6g红球"的盒子里装的是一个5g的红球和一个6g的红球。</p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>排除法在选择题和推理题中特别好用。关键是要确保排除的依据充分可靠。排除后一定要验证剩下的答案是否满足所有条件。有时候正面做不出来，排除法就是你的救命稻草。<br><br>
+<b>【易错点提醒】</b>①排除不彻底，遗漏某些可能性；②排除的依据不充分；③排除后忘记确认剩下的选项。
+</p>
+
+
+<!-- ========== 第八章：平移法 ========== -->
+<h2 class="chapter-title" id="ch8">八、平移法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>利用平移变换及其性质解决问题的方法称为平移法。</p>
+<p>运用平移法可以将较复杂图形转化为基本图形，从而有效解决周长和面积等问题。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">平移法</span></div>
+<div class="question-title">
+<p>计算右图的周长。（单位：厘米）</p>
+<img src="images/ch8_ex1_translate.svg" alt="阶梯形图形，通过平移转化为长方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：能否通过平移转化成一个基本图形？</i></p>
+<p>第一步：如图，通过边的平移将图1转化成图2，这个不规则图形就转化为一个长方形。原图形的周长就转化为长30厘米、宽20厘米的长方形的周长。</p>
+<p>第二步：该图形的周长为(30+20)×2=100（厘米）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">平移法</span></div>
+<div class="question-title">
+<p>如图，在一块长32米、宽26米的绿地上，有一条宽2米的小路。请计算这条小路的面积。</p>
+<img src="images/ch8_ex2_path.svg" alt="长方形绿地中有一条宽2米的小路" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：如何将不规则小路转化成规则小路？</i></p>
+<p>第一步：如图1，把小路进行分割，然后分别向左、向下平移，得到图2。</p>
+<p>第二步：用大长方形的面积减去小长方形的面积，得到小路的面积。</p>
+<p>第三步：这条小路的面积为32×26-(32-2)×(26-2)=112（平方米）。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">平移法</span></div>
+<div class="question-title">
+<p>如图，平行线CD和EF表示河的两岸，点A、B表示隔河相望的两个村镇，要在河上架一座桥（桥与河岸垂直），请作图确定架桥的位置，使两个村镇之间的路程最短。</p>
+<img src="images/ch8_ex3_bridge.svg" alt="河两岸A、B村镇架桥位置图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：两点之间线段最短，如何运用？</i></p>
+<p>第一步：将点A向下平移河的宽度至A₁。</p>
+<p>第二步：连结线段A₁B与河岸线EF相交于点N，作MN垂直于河岸线CD，则MN为架桥的位置。</p>
+<p>第三步：最短路程为AM+MN+BN，即AA₁+A₁B。</p>
+<p>本题中，也可以将点B向上平移河的宽度至点B₁。连结AB₁，与河岸线CD的交点就是M。</p>
+<p>如何说明AM+MN+NB为最短路程？可以假设另外一座桥M₁N₁（点M₁在CD上，点N₁在EF上），则AM₁+M₁N₁+N₁B=A₁N₁+AA₁+N₁B＞AA₁+A₁B=AM+MN+NB。</p>
+<img src="images/ch8_ex3_solution.svg" alt="架桥位置解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">平移法</span></div>
+<div class="question-title">两个相同的长方形，它们的长和宽分别是9厘米和4厘米，如下图重叠，该图形的周长是____。</div>
+<img src="images/ch8_ch1_overlap.svg" alt="两个长方形重叠" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans8_1')">查看解析</button></div>
+<div class="hidden-content" id="ans8_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：将该图形的边平移得到一个边长为9厘米的正方形；</p>
+<p>第二步：周长为9×4=36（厘米）。</p>
+<p><b>答案：36厘米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">平移法</span></div>
+<div class="question-title">如图是由7个边长为1厘米的小正方形组成的图形，求此图形的周长。</div>
+<img src="images/ch8_ch2_squares.svg" alt="7个小正方形组成图形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans8_2')">查看解析</button></div>
+<div class="hidden-content" id="ans8_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：将图1中的几条边平移得到图2；</p>
+<img src="images/ch8_ch2_transform.svg" alt="平移转化图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：所求图形的周长就转化成一个长4厘米、宽3厘米的长方形的周长与2条1厘米的线段的和；</p>
+<p>第三步：计算周长为（4+3）×2+2×1=16（厘米）。</p>
+<p><b>答案：16厘米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">平移法</span></div>
+<div class="question-title">如图，该图形的周长是____。（单位：厘米）</div>
+<img src="images/ch8_ch3_irregular.svg" alt="不规则图形周长图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans8_3')">查看解析</button></div>
+<div class="hidden-content" id="ans8_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：分别按箭头方向向上、向左、向右平移，得到长是20厘米，宽是15厘米的长方形，以及8条长度为3厘米的边。如图所示：</p>
+<img src="images/ch8_ch3_transform.svg" alt="平移转化示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：计算长方形的周长，再计算没有移动的8条长度为3厘米的边，得到原图形的周长为（20+10+8－3）×2+3×8=94（厘米）。</p>
+<p><b>答案：94厘米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">平移法</span></div>
+<div class="question-title">如图，某公园的长方形草坪里有一条宽1米的曲折小路。请问草坪的实际面积有多大？</div>
+<img src="images/ch8_ch4_path.svg" alt="曲折小路平移图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans8_4')">查看解析</button></div>
+<div class="hidden-content" id="ans8_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：按行进方向将曲折小路分割成两类，一类是"横"的（左右方向行进的），一类是"竖"的（上下方向行进的），可以把"横"的移到最上端，"竖"的移动到最左端。</p>
+<img src="images/ch8_ch4_path_transform.svg" alt="小路平移转化图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：平移后的草坪相当于一个长11米、宽9米的长方形。</p>
+<p>第三步：所以草坪的实际面积为11×9=99（平方米）。</p>
+<p><b>答案：99平方米。</b></p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">平移法</span></div>
+<div class="question-title">如图，在六边形ABCDEF中，已知三组对边分别平行，且AB-DE=CD-AF=EF-BC＞0，求∠B的度数。</div>
+<img src="images/ch8_ch5_hexagon.png" alt="六边形ABCDEF示意图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans8_5')">查看解析</button></div>
+<div class="hidden-content" id="ans8_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：如图，将AB，CD，EF分别平移至QC，SE，PA处，可围成△SPQ。</p>
+<img src="images/ch8_ch5_hexagon_solution.png" alt="六边形平移解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：由题意AB-DE=CD-AF=EF-BC可知，SQ=SP=QP，得到△SPQ为等边三角形，故∠SQP=60°，于是可知∠AQC=120°。</p>
+<p>第三步：由平行四边形对角相等得∠B=∠AQC=120°。</p>
+<p><b>答案：∠B=120°。</b></p>
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>平移法的精髓是"化零为整"。把分散的线段通过平移拼到一起，就能看出整体的形状。求不规则图形的周长时，平移法特别管用。记住：平移不改变长度和角度。<br><br>
+<b>【易错点提醒】</b>①平移方向搞错；②平移后忘记保持长度/面积不变；③不规则图形的平移路径画错。
+</p>
+
+<!-- ========== 第九章：剪拼法 ========== -->
+<h2 class="chapter-title" id="ch9">九、剪拼法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>将一个或者多个图形先剪切，再拼成指定图形的方法称为剪拼法。</p>
+<p>应用剪拼法时要抓住"剪、拼前后图形的面积相等"这个关键点，并根据剪拼前后图形的特点，通过分析推理和必要的计算，确定剪拼的方案。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">剪拼法</span></div>
+<div class="question-title">
+<p>对任意三角形，请设计一种方案，将它分成若干块，再拼成一个与原三角形面积相等的长方形（如图所示）。</p>
+<img src="images/ch9_ex1_problem.png" alt="三角形剪拼长方形问题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p><b>解析：</b></p>
+<p><i>想一想：能否从直角三角形的剪拼入手找到任意三角形的剪拼方案？</i></p>
+<p>第一步：设任意三角形ABC，如图剪切。</p>
+<img src="images/ch9_ex1_step1.png" alt="三角形剪切步骤图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：如图，拼成长方形。</p>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">剪拼法</span></div>
+<div class="question-title">
+<p>如图，长方形的长和宽分别为9厘米和4厘米。请把它剪成大小、形状都相同的两块，再拼成一个正方形。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：长方形的面积是9×4=36（平方厘米）。正方形的面积与长方形面积相等，其边长应为6厘米。怎么剪拼让图形变成边长为6厘米的正方形呢？</i></p>
+<p>第一步：如图所示剪开。</p>
+<img src="images/ch9_ex2_step1.png" alt="长方形剪开步骤图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<p>第二步：如图所示拼合。</p>
+<img src="images/ch9_ex2_solution.jpg" alt="拼成正方形结果图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">剪拼法</span></div>
+<div class="question-title">
+<p>两个边长分别为3厘米和4厘米的正方形，它们拼成了如图所示的组合图形。你能将该组合图形剪两刀，再拼成一个大正方形吗？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：大正方形的边在哪里呢？</i></p>
+<p>方法1：</p>
+<p>第一步：因为3×3+4×4=25（平方厘米），所以大正方形的边长为5厘米。</p>
+<p>第二步：在线段BE上取点M，使BM=2厘米，EM=5厘米。</p>
+<p>第三步：在线段AB上取点N，使AN=1厘米，NB=3厘米。</p>
+<p>第四步：如图，沿MP、NH剪开，将长方形ANHP和长方形BMHN放右上方的空白处，则正方形MEQK为拼成的大正方形。</p>
+<p>方法2：</p>
+<p>第一步：在线段BE上取点M，使BM=3厘米，EM=4厘米。</p>
+<p>第二步：直角三角形ABM和直角三角形MEF的形状大小都一样，它们斜边AM和MF长度相等且互相垂直，可以作为大正方形的边。</p>
+<p>第三步：沿AM、MF剪开，将三角形ABM绕点A逆时针旋转90°到三角形ADN处，将三角形MEF绕点F顺时针旋转90°到三角形NGF处，得到正方形AMFN。</p>
+<p>本题的方法2具有一般性，对任意边长的两个正方形，都可以拼成一个大正方形。进一步可以得到结论：任意n个正方形可以剪拼成一个大正方形。</p>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">把一个正方形分成两块，再拼成一个直角三角形。请设计两种不同的剪拼方案。</div>
+<img src="images/ch9_ch1_problem.png" alt="正方形剪拼直角三角形问题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_1')">查看解析</button></div>
+<div class="hidden-content" id="ans9_1">
+<p><span class="answer-label">解析：</span></p>
+<p>方法1：</p>
+<p>第一步：沿着对角线剪开，得到两个相同的三角形。</p>
+<p>第二步：如图，拼成一个直角三角形。</p>
+<p>方法2：</p>
+<p>第一步：将线段BC上的中点M与D相连，沿着线段MD剪开。</p>
+<p>第二步：如图，拼成一个直角三角形。</p>
+
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">请将下图分割成相同形状的四块，然后拼成一个正方形。</div>
+<img src="images/ch9_ch2_problem.png" alt="不规则图形分成四块拼成正方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_2')">查看解析</button></div>
+<div class="hidden-content" id="ans9_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：一共有16块小正方形，剪拼后的图形是4×4的正方形。每一块相同形状的部分由4块小正方形组成；</p>
+<p>第二步：根据下图方式剪成4块，拼成一个正方形。</p>
+<img src="images/ch9_ch2_solution.png" alt="分成四块拼成正方形解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">一个长方形的长和宽分别是50厘米和32厘米。请把这个长方形剪成两块，再拼成一个正方形。</div>
+<img src="images/ch9_ch3_problem.png" alt="长方形剪拼正方形问题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_3')">查看解析</button></div>
+<div class="hidden-content" id="ans9_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：长方形的面积为50×32=1600（平方厘米），拼成的正方形面积与长方形的面积相等，所以正方形的边长为40厘米。</p>
+<p>第二步：将长方形按下图方式剪开，拼成一个正方形。</p>
+<img src="images/ch9_ch3_solution.png" alt="长方形剪拼正方形解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">如图，在一个边长为5厘米的正方形正中间挖去一个边长为1厘米的小正方形。请把这个图形剪成2块，拼成一个长方形。</div>
+<img src="images/ch9_ch4_problem.png" alt="正方形挖去小正方形的图形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_4')">查看解析</button></div>
+<div class="hidden-content" id="ans9_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：剪拼后长方形的面积是24平方厘米。只剪成两块，长方形的长和宽尽量和正方形边长相近。那么长方形长为6厘米，宽为4厘米。</p>
+<p>第二步：将正方形按下图方式剪开，拼成一个长方形。</p>
+<img src="images/ch9_ch4_solution.png" alt="剪拼长方形解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">如图，在一个边长为5厘米的正方形正中间挖去一个边长为1厘米的小正方形。请把这个图形剪成2块，拼成一个长方形。</div>
+<img src="images/ch9_ch5_problem.jpg" alt="边长5厘米正方形中间挖去1厘米小正方形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_5')">查看解析</button></div>
+<div class="hidden-content" id="ans9_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：剪拼后长方形的面积是24平方厘米。只剪成两块，长方形的长和宽尽量和正方形边长相近。那么长方形长为6厘米，宽为4厘米。</p>
+<p>第二步：将正方形按下图方式剪开，拼成一个长方形。</p>
+<img src="images/ch9_ch5_solution.png" alt="剪拼长方形解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战6.</span><span class="tag">剪拼法</span></div>
+<div class="question-title">如图，一个长方形左上角缺少一个2×3的小长方形。请把这个图形分成三部分，再拼成一个正方形。</div>
+<img src="images/ch9_ch6_problem.png" alt="左上角缺2×3小长方形的不规则图形" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans9_6')">查看解析</button></div>
+<div class="hidden-content" id="ans9_6">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：这个图形可以看成是由2×2和5×5的两个正方形组成的。</p>
+<p>第二步：如图，在线段BC上取点M，使BM=5，CM=2。</p>
+<p>第三步：直角三角形ABM和直角三角形MCD的形状大小都一样，它们的斜边AM和MD长度相等且互相垂直，可以作为大正方形的边。</p>
+<p>第四步：沿AM、MD剪开，将三角形ABM绕点A逆时针旋转90°到三角形AFN处，将三角形MCD绕点D顺时针旋转90°到三角形NED处，得到正方形AMDN。</p>
+<img src="images/ch9_ch6_solution.png" alt="分成三部分拼成正方形解题图" style="max-width:100%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+</div>
+</div>
+
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #95a5a6;color:#666">
+<b>【老师说】</b>剪拼法体现了"等积变换"的思想。关键原则：剪拼前后总面积不变。选择剪切线时，尽量使每个部分都是三角形或矩形等规则图形。多动手剪纸操作，培养空间想象力。<br><br>
+<b>【易错点提醒】</b>①剪拼过程中面积守恒被破坏；②剪切线选得不合理，拼不出规则图形；③计算面积时单位搞混。
+</p>
+
+<div class="footer">
+<p>小学奥数解题思维方法培训教材 - 思维挑战交互版</p>
+<p>本页面支持打印功能（按Ctrl+P），打印时解析内容会自动展开</p>
+</div>
+
+</div>
+<script>
+function toggleAnswer(id){var el=document.getElementById(id);el.classList.toggle('show')}
+</script>
+</body>
+</html>
