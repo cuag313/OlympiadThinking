@@ -1,0 +1,97 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220">
+  <style>text { font-family: "Microsoft YaHei", sans-serif; font-size: 13px; fill: #333; }</style>
+  <!-- Problem figure style: two separate containers, connected by two parallel lines at 6cm.
+       Scale: bottom y=180, 1cm=16px. 3cm=y=132, 4cm=y=116, 5cm=y=100, 6cm=y=84.
+       Container width=50, gap between=30. -->
+
+  <!-- ===== Panel 1 (x=5): A=4cm, B=3cm ===== -->
+  <g transform="translate(5,10)">
+    <!-- Container A: left wall, bottom, right wall (gap at pipe y=80-88) -->
+    <line x1="30" y1="30" x2="30" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="30" y1="180" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="30" x2="80" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="88" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <!-- Container B: right wall, bottom, left wall (gap at pipe) -->
+    <line x1="160" y1="30" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="180" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="30" x2="110" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="88" x2="110" y2="180" stroke="#333" stroke-width="2.5"/>
+    <!-- Pipe: two parallel lines -->
+    <line x1="80" y1="80" x2="110" y2="80" stroke="#333" stroke-width="2"/>
+    <line x1="80" y1="88" x2="110" y2="88" stroke="#333" stroke-width="2"/>
+    <!-- Water A=4cm: y=116 to y=180 -->
+    <rect x="32" y="116" width="46" height="64" fill="rgba(100,149,237,0.5)"/>
+    <!-- Water B=3cm: y=132 to y=180 -->
+    <rect x="112" y="132" width="46" height="48" fill="rgba(230,126,34,0.4)"/>
+    <!-- Labels -->
+    <text x="55" y="55" text-anchor="middle">A</text>
+    <text x="135" y="55" text-anchor="middle">B</text>
+    <!-- Scale -->
+    <line x1="20" y1="132" x2="30" y2="132" stroke="#999" stroke-width="1"/>
+    <text x="15" y="136" text-anchor="end">3</text>
+    <line x1="20" y1="116" x2="30" y2="116" stroke="#999" stroke-width="1"/>
+    <text x="15" y="120" text-anchor="end">4</text>
+    <line x1="20" y1="100" x2="30" y2="100" stroke="#999" stroke-width="1"/>
+    <text x="15" y="104" text-anchor="end">5</text>
+    <line x1="20" y1="84" x2="30" y2="84" stroke="#999" stroke-width="1"/>
+    <text x="15" y="88" text-anchor="end">6</text>
+    <text x="95" y="200" text-anchor="middle">图1</text>
+  </g>
+
+  <!-- ===== Panel 2 (x=185): A=4cm, B=5cm ===== -->
+  <g transform="translate(185,10)">
+    <line x1="30" y1="30" x2="30" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="30" y1="180" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="30" x2="80" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="88" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="160" y1="30" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="180" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="30" x2="110" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="88" x2="110" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="80" x2="110" y2="80" stroke="#333" stroke-width="2"/>
+    <line x1="80" y1="88" x2="110" y2="88" stroke="#333" stroke-width="2"/>
+    <rect x="32" y="116" width="46" height="64" fill="rgba(100,149,237,0.5)"/>
+    <!-- Water B=5cm: y=100 to y=180 -->
+    <rect x="112" y="100" width="46" height="80" fill="rgba(230,126,34,0.4)"/>
+    <text x="55" y="55" text-anchor="middle">A</text>
+    <text x="135" y="55" text-anchor="middle">B</text>
+    <line x1="20" y1="132" x2="30" y2="132" stroke="#999" stroke-width="1"/>
+    <text x="15" y="136" text-anchor="end">3</text>
+    <line x1="20" y1="116" x2="30" y2="116" stroke="#999" stroke-width="1"/>
+    <text x="15" y="120" text-anchor="end">4</text>
+    <line x1="20" y1="100" x2="30" y2="100" stroke="#999" stroke-width="1"/>
+    <text x="15" y="104" text-anchor="end">5</text>
+    <line x1="20" y1="84" x2="30" y2="84" stroke="#999" stroke-width="1"/>
+    <text x="15" y="88" text-anchor="end">6</text>
+    <text x="95" y="200" text-anchor="middle">图2</text>
+  </g>
+
+  <!-- ===== Panel 3 (x=365): A=5cm, B=6cm ===== -->
+  <g transform="translate(365,10)">
+    <line x1="30" y1="30" x2="30" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="30" y1="180" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="30" x2="80" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="88" x2="80" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="160" y1="30" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="180" x2="160" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="30" x2="110" y2="80" stroke="#333" stroke-width="2.5"/>
+    <line x1="110" y1="88" x2="110" y2="180" stroke="#333" stroke-width="2.5"/>
+    <line x1="80" y1="80" x2="110" y2="80" stroke="#333" stroke-width="2"/>
+    <line x1="80" y1="88" x2="110" y2="88" stroke="#333" stroke-width="2"/>
+    <!-- Water A=5cm: y=100 to y=180 -->
+    <rect x="32" y="100" width="46" height="80" fill="rgba(100,149,237,0.5)"/>
+    <!-- Water B=6cm: y=84 to y=180 -->
+    <rect x="112" y="84" width="46" height="96" fill="rgba(230,126,34,0.4)"/>
+    <text x="55" y="55" text-anchor="middle">A</text>
+    <text x="135" y="55" text-anchor="middle">B</text>
+    <line x1="20" y1="132" x2="30" y2="132" stroke="#999" stroke-width="1"/>
+    <text x="15" y="136" text-anchor="end">3</text>
+    <line x1="20" y1="116" x2="30" y2="116" stroke="#999" stroke-width="1"/>
+    <text x="15" y="120" text-anchor="end">4</text>
+    <line x1="20" y1="100" x2="30" y2="100" stroke="#999" stroke-width="1"/>
+    <text x="15" y="104" text-anchor="end">5</text>
+    <line x1="20" y1="84" x2="30" y2="84" stroke="#999" stroke-width="1"/>
+    <text x="15" y="88" text-anchor="end">6</text>
+    <text x="95" y="200" text-anchor="middle">图3</text>
+  </g>
+</svg>

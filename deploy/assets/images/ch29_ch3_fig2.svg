@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 110" width="280" height="110">
+  <style>text { font-family: "Microsoft YaHei", sans-serif; font-size: 12px; fill: #333; }</style>
+  <line x1="20" y1="55" x2="260" y2="55" stroke="#333" stroke-width="1.5"/>
+  <text x="14" y="59">A</text>
+  <text x="262" y="59">B</text>
+  <!-- 乙 at 490/720 from B: x = 260 - 490/720*240 = 97 (leftmost now) -->
+  <rect x="90" y="38" width="16" height="10" rx="2" fill="#c0392b"/>
+  <!-- 甲 at 350/720 from A: x = 20 + 350/720*240 = 137 (right of 乙 now) -->
+  <rect x="130" y="38" width="16" height="10" rx="2" fill="#4a7c3f"/>
+  <!-- Brace 120km -->
+  <path d="M 106 42 Q 116 35 126 42 Q 132 49 146 42" fill="none" stroke="#e67e22" stroke-width="1.2"/>
+  <text x="126" y="28" text-anchor="middle" fill="#e67e22">120千米</text>
+  <!-- Brace 720km -->
+  <path d="M 20 70 Q 80 63 140 70 Q 200 77 260 70" fill="none" stroke="#333" stroke-width="1.2"/>
+  <text x="140" y="88" text-anchor="middle">720千米</text>
+  <text x="140" y="105" text-anchor="middle">图2</text>
+</svg>

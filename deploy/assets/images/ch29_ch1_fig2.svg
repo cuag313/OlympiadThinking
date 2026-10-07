@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+  <style>text { font-family: "Microsoft YaHei", sans-serif; font-size: 13px; fill: #333; }</style>
+  <circle cx="30" cy="40" r="12" fill="#4a7c3f"/>
+  <text x="30" y="20" text-anchor="middle">银杏树</text>
+  <circle cx="120" cy="40" r="12" fill="#4a7c3f"/>
+  <text x="120" y="20" text-anchor="middle">柳树</text>
+  <circle cx="210" cy="40" r="12" fill="#4a7c3f"/>
+  <text x="210" y="20" text-anchor="middle">梧桐树</text>
+  <line x1="42" y1="60" x2="108" y2="60" stroke="#333" stroke-width="1"/>
+  <text x="75" y="75" text-anchor="middle">90米</text>
+  <line x1="132" y1="60" x2="198" y2="60" stroke="#333" stroke-width="1"/>
+  <text x="165" y="75" text-anchor="middle">90米</text>
+  <text x="120" y="95" text-anchor="middle">图2</text>
+</svg>
