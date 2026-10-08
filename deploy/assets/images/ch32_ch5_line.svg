@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" font-family="Microsoft YaHei, sans-serif" font-size="14">
+  <!-- main line A to B -->
+  <line x1="30" y1="90" x2="300" y2="90" stroke="#333" stroke-width="2"/>
+  <circle cx="192" cy="90" r="3" fill="#f39c12"/>
+  <text x="20" y="110" fill="#333">A</text>
+  <text x="295" y="110" fill="#333">B</text>
+  <!-- 3份 bracket -->
+  <line x1="30" y1="75" x2="192" y2="75" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="30" y1="70" x2="30" y2="80" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="192" y1="70" x2="192" y2="80" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="111" y="68" fill="#c0392b" text-anchor="middle">3份</text>
+  <!-- 2份 bracket -->
+  <line x1="192" y1="75" x2="300" y2="75" stroke="#2980b9" stroke-width="1.5"/>
+  <line x1="300" y1="70" x2="300" y2="80" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="246" y="68" fill="#2980b9" text-anchor="middle">2份</text>
+  <!-- 甲 arrow (top, rightward) -->
+  <line x1="40" y1="40" x2="180" y2="40" stroke="#c0392b" stroke-width="2"/>
+  <polygon points="180,36 190,40 180,44" fill="#c0392b"/>
+  <text x="200" y="45" fill="#c0392b">甲</text>
+  <!-- 乙 arrow (bottom, leftward) -->
+  <line x1="290" y1="140" x2="200" y2="140" stroke="#2980b9" stroke-width="2"/>
+  <polygon points="200,136 190,140 200,144" fill="#2980b9"/>
+  <text x="170" y="145" fill="#2980b9">乙</text>
+</svg>
