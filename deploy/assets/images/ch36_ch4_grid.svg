@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <style>
+    text { font-family: "Microsoft YaHei", SimHei, sans-serif; font-size: 14px; fill: #222; }
+    .cap { font-size: 12px; fill: #555; }
+  </style>
+  <!-- 6x6 方格，示例填法 1~6 -->
+  <g id="grid">
+    <!-- 36 cells -->
+    <!-- row 0 -->
+    <rect x="20" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="20" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- row 1 -->
+    <rect x="20" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="50" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- row 2 -->
+    <rect x="20" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="80" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- row 3 -->
+    <rect x="20" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="110" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- row 4 -->
+    <rect x="20" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="140" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- row 5 -->
+    <rect x="20" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="50" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="80" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="110" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="140" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <rect x="170" y="170" width="30" height="30" fill="#f7f7f7" stroke="#333" stroke-width="1.2"/>
+    <!-- numbers 1-6 cyclic -->
+    <text x="35" y="40" text-anchor="middle">1</text>
+    <text x="65" y="40" text-anchor="middle">2</text>
+    <text x="95" y="40" text-anchor="middle">3</text>
+    <text x="125" y="40" text-anchor="middle">4</text>
+    <text x="155" y="40" text-anchor="middle">5</text>
+    <text x="185" y="40" text-anchor="middle">6</text>
+
+    <text x="35" y="70" text-anchor="middle">2</text>
+    <text x="65" y="70" text-anchor="middle">3</text>
+    <text x="95" y="70" text-anchor="middle">4</text>
+    <text x="125" y="70" text-anchor="middle">5</text>
+    <text x="155" y="70" text-anchor="middle">6</text>
+    <text x="185" y="70" text-anchor="middle">1</text>
+
+    <text x="35" y="100" text-anchor="middle">3</text>
+    <text x="65" y="100" text-anchor="middle">4</text>
+    <text x="95" y="100" text-anchor="middle">5</text>
+    <text x="125" y="100" text-anchor="middle">6</text>
+    <text x="155" y="100" text-anchor="middle">1</text>
+    <text x="185" y="100" text-anchor="middle">2</text>
+
+    <text x="35" y="130" text-anchor="middle">4</text>
+    <text x="65" y="130" text-anchor="middle">5</text>
+    <text x="95" y="130" text-anchor="middle">6</text>
+    <text x="125" y="130" text-anchor="middle">1</text>
+    <text x="155" y="130" text-anchor="middle">2</text>
+    <text x="185" y="130" text-anchor="middle">3</text>
+
+    <text x="35" y="160" text-anchor="middle">5</text>
+    <text x="65" y="160" text-anchor="middle">6</text>
+    <text x="95" y="160" text-anchor="middle">1</text>
+    <text x="125" y="160" text-anchor="middle">2</text>
+    <text x="155" y="160" text-anchor="middle">3</text>
+    <text x="185" y="160" text-anchor="middle">4</text>
+
+    <text x="35" y="190" text-anchor="middle">6</text>
+    <text x="65" y="190" text-anchor="middle">1</text>
+    <text x="95" y="190" text-anchor="middle">2</text>
+    <text x="125" y="190" text-anchor="middle">3</text>
+    <text x="155" y="190" text-anchor="middle">4</text>
+    <text x="185" y="190" text-anchor="middle">5</text>
+
+    <!-- 示例 2x2 窗口 -->
+    <rect x="20" y="20" width="60" height="60" fill="none" stroke="#f1c40f" stroke-width="2.5"/>
+    <text x="110" y="215" text-anchor="middle" class="cap">6×6方格（黄框为一个2×2）</text>
+  </g>
+</svg>

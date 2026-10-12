@@ -4992,6 +4992,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p><i>想一想：尝试将差为5的数对枚举出来。</i></p>
 <p>第一步：把20个数分成如下10组：(1,6),(2,7),(3,8),(4,9),(5,10),(11,16),(12,17),(13,18),(14,19),(15,20)，相当于有10个“抽屉”。</p>
 <p>第二步：从1,2,…,20这20个非零自然数中任取11个（相当于11个“苹果”），必然有两个数取自同一组，这两个数的差是5。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_example_1.mp4','例1 · 差为5')">看动画</button></div>
 </div>
 </div>
 
@@ -5004,11 +5005,13 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <p><i>想一想：每列的涂色方式有几种可能？</i></p>
 <p>方法1：</p>
 <p>第一步：每列的涂色方式有如下4种可能，相当于4个“抽屉”。</p>
+<img src="assets/images/ch36_ex2_four_ways.svg" alt="4种涂色方式：黑黑、黑蓝、蓝黑、蓝蓝" style="max-width:42%;height:auto;margin:12px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：9列小方格相当于9个“苹果”，因为9&gt;4×2，所以由抽屉原理第2条可知必有3列的涂色方式是完全一样的。</p>
 <p>方法2：</p>
 <p>第一步：假设结论不成立，那么最多只有两列的涂色方式相同。</p>
 <p>第二步：从方法1可知共有4种涂色方式，如果每种涂色方式都涂两列，也只能涂满8列，与要求给9列小方格涂色矛盾。</p>
 <p>第三步：因此结论成立，必有3列的涂色方式是完全一样的。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_example_2.mp4','例2 · 2×9涂色')">看动画</button></div>
 </div>
 </div>
 
@@ -5016,12 +5019,14 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="example-header"><span class="example-num">例3.</span><span class="example-tag">抽屉原理</span></div>
 <div class="question-title">
 <p>证明在任何6个人的聚会上，总有三个人互相认识，或者总有三个人彼此之间都不认识。</p>
+<img src="assets/images/ch36_ex3_party.svg" alt="图1六个点代表六个人；图2同色三角形示意" style="max-width:48%;height:auto;margin:12px 0;border-radius:8px;border:1px solid #ddd">
 <p><b>解析：</b></p>
 <p><i>想一想：可以借助图形求解，用6个点代表6个人，如果两人互相认识，则用蓝色线段连结两点，否则用黑色线段连结。</i></p>
 <p>第一步：原问题转化为：有6个点（任意三点均不共线），把每两点间的线段染上蓝色或黑色，无论怎么染，总存在一个三边同色的三角形。</p>
 <p>第二步：把蓝色、黑色两种颜色看作2个“抽屉”。考虑从某一点（如A点）出发的5条线段，根据抽屉原理，至少有三条线段颜色相同，不妨设线段AC、AD、AE为蓝色。</p>
 <p>第三步：连结C、D、E的线段中，如果有一条线段染蓝色，那么它与两条已染蓝色的线段组成三边同为蓝色的三角形；如果三条线段全是黑色，那么CDE是一个三边同为黑色的三角形。</p>
 <p>第四步：所以任意6个人中，总有三个人互相认识，或者互不认识。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_example_3.mp4','例3 · 六人聚会')">看动画</button></div>
 </div>
 </div>
 
@@ -5030,7 +5035,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战1.</span><span class="tag">抽屉原理</span></div>
 <div class="question-title">某班级有30名学生，其年龄都是10岁或者11岁，其中必有2名学生是同年同月出生的，为什么？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_1')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_ch1.mp4','挑战1 · 同年同月')">看动画</button></div>
 <div class="hidden-content" id="ans36_1">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：这里10岁和11岁两个年龄段的学生出生的年月共12×2=24（个）。</p>
@@ -5041,7 +5046,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战2.</span><span class="tag">抽屉原理</span></div>
 <div class="question-title">一些孩子在沙滩上玩耍，他们把石子堆成许多堆，其中有一个孩子发现，从石子堆中任意选出四堆，其中必有两堆石子数之差是3的倍数，你说他的结论对吗？为什么？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_2')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_ch2.mp4','挑战2 · 石子差3倍数')">看动画</button></div>
 <div class="hidden-content" id="ans36_2">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：把4堆石子数看作任意4个自然数，它们被3除的余数是0、1或2。</p>
@@ -5052,7 +5057,7 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战3.</span><span class="tag">抽屉原理</span></div>
 <div class="question-title">据统计，某校六年级中有100名学生分别参加了舞蹈、绘画、乐器三种兴趣班中的一种、两种或三种。那么至少有15名学生参加的兴趣班完全相同，为什么？</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_3')">查看解析</button></div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_ch3.mp4','挑战3 · 兴趣班组合')">看动画</button></div>
 <div class="hidden-content" id="ans36_3">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：参加一种兴趣班的有3种选法，参加两种兴趣班的有3种选法，参加三种兴趣班的有1种选法，共有3+3+1=7（种）。</p>
@@ -5062,8 +5067,9 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战4.</span><span class="tag">抽屉原理</span></div>
-<div class="question-title">用数字1,2,3,4,5,6填满一个6×6方格，每个方格只填其中的一个数字，将每个2×2方格内的四个数字之和称为这个2×2方格的“标示数”。能否给出一种填法，使任何两个标示数均不相同？如果能，请举出一例；如果不能，请说明理由。</div>
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_4')">查看解析</button></div>
+<div class="question-title">用数字1,2,3,4,5,6填满一个6×6方格（如图），每个方格只填其中的一个数字，将每个2×2方格内的四个数字之和称为这个2×2方格的“标示数”。能否给出一种填法，使任何两个标示数均不相同？如果能，请举出一例；如果不能，请说明理由。</div>
+<img src="assets/images/ch36_ch4_grid.svg" alt="6×6方格示例，黄框为一个2×2窗口" style="max-width:28%;height:auto;margin:12px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_ch4.mp4','挑战4 · 标示数')">看动画</button></div>
 <div class="hidden-content" id="ans36_4">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：2×2方格内的数字和最大是6+6+6+6=24，最小是1+1+1+1=4，从4至24共有21个不同数值（即21个“抽屉”）。</p>
@@ -5077,11 +5083,12 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <div class="question-card">
 <div class="question-header"><span class="question-num">挑战5.</span><span class="tag">抽屉原理</span></div>
 <div class="question-title">在一个边长为1的正三角形内随意放置10个点，请说明至少有2个点之间的距离不大于1/3。</div>
-<img src="assets/images/ch36_ch5_triangle.svg" alt="正三角形分成9个小三角形" style="max-width:35%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
-<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_5')">查看解析</button></div>
+<img src="assets/images/ch36_ch5_tri_only.svg" alt="边长为1的正三角形" style="max-width:28%;height:auto;margin:15px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans36_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch36/ch36_ch5.mp4','挑战5 · 正三角形10点')">看动画</button></div>
 <div class="hidden-content" id="ans36_5">
 <p><span class="answer-label">解析：</span></p>
 <p>第一步：如图，把正三角形的每条边都三等分，连结各等分点，将这个三角形分成9个边长为1/3的正三角形。</p>
+<img src="assets/images/ch36_ch5_from_manim.png" alt="三等分后9个小三角形，10点中必有2点同巢" style="max-width:42%;height:auto;margin:12px 0;border-radius:8px;border:1px solid #ddd">
 <p>第二步：10个点放在9个三角形中，根据抽屉原理，必有2个点在同一个小三角形内（点可以在边上）。</p>
 <p>第三步：这两点之间的连线不超过三角形的边长，即这两点之间的距离不超过1/3。</p>
 </div>

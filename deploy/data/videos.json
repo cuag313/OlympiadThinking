@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-02",
+  "updated": "2026-10-12",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -2304,6 +2304,84 @@
           "file": "assets/videos/ch28/ch28_challenge_5.mp4",
           "status": "remade",
           "html_anchor": "ch28"
+        }
+      ]
+    },
+    "36": {
+      "name": "抽屉原理",
+      "anchor": "ch36",
+      "items": [
+        {
+          "id": "ch36_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "差为5的数对抽屉",
+          "answer": "必有两数差5",
+          "file": "assets/videos/ch36/ch36_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "2×9涂色三列相同",
+          "answer": "必有3列相同",
+          "file": "assets/videos/ch36/ch36_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "六人聚会同色三角",
+          "answer": "3人认识或不认识",
+          "file": "assets/videos/ch36/ch36_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "30人同年同月",
+          "answer": "至少2人",
+          "file": "assets/videos/ch36/ch36_ch1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "石子差是3的倍数",
+          "answer": "结论正确",
+          "file": "assets/videos/ch36/ch36_ch2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "兴趣班组合至少15人",
+          "answer": "15人",
+          "file": "assets/videos/ch36/ch36_ch3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "6×6标示数不能全不同",
+          "answer": "不能",
+          "file": "assets/videos/ch36/ch36_ch4.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch36_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "正三角形10点距离≤1/3",
+          "answer": "至少两点",
+          "file": "assets/videos/ch36/ch36_ch5.mp4",
+          "status": "done"
         }
       ]
     }

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" width="360" height="150">
+  <style>
+    text { font-family: "Microsoft YaHei", SimHei, sans-serif; font-size: 13px; fill: #333; }
+  </style>
+  <!-- 4种涂色方式：每列上下两格，灰=黑，蓝=蓝 -->
+  <!-- 1 上黑下黑 -->
+  <rect x="30" y="18" width="52" height="96" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="30" y1="66" x2="82" y2="66" stroke="#333" stroke-width="1.5"/>
+  <rect x="31" y="19" width="50" height="46" fill="#b0b0b0"/>
+  <rect x="31" y="67" width="50" height="46" fill="#b0b0b0"/>
+  <!-- 2 上黑下蓝 -->
+  <rect x="110" y="18" width="52" height="96" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="66" x2="162" y2="66" stroke="#333" stroke-width="1.5"/>
+  <rect x="111" y="19" width="50" height="46" fill="#b0b0b0"/>
+  <rect x="111" y="67" width="50" height="46" fill="#3498db"/>
+  <!-- 3 上蓝下黑 -->
+  <rect x="190" y="18" width="52" height="96" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="190" y1="66" x2="242" y2="66" stroke="#333" stroke-width="1.5"/>
+  <rect x="191" y="19" width="50" height="46" fill="#3498db"/>
+  <rect x="191" y="67" width="50" height="46" fill="#b0b0b0"/>
+  <!-- 4 上蓝下蓝 -->
+  <rect x="270" y="18" width="52" height="96" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="270" y1="66" x2="322" y2="66" stroke="#333" stroke-width="1.5"/>
+  <rect x="271" y="19" width="50" height="46" fill="#3498db"/>
+  <rect x="271" y="67" width="50" height="46" fill="#3498db"/>
+  <text x="180" y="140" text-anchor="middle" font-size="12">4种涂色方式（灰=黑，蓝=蓝）</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240" width="260" height="240">
+  <style>
+    text { font-family: "Microsoft YaHei", SimHei, sans-serif; font-size: 13px; fill: #333; }
+    .cap { font-size: 12px; fill: #555; }
+  </style>
+  <!-- 正三角形 -->
+  <polygon points="130,28 28,200 232,200" fill="none" stroke="#333" stroke-width="2.2"/>
+  <!-- 边长标注 -->
+  <text x="130" y="228" text-anchor="middle">边长 1</text>
+  <text x="130" y="242" text-anchor="middle" class="cap">正三角形</text>
+</svg>
