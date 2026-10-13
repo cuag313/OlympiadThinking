@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 260">
+  <!-- 正方形 ABCD: A左上 D右上 B左下 C右下 -->
+  <rect x="55" y="45" width="170" height="170" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+  <!-- E 中点 of AD (上边), F 中点 of BC (下边) -->
+  <circle cx="140" cy="45" r="3.5" fill="#1a5276"/>
+  <circle cx="140" cy="215" r="3.5" fill="#1a5276"/>
+  <!-- P 内部任意点 -->
+  <circle cx="125" cy="120" r="4.5" fill="#c0392b"/>
+  <!-- 阴影：三角形 A-E-P -->
+  <polygon points="55,45 140,45 125,120" fill="#7fb3d5" fill-opacity="0.55" stroke="#1a5276" stroke-width="1.5"/>
+  <!-- 阴影：三角形 C-F-P -->
+  <polygon points="225,215 140,215 125,120" fill="#7fb3d5" fill-opacity="0.55" stroke="#1a5276" stroke-width="1.5"/>
+  <!-- 字母 -->
+  <text x="42" y="40" font-size="15" fill="#1a5276" font-family="sans-serif">A</text>
+  <text x="232" y="40" font-size="15" fill="#1a5276" font-family="sans-serif">D</text>
+  <text x="42" y="235" font-size="15" fill="#1a5276" font-family="sans-serif">B</text>
+  <text x="232" y="235" font-size="15" fill="#1a5276" font-family="sans-serif">C</text>
+  <text x="134" y="32" font-size="13" fill="#1a5276" font-family="sans-serif">E</text>
+  <text x="134" y="248" font-size="13" fill="#1a5276" font-family="sans-serif">F</text>
+  <text x="133" y="116" font-size="13" fill="#c0392b" font-family="sans-serif">P</text>
+  <!-- 边长 -->
+  <text x="248" y="135" font-size="12" fill="#1a5276" font-family="sans-serif">8cm</text>
+</svg>

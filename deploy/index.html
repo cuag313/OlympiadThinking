@@ -132,6 +132,7 @@ th{background:#eaf2f8;font-weight:bold}
 <li><a href="#ch34">三十四、乘法原理</a></li>
 <li><a href="#ch35">三十五、容斥原理</a></li>
 <li><a href="#ch36">三十六、抽屉原理</a></li>
+<li><a href="#ch37">三十七、特殊值法</a></li>
 </ul>
 </div>
 
@@ -5098,6 +5099,176 @@ A. a+2&gt;0　　B. a+3&lt;0　　C. a−b&gt;0　　D. a+b&lt;0</div>
 <b>【易错点提醒】</b>①抽屉设计不合理；②物品数和抽屉数搞混；③应用第2条原理时m和n搞混。总结：抽屉原理（鸽巢原理）的核心：把n+1个物品放入n个抽屉，必有一个抽屉至少放2个物品。解题关键是合理构造“抽屉”和“物品”，抽屉的设计要保证同一抽屉中的元素具有某种共同性质。
 </p>
 
+<!-- ========== 第37章：特殊值法 ========== -->
+<h2 class="chapter-title" id="ch37">三十七、特殊值法</h2>
+
+<div class="method-intro">
+<h3>方法介绍</h3>
+<p>有些数学题中，条件没有给出具体数量，或者给出的数量关系比较抽象。这时我们可以根据题目的特征，合理地假设一个（或几个）便于计算的特殊数值代入原题，使问题具体化、简单化，从而快速得到答案。这种方法叫做“特殊值法”，也叫“设数法”。</p>
+<p>使用特殊值法的关键是：所设的特殊值要符合题目条件，并且便于计算；设值后不影响最终结果。</p>
+</div>
+
+<h3 style="color:#3498db;margin:20px 0 15px">典型示例</h3>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例1.</span><span class="example-tag">特殊值法</span></div>
+<div class="question-title">
+<p>小红去商店购物，如果将身上带的钱全部买笔记本可买12本，如果全部买钢笔可买3支。现在小红先买8本笔记本，还可以买多少支钢笔？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：总钱数不知道，可以假设一个具体数。</i></p>
+<p>第一步：设小红带了36元（12和3的最小公倍数，便于计算）。</p>
+<p>第二步：每本笔记本36÷12=3（元），每支钢笔36÷3=12（元）。</p>
+<p>第三步：买8本笔记本花去3×8=24（元），还剩36-24=12（元）。</p>
+<p>第四步：还可以买钢笔12÷12=1（支）。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_example_1.mp4','例1 · 买笔问题')">看动画</button></div>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例2.</span><span class="example-tag">特殊值法</span></div>
+<div class="question-title">
+<p>汽车往返于甲、乙两地之间，从甲地去乙地时每小时行驶30千米；从乙地返回甲地时，每小时行驶60千米。求汽车往返于甲、乙两地之间的平均速度。</p>
+<p><b>解析：</b></p>
+<p><i>想一想：平均速度=总路程÷总时间，路程不知道可以假设。</i></p>
+<p>第一步：设甲、乙两地相距60千米（30和60的最小公倍数）。</p>
+<p>第二步：去时用时60÷30=2（小时），回来用时60÷60=1（小时）。</p>
+<p>第三步：往返总路程60×2=120（千米），总时间2+1=3（小时）。</p>
+<p>第四步：平均速度120÷3=40（千米/时）。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_example_2.mp4','例2 · 往返平均速度')">看动画</button></div>
+</div>
+</div>
+
+<div class="example-card">
+<div class="example-header"><span class="example-num">例3.</span><span class="example-tag">特殊值法</span></div>
+<div class="question-title">
+<p>一场足球赛的门票是15元一张，门票降价后观众数量增加了1/2，门票收入增加了1/5。每张门票降价多少元？</p>
+<p><b>解析：</b></p>
+<p><i>想一想：观众人数不知道，可以假设一个具体人数。</i></p>
+<p>第一步：设原来观众有2人。</p>
+<p>第二步：原来收入15×2=30（元）。</p>
+<p>第三步：降价后观众增加1/2，变成2×(1+1/2)=3（人）。</p>
+<p>第四步：收入增加1/5，变成30×(1+1/5)=36（元）。</p>
+<p>第五步：降价后每张票36÷3=12（元），降价15-12=3（元）。</p>
+<div class="btn-group" style="margin-top:10px"><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_example_3.mp4','例3 · 门票降价')">看动画</button></div>
+</div>
+</div>
+
+<h3 style="color:#e67e22;margin:20px 0 15px">思维挑战</h3>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战1.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">一个正方体如果棱长扩大到原来的2倍，那么表面积扩大到原来的多少倍？体积扩大到原来的多少倍？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_1')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch1.mp4','挑战1 · 正方体扩大')">看动画</button></div>
+<div class="hidden-content" id="ans37_1">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设原正方体棱长为1，则表面积为6×1×1=6，体积为1×1×1=1。</p>
+<p>第二步：棱长扩大到2倍后，表面积为6×2×2=24，体积为2×2×2=8。</p>
+<p>第三步：表面积扩大24÷6=4倍，体积扩大8÷1=8倍。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战2.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">某班级里男生人数是女生人数的2倍，男生平均分为75分，女生平均分为87分。全班平均分是多少分？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_2')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch2.mp4','挑战2 · 全班平均分')">看动画</button></div>
+<div class="hidden-content" id="ans37_2">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设女生有1人，则男生有2人。</p>
+<p>第二步：全班总分=75×2+87×1=150+87=237（分）。</p>
+<p>第三步：全班平均分=237÷(2+1)=237÷3=79（分）。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战3.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">平平骑自行车从甲地去乙地，先走下坡路，平均速度是60千米/时，再走平路，平均速度是48千米/时；回来时平路速度不变，上坡平均速度是40千米/时。已知平平往返共用2小时。求甲、乙两地的距离是多少千米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_3')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch3.mp4','挑战3 · 骑车往返')">看动画</button></div>
+<div class="hidden-content" id="ans37_3">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设坡路长为120千米（60和40的最小公倍数）。</p>
+<p>第二步：下坡用时120÷60=2（小时），上坡用时120÷40=3（小时），坡路往返平均速度=120×2÷(2+3)=48（千米/时），正好等于平路速度。</p>
+<p>第三步：所以全程平均速度就是48千米/时，往返2小时共行48×2=96（千米），甲乙两地距离为96÷2=48（千米）。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战4.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">一辆卡车和一辆客车分别从甲、乙两城同时出发，相向而行，卡车到达乙城后立即返回，客车到达甲城后也立即返回。已知卡车和客车的速度比为4:3，两车第一次相遇地点距第二次相遇地点24千米。请问甲、乙两城相距多少千米？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_4')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch4.mp4','挑战4 · 两车相遇')">看动画</button></div>
+<div class="hidden-content" id="ans37_4">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设卡车速度为4千米/时，客车速度为3千米/时，甲乙两城相距7千米（速度和）。</p>
+<p>第二步：第一次相遇时，卡车行了4千米，相遇点距甲城4千米。</p>
+<p>第三步：第二次相遇时，两车共行了3个全程=21千米，卡车行了21×4/7=12千米，距甲城7-(12-7)=2千米。</p>
+<p>第四步：两次相遇点相距4-2=2千米，对应实际24千米，所以1份对应12千米，全程7×12=84（千米）。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战5.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">平平到商场买了甲、乙2件商品，甲商品打了四折，乙商品打了六折，正好2件商品所付的钱一样多。请问平平这次购物总体打几折？</div>
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_5')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch5.mp4','挑战5 · 打折问题')">看动画</button></div>
+<div class="hidden-content" id="ans37_5">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设甲乙商品打折后都付了12元（4和6的最小公倍数）。</p>
+<p>第二步：甲商品原价12÷0.4=30（元），乙商品原价12÷0.6=20（元）。</p>
+<p>第三步：两件商品原价共30+20=50（元），实际付了12+12=24（元）。</p>
+<p>第四步：折扣=24÷50=0.48，即四八折。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战6.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">如图所示，2个正方形并排放在一起，左侧大正方形的边长是10厘米，求阴影三角形的面积。</div><img src="assets/images/ch37_ch6_squares.svg" alt="两个正方形并排，阴影三角形" style="max-width:40%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_6')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch6.mp4','挑战6 · 两正方形阴影')">看动画</button></div>
+<div class="hidden-content" id="ans37_6">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：阴影三角形由三条边围成：大正方形左下到右上的对角线、大正方形右上到小正方形右上、小正方形右上回到大正方形左下。</p>
+<p>第二步：设右侧小正方形边长为0（缩成一个点），阴影三角形就是大正方形的一半。无论小正方形边长是多少，面积都是50。</p>
+<p>第三步：阴影面积=10×10÷2=50（平方厘米）。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战7.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">如图所示，对于任意四边形ABCD，M、N是AB的三等分点，K、L是BC的三等分点，O、P是DC的三等分点，J、I是AD的三等分点。通过各边三等分点的相应连线，得到中间四边形EFGH，则中间四边形EFGH的面积是四边形ABCD的几分之几？</div><img src="assets/images/ch37_ch7_trisect.svg" alt="四边形三等分连线" style="max-width:40%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_7')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch7.mp4','挑战7 · 三等分中间四边形')">看动画</button></div>
+<div class="hidden-content" id="ans37_7">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设ABCD为一个特殊的正方形（或长方形），例如边长为3的正方形。</p>
+<p>第二步：按图连结各边三等分点，相当于把正方形分成3行3列，共9个全等小正方形；中间四边形EFGH正好是正中间那一块。</p>
+<p>第三步：中间一块占1/9，所以中间四边形EFGH的面积是四边形ABCD的1/9。</p>
+</div>
+</div>
+
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战8.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">如图所示，四边形ABCD是边长为8厘米的正方形，E，F分别是AD，BC的中点，P为正方形内任意一点，求阴影部分的面积。</div><img src="assets/images/ch37_ch8_square.svg" alt="正方形内任意点P，E、F为中点" style="max-width:32%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_8')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch8.mp4','挑战8 · 正方形内任意点')">看动画</button></div>
+<div class="hidden-content" id="ans37_8">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：设P为特殊点，例如P正好在EF上（或设P与A重合）。</p>
+<p>第二步：两个阴影三角形的高之和等于正方形边长8厘米，底AE=FC=4厘米。</p>
+<p>第三步：阴影面积=4×8÷2=16（平方厘米）。</p>
+</div>
+<div class="question-card">
+<div class="question-header"><span class="question-num">挑战9.</span><span class="tag">特殊值法</span></div>
+<div class="question-title">如图所示，长方形ABCD的面积为36平方厘米，E，F，G分别为AB，BC，CD的中点，H为AD边上任意一点，阴影部分是三角形EFH和三角形HDG，求阴影部分的面积。</div><img src="assets/images/ch37_ch9_rect.svg" alt="长方形中点与任意点H" style="max-width:42%;height:auto;margin:10px 0;border-radius:8px;border:1px solid #ddd">
+<div class="btn-group"><button class="reveal-btn" onclick="toggleAnswer('ans37_9')">查看解析</button><button class="video-btn" onclick="openVideo('assets/videos/ch37/ch37_ch9.mp4','挑战9 · 长方形中点阴影')">看动画</button></div>
+<div class="hidden-content" id="ans37_9">
+<p><span class="answer-label">解析：</span></p>
+<p>第一步：用特殊位置法，把H放到A点，计算更方便。</p>
+<p>第二步：此时△HDG变成△ADG，占长方形的1/4；△EFH变成△EFA，占长方形的1/8。</p>
+<p>第三步：阴影面积=36×(1/4+1/8)=36×3/8=13.5（平方厘米）。</p>
+<p>说明：无论H在AD上哪一点，两块阴影面积之和都不变。</p>
+</div>
+</div>
+
+</div>
+<p style="margin-top:30px;padding:15px;background:#fff;border-radius:8px;border-left:4px solid #9b59b6;color:#666">
+<b>【老师说】</b>特殊值法的核心：当题目没有给出具体数量时，假设一个便于计算的特殊值代入，把抽象问题具体化。设值原则：①符合题目条件；②便于计算（通常取最小公倍数）；③所设值不影响最终结果。<br><br>
+<b>【易错点提醒】</b>①所设值不符合题意；②忘记“平均速度=总路程÷总时间”而直接取速度的平均数；③设值后计算粗心。
+</p>
 <div class="footer">
 <p>小学奥数解题思维方法培训教材 - 思维挑战交互版</p>
 <p>本页面支持打印功能（按Ctrl+P），打印时解析内容会自动展开</p>
@@ -5124,6 +5295,7 @@ var VIDEO_CDN='https://cdn.jsdelivr.net/gh/cuag313/OlympiadThinking@master/deplo
 function videoSrc(path){
   if(/^https?:\/\//i.test(path)) return path;
   if(path.indexOf('ch10/')>=0) return path;
+  if(location.protocol==='file:') return path;
   return VIDEO_CDN + path.replace(/^\.?\//, '');
 }
 function isPortraitPhone(){

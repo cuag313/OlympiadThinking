@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230">
+  <!-- 长方形 ABCD: A左上 D右上 B左下 C右下 -->
+  <rect x="50" y="40" width="240" height="150" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+  <!-- E 中点 AB(左边) F 中点 BC(下边) G 中点 CD(右边) -->
+  <circle cx="50" cy="115" r="3.5" fill="#1a5276"/>
+  <circle cx="170" cy="190" r="3.5" fill="#1a5276"/>
+  <circle cx="290" cy="115" r="3.5" fill="#1a5276"/>
+  <!-- H 在 AD 上(上边)，偏右 -->
+  <circle cx="220" cy="40" r="4" fill="#c0392b"/>
+  <!-- 阴影1: 三角形 E-F-H -->
+  <polygon points="50,115 170,190 220,40" fill="#7fb3d5" fill-opacity="0.55" stroke="#1a5276" stroke-width="1.6"/>
+  <!-- 阴影2: 三角形 H-D-G (右上) -->
+  <polygon points="220,40 290,40 290,115" fill="#7fb3d5" fill-opacity="0.55" stroke="#1a5276" stroke-width="1.6"/>
+  <!-- 字母 -->
+  <text x="38" y="35" font-size="15" fill="#1a5276" font-family="sans-serif">A</text>
+  <text x="296" y="35" font-size="15" fill="#1a5276" font-family="sans-serif">D</text>
+  <text x="38" y="208" font-size="15" fill="#1a5276" font-family="sans-serif">B</text>
+  <text x="296" y="208" font-size="15" fill="#1a5276" font-family="sans-serif">C</text>
+  <text x="28" y="118" font-size="12" fill="#1a5276" font-family="sans-serif">E</text>
+  <text x="164" y="208" font-size="12" fill="#1a5276" font-family="sans-serif">F</text>
+  <text x="296" y="118" font-size="12" fill="#1a5276" font-family="sans-serif">G</text>
+  <text x="212" y="30" font-size="12" fill="#c0392b" font-family="sans-serif">H</text>
+  <!-- 面积 -->
+  <text x="145" y="115" font-size="12" fill="#1a5276" font-family="sans-serif">36 cm2</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+  <!-- 大正方形 10x10 -->
+  <rect x="50" y="40" width="160" height="160" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+  <!-- 小正方形（右侧，共底线） -->
+  <rect x="210" y="120" width="80" height="80" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+  <!-- 阴影三角：大左下(50,200) → 大右上(210,40) → 小右上(290,120) -->
+  <polygon points="50,200 210,40 290,120" fill="#7fb3d5" fill-opacity="0.55" stroke="#1a5276" stroke-width="1.8"/>
+  <!-- 大正方形对角线（也是阴影的一边） -->
+  <line x1="50" y1="200" x2="210" y2="40" stroke="#e17055" stroke-width="1.6" stroke-dasharray="6 3"/>
+  <!-- 标注 -->
+  <text x="38" y="125" font-size="13" fill="#1a5276" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="38" y="140" font-size="11" fill="#1a5276" text-anchor="middle" font-family="sans-serif">cm</text>
+  <text x="100" y="118" font-size="12" fill="#e17055" font-family="sans-serif" transform="rotate(-50 100 118)">10√2</text>
+  <line x1="50" y1="208" x2="210" y2="208" stroke="#1a5276" stroke-width="1"/>
+  <text x="130" y="224" font-size="12" fill="#1a5276" text-anchor="middle" font-family="sans-serif">10cm</text>
+  <!-- 小正方形边长 a -->
+  <text x="255" y="108" font-size="11" fill="#1a5276" text-anchor="middle" font-family="sans-serif">a</text>
+</svg>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "convention": "one video file per problem item (example/challenge); no shared/missing mappings; ch21-36 bulk pack removed as polluted garbage",
   "chapters": {
     "1": {
@@ -2382,6 +2382,129 @@
           "answer": "至少两点",
           "file": "assets/videos/ch36/ch36_ch5.mp4",
           "status": "done"
+        }
+      ]
+    },
+    "37": {
+      "name": "特殊值法",
+      "anchor": "ch37",
+      "items": [
+        {
+          "id": "ch37_example_1",
+          "type": "example",
+          "num": "例1",
+          "title": "买笔问题",
+          "answer": "1支",
+          "file": "assets/videos/ch37/ch37_example_1.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch37_example_2",
+          "type": "example",
+          "num": "例2",
+          "title": "往返平均速度",
+          "answer": "40km/h",
+          "file": "assets/videos/ch37/ch37_example_2.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch37_example_3",
+          "type": "example",
+          "num": "例3",
+          "title": "门票降价",
+          "answer": "3元",
+          "file": "assets/videos/ch37/ch37_example_3.mp4",
+          "status": "done"
+        },
+        {
+          "id": "ch37_challenge_1",
+          "type": "challenge",
+          "num": "挑战1",
+          "title": "正方体扩大",
+          "answer": "表面积4倍体积8倍",
+          "file": "assets/videos/ch37/ch37_ch1.mp4",
+          "status": "done",
+          "html_anchor": "ans37_1"
+        },
+        {
+          "id": "ch37_challenge_2",
+          "type": "challenge",
+          "num": "挑战2",
+          "title": "全班平均分",
+          "answer": "79",
+          "file": "assets/videos/ch37/ch37_ch2.mp4",
+          "status": "done",
+          "html_anchor": "ans37_2"
+        },
+        {
+          "id": "ch37_challenge_3",
+          "type": "challenge",
+          "num": "挑战3",
+          "title": "骑车往返",
+          "answer": "48",
+          "file": "assets/videos/ch37/ch37_ch3.mp4",
+          "status": "done",
+          "html_anchor": "ans37_3"
+        },
+        {
+          "id": "ch37_challenge_4",
+          "type": "challenge",
+          "num": "挑战4",
+          "title": "两车相遇",
+          "answer": "84",
+          "file": "assets/videos/ch37/ch37_ch4.mp4",
+          "status": "done",
+          "html_anchor": "ans37_4"
+        },
+        {
+          "id": "ch37_challenge_5",
+          "type": "challenge",
+          "num": "挑战5",
+          "title": "打折问题",
+          "answer": "四八折",
+          "file": "assets/videos/ch37/ch37_ch5.mp4",
+          "status": "done",
+          "html_anchor": "ans37_5"
+        },
+        {
+          "id": "ch37_challenge_6",
+          "type": "challenge",
+          "num": "挑战6",
+          "title": "两正方形阴影",
+          "answer": "50",
+          "file": "assets/videos/ch37/ch37_ch6.mp4",
+          "status": "done",
+          "html_anchor": "ans37_6"
+        },
+        {
+          "id": "ch37_challenge_7",
+          "type": "challenge",
+          "num": "挑战7",
+          "title": "三等分中间四边形",
+          "answer": "1/9",
+          "file": "assets/videos/ch37/ch37_ch7.mp4",
+          "status": "done",
+          "html_anchor": "ans37_7"
+        },
+        {
+          "id": "ch37_challenge_8",
+          "type": "challenge",
+          "num": "挑战8",
+          "title": "正方形内任意点",
+          "answer": "16",
+          "file": "assets/videos/ch37/ch37_ch8.mp4",
+          "status": "done",
+          "html_anchor": "ans37_8"
+        },
+        {
+          "id": "ch37_challenge_9",
+          "type": "challenge",
+          "num": "挑战9",
+          "title": "长方形中点阴影",
+          "answer": "13.5",
+          "file": "assets/videos/ch37/ch37_ch9.mp4",
+          "status": "done",
+          "html_anchor": "ans37_9"
         }
       ]
     }
