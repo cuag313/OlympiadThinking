@@ -136,7 +136,14 @@
     height: 480,
     commands: build,
     steps: STEPS,
-    narration: { title: '例5 · 双棒铰接的平衡与外力范围' },
+    narration: {
+      title: '例5 · 双棒铰接的平衡与外力范围',
+      epilogue: {
+        text: '改变两棒的质量比，外力的大小和方向会跟着变，但平衡角始终满足 tanθ = (m₁+m₂)/(m₁+3m₂)。规律是普适的。',
+        audio: '../assets/audio/ex5-6.mp3',
+        slider: 'm2', from: 0.5, to: 3, duration: 3200
+      }
+    },
     controls: [
       { name: 'm1', label: 'm₁ (kg)', min: 0.5, max: 3, step: 0.1, value: 1, fmt: function (v) { return v.toFixed(1); } },
       { name: 'm2', label: 'm₂ (kg)', min: 0.5, max: 3, step: 0.1, value: 2, fmt: function (v) { return v.toFixed(1); } }

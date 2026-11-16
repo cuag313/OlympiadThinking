@@ -153,7 +153,14 @@
     height: 500,
     commands: build,
     steps: STEPS,
-    narration: { title: '例3 · 光滑墙上的梯子' },
+    narration: {
+      title: '例3 · 光滑墙上的梯子',
+      epilogue: {
+        text: '试一试改变梯脚的位置。梯子越陡，墙的作用力越小；但三个力始终共点，力三角形始终闭合。',
+        audio: '../assets/audio/ex3-6.mp3',
+        slider: 's', from: 0.8, to: 2.6, duration: 3200
+      }
+    },
     controls: [
       { name: 's', label: '梯脚距墙 s (m)', min: 0.8, max: 2.6, step: 0.05, value: 1.5, fmt: function (v) { return v.toFixed(2); } },
       { name: 'G', label: 'G (N)', min: 200, max: 500, step: 10, value: 360, fmt: function (v) { return v.toFixed(0); } }

@@ -128,7 +128,14 @@
     height: 440,
     commands: build,
     steps: STEPS,
-    narration: { title: '例4 · 三铰拱的支座作用力' },
+    narration: {
+      title: '例4 · 三铰拱的支座作用力',
+      epilogue: {
+        text: '最后看普遍性。无论水平力 F 多大，支座的作用力总是它的二分之根号二倍，方向也不变——这就是对称性的力量。',
+        audio: '../assets/audio/ex4-6.mp3',
+        slider: 'Fm', from: 0.8, to: 3.2, duration: 3200
+      }
+    },
     controls: [
       { name: 'Fm', label: 'F', min: 0.8, max: 3.2, step: 0.1, value: 2, fmt: function (v) { return v.toFixed(1); } }
     ],

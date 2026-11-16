@@ -155,7 +155,14 @@
     height: 470,
     commands: build,
     steps: STEPS,
-    narration: { title: '例1 · 半球形容器中的直杆' },
+    narration: {
+      title: '例1 · 半球形容器中的直杆',
+      epilogue: {
+        text: '最后来看普遍性。自动拖动滑块改变杆的长度：无论 λ 怎么变，三个力的矢量三角形始终闭合——这就是平衡的普遍规律。',
+        audio: '../assets/audio/ex1-6.mp3',
+        slider: 'lmb', from: 2.05, to: 3.0, duration: 3200
+      }
+    },
     controls: [
       { name: 'lmb', label: 'λ = L/R', min: 2.05, max: 3, step: 0.05, value: 2.4, fmt: function (v) { return v.toFixed(2); } },
       { name: 'Gm', label: 'G', min: 2, max: 4, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }

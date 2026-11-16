@@ -149,7 +149,14 @@
     height: 520,
     commands: build,
     steps: STEPS,
-    narration: { title: '例2 · 不均匀木板的双绳悬挂' },
+    narration: {
+      title: '例2 · 不均匀木板的双绳悬挂',
+      epilogue: {
+        text: '最后拖动重物的位置看看：力矩平衡随之被打破。无论重物在哪里，平衡条件都是同一个——M·CD 等于 m·力臂。',
+        audio: '../assets/audio/ex2-6.mp3',
+        slider: 'p', from: 0.15, to: 2.85, duration: 3200
+      }
+    },
     controls: [
       { name: 'p', label: 'p（重物距 A）', min: 0.1, max: 2.9, step: 0.05, value: 0.75, fmt: function (v) { return v.toFixed(2); } },
       { name: 'mm', label: 'm', min: 0.2, max: 3, step: 0.05, value: 1, fmt: function (v) { return v.toFixed(2); } },

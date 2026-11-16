@@ -108,6 +108,7 @@
     if (!this.opt.controls || !this.opt.controls.length) return;
     var bar = document.createElement('div');
     bar.className = 'ggb-controls';
+    this.controlInputs = {};
     this.opt.controls.forEach(function (c) {
       var wrap = document.createElement('label');
       wrap.className = 'ggb-ctl';
@@ -120,7 +121,7 @@
       input.value = c.value;
       var valEl = document.createElement('span');
       valEl.className = 'val';
-      valEl.textContent = c.value;
+      valEl.textContent = (c.fmt ? c.fmt(parseFloat(c.value)) : c.value);
       input.addEventListener('input', function () {
         var v = parseFloat(input.value);
         valEl.textContent = (c.fmt ? c.fmt(v) : v);
@@ -130,6 +131,7 @@
       wrap.appendChild(input);
       wrap.appendChild(valEl);
       bar.appendChild(wrap);
+      self.controlInputs[c.name] = { input: input, valEl: valEl, fmt: c.fmt };
     });
     this.stageEl.parentNode.insertBefore(bar, this.stepsEl || this.captionEl);
     this.controlsEl = bar;
@@ -154,6 +156,7 @@
     var player = document.createElement('div');
     player.className = 'ggb-player';
     player.innerHTML =
+      '<div class="ggb-progressbar"><div class="ggb-progressbar-fill"></div></div>' +
       '<button type="button" data-act="prev">⏮ 上一步</button>' +
       '<button type="button" data-act="toggle">⏸ 暂停</button>' +
       '<button type="button" data-act="next">⏭ 下一步</button>' +
@@ -168,6 +171,15 @@
     player.querySelector('.ggb-player-title').textContent =
       (this.opt.narration && this.opt.narration.title) || '解题讲解';
 
+    // 场景序列：解题步骤 + 可选尾声（普遍性演示）
+    this.narrScenes = (this.opt.steps || []).map(function (st, i) {
+      return { kind: 'step', idx: i, text: st.narration || st.caption || '', audio: st.audio };
+    });
+    if (this.opt.narration && this.opt.narration.epilogue) {
+      var ep = this.opt.narration.epilogue;
+      this.narrScenes.push({ kind: 'epilogue', text: ep.text || '', audio: ep.audio, ep: ep });
+    }
+
     player.addEventListener('click', function (e) {
       var act = e.target && e.target.getAttribute && e.target.getAttribute('data-act');
       if (!act) return;
@@ -181,6 +193,7 @@
 
     document.addEventListener('fullscreenchange', function () { self._onFsChange(); });
     document.addEventListener('webkitfullscreenchange', function () { self._onFsChange(); });
+    window.addEventListener('orientationchange', function () { self._onFsChange(); });
 
     this.narrIdx = -1;
     this.narrPlaying = false;
@@ -240,8 +253,22 @@
     }
   };
 
+  InteractiveCard.prototype._preloadAudio = function () {
+    var self = this;
+    this.narrPreload = this.narrPreload || {};
+    this.narrScenes.forEach(function (sc) {
+      if (!sc.audio || self.narrPreload[sc.audio]) return;
+      var a = new Audio();
+      a.preload = 'auto';
+      a.src = sc.audio;
+      try { a.load(); } catch (e) { }
+      self.narrPreload[sc.audio] = a;
+    });
+  };
+
   InteractiveCard.prototype.openNarration = function () {
     this._enterCinema();
+    this._preloadAudio();
     this.mode = 'steps';
     this.narrIdx = -1;
     this.narrPlaying = true;
@@ -251,6 +278,7 @@
 
   InteractiveCard.prototype.narrReplay = function () {
     this._stopAudio();
+    this._stopEpilogueAnim();
     this.narrIdx = -1;
     this.narrPlaying = true;
     this._updateToggleBtn();
@@ -258,8 +286,7 @@
   };
 
   InteractiveCard.prototype.narrNext = function () {
-    if (this.narrIdx + 1 >= this.opt.steps.length) {
-      // 播完停在最后一步
+    if (this.narrIdx + 1 >= this.narrScenes.length) {
       this.narrPlaying = false;
       this._updateToggleBtn();
       return;
@@ -292,7 +319,12 @@
     var b = this.playerEl && this.playerEl.querySelector('[data-act="fs"]');
     var fsEl = document.fullscreenElement || document.webkitFullscreenElement;
     if (b) b.textContent = fsEl ? '⛶ 退出全屏' : '⛶ 全屏';
-    // 全屏后容器尺寸变化，重新拟合画布
+    var card = this._cinemaCard || (this.stageEl.closest ? this.stageEl.closest('.ggb-card') : null);
+    if (card) {
+      var landscape = window.matchMedia('(orientation: landscape)').matches;
+      card.classList.toggle('fs-landscape', !!fsEl && landscape);
+    }
+    // 全屏/转屏后容器尺寸变化，重新拟合画布
     if (this._fitAfter) this._fitAfter();
   };
 
@@ -322,48 +354,121 @@
 
   InteractiveCard.prototype._updateProgress = function () {
     if (!this.playerEl) return;
+    var total = this.narrScenes.length;
     var p = this.playerEl.querySelector('.ggb-player-progress');
-    if (p) p.textContent = (this.narrIdx + 1) + ' / ' + this.opt.steps.length;
+    var cur = this.narrScenes[this.narrIdx];
+    if (p) {
+      p.textContent = (cur && cur.kind === 'epilogue')
+        ? '尾声 · 普遍性'
+        : (this.narrIdx + 1) + ' / ' + total;
+    }
+    var fill = this.playerEl.querySelector('.ggb-progressbar-fill');
+    if (fill) {
+      var pct = total ? Math.max(0, Math.min(1, (this.narrIdx + 1) / total)) : 0;
+      fill.style.width = (pct * 100).toFixed(1) + '%';
+    }
   };
 
   InteractiveCard.prototype._showScene = function (i) {
     var self = this;
     this.narrIdx = i;
     this._stopAudio();
-    this.gotoStep(i);
-    var st = this.opt.steps[i];
-    var text = st.narration || st.caption || '';
-    if (this.captionEl) this.captionEl.textContent = text;
+    this._stopEpilogueAnim();
+    var sc = this.narrScenes[i];
+    if (!sc) return;
+
+    if (sc.kind === 'step') {
+      this.gotoStep(sc.idx);
+    } else {
+      // 尾声：全部显示，自动拖滑块演示普遍性
+      if (this.opt.onExplore && this.api) {
+        this.opt.onExplore(this.api);
+      } else {
+        this._showAll(true);
+      }
+      this._startEpilogueAnim(sc.ep);
+    }
+    if (this.captionEl) this.captionEl.textContent = sc.text;
     this._updateProgress();
     if (!this.narrPlaying) return;
 
-    if (st.audio) {
-      var audio = new Audio(st.audio);
+    var audio = (sc.audio && this.narrPreload && this.narrPreload[sc.audio]) || null;
+    if (!audio && sc.audio) {
+      audio = new Audio(sc.audio);
+      audio.onended = function () {
+        setTimeout(function () { if (self.narrPlaying) self.narrNext(); }, 250);
+      };
+    }
+    if (audio) {
       this.narrAudio = audio;
-      audio.addEventListener('ended', function () {
-        setTimeout(function () { if (self.narrPlaying) self.narrNext(); }, 550);
-      });
-      audio.addEventListener('error', function () {
-        self.narrAudio = null;
-        self._fallbackTimer(text);
-      });
+      audio.onended = function () {
+        setTimeout(function () { if (self.narrPlaying) self.narrNext(); }, 250);
+      };
+      audio.onerror = function () { self.narrAudio = null; self._fallbackTimer(sc.text); };
+      try { audio.currentTime = 0; } catch (e) { }
       audio.play().catch(function () {
         self.narrAudio = null;
-        self._fallbackTimer(text);
+        self._fallbackTimer(sc.text);
       });
     } else {
-      this._fallbackTimer(text);
+      this._fallbackTimer(sc.text);
     }
   };
 
   InteractiveCard.prototype._fallbackTimer = function (text) {
     var self = this;
     if (this.narrTimer) clearTimeout(this.narrTimer);
-    var t = text || (this.opt.steps[this.narrIdx] && this.opt.steps[this.narrIdx].caption) || '';
+    var t = text || '';
     var ms = Math.max(2600, t.length * 210);
     this.narrTimer = setTimeout(function () {
       if (self.narrPlaying) self.narrNext();
     }, ms);
+  };
+
+  /* 尾声：自动拖动滑块，展示结论的普遍性 */
+  InteractiveCard.prototype._startEpilogueAnim = function (ep) {
+    if (!ep || !ep.slider) return;
+    var self = this;
+    var from = ep.from, to = ep.to, dur = ep.duration || 3200;
+    var t0 = null, lastTs = 0, phase = 0;
+    this._epRunning = true;
+    function frame(ts) {
+      if (!self._epRunning) return;
+      if (t0 === null) { t0 = ts; lastTs = ts; }
+      if (!self.narrPlaying) {          // 暂停时不计入动画时间
+        t0 += (ts - lastTs);
+        lastTs = ts;
+        requestAnimationFrame(frame);
+        return;
+      }
+      lastTs = ts;
+      var u = (ts - t0) / dur;
+      if (u >= 1) {
+        if (phase === 0) { phase = 1; t0 = ts; u = 0; }
+        else {
+          self._setSliderValue(ep.slider, from);
+          self._epRunning = false;
+          return;
+        }
+      }
+      var v = phase === 0 ? from + (to - from) * u : to + (from - to) * u;
+      self._setSliderValue(ep.slider, v);
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  };
+
+  InteractiveCard.prototype._stopEpilogueAnim = function () {
+    this._epRunning = false;
+  };
+
+  InteractiveCard.prototype._setSliderValue = function (name, v) {
+    try { this.api.setValue(name, v); } catch (e) { }
+    var ctl = this.controlInputs && this.controlInputs[name];
+    if (ctl) {
+      ctl.input.value = v;
+      ctl.valEl.textContent = (ctl.fmt ? ctl.fmt(v) : v);
+    }
   };
 
   /* ---------- 响应式缩放（手机上按卡片宽度等比缩放 GeoGebra 画布） ---------- */
@@ -378,6 +483,12 @@
     var w = stage.clientWidth;
     if (!w) return;
     var scale = Math.min(1, w / designW);
+    // 全屏横屏（左栏布局）时同时受高度约束
+    var card = stage.closest ? stage.closest('.ggb-card') : null;
+    if (card && card.classList.contains('fs-landscape')) {
+      var h = stage.clientHeight;
+      if (h > 20) scale = Math.min(scale, h / designH);
+    }
     scaler.style.transformOrigin = '0 0';
     scaler.style.transform = 'scale(' + scale + ')';
     stage.style.height = Math.round(designH * scale) + 'px';
