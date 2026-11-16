@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-11 例2：放 m 后木板恰好水平 -->
+  <!-- 天花板 -->
+  <line x1="240" y1="42" x2="440" y2="42" stroke="#4b5563" stroke-width="2.5"/>
+  <g stroke="#9ca3af" stroke-width="1.2">
+    <line x1="250" y1="42" x2="242" y2="30"/><line x1="270" y1="42" x2="262" y2="30"/>
+    <line x1="290" y1="42" x2="282" y2="30"/><line x1="310" y1="42" x2="302" y2="30"/>
+    <line x1="330" y1="42" x2="322" y2="30"/><line x1="350" y1="42" x2="342" y2="30"/>
+    <line x1="370" y1="42" x2="362" y2="30"/><line x1="390" y1="42" x2="382" y2="30"/>
+    <line x1="410" y1="42" x2="402" y2="30"/><line x1="430" y1="42" x2="422" y2="30"/>
+  </g>
+  <circle cx="340" cy="56" r="4" fill="#1f2937"/>
+  <text x="334" y="36" font-size="15" fill="#1f2937" font-style="italic">O</text>
+  <!-- 绳 OA、OB -->
+  <line x1="340" y1="56" x2="180" y2="150" stroke="#4b5563" stroke-width="2"/>
+  <line x1="340" y1="56" x2="500" y2="150" stroke="#4b5563" stroke-width="2"/>
+  <!-- 木板 AB（水平） -->
+  <line x1="180" y1="150" x2="500" y2="150" stroke="#1f2937" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="180" cy="150" r="4" fill="#1f2937"/>
+  <circle cx="500" cy="150" r="4" fill="#1f2937"/>
+  <text x="162" y="146" font-size="14" fill="#1f2937" font-style="italic">A</text>
+  <text x="508" y="146" font-size="14" fill="#1f2937" font-style="italic">B</text>
+  <!-- 重物 m（距 A 端 L/4） -->
+  <rect x="242" y="118" width="36" height="30" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="252" y="138" font-size="13" font-style="italic">m</text>
+  <!-- C：合力 F 作用点（O 正下方，板中点） -->
+  <circle cx="340" cy="150" r="3.5" fill="#2563eb"/>
+  <text x="334" y="172" font-size="14" fill="#2563eb" font-style="italic">C</text>
+  <!-- D：木板重心（偏向 B） -->
+  <circle cx="432" cy="150" r="3.5" fill="#dc2626"/>
+  <text x="438" y="172" font-size="14" fill="#dc2626" font-style="italic">D</text>
+  <!-- mg -->
+  <line x1="260" y1="154" x2="260" y2="232" stroke="#dc2626" stroke-width="2.3"/>
+  <polygon points="260,242 252,226 268,226" fill="#dc2626"/>
+  <text x="248" y="258" font-size="14" fill="#dc2626" font-style="italic">mg</text>
+  <!-- F（合力，过 O） -->
+  <line x1="340" y1="154" x2="340" y2="252" stroke="#2563eb" stroke-width="2.3"/>
+  <polygon points="340,262 332,246 348,246" fill="#2563eb"/>
+  <text x="348" y="272" font-size="14" fill="#2563eb" font-style="italic">F</text>
+  <!-- Mg -->
+  <line x1="432" y1="154" x2="432" y2="232" stroke="#dc2626" stroke-width="2.3"/>
+  <polygon points="432,242 424,226 440,226" fill="#dc2626"/>
+  <text x="440" y="258" font-size="14" fill="#dc2626" font-style="italic">Mg</text>
+  <!-- F1、F2 沿绳 -->
+  <line x1="500" y1="150" x2="392" y2="78" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="384,72 392,88 402,78" fill="#2563eb"/>
+  <text x="392" y="66" font-size="14" fill="#2563eb" font-style="italic">F₁</text>
+  <line x1="180" y1="150" x2="288" y2="78" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="296,72 278,72 286,86" fill="#2563eb"/>
+  <text x="262" y="66" font-size="14" fill="#2563eb" font-style="italic">F₂</text>
+  <text x="310" y="318" font-size="14" fill="#6b7280">图 1-11</text>
+</svg>

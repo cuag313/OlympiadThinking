@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-15 例4：三铰拱 ABC，C 点受水平力 F -->
+  <!-- 拱轴线：半圆弧 A(-a,0)→C(0,a)→B(a,0) -->
+  <path d="M 220 250 A 120 120 0 0 1 460 250" fill="none" stroke="#1f2937" stroke-width="5"/>
+  <!-- 支座 A -->
+  <circle cx="220" cy="250" r="5" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <line x1="220" y1="258" x2="220" y2="276" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="220,276 208,292 232,292" fill="none" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="196" y1="292" x2="244" y2="292" stroke="#4b5563" stroke-width="2"/>
+  <g stroke="#9ca3af" stroke-width="1.1">
+    <line x1="206" y1="292" x2="198" y2="304"/><line x1="218" y1="292" x2="210" y2="304"/>
+    <line x1="230" y1="292" x2="222" y2="304"/><line x1="242" y1="292" x2="234" y2="304"/>
+  </g>
+  <text x="188" y="246" font-size="15" fill="#1f2937" font-style="italic">A</text>
+  <!-- 支座 B -->
+  <circle cx="460" cy="250" r="5" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <line x1="460" y1="258" x2="460" y2="276" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="460,276 448,292 472,292" fill="none" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="436" y1="292" x2="484" y2="292" stroke="#4b5563" stroke-width="2"/>
+  <g stroke="#9ca3af" stroke-width="1.1">
+    <line x1="446" y1="292" x2="438" y2="304"/><line x1="458" y1="292" x2="450" y2="304"/>
+    <line x1="470" y1="292" x2="462" y2="304"/><line x1="482" y1="292" x2="474" y2="304"/>
+  </g>
+  <text x="470" y="246" font-size="15" fill="#1f2937" font-style="italic">B</text>
+  <!-- 铰 C -->
+  <circle cx="340" cy="130" r="5" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="340" cy="130" r="1.8" fill="#1f2937"/>
+  <text x="332" y="118" font-size="15" fill="#1f2937" font-style="italic">C</text>
+  <!-- 水平力 F -->
+  <line x1="272" y1="130" x2="326" y2="130" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="336,130 320,122 320,138" fill="#dc2626"/>
+  <text x="278" y="118" font-size="15" fill="#dc2626" font-style="italic">F</text>
+  <!-- 高度 a 虚线 -->
+  <line x1="340" y1="130" x2="340" y2="250" stroke="#9ca3af" stroke-width="1.1" stroke-dasharray="5 4"/>
+  <text x="348" y="196" font-size="13" fill="#6b7280" font-style="italic">a</text>
+  <!-- 跨度 a, a -->
+  <line x1="220" y1="250" x2="340" y2="250" stroke="#9ca3af" stroke-width="1.1" stroke-dasharray="5 4"/>
+  <line x1="340" y1="250" x2="460" y2="250" stroke="#9ca3af" stroke-width="1.1" stroke-dasharray="5 4"/>
+  <text x="268" y="242" font-size="13" fill="#6b7280" font-style="italic">a</text>
+  <text x="390" y="242" font-size="13" fill="#6b7280" font-style="italic">a</text>
+  <text x="310" y="322" font-size="14" fill="#6b7280">图 1-15</text>
+</svg>

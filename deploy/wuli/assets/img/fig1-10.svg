@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-10 例2：不均匀木板悬挂，∠AOB=90°，AO 与水平成 15° -->
+  <!-- 天花板 -->
+  <line x1="240" y1="48" x2="440" y2="48" stroke="#4b5563" stroke-width="2.5"/>
+  <g stroke="#9ca3af" stroke-width="1.2">
+    <line x1="250" y1="48" x2="242" y2="36"/><line x1="270" y1="48" x2="262" y2="36"/>
+    <line x1="290" y1="48" x2="282" y2="36"/><line x1="310" y1="48" x2="302" y2="36"/>
+    <line x1="330" y1="48" x2="322" y2="36"/><line x1="350" y1="48" x2="342" y2="36"/>
+    <line x1="370" y1="48" x2="362" y2="36"/><line x1="390" y1="48" x2="382" y2="36"/>
+    <line x1="410" y1="48" x2="402" y2="36"/><line x1="430" y1="48" x2="422" y2="36"/>
+  </g>
+  <!-- O 悬点 -->
+  <circle cx="340" cy="60" r="4" fill="#1f2937"/>
+  <text x="334" y="40" font-size="15" fill="#1f2937" font-style="italic">O</text>
+  <!-- OA：向左下 15°，长度 170 -->
+  <line x1="340" y1="60" x2="176" y2="104" stroke="#4b5563" stroke-width="2"/>
+  <text x="200" y="82" font-size="14" fill="#1f2937" font-style="italic">A</text>
+  <!-- OB：向右下 75°，长度 170，∠AOB=90° -->
+  <line x1="340" y1="60" x2="384" y2="224" stroke="#4b5563" stroke-width="2"/>
+  <text x="396" y="220" font-size="14" fill="#1f2937" font-style="italic">B</text>
+  <!-- 15° 角标 -->
+  <line x1="340" y1="60" x2="250" y2="60" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M 296 60 A 44 44 0 0 0 285 71" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="268" y="82" font-size="13" fill="#2563eb">15°</text>
+  <!-- 杆 AB（不均匀木板） -->
+  <line x1="176" y1="104" x2="384" y2="224" stroke="#1f2937" stroke-width="7" stroke-linecap="round"/>
+  <!-- C 中点 -->
+  <circle cx="280" cy="164" r="3.5" fill="#2563eb"/>
+  <text x="262" y="160" font-size="14" fill="#2563eb" font-style="italic">C</text>
+  <!-- D 重心（O 正下方与杆交点） -->
+  <circle cx="340" cy="199" r="3.5" fill="#dc2626"/>
+  <text x="348" y="208" font-size="14" fill="#dc2626" font-style="italic">D</text>
+  <!-- Mg 从 D 竖直向下 -->
+  <line x1="340" y1="203" x2="340" y2="282" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="340,292 332,276 348,276" fill="#dc2626"/>
+  <text x="348" y="298" font-size="15" fill="#dc2626" font-style="italic">Mg</text>
+  <!-- F1 沿 BO 方向（B 处指向 O） -->
+  <line x1="384" y1="224" x2="352" y2="102" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="348,92 344,108 358,102" fill="#2563eb"/>
+  <text x="356" y="112" font-size="15" fill="#2563eb" font-style="italic">F₁</text>
+  <!-- F2 沿 AO 方向（A 处指向 O） -->
+  <line x1="176" y1="104" x2="316" y2="66" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="326,63 310,58 312,72" fill="#2563eb"/>
+  <text x="292" y="52" font-size="15" fill="#2563eb" font-style="italic">F₂</text>
+  <text x="310" y="336" font-size="14" fill="#6b7280">图 1-10</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-9 四力杆件：F3、F4 同向平行，合成 T，转化为三力杆件 -->
+  <rect x="180" y="150" width="320" height="16" rx="8" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.5"/>
+  <!-- 汇交点 -->
+  <circle cx="340" cy="52" r="4" fill="#1f2937"/>
+  <!-- F1、F2 作用线（虚线） -->
+  <line x1="340" y1="52" x2="180" y2="158" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="340" y1="52" x2="500" y2="158" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <!-- F1 -->
+  <line x1="180" y1="152" x2="118" y2="102" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="110,94 128,96 120,110" fill="#2563eb"/>
+  <text x="86" y="92" font-size="15" fill="#2563eb" font-style="italic">F₁</text>
+  <!-- F2 -->
+  <line x1="500" y1="152" x2="562" y2="102" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="570,94 552,96 560,110" fill="#2563eb"/>
+  <text x="568" y="92" font-size="15" fill="#2563eb" font-style="italic">F₂</text>
+  <!-- F3、F4（虚线，同向平行） -->
+  <line x1="280" y1="168" x2="280" y2="222" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="280,230 273,216 287,216" fill="#9ca3af"/>
+  <text x="258" y="248" font-size="15" fill="#6b7280" font-style="italic">F₃</text>
+  <line x1="430" y1="168" x2="430" y2="222" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="430,230 423,216 437,216" fill="#9ca3af"/>
+  <text x="438" y="248" font-size="15" fill="#6b7280" font-style="italic">F₄</text>
+  <!-- T：F3+F4 的合力 -->
+  <line x1="340" y1="168" x2="340" y2="252" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="340,262 332,246 348,246" fill="#dc2626"/>
+  <text x="350" y="272" font-size="15" fill="#dc2626" font-style="italic">T</text>
+  <text x="310" y="296" font-size="14" fill="#6b7280">图 1-9</text>
+</svg>

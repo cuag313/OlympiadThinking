@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-8 例1：三力平移至共点 O 的正交坐标系 -->
+  <!-- 坐标轴 -->
+  <line x1="180" y1="220" x2="520" y2="220" stroke="#4b5563" stroke-width="1.6"/>
+  <polygon points="530,220 514,213 514,227" fill="#4b5563"/>
+  <text x="538" y="225" font-size="14" fill="#4b5563" font-style="italic">x</text>
+  <line x1="340" y1="340" x2="340" y2="60" stroke="#4b5563" stroke-width="1.6"/>
+  <polygon points="340,50 333,66 347,66" fill="#4b5563"/>
+  <text x="348" y="56" font-size="14" fill="#4b5563" font-style="italic">y</text>
+  <!-- 原点 O -->
+  <circle cx="340" cy="220" r="3.5" fill="#1f2937"/>
+  <text x="322" y="238" font-size="15" fill="#1f2937" font-style="italic">O</text>
+  <!-- N1：与 x 轴成 2θ -->
+  <line x1="340" y1="220" x2="440" y2="98" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="446,88 428,100 442,110" fill="#2563eb"/>
+  <text x="452" y="86" font-size="15" fill="#2563eb" font-style="italic">N₁</text>
+  <!-- N2：与 y 轴成 θ（指向左上） -->
+  <line x1="340" y1="220" x2="218" y2="98" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="212,88 218,106 232,98" fill="#2563eb"/>
+  <text x="172" y="86" font-size="15" fill="#2563eb" font-style="italic">N₂</text>
+  <!-- G：竖直向下 -->
+  <line x1="340" y1="220" x2="340" y2="322" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="340,332 332,316 348,316" fill="#dc2626"/>
+  <text x="348" y="332" font-size="15" fill="#dc2626" font-style="italic">G</text>
+  <!-- 角度标注 -->
+  <path d="M 400 220 A 60 60 0 0 0 389 179" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="412" y="192" font-size="14" fill="#2563eb" font-style="italic">2θ</text>
+  <path d="M 340 160 A 60 60 0 0 0 310 171" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="300" y="160" font-size="14" fill="#2563eb" font-style="italic">θ</text>
+  <text x="310" y="352" font-size="14" fill="#6b7280">图 1-8</text>
+</svg>

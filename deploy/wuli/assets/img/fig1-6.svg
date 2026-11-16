@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-6 F1、F2 共点于 O，但 F3 的作用线不通过 O -->
+  <rect x="140" y="170" width="400" height="16" rx="8" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.5"/>
+  <!-- 共点 O -->
+  <circle cx="320" cy="56" r="4" fill="#1f2937"/>
+  <text x="312" y="44" font-size="15" fill="#1f2937" font-style="italic">O</text>
+  <!-- F1、F2 作用线（虚线交于 O） -->
+  <line x1="320" y1="56" x2="140" y2="178" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="320" y1="56" x2="540" y2="178" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <!-- F1 -->
+  <line x1="140" y1="178" x2="72" y2="222" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="72,222 88,220 80,208" fill="#dc2626"/>
+  <text x="46" y="240" font-size="15" fill="#dc2626" font-style="italic">F₁</text>
+  <!-- F2 -->
+  <line x1="540" y1="178" x2="608" y2="222" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="608,222 592,220 600,208" fill="#dc2626"/>
+  <text x="612" y="240" font-size="15" fill="#dc2626" font-style="italic">F₂</text>
+  <!-- F3：作用线（竖直虚线）不过 O -->
+  <line x1="410" y1="252" x2="410" y2="40" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="410" y1="170" x2="410" y2="96" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="410,88 402,102 418,102" fill="#2563eb"/>
+  <text x="420" y="100" font-size="15" fill="#2563eb" font-style="italic">F₃</text>
+  <!-- 未过 O 的提示小圆 -->
+  <circle cx="410" cy="56" r="3" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="310" y="272" font-size="14" fill="#6b7280">图 1-6</text>
+</svg>

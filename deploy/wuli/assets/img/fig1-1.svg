@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <!-- 图1-1 二力杆件：两力沿杆轴线 -->
+  <rect x="180" y="88" width="320" height="18" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.5"/>
+  <!-- F1 向左 -->
+  <line x1="180" y1="97" x2="90" y2="97" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="90,97 104,90 104,104" fill="#dc2626"/>
+  <text x="80" y="82" font-size="15" fill="#dc2626" font-style="italic">F₁</text>
+  <!-- F2 向右 -->
+  <line x1="500" y1="97" x2="590" y2="97" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="590,97 576,90 576,104" fill="#dc2626"/>
+  <text x="592" y="82" font-size="15" fill="#dc2626" font-style="italic">F₂</text>
+  <!-- 端点标注 -->
+  <text x="176" y="80" font-size="14" fill="#1f2937" font-style="italic">a</text>
+  <text x="500" y="80" font-size="14" fill="#1f2937" font-style="italic">b</text>
+  <text x="310" y="200" font-size="14" fill="#6b7280">图 1-1</text>
+</svg>

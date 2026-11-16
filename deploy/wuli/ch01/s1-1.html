@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一、杆件平衡问题的特殊处理方法 | 第一章 | 高中物理解题方法与技巧</title>
+  <meta name="description" content="杆件平衡问题的特殊处理方法：二力杆件、三力杆件、四力杆件转化，例题配有 GeoGebra 交互解题演示。">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-logo" href="../index.html">高中物理解题方法与技巧</a>
+      <nav class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="index.html" class="current">第一章</a>
+        <a href="../index.html#toc">章节目录</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="toc-side" aria-label="本节小节目录">
+      <div class="toc-side-title">本节导航</div>
+      <ol>
+        <li><a href="#sec1">1. 平衡条件</a></li>
+        <li><a href="#sec2">2. 二力杆件</a></li>
+        <li><a href="#sec3">3. 三力杆件 · 例1</a></li>
+        <li><a href="#sec4">4. 四力转化 · 例2 例3</a></li>
+        <li><a href="#sec5">5. 综合运用 · 例4 例5</a></li>
+        <li><a href="#summary">归纳</a></li>
+      </ol>
+    </nav>
+
+    <nav class="breadcrumb">
+      <a href="../index.html">首页</a><span class="sep">/</span>
+      <a href="index.html">第一章 物体平衡问题的特殊处理方法</a><span class="sep">/</span>
+      一、杆件平衡问题的特殊处理方法
+    </nav>
+
+    <article>
+      <h1>一、杆件平衡问题的特殊处理方法</h1>
+
+      <p>任何一个物体受力平衡，至少要受两个力作用，当然也可以受多个力作用。现特别研究受两个力作用的杆件和受三个力作用的杆件平衡问题。因为多个力作用下的平衡问题在一定条件下，可以转化为三个力或两个力作用的平衡问题来处理。</p>
+
+      <h3 class="sub" id="sec1"><span class="num">1.</span>平衡条件</h3>
+
+      <p>一个可以看做质点的物体，它处于平衡状态是指处于静止或匀速直线运动状态，质点处于平衡状态的充分必要条件是</p>
+      <div class="formula">\( F_{\text{合}} = 0 \)</div>
+
+      <p>刚体的运动既可以是平动，也可以是转动，处于平衡状态的刚体，不具有线加速度和角加速度。所以刚体处于平衡状态的充分必要条件是</p>
+      <div class="formula-row">
+        <div class="f-body">\[ F_{\text{合}} = 0 \]</div>
+        <div class="f-tag">①</div>
+      </div>
+      <div class="formula-row">
+        <div class="f-body">\[ M_{\text{合}} = 0 \]</div>
+        <div class="f-tag">②</div>
+      </div>
+
+      <p>对于有固定转动轴的刚体，由于有固定转动轴的限制，故不会发生平动，已满足①式，因此有固定转动轴的物体的平衡条件只要满足②式即可。</p>
+
+      <p>在中学阶段，限于所研究的对象是二维空间的平面力系，故①式可以在选定的正交坐标系中写成分量式 \( F_x = 0,\; F_y = 0 \)；②式可以写成 \( M_{\text{顺时针}} = M_{\text{逆时针}} \)。</p>
+
+      <h3 class="sub" id="sec2"><span class="num">2.</span>二力作用下物体平衡问题</h3>
+
+      <p>如果物体（杆件）只受两个外力 \( F_1 \)、\( F_2 \) 作用而处于平衡状态，这样的杆件称为「二力杆件」。由二力作用下物体的平衡条件可知：两个力 \( F_1 \)、\( F_2 \) 必须大小相等、方向相反，且作用在一条直线上。</p>
+
+      <figure class="figure">
+        <img src="../assets/img/fig1-1.svg" alt="二力杆件示意图">
+        <figcaption>图 1-1　二力作用线与杆件轴线重合</figcaption>
+      </figure>
+
+      <p>若二力作用在杆件的两个端点上时，不难证明，两力的作用线一定与杆件的轴线重合，如图 1-1 所示。若二力作用在杆件 \( ab \) 的两个端点上，力的大小相等、方向相反，但两力的作用线不在一条直线上，可以假设以任一点 \( b \) 为转轴，将有 \( M_{\text{合}} \neq 0 \)，杆件 \( ab \) 不可能平衡。</p>
+
+      <p>在不考虑杆件自身重量的条件下，如图 1-3 所示的支架系统均处于平衡状态，每个杆件都只有在两端受到力的作用，因此都为「二力杆件」。虽然支架的结构不同，但受力情况均相似，其中 \( AB \) 杆都受到拉力作用，而 \( BC \) 杆都受到压力作用。</p>
+
+      <figure class="figure">
+        <img src="../assets/img/fig1-3.svg" alt="三种支架中的二力杆件">
+        <figcaption>图 1-3　三种支架中的二力杆件（AB 受拉，BC 受压）</figcaption>
+      </figure>
+
+      <p><b>判断方法是：</b>假设 \( AB \) 断开，则 \( BC \) 杆向下转动，所以 \( AB \) 杆受到拉力作用，故此 \( AB \) 可以用绳子代替；假设 \( BC \) 断开，则 \( AB \) 要向下转动，故平衡时 \( BC \) 有支撑作用，因此 \( BC \) 杆受到压力作用，\( BC \) 则不能用绳子代替。</p>
+
+      <p><b>求解方法：</b>以图 1-3(a) 为例说明。通常认为 \( B \) 处受到三个力的作用：绳施于 \( B \) 点的拉力（大小 \( T = G \)），\( AB \) 杆施于 \( B \) 点的拉力 \( F_1 \)，\( BC \) 杆对 \( B \) 点的支撑力 \( F_2 \)。在 \( B \) 点，将 \( T \) 按力的作用效果分解为拉 \( BA \) 的力 \( F_1' \) 和压紧 \( BC \) 的力 \( F_2' \)。这样 \( AB \)、\( BC \) 都是二力杆件。先判断出力的方向，然后由共点力的平衡条件 \( F_{\text{合}} = 0 \) 求得未知力。再由牛顿第三定律，可知各杆件受到的压力和拉力的大小。</p>
+
+      <h3 class="sub" id="sec3"><span class="num">3.</span>三个力作用下物体平衡的问题</h3>
+
+      <p>若杆件只受互相不平行的三个外力作用而处于平衡，这种杆件称为「三力杆件」。由物体的平衡条件 \( F_{\text{合}} = 0,\; M_{\text{合}} = 0 \) 可知，这三个力必须共面共点。但「共点」只要求力的作用线交于一点，这一点不一定在物体上，如图 1-5 所示。</p>
+
+      <figure class="figure">
+        <img src="../assets/img/fig1-5.svg" alt="三力共点示意图">
+        <figcaption>图 1-5　三力作用线交于一点 O</figcaption>
+      </figure>
+
+      <p>若 \( F_1 \)、\( F_2 \) 共点于 \( O \)，而 \( F_3 \) 的作用线不通过 \( O \)（如图 1-6 所示），则以 \( O \) 为轴，\( F_1 \)、\( F_2 \) 的力矩 \( M_1 = 0,\; M_2 = 0 \)，但 \( F_3 \) 的力矩 \( M_3 \neq 0 \)，所以合力矩 \( M_{\text{合}} = M_1 + M_2 + M_3 \neq 0 \)，因此物体不能处于平衡状态。</p>
+
+      <figure class="figure">
+        <img src="../assets/img/fig1-6.svg" alt="三力不共点时不能平衡">
+        <figcaption>图 1-6　\( F_3 \) 的作用线不通过 \( O \)，杆件不能平衡</figcaption>
+      </figure>
+
+      <!-- ================= 例 1 ================= -->
+      <section class="example" id="ex1">
+        <h3><span class="tag">例 1</span>长为 \(L\)、重量为 \(G\) 的均匀直杆 \(AB\) 放置在光滑的半径为 \(R\) 的半球形容器内</h3>
+        <p class="problem-statement">
+          如图 1-7 所示，长为 \( L \)、重量为 \( G \) 的均匀直杆 \( AB \) 放置在光滑的半径为 \( R \) 的半球形容容器内。平衡时，杆与水平方向的夹角为 \( \theta \)（\( L &gt; 2R \) ），求容器对杆的作用力。
+        </p>
+
+        <div class="ggb-card" id="ggb-card-1">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">拖动滑块 θ 或图中控制点，观察支持力 N₁、N₂ 与力矩平衡的变化。</div>
+        </div>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-7.svg" alt="例1 半球形容器中的直杆">
+          <figcaption>图 1-7　均匀直杆 AB 置于光滑半球形容器内</figcaption>
+        </figure>
+
+        <div class="solution">
+          <p><span class="label">解</span>对杆 \( AB \) 进行受力分析可知，它受重力 \( G \)，\( A \) 点的支持力 \( N_1 \) 和 \( B \) 点的支持力 \( N_2 \)，物体受三个共面力作用而处于平衡状态，则三个力必共点，也就满足 \( M_{\text{合}} = 0 \)。</p>
+          <p>以 \( A \) 为转轴，\( G \) 与 \( N_2 \) 对 \( A \) 点的力矩代数和为零，有</p>
+          <div class="formula">\[ N_2 \cdot 2R\cos\theta = G \cdot \frac{L}{2}\cos\theta \]</div>
+          <p>所以</p>
+          <div class="formula">\[ N_2 = \frac{GL}{4R} \]</div>
+          <p>因为 \( N_1 \)、\( N_2 \)、\( G \) 共点，故将三力沿力的作用线平移到共点 \( O \) 处，建立直角坐标系如图 1-8 所示。由共点力的平衡条件知 \( \sum F_x = 0 \)，所以</p>
+
+          <figure class="figure">
+            <img src="../assets/img/fig1-8.svg" alt="例1 三力平移至共点 O 的坐标系">
+            <figcaption>图 1-8　三力平移至共点 \( O \) 建立直角坐标系</figcaption>
+          </figure>
+          <div class="formula">\[ N_1 \cos 2\theta = N_2 \sin\theta \]</div>
+          <p>则</p>
+          <div class="formula">\[ N_1 = \frac{\sin\theta}{\cos 2\theta} N_2 = \frac{GL\sin\theta}{4R\cos 2\theta} \]</div>
+        </div>
+
+        <div class="answer">
+          <span class="label">答</span>
+          容器 \( A \) 点对杆的作用力为 \( \dfrac{GL\sin\theta}{4R\cos 2\theta} \)，容器 \( B \) 点对杆的作用力为 \( \dfrac{GL}{4R} \)。
+        </div>
+      </section>
+
+      <h3 class="sub" id="sec4"><span class="num">4.</span>四力杆件平衡问题转化为三力杆件平衡问题</h3>
+
+      <p>若处于平衡状态的杆件受四个力作用，而其中有两个力的作用线是平行的，这样的四力杆件可以转化为三力杆件。如图 1-9 所示，\( F_3 \)、\( F_4 \) 为同向平行力，可以合成为 \( T \)，因此 \( F_1 \)、\( F_2 \)、\( T \) 三力必然共点。</p>
+
+      <figure class="figure">
+        <img src="../assets/img/fig1-9.svg" alt="四力杆件转化为三力杆件">
+        <figcaption>图 1-9　\( F_3 \)、\( F_4 \) 合成为 \( T \)，转化为三力杆件</figcaption>
+      </figure>
+
+      <!-- ================= 例 2 ================= -->
+      <section class="example" id="ex2">
+        <h3><span class="tag">例 2</span>不均匀木板的双绳悬挂</h3>
+        <p class="problem-statement">
+          有一条长为 \( L \) 的不均匀的木板，将两根等长的细绳系于 \( AB \) 两端，将木板悬挂起来。如图 1-10 所示，平衡时 \( \angle AOB \) 为直角，且 \( AO \) 边与水平方向成 \( 15^\circ \) 角。当在木板上距 \( A \) 端 \( \dfrac{1}{4}L \) 处放上一质量为 \( m \) 的物体时，木板恰好水平，如图 1-11 所示。求木板的质量 \( M \)。
+        </p>
+
+        <div class="ggb-card" id="ggb-card-2">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">拖动滑块观察两种平衡状态：无重物倾斜 15°，加 m 后木板水平。</div>
+        </div>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-10.svg" alt="例2 悬挂的不均匀木板">
+          <figcaption>图 1-10　无重物时：\( \angle AOB = 90^\circ \)，\( AO \) 与水平成 \( 15^\circ \)</figcaption>
+        </figure>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-11.svg" alt="例2 放上 m 后木板水平">
+          <figcaption>图 1-11　放上 \( m \) 后木板恰好水平</figcaption>
+        </figure>
+
+        <div class="solution">
+          <p><span class="label">解</span>没有放 \( m \) 时，\( AB \) 只受两个拉力 \( F_1 \)、\( F_2 \) 和木板重力 \( Mg \) 作用，为三力杆件，三力必在 \( O \) 处共点，所以不均匀木板的重力的作用线必通过 \( O \) 点。然后过 \( O \) 点作 \( AB \) 的垂线于 \( C \)，则 \( \triangle OAC \) 为等腰直角三角形，所以 \( \overline{OC} = \dfrac{L}{2} \)。在 \( \triangle OCD \) 中，\( \angle COD = 30^\circ \)，所以有</p>
+          <div class="formula">\[ \overline{CD} = \overline{OC} \tan 30^\circ = \frac{L}{2} \cdot \frac{\sqrt{3}}{3} = \frac{\sqrt{3}}{6} L \]</div>
+          <p>当放上 \( m \) 后 \( AB \) 水平，这时 \( AB \) 受到两个同向平行力 \( mg \) 和 \( Mg \) 作用，这两个力的合力为 \( F \)。由 \( AB \) 又受三个力作用，则力 \( F \) 的作用线必通过 \( O \) 点，即力 \( F \) 的作用点必在 \( C \) 处。</p>
+          <p>以 \( O \) 为转轴，由 \( M_{\text{合}} = 0 \) 可知 \( M_1 + M_2 + M_3 + M_4 = 0 \)。因为 \( F_1 \)、\( F_2 \) 的作用线通过 \( O \) 点，故 \( F_1 \)、\( F_2 \) 的力矩均为零，即 \( M_1 = 0,\; M_2 = 0 \)。又因为 \( M_3 = Mg \cdot \overline{CD} \)，\( M_4 = -mg \cdot \dfrac{L}{4} \)，所以</p>
+          <div class="formula">\[ M_3 + M_4 = Mg \cdot \overline{CD} - mg \cdot \frac{L}{4} = 0 \]</div>
+          <p>得</p>
+          <div class="formula">\[ M = \frac{\frac{L}{4}}{\overline{CD}}\, m = \frac{\frac{L}{4}}{\frac{\sqrt{3}}{6}L}\, m = \frac{\sqrt{3}}{2}\, m \]</div>
+        </div>
+
+        <div class="answer">
+          <span class="label">答</span>木板的质量为 \( \dfrac{\sqrt{3}}{2}\, m \)。
+        </div>
+      </section>
+
+      <p>若处于平衡状态的杆件受四个力的作用，而其中有两个力作用在杆件上同一点，这样的四力杆件可以转化为三力杆件。</p>
+
+      <!-- ================= 例 3 ================= -->
+      <section class="example" id="ex3">
+        <h3><span class="tag">例 3</span>均匀梯子斜靠在光滑墙上</h3>
+        <p class="problem-statement">
+          如图 1-12 所示，均匀的梯子 \( AB \) 长为 \( L = 3.9\,\mathrm{m} \)，斜靠在光滑的墙上，梯子下端距墙脚 \( 1.5\,\mathrm{m} \)，梯子重 \( G = 360\,\mathrm{N} \)，求墙和地面对梯子的作用力。
+        </p>
+
+        <div class="ggb-card" id="ggb-card-3">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">拖动滑块改变梯子下端距墙距离，观察共点 O 与地面作用力 F 的变化。</div>
+        </div>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-12.svg" alt="例3 斜靠在光滑墙上的梯子">
+          <figcaption>图 1-12　均匀梯子 AB 斜靠在光滑墙上</figcaption>
+        </figure>
+
+        <div class="solution">
+          <p><span class="label">解</span>对梯子受力进行分析可知：它受到重力 \( G \)，\( A \) 处给梯子的支持力 \( N_1 \)，\( B \) 处有两个作用力，一是地面的支持力 \( N_2 \)，另一个是地面对梯子的摩擦力 \( f \)。</p>
+          <p>其中 \( f \) 和 \( N_2 \) 是作用于 \( B \) 点处，因此梯子受四个力作用可以转化为三力作用。先将 \( f \) 和 \( N_2 \) 合成为地面对梯子的作用力 \( F \)，\( F \) 的作用线必通过 \( N_1 \) 和 \( G \) 的作用线的交点 \( O \) 处，因此 \( G \)、\( F \)、\( N_1 \) 三力共点。</p>
+          <p>在 \( \triangle ODB \) 中，\( \angle \theta = \angle DBO \)，则</p>
+          <div class="formula">\[ \tan\theta = \frac{\overline{OD}}{\overline{DB}} = \frac{\sqrt{3.9^2 - 1.5^2}}{\frac{1.5}{2}} = 4.8 \]</div>
+          <p>将 \( G \)、\( F \)、\( N_1 \) 沿作用线平移至 \( O \) 点处，建立直角坐标系。由共点力的平衡条件可知</p>
+          <div class="formula">\[ \sum F_x = N_1 - F\cos\theta = 0 \]</div>
+          <div class="formula">\[ \sum F_y = G - F\sin\theta = 0 \]</div>
+          <p>解得</p>
+          <div class="formula">\[ N_1 = \frac{G}{\tan\theta} = \frac{360}{4.8} = 75\,\mathrm{N} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ F = \sqrt{G^2 + N_1^2} = \sqrt{360^2 + 75^2} = 367.7\,\mathrm{N} \]</div>
+        </div>
+
+        <div class="answer">
+          <span class="label">答</span>墙对梯子的作用力为 \( 75\,\mathrm{N} \)，地面对梯子的作用力为 \( 367.7\,\mathrm{N} \)。
+        </div>
+      </section>
+
+      <h3 class="sub" id="sec5"><span class="num">5.</span>综合运用</h3>
+
+      <!-- ================= 例 4 ================= -->
+      <section class="example" id="ex4">
+        <h3><span class="tag">例 4</span>三铰拱的支座作用力</h3>
+        <p class="problem-statement">
+          如图 1-15 所示为 \( ABC \) 三处用铰链连接的三铰拱，现在 \( AC \) 边的 \( C \) 点处施于水平力 \( F \)，三铰拱处于平衡状态，求支座 \( A \)、\( B \) 的作用力（拱的重量不计）。
+        </p>
+
+        <div class="ggb-card" id="ggb-card-4">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">拖动滑块 F，观察支座作用力 N_A、N_B 与矢量三角形。</div>
+        </div>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-15.svg" alt="例4 三铰拱">
+          <figcaption>图 1-15　三铰拱 ABC，C 点受水平力 F</figcaption>
+        </figure>
+
+        <div class="solution">
+          <p><span class="label">解</span>由于重力不计，对三铰拱整体而言，只受三个力作用，根据平衡条件可知，这三力必须共点。先分析 \( A \)、\( B \) 两处受力的方向范围。</p>
+          <p>根据整体受力，在 \( F \) 作用时，整体平衡，要使整体不向右边平动，则 \( B \) 处的受力应向左上方，在 \( 90^\circ \) 的范围内；而 \( A \) 处受到支座的作用力，要使整体不向右翻倒，则应向左边拉，方向应在左下方 \( 90^\circ \) 范围内。由于 \( N_A \)、\( N_B \) 的方向有一定范围，因此三力共点一定在 \( F \) 作用线之上。有三种可能性：可能在 \( C \) 点，可能在 \( C \) 点左侧，也可能在 \( C \) 点右侧。</p>
+          <p>为了确定共点的位置，将三铰拱分成左、右两部分进行受力分析。对右边来说，\( B \) 点受力为 \( N_B \)，对 \( C \) 点来说，受到拱左边对右边的作用力 \( N' \) 的作用，因只受两个力作用，需要使 \( BC \) 平衡，则这两力必是一对平衡力，大小相等、方向相反，作用在一条直线上，这一直线必在 \( BC \) 的连线上。故 \( AC \) 部分受三个力作用，右边对 \( AC \) 的作用力为 \( N' \) 的反作用力 \( N \)，而左边受三个力作用，其中有两个力共点，则 \( N_A \) 的作用线也必须通过 \( C \) 点。由以上分析可知：三铰拱整体受三个力作用，且共点在 \( C \) 处。由整体考虑，\( N \) 与 \( N' \) 为内力，故将三个力移到一点计算。</p>
+          <p>由对称关系可知</p>
+          <div class="formula">\[ N_B = N_A, \qquad 2N_A \cos 45^\circ = F \]</div>
+          <p>所以</p>
+          <div class="formula">\[ N_A = N_B = \frac{\sqrt{2}}{2} F \]</div>
+        </div>
+
+        <div class="answer">
+          <span class="label">答</span>
+          在 \( A \) 处支座是拉力，大小为 \( \dfrac{\sqrt{2}}{2}F \)，方向沿左下方与水平方向成 \( 45^\circ \) 角；在 \( B \) 点支座是支持力，大小也为 \( \dfrac{\sqrt{2}}{2}F \)，方向沿左上方与水平方向成 \( 45^\circ \) 角。
+        </div>
+      </section>
+
+      <!-- ================= 例 5 ================= -->
+      <section class="example" id="ex5">
+        <h3><span class="tag">例 5</span>双棒铰接的平衡与外力范围</h3>
+        <p class="problem-statement">
+          如图 1-19 所示，一根细棒，上端 \( A \) 处用铰链与天花板相连，下端用铰链与另一细棒相连，两棒长度相等，两棒限于图示的竖直面内运动，不计铰链处的摩擦。当在 \( C \) 端加一适当的外力（在纸面内），可使两棒平衡在图 1-19 所示的位置处，即两棒的夹角为 \( 90^\circ \)，且 \( C \) 端正处于 \( A \) 端的正下方。<br>
+          （1）不管两棒质量如何，此外力只可能在哪个范围内？试说明道理（不要求推算）。<br>
+          （2）如果 \( AB \) 棒质量 \( m_1 \) 为 \( 1.0\,\mathrm{kg} \)，\( BC \) 棒的质量 \( m_2 \) 为 \( 2.0\,\mathrm{kg} \)，求此外力的大小和方向。
+        </p>
+
+        <div class="ggb-card" id="ggb-card-5">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">拖动 m₁、m₂，观察平衡角 θ 与外力 F 的联动。</div>
+        </div>
+
+        <figure class="figure">
+          <img src="../assets/img/fig1-19.svg" alt="例5 铰接的两根细棒">
+          <figcaption>图 1-19　两棒铰接于 B，夹角 90°，C 在 A 正下方</figcaption>
+        </figure>
+
+        <div class="solution">
+          <p><span class="label">解</span><b>（1）</b>根据平衡条件 \( F_{\text{合}} = 0 \)，\( M_{\text{合}} = 0 \)，以 \( ABC \) 整体为对象，系统若处于平衡状态，\( F \) 的方向不可能指向 \( AC \) 连线的左侧，这是因为以 \( A \) 为转轴，若 \( F \) 的方向指向 \( AC \) 的左侧，则 \( F \) 与系统的重力都产生顺时针方向的力矩，系统就不能平衡。</p>
+          <p>同理，\( F \) 的指向也不能在 \( BC \) 的右下方，因为以 \( B \) 为轴，若 \( F \) 指向 \( BC \) 的右下方，则 \( F \) 与 \( BC \) 的重力都产生逆时针方向的力矩，\( BC \) 棒不能保持平衡。</p>
+          <p>由以上分析可知：\( F \) 的方向只能在 \( \angle ACB \) 的范围内，即 \( 0^\circ &lt; \theta &lt; 45^\circ \)。用同样的方法也可讨论天花板对杆 \( AB \) 的作用力 \( F_A \) 的方向范围。先作 \( CA \) 的延长线 \( AD \) 和 \( BA \) 的延长线 \( AE \)，以 \( B \) 为轴，\( F_A \) 不可能在 \( AE \) 线上或 \( AE \) 线的左侧，否则 \( AB \) 杆不能平衡。以 \( C \) 为转轴时，\( F_A \) 不能在 \( AD \) 线上或 \( AD \) 线的右侧，否则系统不能平衡。</p>
+          <p>从以上分析可知，天花板对 \( AB \) 棒的作用力 \( F_A \) 的范围在 \( \angle EAD \) 范围内，即 \( 0^\circ &lt; \alpha &lt; 45^\circ \)。</p>
+          <p>对 \( ABC \) 整体来看，只受三个力作用，即 \( F \)、系统的重力 \( G_1 + G_2 \)、\( F_A \)，系统要平衡，这三力必须共点，故 \( F \) 的作用线只能通过 \( O_1 O_2 \) 连线上的某一点。作 \( CO_1 \) 的连线，可知 \( F \) 的方向范围更小。有 \( \tan\beta \) 上限值为</p>
+          <div class="formula">\[ \tan\beta_{\mathrm{m}} = \frac{\frac{l}{2}}{l} = \frac{1}{2} \]</div>
+          <p>故力 \( F \) 的方向范围为 \( 0 &lt; \beta &lt; \arctan \dfrac{1}{2} \)。</p>
+          <p><b>（2）</b>以 \( A \) 为转轴，有</p>
+          <div class="formula">\[ (m_1 g + m_2 g)\,\frac{l}{2}\cos 45^\circ = F \cdot \sqrt{2}\, l \sin\theta \]</div>
+          <p>所以</p>
+          <div class="formula-row">
+            <div class="f-body">\[ (m_1 + m_2)\, g l = 4 F l \sin\theta \]</div>
+            <div class="f-tag">①</div>
+          </div>
+          <p>以 \( B \) 为转轴，以 \( BC \) 杆为对象，有</p>
+          <div class="formula">\[ m_2 g \cdot \frac{l}{2} \sin 45^\circ = F l \sin(45^\circ - \theta) \]</div>
+          <p>所以</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \sqrt{2}\, m_2 g l = 4 F l \sin(45^\circ - \theta) \]</div>
+            <div class="f-tag">②</div>
+          </div>
+          <p>由 ① ÷ ② 得</p>
+          <div class="formula">\[ \frac{m_1 + m_2}{\sqrt{2}\, m_2} = \frac{\sin\theta}{\sin(45^\circ - \theta)} \]</div>
+          <p>即</p>
+          <div class="formula">\[ \sqrt{2}\, m_2 \sin\theta = (m_1 + m_2)\,\sin(45^\circ - \theta) \]</div>
+          <p>所以</p>
+          <div class="formula">\[ \sqrt{2}\, m_2 \sin\theta = (m_1 + m_2)\,\frac{\sqrt{2}}{2}(\cos\theta - \sin\theta) \]</div>
+          <p>因为 \( m_1 = 1.0\,\mathrm{kg} \)，\( m_2 = 2.0\,\mathrm{kg} \)，所以</p>
+          <div class="formula">\[ \sqrt{2} \times 2 \sin\theta = (2 + 1)\,\frac{\sqrt{2}}{2}(\cos\theta - \sin\theta) \]</div>
+          <p>得</p>
+          <div class="formula">\[ 7\sin\theta = 3\cos\theta \]</div>
+          <p>两边平方得 \( 49\sin^2\theta = 9\cos^2\theta \)，即 \( 49\sin^2\theta = 9(1 - \sin^2\theta) \)，所以 \( 58\sin^2\theta = 9 \)，解得</p>
+          <div class="formula">\[ \sin\theta = \sqrt{\frac{9}{58}} = 0.394 \]</div>
+          <p>所以 \( \theta \approx 23^\circ \)，则</p>
+          <div class="formula">\[ F = \frac{m_1 + m_2}{4\sin\theta}\, g = \frac{1 + 2}{4 \times 0.394} \times 10 = 19\,\mathrm{N} \]</div>
+        </div>
+
+        <div class="answer">
+          <span class="label">答</span>
+          （1）不管两棒质量如何，外力 \( F \) 方向的范围在 \( \angle BCO_2 \) 内，即 \( 0 &lt; \beta &lt; \arctan \dfrac{1}{2} \)。<br>
+          （2）如果 \( AB \) 棒的质量 \( m_1 \) 为 \( 1.0\,\mathrm{kg} \)，\( BC \) 棒的质量 \( m_2 \) 为 \( 2.0\,\mathrm{kg} \) 时，外力 \( F \) 的大小为 \( 19\,\mathrm{N} \)，方向与 \( AC \) 线的夹角 \( \theta \) 约为 \( 23^\circ \)。
+        </div>
+      </section>
+
+      <div class="summary" id="summary">
+        <span class="label">归纳</span>
+        <ol>
+          <li>对于某些待定的平衡对象，可以根据简单的平衡条件来判断未知力的作用线。</li>
+          <li>对多个有转动轴的平衡问题，对每一个转动轴都应列出平衡方程。</li>
+          <li>在平衡问题中，选取转轴的原则是：使未知力（非待求未知力）尽可能多地通过转轴，以减少方程的个数，便于求解。</li>
+        </ol>
+      </div>
+    </article>
+
+    <nav class="page-nav">
+      <a href="index.html">
+        <span class="dir-label">上一页</span>
+        第一章目录
+      </a>
+      <a class="next" href="#ex1">
+        <span class="dir-label">交互演示</span>
+        回到例 1 · 半球形容器中的直杆
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>《高中物理解题方法与技巧》交互版 · 基于原书内容制作，仅供教学学习使用</p>
+    <p>交互演示由 GeoGebra 驱动 · <a href="https://www.geogebra.org" target="_blank" rel="noopener">GeoGebra</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '$', right: '$', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  </script>
+  <script src="../js/ggb-common.js"></script>
+  <script src="../js/ex1.js"></script>
+  <script src="../js/ex2.js"></script>
+  <script src="../js/ex3.js"></script>
+  <script src="../js/ex4.js"></script>
+  <script src="../js/ex5.js"></script>
+</body>
+</html>
