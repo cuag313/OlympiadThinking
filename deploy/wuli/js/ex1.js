@@ -102,6 +102,21 @@
     GGB.hide(api, 'Cn');   // 用文字 tO 代替
     try { api.setLabelVisible('rod', false); api.setLabelVisible('bowl', false); } catch (e) { }
 
+    /* ---------- 画布要点标注（讲解时按时间出现） ---------- */
+    GGB.run(api, [
+      'mk1 = Text("受力分析：G、N₁、N₂", (-4.3, 2.85))',
+      'mk2 = Text("力矩：N₂·2Rcosθ = G·(L/2)cosθ", (-4.3, -2.45))',
+      'mk3 = Text("三力共点，O 在圆上", (2.1, 2.65))',
+      'mk4 = Text("ΣFx = 0：N₁cos2θ = N₂sinθ", (-4.3, -3.15))',
+      'mk5 = Text("封闭三角形 => 平衡", (3.85, -0.55))',
+    ]);
+    ['mk1', 'mk2', 'mk3', 'mk4', 'mk5'].forEach(function (n) {
+      GGB.color(api, n, 13);
+      try { api.setVisible(n, false); } catch (e) { }
+      try { api.setLabelVisible(n, false); } catch (e) { }
+      try { api.setFontSize(n, 14); } catch (e) { }
+    });
+
     GGB.view(api, -4.5, 8.5, -4.0, 3.4);
     try {
       api.setCoords('lmb', -4.3, 3.1);
@@ -116,35 +131,48 @@
       show: ['bowl', 'rod', 'gvec', 'n1vec', 'n2vec', 'tA', 'tB', 'tC', 'tG', 'tN1', 'tN2'],
       caption: '杆受重力 G（重心处）、A 点支持力 N₁（垂直弧面，沿半径指向球心）、B 点支持力 N₂（垂直杆）。',
       narration: '我们先对杆做受力分析。杆受到三个力：竖直向下的重力G，作用在杆的重心；A点的支持力N1，方向沿半径指向球心；B点的支持力N2，垂直于杆向上。',
-      audio: '../assets/audio/ex1-1.mp3'
+      audio: '../assets/audio/ex1-1.mp3',
+      key: '受力分析：重力 G、支持力 N₁ 与 N₂',
+      marks: [{ name: 'mk1', delay: 700 }],
     },
     {
       label: '力矩方程（A 轴）',
       show: ['bowl', 'rod', 'gvec', 'n2vec', 'armG', 'armN2', 'tA', 'tB', 'tG', 'tN2', 'txt'],
       caption: '以 A 为转轴：N₂·2Rcosθ = G·(L/2)cosθ，故 N₂ = GL/4R。图中橙色线段为两力的力臂。',
       narration: '取A点为转轴，列力矩方程。N2的力臂是二R乘cosine西塔，重力的力臂是二分之L乘cosine西塔。由力矩平衡，立刻解出N2等于GL除以四R。',
-      audio: '../assets/audio/ex1-2.mp3'
+      audio: '../assets/audio/ex1-2.mp3',
+      key: '以 A 为轴列力矩方程',
+      marks: [{ name: 'mk2', delay: 700 }],
+        anim: { slider: 'Gm', from: 2, to: 4, duration: 2000 },
     },
     {
       label: '三力共点',
       show: ['bowl', 'rod', 'circ', 'gvec', 'n1vec', 'n2vec', 'ln1', 'ln2', 'lnG', 'Cn', 'tO', 'tA', 'tB', 'tG', 'tN1', 'tN2'],
       caption: '三力平衡必共点：N₁ 沿半径、N₂ 垂直杆、G 竖直，三条作用线交于圆上一点 O（与 A 关于球心对称）。',
       narration: '三个力平衡，作用线必定共点。把N1、N2和G的作用线画出来，它们交于圆上的O点。O恰好与A点关于球心对称，这是个很漂亮的几何结论。',
-      audio: '../assets/audio/ex1-3.mp3'
+      audio: '../assets/audio/ex1-3.mp3',
+      key: '三力作用线共点于 O',
+      marks: [{ name: 'mk3', delay: 700 }],
+        anim: { slider: 'lmb', from: 2.1, to: 2.9, duration: 2600 },
     },
     {
       label: '正交分解',
       show: ['bowl', 'rod', 'gvec', 'n1vec', 'n2vec', 'tA', 'tB', 'tG', 'tN1', 'tN2', 'txt'],
       caption: '在共点 O 建立坐标系，由 ΣFx = 0：N₁cos2θ = N₂sinθ，得 N₁ = GLsinθ/(4Rcos2θ)。',
       narration: '在共点O建立直角坐标系。由水平方向合力为零，N1乘cosine二西塔等于N2乘sine西塔。解出N1等于GL乘sine西塔，除以四R乘cosine二西塔。',
-      audio: '../assets/audio/ex1-4.mp3'
+      audio: '../assets/audio/ex1-4.mp3',
+      key: '由 ΣFx = 0 求出 N₁',
+      marks: [{ name: 'mk4', delay: 700 }],
     },
     {
       label: '矢量三角形',
       show: ['v1', 'v2', 'v3', 'tTri'],
       caption: '三个力首尾相接构成封闭三角形——平衡的几何判据。拖动 λ 可验证三角形始终闭合。',
       narration: '最后，把三个力首尾相接，构成一个封闭的三角形，这就是平衡的几何判据。回到探究模式拖动滑块，无论杆多长，三角形始终是闭合的。',
-      audio: '../assets/audio/ex1-5.mp3'
+      audio: '../assets/audio/ex1-5.mp3',
+      key: '三力首尾相接，三角形闭合',
+      marks: [{ name: 'mk5', delay: 700 }],
+        anim: { slider: 'Gm', from: 2.4, to: 4, duration: 2400 },
     }
   ];
 

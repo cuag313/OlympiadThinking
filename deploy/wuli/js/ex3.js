@@ -101,6 +101,21 @@
     GGB.hide(api, ['L', 'th', 'N1', 'Fm', 'k', 'h', 'Cc', 'Gpt', 'D', 'Q0', 'Q1', 'Q2',
       'W1', 'W2', 'Gr1', 'Gr2', 's', 'G']);
 
+    /* ---------- 画布要点标注（讲解时按时间出现） ---------- */
+    GGB.run(api, [
+      'mk1 = Text("四力：G、N₁、N₂、f", (-1.05, 4.3))',
+      'mk2 = Text("f+N₂ 合成 F，三力共点", (1.5, 4.3))',
+      'mk3 = Text("tanθ = OD/DB = 2h/s", (5.7, 2.5))',
+      'mk4 = Text("N₁ = G/tanθ = 75 N", (5.6, -1.5))',
+      'mk5 = Text("力三角形闭合", (2.55, 3.1))',
+    ]);
+    ['mk1', 'mk2', 'mk3', 'mk4', 'mk5'].forEach(function (n) {
+      GGB.color(api, n, 13);
+      try { api.setVisible(n, false); } catch (e) { }
+      try { api.setLabelVisible(n, false); } catch (e) { }
+      try { api.setFontSize(n, 14); } catch (e) { }
+    });
+
     GGB.view(api, -1.2, 9.2, -1.7, 4.7);
     try {
       api.setCoords('s', 5.4, 4.3);
@@ -114,35 +129,46 @@
       show: ['wall', 'ground', 'ladder', 'gv', 'n1v', 'n2v', 'fv', 'tA', 'tB', 'tG', 'tN1', 'tN2', 'tf'],
       caption: '梯子受四个力：重力 G（中点）、墙支持力 N₁（A 处水平）、地面支持力 N₂ 与摩擦力 f（B 处）。',
       narration: '对梯子做受力分析：重力G，作用在中点；墙的支持力N1，水平向右；地面有支持力N2和摩擦力f。一共四个力。',
-      audio: '../assets/audio/ex3-1.mp3'
+      audio: '../assets/audio/ex3-1.mp3',
+      key: '受力分析：四个力',
+      marks: [{ name: 'mk1', delay: 700 }],
     },
     {
       label: '合成 f、N₂ 定共点 O',
       show: ['wall', 'ground', 'ladder', 'gv', 'n1v', 'Fv', 'lnN1', 'lnG', 'lnF', 'O', 'tO', 'tA', 'tB', 'tG', 'tN1', 'tF', 'info'],
       caption: '把 f 与 N₂ 合成为地面作用力 F：G、F、N₁ 三力共点——F 的作用线必过 N₁ 线与 G 线的交点 O。',
       narration: '把摩擦力f和支持力N2合成为地面的作用力F。这样梯子只受三个力，必定共点。F的作用线，一定通过N1与G作用线的交点O。',
-      audio: '../assets/audio/ex3-2.mp3'
+      audio: '../assets/audio/ex3-2.mp3',
+      key: '合成 f、N₂ 定共点 O',
+      marks: [{ name: 'mk2', delay: 700 }],
     },
     {
       label: '几何求 tanθ',
       show: ['wall', 'ground', 'ladder', 'gv', 'n1v', 'Fv', 'triO', 'O', 'tO', 'tA', 'tB', 'tD', 'tG', 'tN1', 'tF', 'info'],
       caption: '在 △ODB 中：tanθ = OD/DB = h/(s/2) = 2h/s = 4.8（原题数值）。',
       narration: '看三角形ODB：OD是梯高3.6米，DB是0.75米，所以tan西塔等于4.8。这个西塔，就是地面作用力F与水平方向的夹角。',
-      audio: '../assets/audio/ex3-3.mp3'
+      audio: '../assets/audio/ex3-3.mp3',
+      key: '几何关系：tanθ = 4.8',
+      marks: [{ name: 'mk3', delay: 700 }],
     },
     {
       label: '平衡方程',
       show: ['wall', 'ground', 'ladder', 'gv', 'n1v', 'Fv', 'tA', 'tB', 'tG', 'tN1', 'tF', 'info'],
       caption: 'ΣFx = 0 → N₁ = G/tanθ = 75 N；ΣFy = 0 → F = √(G²+N₁²) = 367.7 N。',
       narration: '列平衡方程：水平方向，N1等于F的水平分量；竖直方向，F的竖直分量等于G。解得N1等于75牛，F等于367.7牛。',
-      audio: '../assets/audio/ex3-4.mp3'
+      audio: '../assets/audio/ex3-4.mp3',
+      key: '平衡方程求 N₁ 与 F',
+      marks: [{ name: 'mk4', delay: 700 }],
+        anim: { slider: 's', from: 0.9, to: 2.2, duration: 2600 },
     },
     {
       label: '力三角形',
       show: ['q1', 'q2', 'q3', 'tTri', 'info'],
       caption: 'G、N₁、F 首尾相接构成封闭三角形，F 与水平方向夹角即 θ。',
       narration: '把G、N1和F首尾相接，构成封闭的力三角形。答案就是：墙的作用力75牛，地面的作用力367.7牛。',
-      audio: '../assets/audio/ex3-5.mp3'
+      audio: '../assets/audio/ex3-5.mp3',
+      key: '力三角形闭合',
+      marks: [{ name: 'mk5', delay: 700 }],
     }
   ];
 

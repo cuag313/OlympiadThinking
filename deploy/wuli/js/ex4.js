@@ -77,6 +77,21 @@
     });
     GGB.hide(api, ['Fm', 'Nm', 'k', 'Q0', 'Q1', 'Q2', 'base']);
 
+    /* ---------- 画布要点标注（讲解时按时间出现） ---------- */
+    GGB.run(api, [
+      'mk1 = Text("三力：F、N_A、N_B", (-1.95, 1.5))',
+      'mk2 = Text("方向范围 90°", (-1.95, -1.05))',
+      'mk3 = Text("BC 二力件 => 共点 C", (0.75, 1.5))',
+      'mk4 = Text("2N_A·cos45° = F", (1.0, -1.05))',
+      'mk5 = Text("N = √2/2 F", (1.15, 0.3))',
+    ]);
+    ['mk1', 'mk2', 'mk3', 'mk4', 'mk5'].forEach(function (n) {
+      GGB.color(api, n, 13);
+      try { api.setVisible(n, false); } catch (e) { }
+      try { api.setLabelVisible(n, false); } catch (e) { }
+      try { api.setFontSize(n, 14); } catch (e) { }
+    });
+
     GGB.view(api, -2.0, 3.6, -1.15, 1.8);
     try {
       api.setCoords('Fm', -1.55, 1.55);
@@ -89,35 +104,46 @@
       show: ['arch', 'Fv', 'NAv', 'NBv', 'tA', 'tB', 'tC', 'tF', 'tNA', 'tNB'],
       caption: '拱的重量不计，整体只受三个力：C 点的水平力 F、A 处支座作用力、B 处支座作用力。',
       narration: '由于拱的重量不计，整体只受三个力：C点的水平力F，A处支座的作用力，B处支座的作用力。三力平衡，必定共点。',
-      audio: '../assets/audio/ex4-1.mp3'
+      audio: '../assets/audio/ex4-1.mp3',
+      key: '整体受三个力',
+      marks: [{ name: 'mk1', delay: 700 }],
     },
     {
       label: '方向范围',
       show: ['arch', 'Fv', 'NAv', 'NBv', 'lnA', 'lnB', 'lnF', 'tA', 'tB', 'tC', 'tF'],
       caption: 'B 处受力只能向左上方（90° 范围），A 处只能向左下方——三力共点必在 F 的作用线上。',
       narration: '先判断方向范围：B处的力指向左上方，A处的力指向左下方。三个力的公共点，一定在F的作用线上。',
-      audio: '../assets/audio/ex4-2.mp3'
+      audio: '../assets/audio/ex4-2.mp3',
+      key: '判断方向范围',
+      marks: [{ name: 'mk2', delay: 700 }],
     },
     {
       label: '分半定共点',
       show: ['arch', 'halfBC', 'Fv', 'NAv', 'NBv', 'lnA', 'lnB', 'tA', 'tB', 'tC', 'tF', 'tNA', 'tNB'],
       caption: '右半 BC 只在两端受力，是二力件——B 处作用线必沿 BC；于是 N_A 的作用线也过 C，三力共点于 C。',
       narration: '把拱分成左右两半。右半BC只在B、C两点受力，是二力杆，B处的作用线必沿BC。于是左边AC上，A处的作用线也必须过C点，三力共点就在C。',
-      audio: '../assets/audio/ex4-3.mp3'
+      audio: '../assets/audio/ex4-3.mp3',
+      key: '分半分析定共点 C',
+      marks: [{ name: 'mk3', delay: 700 }],
     },
     {
       label: '对称求解',
       show: ['arch', 'Fv', 'NAv', 'NBv', 'tA', 'tB', 'tC', 'tF', 'tNA', 'tNB', 'info'],
       caption: '由对称性 N_A = N_B，把三力移到 C 点：2N_A·cos45° = F，故 N_A = N_B = √2/2·F。',
       narration: '由对称性，A、B两处的力大小相等。把三力移到C点，竖直方向抵消，水平方向：二倍的N乘cosine四十五度等于F。',
-      audio: '../assets/audio/ex4-4.mp3'
+      audio: '../assets/audio/ex4-4.mp3',
+      key: '对称求解',
+      marks: [{ name: 'mk4', delay: 700 }],
+        anim: { slider: 'Fm', from: 1, to: 3, duration: 2400 },
     },
     {
       label: '力三角形',
       show: ['q1', 'q2', 'q3', 'tTri', 'info'],
       caption: 'F、N_A、N_B 首尾相接构成封闭三角形：A 处拉力沿左下 45°，B 处支持力沿左上 45°。',
       narration: '解得NA等于NB等于二分之根号二F。A处是拉力，沿左下四十五度；B处是支持力，沿左上四十五度。矢量三角形正好闭合。',
-      audio: '../assets/audio/ex4-5.mp3'
+      audio: '../assets/audio/ex4-5.mp3',
+      key: '力三角形闭合',
+      marks: [{ name: 'mk5', delay: 700 }],
     }
   ];
 

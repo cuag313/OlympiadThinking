@@ -173,11 +173,14 @@
 
     // 场景序列：解题步骤 + 可选尾声（普遍性演示）
     this.narrScenes = (this.opt.steps || []).map(function (st, i) {
-      return { kind: 'step', idx: i, text: st.narration || st.caption || '', audio: st.audio };
+      return {
+        kind: 'step', idx: i, text: st.narration || st.caption || '',
+        key: st.key || '', marks: st.marks || [], anim: st.anim || null, audio: st.audio
+      };
     });
     if (this.opt.narration && this.opt.narration.epilogue) {
       var ep = this.opt.narration.epilogue;
-      this.narrScenes.push({ kind: 'epilogue', text: ep.text || '', audio: ep.audio, ep: ep });
+      this.narrScenes.push({ kind: 'epilogue', text: ep.text || '', key: ep.key || '尾声 · 普遍性', marks: ep.marks || [], audio: ep.audio, ep: ep });
     }
 
     player.addEventListener('click', function (e) {
@@ -200,6 +203,13 @@
     this.narrAudio = null;
     this.narrTimer = null;
 
+    // 收集所有画布标注对象名（场景切换时统一隐藏）
+    this._markNames = [];
+    this.narrScenes.forEach(function (sc) {
+      (sc.marks || []).forEach(function (m) {
+        if (self._markNames.indexOf(m.name) < 0) self._markNames.push(m.name);
+      });
+    });
     this._escHandler = function (e) {
       if (e.key === 'Escape' && self._cinemaOpen) self.closeNarration();
     };
@@ -374,11 +384,13 @@
     this.narrIdx = i;
     this._stopAudio();
     this._stopEpilogueAnim();
+    this._clearMarks();
     var sc = this.narrScenes[i];
     if (!sc) return;
 
     if (sc.kind === 'step') {
       this.gotoStep(sc.idx);
+      if (sc.anim) this._startEpilogueAnim(sc.anim);
     } else {
       // 尾声：全部显示，自动拖滑块演示普遍性
       if (this.opt.onExplore && this.api) {
@@ -388,16 +400,15 @@
       }
       this._startEpilogueAnim(sc.ep);
     }
-    if (this.captionEl) this.captionEl.textContent = sc.text;
+    this._scheduleMarks(sc.marks);
+    // 字幕只显示要点（口播内容不全文上屏）
+    if (this.captionEl) this.captionEl.textContent = sc.key || sc.text;
     this._updateProgress();
     if (!this.narrPlaying) return;
 
     var audio = (sc.audio && this.narrPreload && this.narrPreload[sc.audio]) || null;
     if (!audio && sc.audio) {
       audio = new Audio(sc.audio);
-      audio.onended = function () {
-        setTimeout(function () { if (self.narrPlaying) self.narrNext(); }, 250);
-      };
     }
     if (audio) {
       this.narrAudio = audio;
@@ -413,6 +424,27 @@
     } else {
       this._fallbackTimer(sc.text);
     }
+  };
+
+  /* 画布内要点标注：按 delay 定时出现在指定位置（GGB 文字对象，随画布缩放） */
+  InteractiveCard.prototype._scheduleMarks = function (marks) {
+    var self = this;
+    this._markTimers = this._markTimers || [];
+    (marks || []).forEach(function (m) {
+      var t = setTimeout(function () {
+        try { self.api.setVisible(m.name, true); } catch (e) { }
+      }, m.delay || 500);
+      self._markTimers.push(t);
+    });
+  };
+
+  InteractiveCard.prototype._clearMarks = function () {
+    var self = this;
+    (this._markTimers || []).forEach(function (t) { clearTimeout(t); });
+    this._markTimers = [];
+    (this._markNames || []).forEach(function (n) {
+      try { self.api.setVisible(n, false); } catch (e) { }
+    });
   };
 
   InteractiveCard.prototype._fallbackTimer = function (text) {
@@ -582,35 +614,37 @@
       b.classList.toggle('active', i === idx);
     });
 
-    // 逐步累积显示：第 i 步显示前 i 步的所有对象
+    // 计算目标可见集合（累积），再一次性差异更新——避免整屏隐藏/重绘造成的卡顿
+    var desired = {};
     if (idx >= this.opt.steps.length) {
-      // 全部显示
-      this._showAll(true);
-      if (this.captionEl) this.captionEl.textContent = '全部构造已显示。';
-      return;
+      (this.opt.allObjects || []).forEach(function (n) { desired[n] = true; });
+    } else {
+      for (var i = 0; i <= idx; i++) {
+        var st = self.opt.steps[i];
+        (st.show || []).forEach(function (n) { desired[n] = true; });
+        (st.hide || []).forEach(function (n) { delete desired[n]; });
+      }
     }
+    (this.alwaysVisible || []).forEach(function (n) { desired[n] = true; });
+    this._applyVisibility(desired);
 
-    this._showAll(false);
-    for (var i = 0; i <= idx; i++) {
-      var st = this.opt.steps[i];
-      (st.show || []).forEach(function (name) {
-        try { self.api.setVisible(name, true); } catch (e) { }
-      });
-      (st.hide || []).forEach(function (name) {
-        if (self.alwaysVisible.indexOf(name) >= 0) return;
-        try { self.api.setVisible(name, false); } catch (e) { }
-      });
-    }
-    // 常显控件保证可见
-    this.alwaysVisible.forEach(function (name) {
-      try { self.api.setVisible(name, true); } catch (e) { }
-    });
-    if (this.captionEl) {
+    if (this.captionEl && idx < this.opt.steps.length) {
       this.captionEl.textContent = this.opt.steps[idx].caption || '';
+      if (this.opt.steps[idx].onEnter) this.opt.steps[idx].onEnter(this.api);
+    } else if (this.captionEl) {
+      this.captionEl.textContent = '全部构造已显示。';
     }
-    if (this.opt.steps[idx].onEnter) {
-      this.opt.steps[idx].onEnter(this.api);
-    }
+  };
+
+  /* 批量设置可见性：冻结重绘 → 逐项应用 → 恢复重绘（一次绘制完成） */
+  InteractiveCard.prototype._applyVisibility = function (desired) {
+    var api = this.api;
+    if (!api) return;
+    try { if (api.setRepaintingActive) api.setRepaintingActive(false); } catch (e) { }
+    (this.opt.allObjects || []).forEach(function (n) {
+      try { api.setVisible(n, !!desired[n]); } catch (e) { }
+    });
+    try { if (api.setRepaintingActive) api.setRepaintingActive(true); } catch (e) { }
   };
 
   global.InteractiveCard = InteractiveCard;

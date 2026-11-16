@@ -84,6 +84,21 @@
     });
     GGB.hide(api, ['m1', 'm2', 'g', 'k', 'th', 'Fm', 'betam', 'r0', 'Q0', 'Q1', 'Q2', 'O1', 'O2']);
 
+    /* ---------- 画布要点标注（讲解时按时间出现） ---------- */
+    GGB.run(api, [
+      'mk1 = Text("F 只能在 ∠ACB 内", (1.0, 0.45))',
+      'mk2 = Text("tanβ ≤ 1/2", (1.75, -1.85))',
+      'mk3 = Text("方程①：以 A 为轴", (-0.85, -1.9))',
+      'mk4 = Text("方程②：以 B 为轴", (1.55, -1.6))',
+      'mk5 = Text("tanθ = 3/7，θ≈23°", (1.05, -0.65))',
+    ]);
+    ['mk1', 'mk2', 'mk3', 'mk4', 'mk5'].forEach(function (n) {
+      GGB.color(api, n, 13);
+      try { api.setVisible(n, false); } catch (e) { }
+      try { api.setLabelVisible(n, false); } catch (e) { }
+      try { api.setFontSize(n, 14); } catch (e) { }
+    });
+
     GGB.view(api, -0.9, 3.1, -1.95, 0.65);
     try {
       api.setCoords('m1', -0.85, 0.45);
@@ -97,35 +112,46 @@
       show: ['rodAB', 'rodBC', 'vline', 'rayCA', 'rayCB', 'Fv', 'tA', 'tB', 'tC', 'tF'],
       caption: '以整体为对象：F 不可能指向 AC 左侧或 BC 右下方，故 F 的方向只能在 ∠ACB 内（0°<θ<45°）。',
       narration: '以ABC整体为对象，不计摩擦，外力F的方向不可能指向AC左侧，也不能在BC右下方。所以F的方向只能在角ACB的范围内，也就是零到四十五度之间。',
-      audio: '../assets/audio/ex5-1.mp3'
+      audio: '../assets/audio/ex5-1.mp3',
+      key: 'F 的方向范围',
+      marks: [{ name: 'mk1', delay: 700 }],
     },
     {
       label: '共点收紧范围',
       show: ['rodAB', 'rodBC', 'rayCA', 'rayCB', 'rayLim', 'Fv', 'tA', 'tB', 'tC', 'tF', 'info'],
       caption: '整体受 F、G₁+G₂、F_A 三力必共点 → F 作用线过 O₁O₂ 连线上某点；作 CO₁ 得 tanβ ≤ 1/2。',
       narration: '整体受三个力：F，系统重力，A处的作用力。三力必须共点，所以F的作用线要通过两棒重心连线上的某一点。作CO1连线，得到F方向的上限：tan贝塔小于二分之一。',
-      audio: '../assets/audio/ex5-2.mp3'
+      audio: '../assets/audio/ex5-2.mp3',
+      key: '共点收紧：tanβ ≤ 1/2',
+      marks: [{ name: 'mk2', delay: 700 }],
     },
     {
       label: '转轴 A 方程',
       show: ['rodAB', 'rodBC', 'G1v', 'G2v', 'Fv', 'tA', 'tB', 'tC', 'tO1', 'tO2', 'tF'],
       caption: '以 A 为转轴：(m₁+m₂)g·(l/2)cos45° = F·√2·l·sinθ，即 (m₁+m₂)gl = 4Fl·sinθ  ①',
       narration: '以A为转轴列方程。两棒总重的力矩，等于F对A的力矩，得到方程一：(m1加m2)gl等于4Fl乘sine西塔。',
-      audio: '../assets/audio/ex5-3.mp3'
+      audio: '../assets/audio/ex5-3.mp3',
+      key: '转轴 A 的方程',
+      marks: [{ name: 'mk3', delay: 700 }],
     },
     {
       label: '转轴 B 方程（BC 杆）',
       show: ['rodAB', 'rodBC', 'G1v', 'G2v', 'Fv', 'tA', 'tB', 'tC', 'tO1', 'tO2', 'tF'],
       caption: '以 B 为转轴看 BC 杆：m₂g·(l/2)sin45° = Fl·sin(45°−θ)，即 √2·m₂gl = 4Fl·sin(45°−θ)  ②',
       narration: '再以B为转轴，只看BC棒：BC重力的力矩等于F对B的力矩，得到方程二。两式相除，消去F和l。',
-      audio: '../assets/audio/ex5-4.mp3'
+      audio: '../assets/audio/ex5-4.mp3',
+      key: '转轴 B 的方程',
+      marks: [{ name: 'mk4', delay: 700 }],
     },
     {
       label: '联立求解',
       show: ['rodAB', 'rodBC', 'G1v', 'G2v', 'Fv', 'q1', 'q2', 'q3', 'tTri', 'tO1', 'tO2', 'tF', 'info'],
       caption: '①÷② 联立：tanθ = (m₁+m₂)/(m₁+3m₂)。代入 m₁=1、m₂=2：θ≈23°，F = (m₁+m₂)g/(4sinθ) ≈ 19 N。',
       narration: '代入m1等于1公斤、m2等于2公斤，解得tan西塔等于七分之三，西塔约等于二十三度。再代回方程一，F等于十九牛顿。',
-      audio: '../assets/audio/ex5-5.mp3'
+      audio: '../assets/audio/ex5-5.mp3',
+      key: '联立解出 θ 与 F',
+      marks: [{ name: 'mk5', delay: 700 }],
+        anim: { slider: 'm2', from: 1.2, to: 2.5, duration: 2400 },
     }
   ];
 

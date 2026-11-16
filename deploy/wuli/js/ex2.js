@@ -103,6 +103,20 @@
     GGB.hide(api, ['d1', 'mArm', 'MArm', 'mMg', 'mmg', 'A1', 'B1', 'C1', 'D1', 'O1',
       'A2', 'B2', 'C2', 'D2', 'O2', 'S', 'p', 'mm', 'MM']);
 
+    /* ---------- 画布要点标注（讲解时按时间出现） ---------- */
+    GGB.run(api, [
+      'mk1 = Text("三力共点：F₁、F₂、Mg", (-5.05, 2.5))',
+      'mk2 = Text("OC = L/2，CD = √3L/6", (-5.05, -0.35))',
+      'mk3 = Text("平行力合成 F 过 O", (1.35, 2.5))',
+      'mk4 = Text("M·CD = m·(L/4)", (-5.05, -3.5))',
+    ]);
+    ['mk1', 'mk2', 'mk3', 'mk4'].forEach(function (n) {
+      GGB.color(api, n, 13);
+      try { api.setVisible(n, false); } catch (e) { }
+      try { api.setLabelVisible(n, false); } catch (e) { }
+      try { api.setFontSize(n, 14); } catch (e) { }
+    });
+
     GGB.view(api, -5.2, 5.4, -3.9, 2.9);
     try {
       api.setCoords('p', -5.05, -0.85);
@@ -117,28 +131,37 @@
       show: ['plank1', 'str1a', 'str1b', 'F1', 'F2', 'G1', 'tO1', 'tA1', 'tB1', 'tD1'],
       caption: '无 m 时木板受 F₁、F₂、Mg 三力，必汇交于悬点 O——重力作用线通过 O，重心 D 在 O 正下方的杆上。',
       narration: '不放重物时，木板受两根绳的拉力和自身重力，三个力必汇交于悬点O。所以重力的作用线通过O，重心D就在O正下方的板上。',
-      audio: '../assets/audio/ex2-1.mp3'
+      audio: '../assets/audio/ex2-1.mp3',
+      key: '三力汇交于悬点 O',
+      marks: [{ name: 'mk1', delay: 700 }],
     },
     {
       label: '几何关系求 CD',
       show: ['plank1', 'str1a', 'str1b', 'oc1', 'cd1', 'tO1', 'tA1', 'tB1', 'tC1', 'tD1', 'G1'],
       caption: '△OAC 为等腰直角三角形 → OC = L/2；∠COD = 30° → CD = OC·tan30° = √3L/6。',
       narration: '过O作木板的垂线，垂足C是AB的中点。三角形OAC是等腰直角三角形，所以OC等于二分之L。角COD等于30度，于是CD等于六分之根号三L。',
-      audio: '../assets/audio/ex2-2.mp3'
+      audio: '../assets/audio/ex2-2.mp3',
+      key: '几何定出 CD = √3L/6',
+      marks: [{ name: 'mk2', delay: 700 }],
     },
     {
       label: '状态2：平行力合成',
       show: ['plank2', 'str2a', 'str2b', 'mgv', 'Mgv', 'Fc', 'tO2', 'tS', 'tD2', 'tC2'],
       caption: '放 m 后木板水平：mg 与 Mg 是同向平行力，合力 F = (m+M)g 的作用线必过 O，作用点在 C 处。',
       narration: '放上质量m的物体后，木板恰好水平。mg和Mg是同向平行力，它们的合力F，作用线必定过O点，作用点就在C处。',
-      audio: '../assets/audio/ex2-3.mp3'
+      audio: '../assets/audio/ex2-3.mp3',
+      key: '合成 F 的作用点在 C',
+      marks: [{ name: 'mk3', delay: 700 }],
     },
     {
       label: '力矩平衡求 M',
       show: ['plank2', 'str2a', 'str2b', 'mgv', 'Mgv', 'barM', 'barm', 'tbarM', 'tbarm', 'bal', 'info', 'tO2', 'tS', 'tD2'],
       caption: '以 O 为转轴：F₁、F₂ 力矩为零，Mg·CD = mg·(L/4)。两根力矩条等长时平衡，得 M = √3/2·m。',
       narration: '以O为转轴列力矩方程。两根绳的拉力通过O点，力矩为零。所以Mg乘CD等于mg乘四分之L。代入CD，解得M等于二分之根号三m。',
-      audio: '../assets/audio/ex2-4.mp3'
+      audio: '../assets/audio/ex2-4.mp3',
+      key: '力矩平衡 => M = √3/2·m',
+      marks: [{ name: 'mk4', delay: 700 }],
+        anim: { slider: 'MM', from: 0.5, to: 0.866, duration: 2400 },
     }
   ];
 
