@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="300.0" y1="40.0" x2="380.0" y2="40.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="312.0" y1="40.0" x2="302.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="342.0" y1="40.0" x2="332.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="372.0" y1="40.0" x2="362.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="340.0" y1="56.0" x2="340.0" y2="150.0" stroke="#4b5563" stroke-width="1.8"/>
+  <polygon points="180,180 520,180 340,255" fill="none" stroke="#1f2937" stroke-width="3.5"/>
+  <circle cx="340.0" cy="150.0" r="4.0" fill="#1f2937"/>
+  <text x="348.0" y="142.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <text x="166.0" y="190.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <text x="528.0" y="190.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <line x1="180.0" y1="180.0" x2="180.0" y2="214.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="163.0" y="214.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="180.0" y="234.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">P</text>
+  <path d="M 208.3 151.7 A 40.0 40.0 0 0 1 220.0 180.0" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="224.0" y="168.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">60°</text>
+  <text x="340.0" y="295.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-43</text>
+</svg>

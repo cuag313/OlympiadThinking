@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="300.0" y1="40.0" x2="420.0" y2="40.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="312.0" y1="40.0" x2="302.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="342.0" y1="40.0" x2="332.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="372.0" y1="40.0" x2="362.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="402.0" y1="40.0" x2="392.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <circle cx="360.0" cy="56.0" r="4.0" fill="#1f2937"/>
+  <text x="368.0" y="46.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">E</text>
+  <line x1="360.0" y1="56.0" x2="360.0" y2="150.0" stroke="#4b5563" stroke-width="1.8"/>
+  <polygon points="280,160 440,160 440,280 280,280" fill="none" stroke="#1f2937" stroke-width="3.5"/>
+  <text x="266.0" y="164.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <text x="448.0" y="164.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <text x="448.0" y="288.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <text x="266.0" y="288.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">D</text>
+  <line x1="440.0" y1="280.0" x2="440.0" y2="316.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="423.0" y="316.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="440.0" y="336.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">G₂</text>
+  <line x1="280.0" y1="280.0" x2="280.0" y2="316.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="263.0" y="316.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="280.0" y="336.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">G₃</text>
+  <line x1="440.0" y1="160.0" x2="440.0" y2="200.0" stroke="#2563eb" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 440.0 186.0 A 26.0 26.0 0 0 1 430.3 184.1" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="400.0" y="184.0" font-size="12" fill="#2563eb" text-anchor="middle" font-style="italic">θ</text>
+  <text x="340.0" y="325.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-42</text>
+</svg>

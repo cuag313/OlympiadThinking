@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <circle cx="330.0" cy="60.0" r="4.0" fill="#1f2937"/>
+  <text x="316.0" y="50.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <line x1="330.0" y1="60.0" x2="250.0" y2="240.0" stroke="#1f2937" stroke-width="2.0"/>
+  <line x1="330.0" y1="60.0" x2="200.0" y2="210.0" stroke="#1f2937" stroke-width="2.0"/>
+  <line x1="200.0" y1="210.0" x2="250.0" y2="240.0" stroke="#1f2937" stroke-width="2.0"/>
+  <circle cx="250.0" cy="240.0" r="4.0" fill="#1f2937"/>
+  <text x="256.0" y="252.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="200.0" cy="210.0" r="4.0" fill="#1f2937"/>
+  <text x="182.0" y="216.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">D</text>
+  <circle cx="250.0" cy="210.0" r="3.5" fill="#1f2937"/>
+  <text x="258.0" y="222.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">H</text>
+  <line x1="200.0" y1="210.0" x2="250.0" y2="210.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="250.0" y1="240.0" x2="250.0" y2="210.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="330.0" y1="60.0" x2="250.0" y2="210.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="250.0" y1="240.0" x2="250.0" y2="302.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="250.0,302.0 245.5,290.9 254.5,290.9" fill="#dc2626"/>
+  <text x="260.0" y="314.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">P</text>
+  <line x1="200.0" y1="210.0" x2="190.0" y2="268.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="190.0,268.0 187.5,256.3 196.3,257.8" fill="#dc2626"/>
+  <text x="174.0" y="282.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">Q</text>
+  <text x="340.0" y="340.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-26</text>
+</svg>

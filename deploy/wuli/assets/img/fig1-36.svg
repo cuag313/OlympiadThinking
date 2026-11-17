@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <path d="M 170 80 A 170 170 0 0 0 510 80" fill="none" stroke="#4b5563" stroke-width="2.4"/>
+  <circle cx="340.0" cy="80.0" r="4.0" fill="#1f2937"/>
+  <text x="326.0" y="68.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <circle cx="268.0" cy="190.0" r="52.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <text x="268.0" y="196.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <circle cx="412.0" cy="190.0" r="52.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <text x="412.0" y="196.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <line x1="340.0" y1="80.0" x2="268.0" y2="190.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="340.0" y1="80.0" x2="412.0" y2="190.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="340.0" y1="80.0" x2="340.0" y2="240.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 340.0 138.0 A 58.0 58.0 0 0 1 304.3 125.7" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="294.0" y="152.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">α</text>
+  <text x="340.0" y="320.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-36</text>
+</svg>

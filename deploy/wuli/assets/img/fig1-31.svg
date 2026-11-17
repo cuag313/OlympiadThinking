@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="250.0" y1="36.0" x2="430.0" y2="36.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="262.0" y1="36.0" x2="252.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="292.0" y1="36.0" x2="282.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="322.0" y1="36.0" x2="312.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="352.0" y1="36.0" x2="342.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="382.0" y1="36.0" x2="372.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="412.0" y1="36.0" x2="402.0" y2="22.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <circle cx="340.0" cy="52.0" r="4.0" fill="#1f2937"/>
+  <text x="326.0" y="42.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <line x1="340.0" y1="52.0" x2="180.0" y2="170.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="340.0" y1="52.0" x2="500.0" y2="170.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="180.0" y1="170.0" x2="500.0" y2="170.0" stroke="#1f2937" stroke-width="6.0"/>
+  <circle cx="180.0" cy="170.0" r="4.0" fill="#1f2937"/>
+  <text x="166.0" y="188.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="500.0" cy="170.0" r="4.0" fill="#1f2937"/>
+  <text x="508.0" y="188.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <line x1="180.0" y1="170.0" x2="340.0" y2="52.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <line x1="500.0" y1="170.0" x2="340.0" y2="52.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 466.0 170.0 A 34.0 34.0 0 0 1 476.0 146.0" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="454.0" y="154.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">30°</text>
+  <path d="M 180.0 136.0 A 34.0 34.0 0 0 1 204.0 146.0" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="202.0" y="202.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">60°</text>
+  <line x1="260.0" y1="170.0" x2="260.0" y2="212.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="243.0" y="212.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="260.0" y="232.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">m</text>
+  <text x="340.0" y="280.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-31</text>
+</svg>

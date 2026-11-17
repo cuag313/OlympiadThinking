@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="250.0" y1="40.0" x2="430.0" y2="40.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="262.0" y1="40.0" x2="252.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="292.0" y1="40.0" x2="282.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="322.0" y1="40.0" x2="312.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="352.0" y1="40.0" x2="342.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="382.0" y1="40.0" x2="372.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="412.0" y1="40.0" x2="402.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <circle cx="340.0" cy="58.0" r="4.0" fill="#1f2937"/>
+  <text x="326.0" y="46.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <line x1="340.0" y1="58.0" x2="180.0" y2="250.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="340.0" y1="58.0" x2="500.0" y2="250.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="180.0" y1="250.0" x2="500.0" y2="250.0" stroke="#1f2937" stroke-width="6.0"/>
+  <circle cx="180.0" cy="250.0" r="4.0" fill="#1f2937"/>
+  <text x="166.0" y="254.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="500.0" cy="250.0" r="4.0" fill="#1f2937"/>
+  <text x="508.0" y="254.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <circle cx="340.0" cy="250.0" r="3.5" fill="#1f2937"/>
+  <text x="328.0" y="242.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <line x1="180.0" y1="250.0" x2="180.0" y2="292.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="163.0" y="292.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="180.0" y="312.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">P</text>
+  <line x1="500.0" y1="250.0" x2="500.0" y2="292.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="483.0" y="292.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="500.0" y="312.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">Q</text>
+  <line x1="340.0" y1="250.0" x2="340.0" y2="302.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="323.0" y="302.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="340.0" y="322.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">G</text>
+  <line x1="340.0" y1="58.0" x2="340.0" y2="148.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 340.0 110.0 A 52.0 52.0 0 0 1 296.4 86.3" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="296.0" y="120.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">α</text>
+  <path d="M 340.0 94.0 A 36.0 36.0 0 0 1 326.5 91.4" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="350.0" y="110.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">β</text>
+  <text x="340.0" y="340.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-20</text>
+</svg>

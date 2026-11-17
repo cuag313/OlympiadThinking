@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="150.0" y1="30.0" x2="150.0" y2="140.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="150.0" y1="42.0" x2="136.0" y2="32.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="150.0" y1="72.0" x2="136.0" y2="62.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="150.0" y1="102.0" x2="136.0" y2="92.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="150.0" y1="132.0" x2="136.0" y2="122.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="150.0" y1="70.0" x2="330.0" y2="210.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="330.0" y1="210.0" x2="500.0" y2="95.0" stroke="#4b5563" stroke-width="1.8"/>
+  <circle cx="150.0" cy="70.0" r="4.0" fill="#1f2937"/>
+  <text x="134.0" y="62.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="330.0" cy="210.0" r="4.0" fill="#1f2937"/>
+  <text x="314.0" y="228.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <circle cx="500.0" cy="95.0" r="4.0" fill="#1f2937"/>
+  <text x="508.0" y="89.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <line x1="330.0" y1="210.0" x2="330.0" y2="256.0" stroke="#4b5563" stroke-width="1.8"/>
+  <rect x="313.0" y="256.0" width="34" height="30" fill="none" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="330.0" y="276.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">G</text>
+  <line x1="150.0" y1="70.0" x2="260.0" y2="70.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 196.0 70.0 A 46.0 46.0 0 0 1 186.2 98.3" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="208.0" y="86.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">α</text>
+  <line x1="316.0" y1="190.0" x2="334.0" y2="176.0" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="308.0" y1="206.0" x2="328.0" y2="188.0" stroke="#6b7280" stroke-width="1.2"/>
+  <text x="346.0" y="188.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">T</text>
+  <text x="340.0" y="340.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-22</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="160.0" y1="40.0" x2="160.0" y2="280.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="160.0" y1="52.0" x2="146.0" y2="42.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="82.0" x2="146.0" y2="72.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="112.0" x2="146.0" y2="102.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="142.0" x2="146.0" y2="132.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="172.0" x2="146.0" y2="162.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="202.0" x2="146.0" y2="192.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="232.0" x2="146.0" y2="222.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="160.0" y1="262.0" x2="146.0" y2="252.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="300.0" y1="40.0" x2="420.0" y2="40.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="312.0" y1="40.0" x2="302.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="342.0" y1="40.0" x2="332.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="372.0" y1="40.0" x2="362.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="402.0" y1="40.0" x2="392.0" y2="26.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <polygon points="172,210 300,150 360,278 232,338" fill="none" stroke="#1f2937" stroke-width="3.5"/>
+  <text x="158.0" y="202.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <text x="308.0" y="142.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <text x="368.0" y="284.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <text x="218.0" y="352.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">D</text>
+  <line x1="360.0" y1="52.0" x2="300.0" y2="150.0" stroke="#4b5563" stroke-width="1.8"/>
+  <circle cx="360.0" cy="52.0" r="4.0" fill="#1f2937"/>
+  <text x="368.0" y="42.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">E</text>
+  <text x="340.0" y="320.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-35</text>
+</svg>

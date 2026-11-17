@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="240.0" y1="120.0" x2="460.0" y2="175.0" stroke="#1f2937" stroke-width="5.0"/>
+  <circle cx="240.0" cy="120.0" r="4.0" fill="#1f2937"/>
+  <text x="226.0" y="112.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <circle cx="460.0" cy="175.0" r="4.0" fill="#1f2937"/>
+  <text x="468.0" y="179.0" font-size="14" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <line x1="240.0" y1="120.0" x2="180.0" y2="80.0" stroke="#2563eb" stroke-width="2.3"/>
+  <polygon points="180.0,80.0 191.7,82.5 186.8,89.9" fill="#2563eb"/>
+  <text x="166.0" y="76.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">T₁</text>
+  <line x1="460.0" y1="175.0" x2="522.0" y2="133.0" stroke="#2563eb" stroke-width="2.3"/>
+  <polygon points="522.0,133.0 515.3,142.9 510.3,135.6" fill="#2563eb"/>
+  <text x="526.0" y="129.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">T₃</text>
+  <line x1="248.0" y1="142.0" x2="248.0" y2="202.0" stroke="#dc2626" stroke-width="2.3"/>
+  <polygon points="248.0,202.0 243.5,190.9 252.5,190.9" fill="#dc2626"/>
+  <text x="258.0" y="212.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">G</text>
+  <circle cx="350.0" cy="250.0" r="3.5" fill="#1f2937"/>
+  <text x="350.0" y="268.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">E</text>
+  <line x1="240.0" y1="120.0" x2="350.0" y2="250.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="460.0" y1="175.0" x2="350.0" y2="250.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="240.0" y1="120.0" x2="240.0" y2="170.0" stroke="#9ca3af" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <path d="M 240.0 90.0 A 30.0 30.0 0 0 1 255.0 94.0" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="254.0" y="162.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">θ</text>
+  <text x="340.0" y="340.0" font-size="14" fill="#6b7280" text-anchor="middle">图 1-24</text>
+</svg>
