@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="200.0" y1="40.0" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="200.0" y1="52.0" x2="187.0" y2="43.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="80.0" x2="187.0" y2="71.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="108.0" x2="187.0" y2="99.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="136.0" x2="187.0" y2="127.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="164.0" x2="187.0" y2="155.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="192.0" x2="187.0" y2="183.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="220.0" x2="187.0" y2="211.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="248.0" x2="187.0" y2="239.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="170.0" y1="260.0" x2="480.0" y2="260.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="182.0" y1="260.0" x2="173.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="210.0" y1="260.0" x2="201.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="238.0" y1="260.0" x2="229.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="266.0" y1="260.0" x2="257.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="294.0" y1="260.0" x2="285.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="322.0" y1="260.0" x2="313.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="350.0" y1="260.0" x2="341.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="378.0" y1="260.0" x2="369.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="406.0" y1="260.0" x2="397.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="434.0" y1="260.0" x2="425.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="462.0" y1="260.0" x2="453.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="200.0" y1="60.0" x2="330.0" y2="260.0" stroke="#1f2937" stroke-width="5.5"/>
+  <circle cx="200.0" cy="60.0" r="3.5" fill="#1f2937"/>
+  <text x="184.0" y="52.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="330.0" cy="260.0" r="3.5" fill="#1f2937"/>
+  <text x="338.0" y="276.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <circle cx="262.0" cy="165.0" r="16.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <text x="274.0" y="160.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">G</text>
+  <line x1="200.0" y1="60.0" x2="258.0" y2="60.0" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="258.0,60.0 247.8,64.1 247.8,55.9" fill="#2563eb"/>
+  <text x="276.0" y="52.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">N</text>
+  <line x1="330.0" y1="260.0" x2="300.0" y2="190.0" stroke="#4b5563" stroke-width="2.0"/>
+  <polygon points="300.0,190.0 307.8,197.8 300.3,201.0" fill="#4b5563"/>
+  <text x="268.0" y="196.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">F</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-19</text>
+</svg>

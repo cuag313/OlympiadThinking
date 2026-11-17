@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="250.0" y1="230.0" x2="430.0" y2="230.0" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="430.0,230.0 419.8,234.1 419.8,225.9" fill="#2563eb"/>
+  <text x="330.0" y="250.0" font-size="12" fill="#2563eb" text-anchor="middle" font-style="italic">p₁ = mv₁</text>
+  <line x1="430.0" y1="230.0" x2="430.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="430.0,90.0 434.1,100.2 425.9,100.2" fill="#dc2626"/>
+  <text x="444.0" y="160.0" font-size="12" fill="#dc2626" text-anchor="middle" font-style="italic">p₂ = mv₂</text>
+  <line x1="250.0" y1="230.0" x2="430.0" y2="90.0" stroke="#4b5563" stroke-width="2.0"/>
+  <polygon points="430.0,90.0 424.4,99.5 419.4,93.1" fill="#4b5563"/>
+  <text x="310.0" y="132.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Δp</text>
+  <text x="340.0" y="290.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-41</text>
+</svg>

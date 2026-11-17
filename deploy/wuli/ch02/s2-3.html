@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三、用速度矢量三角形法巧解运动学问题 | 第二章 | 高中物理解题方法与技巧</title>
+  <meta name="description" content="用速度矢量三角形法巧解运动学问题：相对运动与速度分解，例 1–5。">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-logo" href="../index.html">高中物理解题方法与技巧</a>
+      <nav class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="index.html" class="current">第二章</a>
+        <a href="../index.html#toc">章节目录</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumb">
+      <a href="../index.html">首页</a><span class="sep">/</span>
+      <a href="index.html">第二章 矢量三角形法解题技巧</a><span class="sep">/</span>
+      三、用速度矢量三角形法巧解运动学问题
+    </nav>
+
+    <nav class="toc-side" aria-label="本节小节目录">
+      <div class="toc-side-title">本节导航</div>
+      <ol>
+        <li><a href="#ex1">例1 · 车速多大不淋雨</a></li>
+        <li><a href="#ex2">例2 · 证速度转 90°</a></li>
+        <li><a href="#ex3">例3 · 绕池抛石落中心</a></li>
+        <li><a href="#ex4">例4 · 1 秒末偏下 45°</a></li>
+        <li><a href="#ex5">例5 · 绳拉船的速度</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <h1>三、用速度矢量三角形法巧解运动学问题</h1>
+
+      <!-- ================= 例 1 ================= -->
+      <section class="example" id="ex1">
+        <h3><span class="tag">例 1</span>车速多大时行李不淋湿</h3>
+        <p class="problem-statement">
+          如图 2-31 所示，一辆汽车在雨中沿直线行驶，其速率为 \( v_1 \)，下落的雨滴的速度方向偏于铅直线方向 \( \theta \) 角，速率为 \( v_2 \)，若车后有一长方形的行李，问：车速 \( v_1 \) 为多大时此行李不会被雨淋湿？
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-31.svg" alt="例1 雨中车与行李">
+          <figcaption>图 2-31　雨中行驶的车与车后行李</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>以车为参照物，则雨滴的运动是以速度 \( v_1 \) 向左匀速运动和以速度 \( v_2 \) 斜向下匀速运动的合运动，设其合速度为 \( v_3 \)。作 \( v_1 \)、\( v_2 \)、\( v_3 \) 的矢量三角形如图 2-32 所示，根据行李的几何尺寸作图 2-33，由此可以看出，行李不会被雨淋湿的条件是 \( \beta \leq \alpha \)。</p>
+          <figure class="figure">
+            <img src="../assets/img/fig2-32.svg" alt="例1 速度三角形">
+            <figcaption>图 2-32　相对速度的矢量三角形</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="../assets/img/fig2-33.svg" alt="例1 行李几何">
+            <figcaption>图 2-33　行李不被淋湿要求 \( \beta \leq \alpha \)</figcaption>
+          </figure>
+          <p>在图 2-32 中，由正弦定理得</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \frac{v_1}{\sin[90^\circ + (\theta - \beta)]} = \frac{v_2}{\sin\beta} \]</div>
+            <div class="f-tag">①</div>
+          </div>
+          <p>得 \( \dfrac{v_1}{v_2} = \dfrac{\cos(\theta - \beta)}{\sin\beta} \)，即</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \cot\beta = \frac{\frac{v_1}{v_2} - \sin\theta}{\cos\theta} \]</div>
+            <div class="f-tag">②</div>
+          </div>
+          <p>对 ① 式两边取余切，不等号变向，则得 \( \cot\beta \geq \cot\alpha \) ③。由图 2-33 可以看出 \( \cot\alpha = \dfrac{L}{h} \) ④。将 ②、④ 式代入 ③ 式中得</p>
+          <div class="formula">\[ \frac{\frac{v_1}{v_2} - \sin\theta}{\cos\theta} \geq \frac{L}{h} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ v_1 \geq v_2 \left(\frac{L}{h} \cos\theta + \sin\theta\right) \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>当 \( v_1 \geq v_2 \left(\dfrac{L}{h}\cos\theta + \sin\theta\right) \) 时，行李不会被雨淋湿。
+        </div>
+      </section>
+
+      <!-- ================= 例 2 ================= -->
+      <section class="example" id="ex2">
+        <h3><span class="tag">例 2</span>证速度经过 v/(gsinθ) 后转 90°</h3>
+        <p class="problem-statement">
+          试证明：如果做斜抛运动的物体在某一时刻的即时速度大小为 \( v \)，方向和水平面成 \( \theta \) 角，那么经过时间 \( \dfrac{v}{g\sin\theta} \) 后，它的即时速度一定和原来的方向垂直。
+        </p>
+        <div class="solution">
+          <p><span class="label">证明</span>设速度 \( v \) 经时间 \( t \) 后变为 \( v' \)，其速度变化量 \( \Delta v = gt \)，方向竖直向下。作速度的矢量三角形如图 2-34 所示。由余弦定理可知</p>
+          <figure class="figure">
+            <img src="../assets/img/fig2-34.svg" alt="例2 速度三角形">
+            <figcaption>图 2-34　速度变化量 \( \Delta v = gt \) 竖直向下</figcaption>
+          </figure>
+          <div class="formula">\[ v'^2 = v^2 + (gt)^2 - 2 v g t \cos(90^\circ - \theta) = v^2 + (gt)^2 - 2 v (gt) \sin\theta \]</div>
+          <p>将 \( gt = \dfrac{v}{\sin\theta} \) 代入，得</p>
+          <div class="formula">\[ v'^2 = v^2 + (gt)^2 - 2v^2 = (gt)^2 - v^2 \]</div>
+          <p>所以</p>
+          <div class="formula">\[ (gt)^2 = v'^2 + v^2 \]</div>
+          <p>即 \( v' \perp v \)。故 \( v \) 经过时间 \( \dfrac{v}{g\sin\theta} \) 后，它的速度一定和原来的方向垂直。</p>
+        </div>
+      </section>
+
+      <!-- ================= 例 3 ================= -->
+      <section class="example" id="ex3">
+        <h3><span class="tag">例 3</span>绕池奔跑抛石落中心</h3>
+        <p class="problem-statement">
+          有一座圆形水池，它的半径为 \( R \)，有人绕池以线速度 \( v \) 奔跑，同时距水面高 \( h \) 处水平抛出一块小石块，使石子恰好落在池的中心，如图 2-35 所示。试求抛出石子的初速度 \( v_0 \) 的大小和方向。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-35.svg" alt="例3 绕池抛石">
+          <figcaption>图 2-35　合速度 \( u \) 必沿半径方向</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>要使石子落在池的中心，抛出的初速度 \( v_0 \) 和奔跑的速度 \( v \) 的合速度 \( u \) 必须沿半径方向。作 \( u \)、\( v \)、\( v_0 \) 的矢量三角形如图 2-35 所示。</p>
+          <p>因为石子落在池中心，所以石子平抛运动的水平距离等于 \( R \)，有</p>
+          <div class="formula">\[ R = ut \]</div>
+          <p>又</p>
+          <div class="formula">\[ t = \sqrt{\frac{2h}{g}} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ u = \frac{R}{t} = R \sqrt{\frac{g}{2h}}，\quad u^2 = \frac{R^2 g}{2h} \]</div>
+          <p>石子的初速度大小为</p>
+          <div class="formula">\[ v_0 = \sqrt{u^2 + v^2} = \sqrt{\frac{R^2 g}{2h} + v^2} \]</div>
+          <p>石子初速度的方向为</p>
+          <div class="formula">\[ \cos\theta = \frac{-v}{v_0} = \frac{-v}{\sqrt{\frac{R^2 g}{2h} + v^2}} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ \theta = \arccos \frac{-v}{\sqrt{\frac{R^2 g}{2h} + v^2}} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>抛出石子的初速度大小为 \( \sqrt{\dfrac{R^2 g}{2h} + v^2} \)，方向与 \( v \) 所夹的角 \( \theta \) 为 \( \arccos \dfrac{-v}{\sqrt{\frac{R^2 g}{2h} + v^2}} \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 4 ================= -->
+      <section class="example" id="ex4">
+        <h3><span class="tag">例 4</span>1 秒末速度偏下 45°</h3>
+        <p class="problem-statement">
+          以仰角 \( 60^\circ \) 弹出一物体，如图 2-36 所示，第一秒末该物体速度方向水平偏下 \( 45^\circ \)，则该物体的初速度为多大（取 \( g = 10\,\mathrm{m/s^2} \)）？
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-36.svg" alt="例4 速度三角形">
+          <figcaption>图 2-36　\( v_0 \)、\( v_1 \)、\( gt \) 的矢量三角形</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>物体以初速度 \( v_0 \) 弹出后，第 1 秒末的速度为 \( v_1 \)，第 1 秒内的速度变化量为 \( gt \)。作 \( v_0 \)、\( v_1 \)、\( gt \) 的矢量三角形，依据正弦定理有</p>
+          <div class="formula">\[ \frac{gt}{\sin(60^\circ + 45^\circ)} = \frac{v_0}{\sin 45^\circ} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ v_0 = \frac{\sin 45^\circ}{\sin(60^\circ + 45^\circ)} gt = \frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{2}}{2}\left(\frac{\sqrt{3}}{2} + \frac{1}{2}\right)} \times 10 \times 1 = 7.3\,\mathrm{m/s} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>该物体的初速度为 \( 7.3\,\mathrm{m/s} \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 5 ================= -->
+      <section class="example" id="ex5">
+        <h3><span class="tag">例 5</span>绳拉船的速度分解</h3>
+        <p class="problem-statement">
+          某人用绳通过定滑轮拉小船，如图 2-37 所示，设某时刻拉绳速度为 \( v_0 \)，绳与水平方向的夹角为 \( \theta \)，求此刻小船水平运动的速度 \( v_x \)。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-37.svg" alt="例5 绳拉船">
+          <figcaption>图 2-37　绳拉船模型</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>设小船在题给时刻后的极短时间内由 \( A \) 点运动到 \( B \) 点，如图 2-38 所示。\( A \) 点的运动可以分解为沿绳方向的分运动和绕 \( O \) 点转动的分运动。故船的速度 \( v_x \) 可以分解为沿绳方向的 \( v_0 \) 和垂直绳的方向的 \( v_\theta \)，有</p>
+          <figure class="figure">
+            <img src="../assets/img/fig2-38.svg" alt="例5 速度分解">
+            <figcaption>图 2-38　船速沿绳与垂直绳分解</figcaption>
+          </figure>
+          <div class="formula">\[ v_x = \frac{v_0}{\cos\theta} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>此刻船水平运动的速度为 \( \dfrac{v_0}{\cos\theta} \)。
+        </div>
+      </section>
+
+    </article>
+
+    <nav class="page-nav">
+      <a href="s2-2.html">
+        <span class="dir-label">上一节</span>
+        二、用位移矢量三角形法巧解运动学问题
+      </a>
+      <a class="next" href="s2-4.html">
+        <span class="dir-label">下一节</span>
+        四、用动量矢量三角形法巧解动力学问题
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>《高中物理解题方法与技巧》交互版 · 主编：徐辉、江楚桥、龚霞玲、郑建雄 · 仅供教学学习使用</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '$', right: '$', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  </script>
+</body>
+</html>

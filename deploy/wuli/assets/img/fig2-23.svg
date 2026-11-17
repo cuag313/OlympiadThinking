@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <path d="M 260 260 A 120 120 0 0 1 500 260" fill="none" stroke="#4b5563" stroke-width="2.2"/>
+  <line x1="230.0" y1="260.0" x2="530.0" y2="260.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="242.0" y1="260.0" x2="233.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="270.0" y1="260.0" x2="261.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="298.0" y1="260.0" x2="289.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="326.0" y1="260.0" x2="317.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="354.0" y1="260.0" x2="345.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="382.0" y1="260.0" x2="373.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="410.0" y1="260.0" x2="401.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="438.0" y1="260.0" x2="429.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="466.0" y1="260.0" x2="457.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="494.0" y1="260.0" x2="485.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="522.0" y1="260.0" x2="513.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <circle cx="380.0" cy="260.0" r="3.5" fill="#1f2937"/>
+  <text x="388.0" y="278.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <circle cx="380.0" cy="90.0" r="3.5" fill="#1f2937"/>
+  <text x="370.0" y="80.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="322.0" cy="178.0" r="20.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <line x1="380.0" y1="90.0" x2="322.0" y2="158.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="380.0" y1="90.0" x2="380.0" y2="120.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="380.0" y1="90.0" x2="340.0" y2="130.0" stroke="#2563eb" stroke-width="2.0"/>
+  <polygon points="340.0,130.0 344.3,119.9 350.1,125.7" fill="#2563eb"/>
+  <text x="322.0" y="118.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">F</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-23</text>
+</svg>

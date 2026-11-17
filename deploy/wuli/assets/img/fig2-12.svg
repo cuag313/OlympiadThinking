@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="300.0" y1="260.0" x2="300.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="300.0,120.0 304.1,130.2 295.9,130.2" fill="#dc2626"/>
+  <text x="312.0" y="180.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">G</text>
+  <line x1="300.0" y1="120.0" x2="480.0" y2="260.0" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="480.0,260.0 469.4,256.9 474.4,250.5" fill="#2563eb"/>
+  <text x="420.0" y="160.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">N₂</text>
+  <line x1="300.0" y1="260.0" x2="480.0" y2="260.0" stroke="#4b5563" stroke-width="1.6"/>
+  <text x="370.0" y="276.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">N₁</text>
+  <line x1="300.0" y1="120.0" x2="560.0" y2="225.0" stroke="#2563eb" stroke-width="1.6"/>
+  <polygon points="560.0,225.0 549.0,225.0 552.1,217.4" fill="#2563eb"/>
+  <line x1="300.0" y1="260.0" x2="560.0" y2="225.0" stroke="#9ca3af" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <line x1="560.0" y1="225.0" x2="560.0" y2="260.0" stroke="#9ca3af" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="520.0" y="150.0" font-size="12" fill="#9ca3af" text-anchor="middle" font-style="italic">N₂′</text>
+  <text x="440.0" y="276.0" font-size="12" fill="#9ca3af" text-anchor="middle" font-style="italic">N₁′</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-12</text>
+</svg>

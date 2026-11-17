@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="200.0" y1="260.0" x2="200.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="200.0" y1="260.0" x2="200.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="200.0,110.0 204.1,120.2 195.9,120.2" fill="#dc2626"/>
+  <text x="212.0" y="185.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">G</text>
+  <line x1="200.0" y1="110.0" x2="389.9" y2="33.7" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="389.9" y1="33.7" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="200.0" y1="110.0" x2="326.3" y2="-10.9" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="326.3" y1="-10.9" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="200.0" y1="110.0" x2="249.0" y2="-17.6" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="249.0" y1="-17.6" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="200.0" y1="110.0" x2="160.1" y2="33.7" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="160.1" y1="33.7" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="200.0" y1="110.0" x2="125.4" y2="119.6" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="125.4" y1="119.6" x2="200.0" y2="260.0" stroke="#4b5563" stroke-width="1.4"/>
+  <text x="350.0" y="100.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">T_A</text>
+  <text x="430.0" y="200.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">T_B</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-4</text>
+</svg>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>二、用位移矢量三角形法巧解运动学问题 | 第二章 | 高中物理解题方法与技巧</title>
+  <meta name="description" content="用位移矢量三角形法巧解运动学问题：斜抛、平抛的位移分解，例 1–6。">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-logo" href="../index.html">高中物理解题方法与技巧</a>
+      <nav class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="index.html" class="current">第二章</a>
+        <a href="../index.html#toc">章节目录</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumb">
+      <a href="../index.html">首页</a><span class="sep">/</span>
+      <a href="index.html">第二章 矢量三角形法解题技巧</a><span class="sep">/</span>
+      二、用位移矢量三角形法巧解运动学问题
+    </nav>
+
+    <nav class="toc-side" aria-label="本节小节目录">
+      <div class="toc-side-title">本节导航</div>
+      <ol>
+        <li><a href="#ex1">例1 · 斜抛射程与射高</a></li>
+        <li><a href="#ex2">例2 · 飞机投弹瞄准角</a></li>
+        <li><a href="#ex3">例3 · 打山上靶的速度</a></li>
+        <li><a href="#ex4">例4 · 斜面上的斜抛</a></li>
+        <li><a href="#ex5">例5 · 落斜面弹跳两次</a></li>
+        <li><a href="#ex6">例6 · 证 tanα=tanθ+tanφ</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <h1>二、用位移矢量三角形法巧解运动学问题</h1>
+
+      <!-- ================= 例 1 ================= -->
+      <section class="example" id="ex1">
+        <h3><span class="tag">例 1</span>斜抛的射程与射高</h3>
+        <p class="problem-statement">
+          一个物体做斜上抛运动，抛射角为 \( \theta \)，初速度为 \( v_0 \)。求射程和射高。
+        </p>
+        <div class="solution">
+          <p><span class="label">解</span>斜抛运动可看做是在初速度方向上的匀速直线运动和从抛出点开始的自由落体运动的合运动。作矢量三角形如图 2-25 所示。物体在飞行时间 \( T \) 内，匀速运动的位移 \( s_{AB} = v_0 T \)，自由落体运动的位移 \( s_{BC} = \dfrac{1}{2} g T^2 \)，其合位移 \( s_{AC} \)（设 \( s_{AC} = x \)）即为水平射程。</p>
+          <figure class="figure">
+            <img src="../assets/img/fig2-25.svg" alt="例1 斜抛位移三角形">
+            <figcaption>图 2-25　斜抛的位移矢量三角形</figcaption>
+          </figure>
+          <p>在矢量三角形 \( ABC \) 中，\( s_{BC} = s_{AB}\sin\theta \)，即 \( \dfrac{1}{2} g T^2 = v_0 T \sin\theta \)，得 \( T = \dfrac{2v_0\sin\theta}{g} \)。</p>
+          <p>由图 2-25 可以看出 \( x = v_0 T \cos\theta = v_0 \cos\theta \cdot \dfrac{2v_0 \sin\theta}{g} = \dfrac{v_0^2 \sin 2\theta}{g} \)。</p>
+          <p>设射高 \( FG = y \)，延长 \( GF \) 交 \( AB \) 于 \( E \)，连接 \( AF \)，则 \( \triangle AEF \) 是斜抛运动物体达到最高点时，对应的位移矢量三角形。由图 2-25 可知，匀速运动的位移 \( s_{AE} = v_0 \dfrac{T}{2} \)（\( \dfrac{T}{2} \) 为飞行时间的一半），自由落体运动的位移为 \( s_{EF} = \dfrac{1}{2} g \left(\dfrac{T}{2}\right)^2 \)，所以</p>
+          <div class="formula">\[ s_{AE} = v_0 \frac{T}{2} = \frac{v_0}{2} \cdot \frac{2v_0 \sin\theta}{g} = \frac{v_0^2 \sin\theta}{g} \]</div>
+          <div class="formula">\[ s_{EF} = \frac{1}{2} g \cdot \frac{4v_0^2 \sin^2\theta}{4g^2} = \frac{v_0^2 \sin^2\theta}{2g} \]</div>
+          <p>在 \( \triangle AEG \) 中 \( s_{EG} = s_{AE}\sin\theta = \dfrac{v_0^2 \sin^2\theta}{g} \)，则</p>
+          <div class="formula">\[ y = s_{EG} - s_{EF} = \frac{v_0^2 \sin^2\theta}{g} - \frac{v_0^2 \sin^2\theta}{2g} = \frac{v_0^2 \sin^2\theta}{2g} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>射程为 \( \dfrac{v_0^2 \sin 2\theta}{g} \)，射高为 \( \dfrac{v_0^2 \sin^2\theta}{2g} \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 2 ================= -->
+      <section class="example" id="ex2">
+        <h3><span class="tag">例 2</span>飞机投弹的瞄准角</h3>
+        <p class="problem-statement">
+          一飞机在 \( h \) 米高处，以水平速率 \( v_0 \) 向地面上轰炸目标飞行。求瞄准角（瞄准器到目标的视线与铅直线的夹角）为多大时，就应投弹。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-26.svg" alt="例2 飞机投弹">
+          <figcaption>图 2-26　投弹的位移矢量三角形</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>炸弹的初速度和飞机的初速度相同，作位移矢量三角形如图 2-26 所示，炸弹落到地面的时间，就是自由落体落到地面的时间，且</p>
+          <div class="formula">\[ t = \sqrt{\frac{2h}{g}} \]</div>
+          <p>在这段时间内炸弹经过的水平位移为</p>
+          <div class="formula">\[ s = v_0 t = v_0 \sqrt{\frac{2h}{g}} \]</div>
+          <p>设瞄准角为 \( \alpha \)，从图 2-26 可以看出</p>
+          <div class="formula">\[ \tan\alpha = \frac{s}{h} = \frac{v_0}{h}\sqrt{\frac{2h}{g}} = \frac{v_0}{gh}\sqrt{2gh} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ \alpha = \arctan \frac{v_0}{gh}\sqrt{2gh} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>瞄准角为 \( \arctan \dfrac{v_0}{gh}\sqrt{2gh} \) 时就应投弹。
+        </div>
+      </section>
+
+      <!-- ================= 例 3 ================= -->
+      <section class="example" id="ex3">
+        <h3><span class="tag">例 3</span>击中山上靶所需初速</h3>
+        <p class="problem-statement">
+          如图 2-27 所示，在小山上放置一个靶 \( A \)，由炮位所在处 \( O \) 看靶的仰角为 \( \alpha \)，炮与靶的水平距离为 \( L \)，射击时炮身的仰角为 \( \beta \)。问炮弹出膛的速度 \( v_0 \) 应为多大时才能击中靶。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-27.svg" alt="例3 打山上靶">
+          <figcaption>图 2-27　炮位 \( O \)、靶 \( A \) 与弹道</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>依题意作矢量三角形 \( OAB \)，设在时间 \( t \) 内击中靶，则在这段时间内，匀速运动的位移为</p>
+          <div class="formula">\[ s_{OB} = v_0 t \]</div>
+          <p>自由落体运动的位移为</p>
+          <div class="formula">\[ s_{BA} = \frac{1}{2} g t^2 \]</div>
+          <p>在 \( \triangle OAB \) 中，由正弦定理得</p>
+          <div class="formula">\[ \frac{v_0 t}{\sin(90^\circ + \alpha)} = \frac{\frac{1}{2} g t^2}{\sin(\beta - \alpha)} \]</div>
+          <p>得</p>
+          <div class="formula">\[ t = \frac{2 v_0 \sin(\beta - \alpha)}{g \cos\alpha} \]</div>
+          <p>从图 2-27 中可以看出</p>
+          <div class="formula">\[ L = v_0 t \cos\beta = v_0 \cos\beta \cdot \frac{2 v_0 \sin(\beta - \alpha)}{g \cos\alpha} = v_0^2 \frac{2\cos\beta \sin(\beta - \alpha)}{g \cos\alpha} \]</div>
+          <p>则</p>
+          <div class="formula">\[ v_0^2 = \frac{g L \cos\alpha}{2 \cos\beta \sin(\beta - \alpha)} \]</div>
+          <p>所以</p>
+          <div class="formula">\[ v_0 = \sqrt{\frac{g L \cos\alpha}{2 \cos\beta \sin(\beta - \alpha)}} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>炮弹出膛速度为 \( \sqrt{\dfrac{g L \cos\alpha}{2 \cos\beta \sin(\beta - \alpha)}} \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 4 ================= -->
+      <section class="example" id="ex4">
+        <h3><span class="tag">例 4</span>斜面上的斜抛</h3>
+        <p class="problem-statement">
+          如图 2-28 所示，在倾角为 \( 30^\circ \) 的斜面底端，用初速度 \( v_0 \) 向上与斜面夹 \( 30^\circ \) 角抛出一小球。求小球的飞行时间与在斜面上的射程。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-28.svg" alt="例4 斜面上的斜抛">
+          <figcaption>图 2-28　斜面上的斜抛</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>小球的斜抛运动可以看成是一个以速度 \( v_0 \) 的匀速直线运动（抛出方向）和一个自由落体运动的合运动。而自由落体运动的位移总是竖直向下的，根据位移矢量三角形，有</p>
+          <div class="formula">\[ \frac{s}{\sin 30^\circ} = \frac{s_1}{\sin 120^\circ} = \frac{s_2}{\sin 30^\circ} \]</div>
+          <p>又 \( s_1 = v_0 t \)，\( s_2 = \dfrac{1}{2} g t^2 \)，所以</p>
+          <div class="formula">\[ \frac{s}{\sin 30^\circ} = \frac{v_0 t}{\sin 120^\circ} = \frac{\frac{1}{2} g t^2}{\sin 30^\circ} \]</div>
+          <p>得</p>
+          <div class="formula">\[ t = \frac{2 v_0 \sin 30^\circ}{g \sin 120^\circ} = \frac{2\sqrt{3} v_0}{3 g} \]</div>
+          <p>则</p>
+          <div class="formula">\[ s = \frac{1}{2} g t^2 = \frac{1}{2} g \left(\frac{2\sqrt{3} v_0}{3 g}\right)^2 = \frac{2 v_0^2}{3 g} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>小球的飞行时间为 \( \dfrac{2\sqrt{3} v_0}{3 g} \)，在斜面上的射程为 \( \dfrac{2 v_0^2}{3 g} \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 5 ================= -->
+      <section class="example" id="ex5">
+        <h3><span class="tag">例 5</span>落斜面弹跳两次之间</h3>
+        <p class="problem-statement">
+          如图 2-29 所示，一小球从高为 \( h \) 处自由落下与倾角为 \( 30^\circ \) 的光滑斜面发生完全弹性碰撞，碰后小球做斜抛运动又与斜面第二次碰撞。求小球在两次碰撞之间经历的时间及两次碰撞点 \( A \)、\( B \) 之间的距离。
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-29.svg" alt="例5 落斜面弹跳">
+          <figcaption>图 2-29　等边位移三角形 \( ABC \)</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>小球从距 \( A \) 高为 \( h \) 的 \( O \) 点自由下落，与 \( A \) 点碰前的速度为 \( v = \sqrt{2gh} \)。</p>
+          <p>小球与 \( A \) 点发生弹性碰撞后，速度沿 \( AC \) 方向，由弹性碰撞的规律可知 \( \angle OAD = \angle DAC = 30^\circ \)，\( v = v_0 = \sqrt{2gh} \)。</p>
+          <p>小球与 \( A \) 点碰后做斜抛运动，可以把小球的运动看做为一个沿 \( AC \) 方向的匀速直线运动和沿竖直方向的自由落体运动的合运动。故作出位移矢量三角形 \( ABC \) 如图 2-29 所示。由几何知识可知 \( \triangle ABC \) 是等边三角形，有 \( s = s_1 = s_2 \)。</p>
+          <p>又 \( s_1 = v t \)，\( s_2 = \dfrac{1}{2} g t^2 \)，所以</p>
+          <div class="formula">\[ v t = \frac{1}{2} g t^2 \]</div>
+          <p>得</p>
+          <div class="formula">\[ t = \frac{2v}{g} = \frac{2\sqrt{2gh}}{g} = 2\sqrt{\frac{2h}{g}} \]</div>
+          <div class="formula">\[ s = s_1 = v t = \sqrt{2gh} \cdot 2\sqrt{\frac{2h}{g}} = 4h \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>两次碰撞之间经历时间为 \( 2\sqrt{\dfrac{2h}{g}} \)，\( A \)、\( B \) 之间的距离为 \( 4h \)。
+        </div>
+      </section>
+
+      <!-- ================= 例 6 ================= -->
+      <section class="example" id="ex6">
+        <h3><span class="tag">例 6</span>证 tanα = tanθ + tanφ</h3>
+        <p class="problem-statement">
+          从直角坐标的原点 \( O \) 以仰角 \( \alpha \) 射出子弹，恰好通过空间一点 \( P \)，\( P \) 的坐标为 \( (h, k) \)，如图 2-30 所示。设水平射程为 \( L \)，子弹落在 \( x \) 轴上的 \( Q \) 点，从 \( O \)、\( Q \) 两点引到 \( P \) 点的直线和 \( x \) 轴所成的角度分别是 \( \theta \) 和 \( \varphi \)。试证明
+        </p>
+        <div class="formula">\[ \tan\alpha = \tan\theta + \tan\varphi = \frac{k}{h} + \frac{k}{L - h} \]</div>
+        <figure class="figure">
+          <img src="../assets/img/fig2-30.svg" alt="例6 弹道几何">
+          <figcaption>图 2-30　过 \( P(h,k) \) 的弹道</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">证明</span>把斜抛运动看成沿抛出方向以 \( v_0 \) 为速度的匀速直线运动和竖直方向的自由落体运动这两个分运动的合运动，则在抛出后经时间 \( t \) 到 \( P \) 点，设整个飞行时间为 \( T \)，子弹运动到 \( Q \) 点。则</p>
+          <div class="formula">\[ OA = v_0 t，\; OB = v_0 T，\; AP = \frac{1}{2} g t^2，\; BQ = \frac{1}{2} g T^2 \]</div>
+          <div class="formula">\[ OD = h，\; OQ = L，\; PD = k \]</div>
+          <p>所以</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \tan\alpha = \frac{AD}{DO} = \frac{AP + PD}{DO} = \frac{\frac{1}{2} g t^2}{h} + \frac{k}{h} \]</div>
+            <div class="f-tag">①</div>
+          </div>
+          <p>由相似三角形可知 \( \dfrac{OA}{OB} = \dfrac{AD}{BQ} = \dfrac{AP + PD}{BQ} \)，即</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \frac{t}{T} = \frac{\frac{1}{2} g t^2 + k}{\frac{1}{2} g T^2} \]</div>
+            <div class="f-tag">②</div>
+          </div>
+          <p>又 \( T = \dfrac{2 v_0 \sin\alpha}{g} \)，\( t = \dfrac{h}{v_0 \cos\alpha} \)，\( L = \dfrac{2 v_0^2 \sin\alpha \cos\alpha}{g} \)，所以</p>
+          <div class="formula">\[ k = \frac{1}{2} g t (T - t) = \frac{gh}{2 v_0^2 \cos^2 \alpha}(L - h) \]</div>
+          <p>即</p>
+          <div class="formula-row">
+            <div class="f-body">\[ \frac{\frac{1}{2} g t^2}{h} = \frac{k}{L - h} \]</div>
+            <div class="f-tag">③</div>
+          </div>
+          <p>将 ③ 式代入 ① 式得 \( \tan\alpha = \tan\theta + \tan\varphi = \dfrac{k}{h} + \dfrac{k}{L - h} \)。证毕。</p>
+        </div>
+      </section>
+
+    </article>
+
+    <nav class="page-nav">
+      <a href="s2-1.html">
+        <span class="dir-label">上一节</span>
+        一、用力的矢量三角形法巧解物体平衡问题
+      </a>
+      <a class="next" href="s2-3.html">
+        <span class="dir-label">下一节</span>
+        三、用速度矢量三角形法巧解运动学问题
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>《高中物理解题方法与技巧》交互版 · 主编：徐辉、江楚桥、龚霞玲、郑建雄 · 仅供教学学习使用</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '$', right: '$', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  </script>
+</body>
+</html>

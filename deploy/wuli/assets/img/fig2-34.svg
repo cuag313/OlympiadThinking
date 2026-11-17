@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="220.0" y1="240.0" x2="380.0" y2="120.0" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="380.0,120.0 374.3,129.4 369.4,122.9" fill="#2563eb"/>
+  <text x="280.0" y="158.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">v</text>
+  <line x1="380.0" y1="120.0" x2="380.0" y2="250.0" stroke="#4b5563" stroke-width="2.0"/>
+  <polygon points="380.0,250.0 375.9,239.8 384.1,239.8" fill="#4b5563"/>
+  <text x="392.0" y="195.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">gt</text>
+  <line x1="220.0" y1="240.0" x2="380.0" y2="250.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="380.0,250.0 369.6,253.4 370.1,245.3" fill="#dc2626"/>
+  <text x="286.0" y="262.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">v′</text>
+  <path d="M 259.8 217.0 A 46.0 46.0 0 0 1 266.0 240.0" fill="none" stroke="#2563eb" stroke-width="1.3"/>
+  <text x="264.0" y="224.0" font-size="11" fill="#1f2937" text-anchor="middle" font-style="italic">θ</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-34</text>
+</svg>

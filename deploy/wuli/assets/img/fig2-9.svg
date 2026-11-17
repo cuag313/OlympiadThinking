@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="150.0" y1="260.0" x2="400.0" y2="260.0" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="162.0" y1="260.0" x2="153.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="190.0" y1="260.0" x2="181.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="218.0" y1="260.0" x2="209.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="246.0" y1="260.0" x2="237.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="274.0" y1="260.0" x2="265.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="302.0" y1="260.0" x2="293.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="330.0" y1="260.0" x2="321.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="358.0" y1="260.0" x2="349.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="386.0" y1="260.0" x2="377.0" y2="273.0" stroke="#9ca3af" stroke-width="1.1"/>
+  <line x1="190.0" y1="240.0" x2="330.0" y2="240.0" stroke="#1f2937" stroke-width="5.0"/>
+  <line x1="190.0" y1="240.0" x2="190.0" y2="262.0" stroke="#1f2937" stroke-width="2.0"/>
+  <line x1="330.0" y1="240.0" x2="330.0" y2="262.0" stroke="#1f2937" stroke-width="2.0"/>
+  <circle cx="260.0" cy="220.0" r="18.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <text x="260.0" y="224.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <line x1="260.0" y1="220.0" x2="400.0" y2="220.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="260.0" y1="220.0" x2="320.0" y2="90.0" stroke="#4b5563" stroke-width="1.8"/>
+  <circle cx="320.0" cy="90.0" r="3.5" fill="#1f2937"/>
+  <text x="326.0" y="82.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">C</text>
+  <line x1="400.0" y1="220.0" x2="400.0" y2="130.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="320.0" y1="90.0" x2="400.0" y2="130.0" stroke="#4b5563" stroke-width="1.8"/>
+  <circle cx="400.0" cy="130.0" r="3.5" fill="#1f2937"/>
+  <text x="408.0" y="128.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <line x1="400.0" y1="130.0" x2="400.0" y2="172.0" stroke="#4b5563" stroke-width="1.6"/>
+  <rect x="384.0" y="172.0" width="32" height="28" fill="none" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="400.0" y="190.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <text x="340.0" y="290.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-9</text>
+</svg>

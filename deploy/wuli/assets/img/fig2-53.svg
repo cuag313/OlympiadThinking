@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="340.0" y1="260.0" x2="340.0" y2="60.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="340.0,60.0 344.1,70.2 335.9,70.2" fill="#4b5563"/>
+  <text x="348.0" y="52.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">北</text>
+  <line x1="160.0" y1="260.0" x2="540.0" y2="260.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="540.0,260.0 529.8,264.1 529.8,255.9" fill="#4b5563"/>
+  <text x="552.0" y="264.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">东</text>
+  <circle cx="340.0" cy="180.0" r="3.5" fill="#1f2937"/>
+  <text x="348.0" y="172.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <circle cx="470.0" cy="120.0" r="3.5" fill="#1f2937"/>
+  <text x="478.0" y="112.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">B</text>
+  <line x1="340.0" y1="180.0" x2="470.0" y2="120.0" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="412.0" y="138.0" font-size="11" fill="#1f2937" text-anchor="middle" font-style="italic">l</text>
+  <line x1="340.0" y1="180.0" x2="340.0" y2="100.0" stroke="#2563eb" stroke-width="2.0"/>
+  <polygon points="340.0,100.0 344.1,110.2 335.9,110.2" fill="#2563eb"/>
+  <text x="322.0" y="88.0" font-size="12" fill="#2563eb" text-anchor="middle" font-style="italic">v₀</text>
+  <line x1="470.0" y1="120.0" x2="380.0" y2="175.0" stroke="#dc2626" stroke-width="2.0"/>
+  <polygon points="380.0,175.0 386.6,166.2 390.8,173.2" fill="#dc2626"/>
+  <text x="368.0" y="160.0" font-size="12" fill="#dc2626" text-anchor="middle" font-style="italic">v₁</text>
+  <path d="M 435.4 140.0 A 40.0 40.0 0 0 1 430.6 113.1" fill="none" stroke="#2563eb" stroke-width="1.3"/>
+  <text x="428.0" y="148.0" font-size="11" fill="#1f2937" text-anchor="middle" font-style="italic">φ</text>
+  <text x="340.0" y="290.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-53</text>
+</svg>

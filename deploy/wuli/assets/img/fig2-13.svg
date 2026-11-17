@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="340.0" y1="60.0" x2="280.0" y2="150.0" stroke="#4b5563" stroke-width="1.8"/>
+  <line x1="340.0" y1="60.0" x2="400.0" y2="150.0" stroke="#4b5563" stroke-width="1.8"/>
+  <circle cx="340.0" cy="60.0" r="3.5" fill="#1f2937"/>
+  <text x="332.0" y="48.0" font-size="13" fill="#1f2937" text-anchor="middle" font-style="italic">A</text>
+  <line x1="280.0" y1="150.0" x2="280.0" y2="175.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="400.0" y1="150.0" x2="400.0" y2="175.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="280.0" y1="175.0" x2="400.0" y2="175.0" stroke="#4b5563" stroke-width="2.4"/>
+  <line x1="340.0" y1="175.0" x2="340.0" y2="210.0" stroke="#4b5563" stroke-width="1.5"/>
+  <rect x="324.0" y="210.0" width="32" height="28" fill="none" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="340.0" y="228.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">G</text>
+  <text x="340.0" y="290.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-13</text>
+</svg>

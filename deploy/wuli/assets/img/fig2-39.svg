@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <ellipse cx="340" cy="180" rx="180" ry="60" fill="none" stroke="#4b5563" stroke-width="2"/>
+  <circle cx="340.0" cy="180.0" r="3.5" fill="#1f2937"/>
+  <text x="328.0" y="196.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">O</text>
+  <line x1="340.0" y1="180.0" x2="460.0" y2="180.0" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="400.0" y="170.0" font-size="11" fill="#1f2937" text-anchor="middle" font-style="italic">R</text>
+  <circle cx="460.0" cy="180.0" r="16.0" fill="#e5e7eb" stroke="#4b5563" stroke-width="2.0"/>
+  <text x="460.0" y="184.0" font-size="12" fill="#1f2937" text-anchor="middle" font-style="italic">m</text>
+  <line x1="340.0" y1="100.0" x2="380.0" y2="88.0" stroke="#2563eb" stroke-width="2.0"/>
+  <polygon points="380.0,88.0 371.4,94.8 369.0,87.0" fill="#2563eb"/>
+  <text x="392.0" y="84.0" font-size="12" fill="#2563eb" text-anchor="middle" font-style="italic">ω</text>
+  <line x1="340.0" y1="180.0" x2="340.0" y2="110.0" stroke="#1f2937" stroke-width="2.0"/>
+  <text x="340.0" y="290.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-39</text>
+</svg>

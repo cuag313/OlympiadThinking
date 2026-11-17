@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="240.0" y1="270.0" x2="240.0" y2="100.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="240.0,100.0 244.1,110.2 235.9,110.2" fill="#dc2626"/>
+  <text x="252.0" y="190.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">G</text>
+  <line x1="240.0" y1="100.0" x2="380.0" y2="130.0" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="380.0" y1="130.0" x2="240.0" y2="270.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="240.0" y1="100.0" x2="430.0" y2="130.0" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="430.0" y1="130.0" x2="240.0" y2="270.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="240.0" y1="100.0" x2="480.0" y2="130.0" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="480.0" y1="130.0" x2="240.0" y2="270.0" stroke="#4b5563" stroke-width="1.4"/>
+  <line x1="240.0" y1="100.0" x2="530.0" y2="130.0" stroke="#2563eb" stroke-width="1.4"/>
+  <line x1="530.0" y1="130.0" x2="240.0" y2="270.0" stroke="#4b5563" stroke-width="1.4"/>
+  <text x="420.0" y="120.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">N</text>
+  <text x="370.0" y="250.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">F</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-20</text>
+</svg>

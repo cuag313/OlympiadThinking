@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>五、用矢量三角形巧求角度 | 第二章 | 高中物理解题方法与技巧</title>
+  <meta name="description" content="用矢量三角形巧求角度：圆切线法求合力方向的极值角。">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-logo" href="../index.html">高中物理解题方法与技巧</a>
+      <nav class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="index.html" class="current">第二章</a>
+        <a href="../index.html#toc">章节目录</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumb">
+      <a href="../index.html">首页</a><span class="sep">/</span>
+      <a href="index.html">第二章 矢量三角形法解题技巧</a><span class="sep">/</span>
+      五、用矢量三角形巧求角度
+    </nav>
+
+    <article>
+      <h1>五、用矢量三角形巧求角度</h1>
+
+      <section class="example" id="ex1">
+        <h3><span class="tag">例题</span>合力与 F₁ 的夹角何时最大</h3>
+        <p class="problem-statement">
+          两个共点力 \( F_1 \) 和 \( F_2 \) 的合力为 \( F \)，且有 \( F_1 &gt; F_2 \)，现保持 \( F_1 \) 和 \( F_2 \) 的大小不变，改变它们之间的夹角 \( \theta \)，要使 \( F \) 和 \( F_1 \) 的夹角 \( \beta \) 达到最大值，则 \( \theta \) 的大小为多少？\( \beta \) 的大小为多少？
+        </p>
+        <figure class="figure">
+          <img src="../assets/img/fig2-46.svg" alt="合力与分力的角度">
+          <figcaption>图 2-46　合力 \( F \) 与 \( F_1 \) 的夹角 \( \beta \)</figcaption>
+        </figure>
+        <div class="solution">
+          <p><span class="label">解</span>如图 2-46 所示，由图可知有如下关系式：</p>
+          <div class="formula">\[ \tan\beta = \frac{F_2 \sin\theta}{F_1 + F_2 \cos\theta} \]</div>
+          <p>要知道 \( \theta \) 的何时到达最大值，对高中学生来说，是比较困难的。</p>
+          <p>如果用矢量三角形的方法来处理就比较简单了。如图 2-47 所示，以矢量 \( F_1 \) 的末端为圆心，以矢量 \( F_2 \) 的大小为半径画一个圆，则合力 \( F \) 的端点在圆周上，当合力 \( F \) 的方向与圆相切时，合力 \( F \) 与 \( F_1 \) 的夹角 \( \beta \) 为最大，如图中虚线所示。此时力 \( F_1 \) 与 \( F_2 \) 的夹角</p>
+          <figure class="figure">
+            <img src="../assets/img/fig2-47.svg" alt="圆切线法">
+            <figcaption>图 2-47　\( F \) 与圆相切时 \( \beta \) 最大</figcaption>
+          </figure>
+          <div class="formula">\[ \theta = 180^\circ - \arccos \frac{F_2}{F_1} \]</div>
+          <p>合力 \( F \) 与 \( F_1 \) 的夹角</p>
+          <div class="formula">\[ \beta = \arcsin \frac{F_2}{F_1} \]</div>
+        </div>
+        <div class="answer">
+          <span class="label">答</span>当 \( \theta = 180^\circ - \arccos \dfrac{F_2}{F_1} \) 时 \( \beta \) 最大，\( \beta_{\max} = \arcsin \dfrac{F_2}{F_1} \)。
+        </div>
+      </section>
+    </article>
+
+    <nav class="page-nav">
+      <a href="s2-4.html">
+        <span class="dir-label">上一节</span>
+        四、用动量矢量三角形法巧解动力学问题
+      </a>
+      <a class="next" href="exercise2.html">
+        <span class="dir-label">下一节</span>
+        练习题（二）
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>《高中物理解题方法与技巧》交互版 · 主编：徐辉、江楚桥、龚霞玲、郑建雄 · 仅供教学学习使用</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '$', right: '$', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  </script>
+</body>
+</html>

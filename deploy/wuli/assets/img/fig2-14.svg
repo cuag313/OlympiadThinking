@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <line x1="220.0" y1="270.0" x2="220.0" y2="100.0" stroke="#dc2626" stroke-width="2.2"/>
+  <polygon points="220.0,100.0 224.1,110.2 215.9,110.2" fill="#dc2626"/>
+  <text x="232.0" y="190.0" font-size="13" fill="#dc2626" text-anchor="middle" font-style="italic">F</text>
+  <line x1="220.0" y1="100.0" x2="430.0" y2="250.0" stroke="#2563eb" stroke-width="2.0"/>
+  <polygon points="430.0,250.0 419.3,247.4 424.1,240.7" fill="#2563eb"/>
+  <line x1="430.0" y1="250.0" x2="220.0" y2="270.0" stroke="#4b5563" stroke-width="2.0"/>
+  <polygon points="220.0,270.0 229.8,265.0 230.6,273.1" fill="#4b5563"/>
+  <text x="340.0" y="120.0" font-size="13" fill="#2563eb" text-anchor="middle" font-style="italic">F₁</text>
+  <text x="340.0" y="262.0" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">F₂</text>
+  <line x1="220.0" y1="100.0" x2="495.0" y2="225.0" stroke="#2563eb" stroke-width="1.5"/>
+  <polygon points="495.0,225.0 484.0,224.5 487.4,217.1" fill="#2563eb"/>
+  <line x1="495.0" y1="225.0" x2="220.0" y2="270.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="220.0,270.0 229.4,264.3 230.7,272.4" fill="#4b5563"/>
+  <text x="435.0" y="140.0" font-size="12" fill="#2563eb" text-anchor="middle" font-style="italic">F₁′</text>
+  <text x="425.0" y="248.0" font-size="12" fill="#4b5563" text-anchor="middle" font-style="italic">F₂′</text>
+  <text x="340.0" y="305.0" font-size="13" fill="#6b7280" text-anchor="middle">图 2-14</text>
+</svg>
