@@ -522,5 +522,520 @@
     '先算后验：冲量 = √2 mωR。拖 ω、m、R 对照读数；木块转 1/4 圈看方向变化 90°。',
     { text: '普遍性：冲量只看初末动量之差，与中间路径无关——动量定理的威力。', audio: '../assets/audio/c2s4e1-3.mp3', slider: 'gam', from: 20, to: 110, duration: 3200 }));
 
+  /* ========== 通用：三力三角形求交（G、固定向力、旋转向力） ========== */
+  function triByIntersect(prefix, P0, gLen, dirLineA, dirLineB) {
+    return [
+      prefix + 'P0 = ' + P0,
+      prefix + 'Gt = P0 + (0, -' + gLen + ')',
+      prefix + 'LA = Line(' + prefix + 'P0, ' + prefix + 'P0 + ' + dirLineA + ')',
+      prefix + 'LB = Line(' + prefix + 'Gt, ' + prefix + 'Gt + ' + dirLineB + ')',
+      prefix + 'Xp = Intersect(' + prefix + 'LA, ' + prefix + 'LB)',
+    ];
+  }
+
+  /* ================= 一节例3 中点挂重改挂偏点 ================= */
+  function buildS1E3(api) {
+    GGB.run(api, [
+      'xpos = 0', 'Gm = 3', 'k = 0.4',
+      'A = (-1.6, 1.9)', 'B = (1.6, 1.9)', 'X = (xpos, 0.2)',
+      'ropeA = Segment(A, X)', 'ropeB = Segment(B, X)',
+      'Gv = Vector(X, X + (0, -k Gm))',
+      'LA = Line(X, X + (x(A) - x(X), y(A) - y(X)))',
+      'LB = Line(X + (0, -k Gm), X + (0, -k Gm) + (x(B) - x(X), y(B) - y(X)))',
+      'Xp = Intersect(LA, LB)',
+      'TAv = Vector(X, Xp)',
+      'TBv = Vector(X + (0, -k Gm), Xp)',
+      'TAm = Distance(X, Xp) / k', 'TBm = Distance(X + (0, -k Gm), Xp) / k',
+      'info = Text("T_A = " + round(TAm, 2) + "，T_B = " + round(TBm, 2), (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'G 不变，三角形随挂点变形', '(-3.2, 2.25)'],
+      ['mk2', '挂点偏向 A ⇒ T_A 增大、T_B 减小', '(-3.2, -2.9)'],
+    ]);
+    ['ropeA', 'ropeB'].forEach(function (n) { GGB.color(api, n, 2); GGB.thick(api, n, 2.2); });
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 'TAv', 4); GGB.thick(api, 'TAv', 4);
+    GGB.color(api, 'TBv', 2); GGB.thick(api, 'TBv', 4);
+    ['LA', 'LB'].forEach(function (n) { GGB.color(api, n, 8); GGB.thick(api, n, 1); });
+    ['A', 'B', 'X'].forEach(function (n) { try { api.setLabelVisible(n, true); } catch (e) { } });
+    GGB.hide(api, ['xpos', 'Gm', 'k', 'X', 'LA', 'LB', 'Xp', 'TAm', 'TBm']);
+    GGB.view(api, -3.6, 3.6, -3.2, 2.6);
+    try { api.setCoords('xpos', -3.5, 2.35); } catch (e) { }
+  }
+
+  var S1E3_STEPS = [
+    {
+      label: '三力闭合三角形', show: ['ropeA', 'ropeB', 'Gv', 'TAv', 'TBv', 'mk1', 'info'],
+      caption: 'G 不变，T_A、T_B 方向随挂点变化，三角形随之变形。',
+      key: '三角形随挂点变形',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '重力大小方向不变，两根绳的拉力方向随挂点移动而变，闭合矢量三角形随之变形。',
+      audio: '../assets/audio/c2s1e3-1.mp3'
+    },
+    {
+      label: '偏向 A 则 T_A 大', show: ['ropeA', 'ropeB', 'Gv', 'TAv', 'TBv', 'mk2', 'info'],
+      caption: '挂点向 A 移（AO 变短）：T_A′ > F₁，T_B′ < F₂，即答案 C。',
+      key: 'T_A′>T_A，T_B′<T_B ⇒ 选 C',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: '挂点偏向A一侧时，AO绳更陡更短，拉力变大；BO绳的拉力变小。答案选C。',
+      audio: '../assets/audio/c2s1e3-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e3', '例3 · 中点挂重改挂偏点', buildS1E3, S1E3_STEPS, [
+    { name: 'xpos', label: '挂点位置', min: -1.1, max: 1.1, step: 0.05, value: 0, fmt: function (v) { return v.toFixed(2); } },
+    { name: 'Gm', label: 'G', min: 1, max: 5, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['ropeA', 'ropeB', 'Gv', 'TAv', 'TBv', 'mk1', 'mk2', 'info'],
+    '先算后验：拖挂点看 T_A、T_B 此消彼长（答案 C：T_A′>T_A、T_B′<T_B）。',
+    { text: '普遍性：哪边绳短且陡，哪边拉力大——三角形永远闭合。', audio: '../assets/audio/c2s1e3-3.mp3', slider: 'xpos', from: 0, to: -1.1, duration: 3200 }));
+
+  /* ================= 一节例4 改拉绳方向 ================= */
+  function buildS1E4(api) {
+    GGB.run(api, [
+      'gam = 30', 'Tc = 3', 'k = 0.42',
+      'T2m = Tc / cos(gam°)', 'Nm = Tc tan(gam°)',
+      'rod = Segment((0, -1.4), (0, 1.4))',
+      'ropeH = Segment((0, 1.4), (-1.9, 1.4))',
+      'ropeG = Segment((0, 1.4), (0, 1.4) + 1.9 (-cos(gam°), sin(gam°)))',
+      'P0 = (2.4, -1.6)',
+      't1 = Vector(P0, P0 + (k Tc, 0))',
+      't2 = Vector(P0 + (k Tc, 0), P0 + (k Tc, -k Nm))',
+      't3 = Vector(P0 + (k Tc, -k Nm), P0)',
+      'info = Text("T₂ = " + round(T2m, 2) + "，N = " + round(Nm, 2), (-2.8, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', '水平绳拉力 T 不变，合力 N 沿杆竖直', '(-2.8, 2.25)'],
+      ['mk2', 'γ 变大 ⇒ T₂、N 都变大', '(-2.8, -2.9)'],
+    ]);
+    GGB.color(api, 'rod', 2); GGB.thick(api, 'rod', 6);
+    GGB.color(api, 'ropeH', 2); GGB.thick(api, 'ropeH', 2.2);
+    GGB.color(api, 'ropeG', 4); GGB.thick(api, 'ropeG', 2.2);
+    GGB.color(api, 't1', 2); GGB.thick(api, 't1', 3);
+    GGB.color(api, 't2', 4); GGB.thick(api, 't2', 3);
+    GGB.color(api, 't3', 10); GGB.thick(api, 't3', 3);
+    GGB.hide(api, ['gam', 'Tc', 'k', 'T2m', 'Nm', 'P0']);
+    GGB.view(api, -3.2, 5.2, -3.2, 3.1);
+    try { api.setCoords('gam', -3.1, 2.75); } catch (e) { }
+  }
+
+  var S1E4_STEPS = [
+    {
+      label: '合力沿杆竖直向下', show: ['rod', 'ropeH', 'ropeG', 't1', 't2', 't3', 'mk1', 'info'],
+      caption: '棒垂直地面 ⇒ 两绳合力必沿杆竖直向下，大小即棒对地面压力。',
+      key: '合力沿杆 ⇒ N = T·tanγ',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '棒与地面垂直，两根绳的合力必沿杆竖直向下，合力大小就是棒对地面的压力。',
+      audio: '../assets/audio/c2s1e4-1.mp3'
+    },
+    {
+      label: 'γ 变大则都变大', show: ['rod', 'ropeH', 'ropeG', 't1', 't2', 't3', 'mk2', 'info'],
+      caption: 'T₂ = T/cosγ，N = T·tanγ：γ 增大（改用 PQ′）两者都增大 ⇒ 答案 B。',
+      key: 'T₁<T₂，N₁<N₂ ⇒ 选 B',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: '斜绳与水平夹角变大时，斜绳拉力T二等于T除以cos伽马，压力N等于T乘tan伽马，都变大，所以答案选B。',
+      audio: '../assets/audio/c2s1e4-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e4', '例4 · 改用另一根绳来拉', buildS1E4, S1E4_STEPS, [
+    { name: 'gam', label: 'γ', min: 10, max: 75, step: 1, value: 30, fmt: function (v) { return v.toFixed(0) + '°'; } }
+  ], ['rod', 'ropeH', 'ropeG', 't1', 't2', 't3', 'mk1', 'mk2', 'info'],
+    '先算后验：T₂ = T/cosγ，N = T·tanγ。拖 γ 对照读数，γ 大则两者都大。',
+    { text: '普遍性：绳越陡（γ 大），绳拉力与杆压力都越大。', audio: '../assets/audio/c2s1e4-3.mp3', slider: 'gam', from: 10, to: 75, duration: 3200 }));
+
+  /* ================= 一节例5 加大 B 重 ================= */
+  function buildS1E5(api) {
+    GGB.run(api, [
+      'GB = 3', 'om = 42', 'k = 0.34',
+      'T1m = GB / tan(om°)', 'T2m = GB / sin(om°)',
+      'tab = Segment((-1.8, 1.6), (1.8, 1.6))',
+      'Gv = Vector((0, 1.6), (0, 1.6) - (0, k GB))',
+      'P0 = (-2.6, -1.4)',
+      't1 = Vector(P0, P0 + (k T1m, 0))',
+      't2 = Vector(P0 + (k T1m, 0), P0 + (k T1m, k T2m * cos(om° * 2) + k T2m * 0))',
+      't2b = Vector(P0 + (k T1m, 0), P0)',
+      'info = Text("T₁ = " + round(T1m, 2) + "，T₂ = " + round(T2m, 2) + "，f = T₁", (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'B 加重 ⇒ 三角形整体放大', '(-3.2, 2.25)'],
+      ['mk2', 'AO、CO 拉力与摩擦力全部增加', '(-3.2, -2.9)'],
+    ]);
+    GGB.thick(api, 'tab', 6); GGB.color(api, 'tab', 2);
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 't1', 2); GGB.thick(api, 't1', 3);
+    GGB.color(api, 't2b', 4); GGB.thick(api, 't2b', 3);
+    GGB.hide(api, ['GB', 'om', 'k', 'T1m', 'T2m', 'P0', 't2']);
+    GGB.view(api, -3.6, 3.6, -3.2, 3.1);
+    try { api.setCoords('GB', -3.5, 2.75); } catch (e) { }
+  }
+
+  var S1E5_STEPS = [
+    {
+      label: '三角形整体放大', show: ['tab', 'Gv', 't1', 't2b', 'mk1', 'info'],
+      caption: '两绳方向不变，B 加重 ⇒ 三角形按比例放大，两绳拉力同步增加。',
+      key: '三角形随 G_B 放大',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '两根绳的方向不变，B的重量增加时，矢量三角形整体放大，两根绳的拉力同步增加。',
+      audio: '../assets/audio/c2s1e5-1.mp3'
+    },
+    {
+      label: '四项全增', show: ['tab', 'Gv', 't1', 't2b', 'mk2', 'info'],
+      caption: 'CO、BO 拉力增加，AO 拉力增加 ⇒ 桌面对 A 的摩擦力也增加 ⇒ ABCD 全对。',
+      key: 'A、B、C、D 均正确',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: 'CO绳、BO绳拉力都增加，AO绳拉力增加，桌面对A的静摩擦力也跟着增加，所以四个选项全对。',
+      audio: '../assets/audio/c2s1e5-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e5', '例5 · 加大 B 的重量', buildS1E5, S1E5_STEPS, [
+    { name: 'GB', label: 'G_B', min: 1, max: 6, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['tab', 'Gv', 't1', 't2b', 'mk1', 'mk2', 'info'],
+    '先算后验：拖 G_B，T₁、T₂、f 同比例增长——四个选项全对。',
+    { text: '普遍性：方向不变时，力随载荷线性放大。', audio: '../assets/audio/c2s1e5-3.mp3', slider: 'GB', from: 1, to: 6, duration: 3200 }));
+
+  /* ================= 一节例6 减小木板倾角 ================= */
+  function buildS1E6(api) {
+    GGB.run(api, [
+      'alp = 45', 'Gm = 3', 'k = 0.42',
+      'N1m = Gm tan(alp°)', 'N2m = Gm / cos(alp°)',
+      'wall = Segment((-1.7, -1.2), (-1.7, 1.6))',
+      'board = Segment((-1.7, 1.5), (1.9, 1.5 - 3.6 * tan(alp°)))',
+      'ballc = (-1.7 + 0.62, 0.5)',
+      'ball = Circumference(ballc, 0.55)',
+      'P0 = (1.2, -1.6)',
+      't1 = Vector(P0, P0 + (k N1m, 0))',
+      't2 = Vector(P0 + (k N1m, 0), P0 + (k N1m, k N2m * sin(alp°) + 0 * k))',
+      't2b = Vector(P0 + (k N1m, 0), P0)',
+      'info = Text("球对墙 " + round(N1m, 2) + "，对板 " + round(N2m, 2) + "（都随 α 变小而变小）", (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'G 不变、N₁ 方向不变，三角形收缩', '(-3.2, 2.25)'],
+      ['mk2', 'α 变小 ⇒ N₁、N₂ 都变小', '(-3.2, -2.9)'],
+    ]);
+    GGB.color(api, 'wall', 2); GGB.thick(api, 'wall', 2.5);
+    GGB.color(api, 'board', 2); GGB.thick(api, 'board', 3);
+    GGB.color(api, 'ball', 2); GGB.thick(api, 'ball', 2);
+    GGB.color(api, 't1', 2); GGB.thick(api, 't1', 3);
+    GGB.color(api, 't2b', 4); GGB.thick(api, 't2b', 3);
+    GGB.hide(api, ['alp', 'Gm', 'k', 'N1m', 'N2m', 'ballc', 'P0', 't2']);
+    GGB.view(api, -3.6, 4.4, -3.2, 2.8);
+    try { api.setCoords('alp', -3.5, 2.45); } catch (e) { }
+  }
+
+  var S1E6_STEPS = [
+    {
+      label: '矢量三角形随 α 收缩', show: ['wall', 'board', 'ball', 't1', 't2b', 'mk1', 'info'],
+      caption: 'G 不变、N₁ 方向不变，木板放平 ⇒ N₂ 方向改变，三角形收缩。',
+      key: '三角形随 α 收缩',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '重力不变，墙的弹力方向不变，木板放平时木板弹力方向改变，矢量三角形收缩。',
+      audio: '../assets/audio/c2s1e6-1.mp3'
+    },
+    {
+      label: '结论：都变小', show: ['wall', 'board', 'ball', 't1', 't2b', 'mk2', 'info'],
+      caption: 'N₁ = G·tanα、N₂ = G/cosα：α 变小两者都变小——两空格都填「变小」。',
+      key: '两空格都填「变小」',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: 'N一等于G乘tan阿尔法，N二等于G除以cos阿尔法，阿尔法变小时两者都变小，所以两个空格都填变小。',
+      audio: '../assets/audio/c2s1e6-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e6', '例6 · 减小木板倾角', buildS1E6, S1E6_STEPS, [
+    { name: 'alp', label: 'α', min: 8, max: 72, step: 1, value: 45, fmt: function (v) { return v.toFixed(0) + '°'; } },
+    { name: 'Gm', label: 'G', min: 1, max: 5, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['wall', 'board', 'ball', 't1', 't2b', 'mk1', 'mk2', 'info'],
+    '先算后验：N₁ = G·tanα，N₂ = G/cosα。拖 α 向小，两读数同降。',
+    { text: '普遍性：板越平，球越「轻」——几何卸力。', audio: '../assets/audio/c2s1e6-3.mp3', slider: 'alp', from: 72, to: 8, duration: 3200 }));
+
+  /* ================= 一节例8 绳端下移 ================= */
+  function buildS1E8(api) {
+    GGB.run(api, [
+      'del = 35', 'Gm = 3', 'k = 0.38',
+      'Nm = 2 Gm cos(del° / 2)',
+      'wall = Segment((-1.6, -1.2), (-1.6, 1.8))',
+      'P = (0.2, 1.4)',
+      'ropeV = Segment(P, P + (0, 1.1))',
+      'ropeA = Segment(P, P + 1.5 (-sin(del°), -cos(del°)))',
+      'T1v = Vector(P, P + k Gm (0, -1))',
+      'T2v = Vector(P, P + k Gm (-sin(del°), -cos(del°)))',
+      'Nv = Vector(P, P + k Nm (-sin(del° / 2), -cos(del° / 2)))',
+      'info = Text("两绳拉力 = G，合力 N = " + round(Nm, 2), (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', '两绳拉力大小不变，夹角变小', '(-3.2, 2.25)'],
+      ['mk2', '夹角越小 ⇒ 合力 N 越大 ⇒ 选 C', '(-3.2, -2.9)'],
+    ]);
+    GGB.color(api, 'wall', 2); GGB.thick(api, 'wall', 2.5);
+    GGB.color(api, 'ropeV', 2); GGB.thick(api, 'ropeV', 2.2);
+    GGB.color(api, 'ropeA', 2); GGB.thick(api, 'ropeA', 2.2);
+    GGB.color(api, 'T1v', 4); GGB.thick(api, 'T1v', 3);
+    GGB.color(api, 'T2v', 4); GGB.thick(api, 'T2v', 3);
+    GGB.color(api, 'Nv', 10); GGB.thick(api, 'Nv', 3.5);
+    ['P'].forEach(function (n) { try { api.setLabelVisible(n, true); } catch (e) { } });
+    GGB.hide(api, ['del', 'Gm', 'k', 'Nm']);
+    GGB.view(api, -3.6, 3.2, -3.2, 2.8);
+    try { api.setCoords('del', -3.5, 2.45); } catch (e) { }
+  }
+
+  var S1E8_STEPS = [
+    {
+      label: '两绳等值，合力沿杆', show: ['wall', 'P', 'ropeV', 'ropeA', 'T1v', 'T2v', 'Nv', 'mk1', 'info'],
+      caption: '两段绳拉力都等于物重 G，其合力沿杆方向，即杆受的压力。',
+      key: '两绳拉力等值，合力即压力',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '两段绳的拉力大小都等于物重，它们的合力沿杆方向，就是杆受到的压力。',
+      audio: '../assets/audio/c2s1e8-1.mp3'
+    },
+    {
+      label: '夹角小则合力大', show: ['wall', 'P', 'ropeV', 'ropeA', 'T1v', 'T2v', 'Nv', 'mk2', 'info'],
+      caption: 'N = 2G·cos(δ/2)：绳端下移 ⇒ 两绳夹角变小 ⇒ N 变大 ⇒ 选 C。',
+      key: 'N 变大 ⇒ 选 C',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: 'N等于二G乘cosine二分之德尔塔。绳端下移，两绳夹角变小，合力N变大，所以答案选C。',
+      audio: '../assets/audio/c2s1e8-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e8', '例8 · 绳端下移', buildS1E8, S1E8_STEPS, [
+    { name: 'del', label: '两绳夹角参数 δ', min: 8, max: 55, step: 1, value: 35, fmt: function (v) { return v.toFixed(0) + '°'; } }
+  ], ['wall', 'P', 'ropeV', 'ropeA', 'T1v', 'T2v', 'Nv', 'mk1', 'mk2', 'info'],
+    '先算后验：N = 2G·cos(δ/2)。拖 δ 向小（绳端下移），合力变大。',
+    { text: '普遍性：两个等大的力，夹角越小合力越大。', audio: '../assets/audio/c2s1e8-3.mp3', slider: 'del', from: 55, to: 8, duration: 3200 }));
+
+  /* ================= 一节例9 档板缓转到水平 ================= */
+  function buildS1E9(api) {
+    GGB.run(api, [
+      'gam = 15', 'Gm = 3', 'k = 0.42',
+      'P0 = (0, 0)',
+      'Gt = P0 + (0, -k Gm)',
+      'LN = Line(Gt, Gt + 3 * (-sin(35°), cos(35°)))',
+      'LB = Line(P0, P0 + 3 * (cos(gam°), -sin(gam°)))',
+      'Xp = Intersect(LN, LB)',
+      'N1v = Vector(P0, Xp)',
+      'N2v = Vector(Gt, Xp)',
+      'Gv = Vector(P0, Gt)',
+      'N1m = Distance(P0, Xp) / k', 'N2m = Distance(Gt, Xp) / k',
+      'board = Segment((0.9, -1.4), (0.9 + 2.2 cos(gam°), -1.4 - 2.2 sin(gam°)))',
+      'incline = Segment((-2.2, 1.2), (1.0, -1.7))',
+      'info = Text("N₁ = " + round(N1m, 2) + "，N₂ = " + round(N2m, 2) + "（G = " + round(Gm, 1) + "）", (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'G 不变、斜面支持方向不变', '(-3.2, 2.25)'],
+      ['mk2', 'N₁ 先小后大→G；N₂ 递减→0', '(-3.2, -2.9)'],
+    ]);
+    GGB.color(api, 'incline', 2); GGB.thick(api, 'incline', 3);
+    GGB.color(api, 'board', 2); GGB.thick(api, 'board', 3);
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 'N1v', 4); GGB.thick(api, 'N1v', 4);
+    GGB.color(api, 'N2v', 2); GGB.thick(api, 'N2v', 4);
+    ['LN', 'LB'].forEach(function (n) { GGB.color(api, n, 8); GGB.thick(api, n, 1); });
+    GGB.hide(api, ['gam', 'Gm', 'k', 'P0', 'Gt', 'LN', 'LB', 'Xp', 'N1m', 'N2m']);
+    GGB.view(api, -3.6, 3.6, -3.2, 3.0);
+    try { api.setCoords('gam', -3.5, 2.7); } catch (e) { }
+  }
+
+  var S1E9_STEPS = [
+    {
+      label: '三角形随档板转', show: ['incline', 'board', 'Gv', 'N1v', 'N2v', 'mk1', 'info'],
+      caption: 'G 不变、斜面支持力方向不变，档板转动 ⇒ N₁ 方向旋转，三角形变形。',
+      key: 'N₁ 方向随档板转',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '重力不变，斜面支持力方向不变，档板转动时N一的方向跟着旋转，矢量三角形连续变形。',
+      audio: '../assets/audio/c2s1e9-1.mp3'
+    },
+    {
+      label: '读出两段结论', show: ['incline', 'board', 'Gv', 'N1v', 'N2v', 'mk2', 'info'],
+      caption: 'N₁ 由大变小再变大，最终等于 G；N₂ 由大变小最终等于零。',
+      key: 'N₁→G，N₂→0',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: '拖动档板角度可以看到：N一由大变小再变大，最后等于球重；N二由大变小，最后等于零。',
+      audio: '../assets/audio/c2s1e9-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e9', '例9 · 档板缓转到水平', buildS1E9, S1E9_STEPS, [
+    { name: 'gam', label: '档板转角', min: 2, max: 88, step: 1, value: 15, fmt: function (v) { return v.toFixed(0) + '°'; } },
+    { name: 'Gm', label: 'G', min: 1, max: 5, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['incline', 'board', 'Gv', 'N1v', 'N2v', 'mk1', 'mk2', 'info'],
+    '先算后验：拖档板转角，N₁ 呈 U 形最终 →G，N₂ 单调 →0。',
+    { text: '普遍性：约束方向连续转，力就沿三角形连续滑。', audio: '../assets/audio/c2s1e9-3.mp3', slider: 'gam', from: 2, to: 88, duration: 3200 }));
+
+  /* ================= 一节例10 人爬梯子 ================= */
+  function buildS1E10(api) {
+    GGB.run(api, [
+      'phi = 60', 'Gm = 3', 'k = 0.4',
+      'Nm = Gm / tan(phi°)', 'Fm = Gm / sin(phi°)',
+      'wall = Segment((-1.8, -1.2), (-1.8, 1.9))',
+      'ladder = Segment((-1.8, 1.8), (0.9, -1.2))',
+      'P0 = (1.9, -1.8)',
+      'Gv = Vector(P0, P0 + (0, -k Gm))',
+      't1 = Vector(P0, P0 + (k Nm, 0))',
+      't2 = Vector(P0 + (k Nm, 0), P0 + (k Nm, k Fm sin(phi°))',
+      't2b = Vector(P0 + (k Nm, 0), P0)',
+      'info = Text("N = " + round(Nm, 2) + "，F = " + round(Fm, 2) + "（都随爬升增大）", (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'G 不变、N 方向水平不变', '(-3.2, 2.25)'],
+      ['mk2', '人上爬 ⇒ N、F 都变大，F 越压越平', '(-3.2, -2.9)'],
+    ]);
+    GGB.color(api, 'wall', 2); GGB.thick(api, 'wall', 2.5);
+    GGB.color(api, 'ladder', 2); GGB.thick(api, 'ladder', 5);
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 't1', 2); GGB.thick(api, 't1', 3);
+    GGB.color(api, 't2b', 4); GGB.thick(api, 't2b', 3);
+    GGB.hide(api, ['phi', 'Gm', 'k', 'Nm', 'Fm', 'P0', 't2']);
+    GGB.view(api, -3.6, 4.2, -3.2, 3.0);
+    try { api.setCoords('phi', -3.5, 2.7); } catch (e) { }
+  }
+
+  var S1E10_STEPS = [
+    {
+      label: '三力共点闭合', show: ['wall', 'ladder', 'Gv', 't1', 't2b', 'mk1', 'info'],
+      caption: 'G、N（水平）、F（地面作用力）三力共点，闭合三角形。',
+      key: '三力共点闭合',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '人爬梯子时，重力、墙壁支持力、地面作用力三力共点，组成闭合三角形。',
+      audio: '../assets/audio/c2s1e10-1.mp3'
+    },
+    {
+      label: '读数随爬升增大', show: ['wall', 'ladder', 'Gv', 't1', 't2b', 'mk2', 'info'],
+      caption: 'N = G/tanφ、F = G/sinφ：φ 变小（F 越平）⇒ N、F 都变大 ⇒ 答案 B。',
+      key: 'N、F 都变大 ⇒ 选 B',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: 'N等于G除以tan斐，F等于G除以sin斐。人越往上爬，斐越小，两个力都变大，答案选B。',
+      audio: '../assets/audio/c2s1e10-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e10', '例10 · 人爬梯子', buildS1E10, S1E10_STEPS, [
+    { name: 'phi', label: 'F 与地面夹角 φ', min: 15, max: 80, step: 1, value: 60, fmt: function (v) { return v.toFixed(0) + '°'; } }
+  ], ['wall', 'ladder', 'Gv', 't1', 't2b', 'mk1', 'mk2', 'info'],
+    '先算后验：N = G/tanφ、F = G/sinφ。拖 φ 向小（人上爬），两读数同增。',
+    { text: '普遍性：F 与水平的夹角越小，同样体重压得越狠。', audio: '../assets/audio/c2s1e10-3.mp3', slider: 'phi', from: 80, to: 15, duration: 3200 }));
+
+  /* ================= 一节例11 重物移向横梁根部 ================= */
+  function buildS1E11(api) {
+    GGB.run(api, [
+      'xg = 0.75', 'Gm = 3', 'k = 0.32',
+      'A = (0, 0)', 'B = (2.4, 0)', 'Cc = (0, 1.35)',
+      'X = (2.4 - 2.2 xg, 0)',
+      'beam = Segment(A, B)',
+      'rope = Segment(Cc, B)',
+      'Gv = Vector(X, X + (0, -k Gm))',
+      'LT = Line(Cc, B)',
+      'LG = Line(X, X + (0, 1))',
+      'O = Intersect(LT, LG)',
+      'Fdir = Line(A, O)',
+      'FT = Line(X + (0, -k Gm), X + (0, -k Gm) + (x(B) - x(Cc), y(B) - y(Cc)))',
+      'Xp = Intersect(Fdir, FT)',
+      'Fv = Vector(A, A + (x(Xp) - x(A), y(Xp) - y(A)))',
+      'Tv = Vector(X + (0, -k Gm), Xp)',
+      'Fm = Distance(A, Xp) / k', 'Tm = Distance(X + (0, -k Gm), Xp) / k',
+      'info = Text("F = " + round(Fm, 2) + "，T = " + round(Tm, 2), (-2.8, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', '三力共点：F 方向由 O 决定', '(-2.8, 2.25)'],
+      ['mk2', 'G 移向 A ⇒ F 先小后大、方向由平转竖', '(-2.8, -2.9)'],
+    ]);
+    GGB.color(api, 'beam', 2); GGB.thick(api, 'beam', 6);
+    GGB.color(api, 'rope', 2); GGB.thick(api, 'rope', 2.2);
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 'Fv', 4); GGB.thick(api, 'Fv', 4);
+    GGB.color(api, 'Tv', 2); GGB.thick(api, 'Tv', 3);
+    ['LT', 'LG', 'Fdir', 'FT'].forEach(function (n) { GGB.color(api, n, 8); GGB.thick(api, n, 1); });
+    ['A', 'B', 'Cc', 'X'].forEach(function (n) { try { api.setLabelVisible(n, true); } catch (e) { } });
+    GGB.hide(api, ['xg', 'Gm', 'k', 'X', 'LT', 'LG', 'O', 'Fdir', 'FT', 'Xp', 'Fm', 'Tm']);
+    GGB.view(api, -2.6, 4.6, -3.2, 2.6);
+    try { api.setCoords('xg', -2.5, 2.35); } catch (e) { }
+  }
+
+  var S1E11_STEPS = [
+    {
+      label: '三力共点定 F 方向', show: ['beam', 'rope', 'Gv', 'Fv', 'Tv', 'mk1', 'info'],
+      caption: 'G 竖直、T 沿绳 CB、F 过 A——三力共点 O 决定 F 的方向。',
+      key: '共点 O 决定 F 方向',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '重力竖直向下，绳张力沿CB方向，A点作用力过铰链A，三力共点于O，O点决定F的方向。',
+      audio: '../assets/audio/c2s1e11-1.mp3'
+    },
+    {
+      label: '读出 U 形与转向', show: ['beam', 'rope', 'Gv', 'Fv', 'Tv', 'mk2', 'info'],
+      caption: 'G 由 B 移向 A：F 先大→小→大，方向由水平逐渐转为竖直向上 ⇒ 答案 D。',
+      key: 'F 先小后大、方向转竖直 ⇒ 选 D',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: '重物从B移向A，F先变小再变大，方向由水平逐渐变为竖直向上，答案选D。',
+      audio: '../assets/audio/c2s1e11-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e11', '例11 · 重物移向横梁根部', buildS1E11, S1E11_STEPS, [
+    { name: 'xg', label: '重物距 B', min: 0.05, max: 1, step: 0.02, value: 0.75, fmt: function (v) { return v.toFixed(2); } },
+    { name: 'Gm', label: 'G', min: 1, max: 5, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['beam', 'rope', 'Gv', 'Fv', 'Tv', 'mk1', 'mk2', 'info'],
+    '先算后验：拖重物位置，F 呈 U 形且方向由平转竖（答案 D）。',
+    { text: '普遍性：共点几何决定力的方向——这是矢量三角形法的核心。', audio: '../assets/audio/c2s1e11-3.mp3', slider: 'xg', from: 0.95, to: 0.05, duration: 3400 }));
+
+  /* ================= 一节例12 拉绳提小球上球面 ================= */
+  function buildS1E12(api) {
+    GGB.run(api, [
+      'xi = 25', 'Gm = 3', 'RR = 1.2', 'dd = 2.2', 'k = 0.38',
+      'LL = sqrt(RR^2 + dd^2 - 2 RR dd cos(xi°))',
+      'Nm = Gm RR / dd', 'Fm = Gm LL / dd',
+      'O = (0, 0)', 'Ap = (0, dd)',
+      'Bp = RR * (-sin(xi°), cos(xi°))',
+      'big = Circumference(O, RR)',
+      'ball = Circumference(Bp, 0.3)',
+      'str = Segment(Ap, Bp)',
+      'lnOB = Segment(O, Bp)',
+      'Gv = Vector(Bp, Bp + (0, -k Gm))',
+      'Nv = Vector(Bp, Bp + k Nm / RR (x(Bp) - x(O), y(Bp) - y(O)))',
+      'Fv = Vector(Bp, Bp + k Fm / LL (x(Ap) - x(Bp), y(Ap) - y(Bp)))',
+      'info = Text("N = " + round(Nm, 2) + "（恒定！），F = " + round(Fm, 2) + "（递减）", (-3.2, 2.7))',
+    ]);
+    addMarks(api, [
+      ['mk1', 'AB、OB 都可当刚体', '(-3.2, 2.25)'],
+      ['mk2', 'N = RG/(R+d) 恒定，F = LG/(R+d) 递减', '(-3.2, -2.9)'],
+    ]);
+    GGB.color(api, 'big', 8); GGB.thick(api, 'big', 1.5);
+    GGB.color(api, 'ball', 2); GGB.thick(api, 'ball', 2);
+    GGB.color(api, 'str', 2); GGB.thick(api, 'str', 2.2);
+    GGB.color(api, 'lnOB', 8); GGB.thick(api, 'lnOB', 1);
+    GGB.color(api, 'Gv', 10); GGB.thick(api, 'Gv', 4);
+    GGB.color(api, 'Nv', 2); GGB.thick(api, 'Nv', 4);
+    GGB.color(api, 'Fv', 4); GGB.thick(api, 'Fv', 4);
+    ['O', 'Ap', 'Bp'].forEach(function (n) { try { api.setLabelVisible(n, true); } catch (e) { } });
+    GGB.hide(api, ['xi', 'Gm', 'RR', 'dd', 'k', 'LL', 'Nm', 'Fm']);
+    GGB.view(api, -3.4, 3.4, -3.2, 3.0);
+    try { api.setCoords('xi', -3.3, 2.7); } catch (e) { }
+  }
+
+  var S1E12_STEPS = [
+    {
+      label: '两根"刚体"线段', show: ['big', 'ball', 'str', 'lnOB', 'Gv', 'Nv', 'Fv', 'mk1', 'info'],
+      caption: '绳 AB 与几何线段 OB 均可当刚体；小球受 G、N、T 三力。',
+      key: 'AB 与 OB 都当刚体',
+      marks: [{ name: 'mk1', delay: 600 }],
+      narration: '细线AB和几何线段OB都可以当作刚体，小球受重力、球面弹力和绳张力三个力。',
+      audio: '../assets/audio/c2s1e12-1.mp3'
+    },
+    {
+      label: 'N 恒定、F 递减', show: ['big', 'ball', 'str', 'lnOB', 'Gv', 'Nv', 'Fv', 'mk2', 'info'],
+      caption: 'N = RG/(R+d) 恒定不变；F = LG/(R+d) 随绳缩短而减小 ⇒ 答案 C。',
+      key: 'N 不变、F 变小 ⇒ 选 C',
+      marks: [{ name: 'mk2', delay: 600 }],
+      narration: 'N等于RG除以R加d，大小恒定不变；F等于LG除以R加d，绳子变短F逐渐减小。答案选C。',
+      audio: '../assets/audio/c2s1e12-2.mp3'
+    }
+  ];
+
+  new InteractiveCard(cfg('ggb-card-c2s1e12', '例12 · 拉绳提小球上球面', buildS1E12, S1E12_STEPS, [
+    { name: 'xi', label: '小球位置角', min: 5, max: 80, step: 1, value: 25, fmt: function (v) { return v.toFixed(0) + '°'; } },
+    { name: 'Gm', label: 'G', min: 1, max: 5, step: 0.1, value: 3, fmt: function (v) { return v.toFixed(1); } }
+  ], ['big', 'ball', 'str', 'lnOB', 'Gv', 'Nv', 'Fv', 'mk1', 'mk2', 'info'],
+    '先算后验：N = RG/(R+d) 恒定！拖小球位置，N 读数不变、F 递减。',
+    { text: '普遍性：拉绳上提，弹力恒定、拉力递减——几何比例决定分配。', audio: '../assets/audio/c2s1e12-3.mp3', slider: 'xi', from: 5, to: 80, duration: 3400 }));
+
   window.__CH2_DONE = true;
 })();
