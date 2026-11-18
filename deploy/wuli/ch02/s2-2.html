@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 </head>
 <body>
 
@@ -51,6 +52,19 @@
         <p class="problem-statement">
           一个物体做斜上抛运动，抛射角为 \( \theta \)，初速度为 \( v_0 \)。求射程和射高。
         </p>
+        <div class="ggb-card" id="ggb-card-c2s2e1">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">先用书中方法算出待求量，再拖动滑块对照读数验证。</div>
+        </div>
+
         <div class="solution">
           <p><span class="label">解</span>斜抛运动可看做是在初速度方向上的匀速直线运动和从抛出点开始的自由落体运动的合运动。作矢量三角形如图 2-25 所示。物体在飞行时间 \( T \) 内，匀速运动的位移 \( s_{AB} = v_0 T \)，自由落体运动的位移 \( s_{BC} = \dfrac{1}{2} g T^2 \)，其合位移 \( s_{AC} \)（设 \( s_{AC} = x \)）即为水平射程。</p>
           <figure class="figure">
@@ -243,5 +257,7 @@
       });
     });
   </script>
+  <script src="../js/ggb-common.js"></script>
+  <script src="../js/ch2.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 </head>
 <body>
 
@@ -48,6 +49,19 @@
         <p class="problem-statement">
           如图 2-39 所示，在以角速度 \( \omega \) 匀速转动的平台上有一质量为 \( m \) 的小木块，木块距转轴的距离为 \( R \)，当木块转过 \( \dfrac{1}{4} \) 圆弧时，木块所受摩擦力的冲量是多少？
         </p>
+        <div class="ggb-card" id="ggb-card-c2s4e1">
+          <div class="ggb-tabs">
+            <button type="button" class="active">自由探究</button>
+            <button type="button">解题演示</button>
+          </div>
+          <div class="ggb-stage"></div>
+          <div class="ggb-steps">
+            <div class="hint">点击步骤按钮，逐步重现解题过程：</div>
+            <div class="ggb-step-btns"></div>
+          </div>
+          <div class="ggb-caption">先用书中方法算出待求量，再拖动滑块对照读数验证。</div>
+        </div>
+
         <figure class="figure">
           <img src="../assets/img/fig2-39.svg" alt="例1 转台木块">
           <figcaption>图 2-39　转台上的木块</figcaption>
@@ -158,5 +172,7 @@
       });
     });
   </script>
+  <script src="../js/ggb-common.js"></script>
+  <script src="../js/ch2.js"></script>
 </body>
 </html>
